@@ -5,6 +5,9 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "Teen Patti Master - Official APK Download & Card Games Hub",
   description: "Download verified card games, explore 3 Patti rules, sequence rankings, and expert cash strategies.",
+  icons: {
+    icon: "/icon.webp",
+  },
 };
 
 export default function RootLayout({
