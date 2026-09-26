@@ -950,7 +950,7 @@ export default function Home() {
               {/* Social Channels with Authentic Badges */}
               <div className="flex items-center gap-3 pt-2">
                 <a 
-                  href="https://twitter.com" 
+                  href="https://x.com/Tpmasterclub/status/2092482435942691319" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-stone-900/90 border border-stone-800 hover:border-amber-400/50 hover:text-white transition"
@@ -959,7 +959,7 @@ export default function Home() {
                   <span>@teenpattimaster</span>
                 </a>
                 <a 
-                  href="https://youtube.com" 
+                  href="https://www.youtube.com/@MasterTeenpatti-e3o" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-stone-900/90 border border-stone-800 hover:border-red-400/50 hover:text-white transition"
