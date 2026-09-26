@@ -141,7 +141,7 @@ const gamesData: Record<string, {
     category: "Teen Patti Star",
     rating: "4.8",
     size: "42 MB",
-    icon: "/teen-patti-star.webp",
+    icon: "/teen-patti-star.webp", // <-- સુધારેલ (સ્પેસ વગર)
     description: "Enjoy exclusive VIP tables, free daily chips, and non-stop 24x7 real-time card action.",
     features: ["VIP Lounge", "Hourly Chips", "Non-stop Action"],
     downloadUrl: MAIN_DOWNLOAD_URL
@@ -274,7 +274,14 @@ export default async function GameDetailPage({
                 ? "border-2 border-amber-400 shadow-[0_0_25px_rgba(245,158,11,0.6)]"
                 : "border border-amber-400/30"
             }`}>
-              <Image src={game.icon} alt={game.name} fill className="object-cover" />
+              {/* અહીં unoptimized ઉમેરી દીધું છે જેથી 400 એરર સોલ્વ થઈ જાય */}
+              <Image 
+                src={game.icon} 
+                alt={game.name} 
+                fill 
+                unoptimized 
+                className="object-cover" 
+              />
             </div>
             <div>
               <span className={`text-xs border px-3 py-1 rounded-full font-bold uppercase tracking-wider ${
@@ -712,9 +719,7 @@ export default async function GameDetailPage({
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 2. TEEN PATTI GOLD - COMPLETE FULL REVIEW ARTICLE (Royal Gold Theme)      */}
-        {/* ========================================================================= */}
+        {/* 2. TEEN PATTI GOLD ARTICLE */}
         {isGold && (
           <article className="bg-[#140e04] border border-yellow-500/30 rounded-3xl p-6 sm:p-10 shadow-[0_0_40px_rgba(202,138,4,0.15)] space-y-8 text-amber-100/90 leading-relaxed text-sm sm:text-base">
             <header className="space-y-3 border-b border-yellow-900/60 pb-6">
@@ -905,9 +910,7 @@ export default async function GameDetailPage({
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 3. RUMMY CIRCLE - UNIQUE EMERALD GREEN THEME ARTICLE (With 2 Side Boxes)  */}
-        {/* ========================================================================= */}
+        {/* 3. RUMMY CIRCLE ARTICLE */}
         {isRummy && (
           <article className="bg-[#051a12] border border-emerald-500/30 rounded-3xl p-6 sm:p-10 shadow-[0_0_40px_rgba(16,185,129,0.15)] space-y-8 text-emerald-100/90 leading-relaxed text-sm sm:text-base">
             <header className="space-y-3 border-b border-emerald-900/60 pb-6">
@@ -1027,20 +1030,15 @@ export default async function GameDetailPage({
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 4. JUNGLEE RUMMY - COMPLETE UNIQUE BOX CONTAINER ARTICLE                */}
-        {/* ========================================================================= */}
+        {/* 4. JUNGLEE RUMMY ARTICLE */}
         {isJunglee && (
           <article className="space-y-8 text-slate-300 leading-relaxed text-sm sm:text-base">
-            
-            {/* Quick Summary Highlights Box */}
             <div className="bg-gradient-to-r from-cyan-950/70 to-slate-900 border border-cyan-500/30 p-5 rounded-2xl">
               <p className="text-cyan-200 text-xs sm:text-sm font-medium">
                 ⚡ <strong>Quick Take:</strong> Junglee Rummy combines pure 13-card mathematical sequence building with certified RNG algorithms, offering instant cash rooms, daily tournaments, and seamless transitions for Teen Patti Master enthusiasts.
               </p>
             </div>
 
-            {/* Box 1: Landscape of Skill Gaming */}
             <section className="bg-gradient-to-br from-[#0e1626] to-[#121c30] p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-slate-800 pb-3">
                 The Landscape of Real-Money Skill Gaming in India
@@ -1053,7 +1051,6 @@ export default async function GameDetailPage({
               </p>
             </section>
 
-            {/* Box 2: 13-Card Entertainment & Game Variants */}
             <section className="bg-[#0e1626] p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl space-y-6">
               <h2 className="text-2xl font-black text-amber-300 border-b border-slate-800 pb-3">
                 Exploring Junglee Rummy: The Pinnacle of 13-Card Entertainment
@@ -1061,7 +1058,6 @@ export default async function GameDetailPage({
               <p>
                 Junglee Rummy replicates authentic Indian Rummy rules, hosting millions of active players competing across casual tables and high-stakes prize pools with certified RNG card dealing.
               </p>
-
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                 <div className="bg-[#141f36] p-5 rounded-2xl border border-amber-500/20 space-y-2">
                   <h4 className="font-bold text-amber-400 text-base">Points Rummy</h4>
@@ -1069,14 +1065,12 @@ export default async function GameDetailPage({
                     Fastest format where each point holds a pre-decided cash value. Ideal for quick games and rapid showdowns.
                   </p>
                 </div>
-
                 <div className="bg-[#141f36] p-5 rounded-2xl border border-cyan-500/20 space-y-2">
                   <h4 className="font-bold text-cyan-400 text-base">Pool Rummy</h4>
                   <p className="text-xs text-slate-300 leading-relaxed">
                     Includes 101 and 201 Pool variants testing endurance and defense. The last surviving competitor takes the prize.
                   </p>
                 </div>
-
                 <div className="bg-[#141f36] p-5 rounded-2xl border border-emerald-500/20 space-y-2">
                   <h4 className="font-bold text-emerald-400 text-base">Deals Rummy</h4>
                   <p className="text-xs text-slate-300 leading-relaxed">
@@ -1086,12 +1080,10 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 3: Strategic Differences Comparison */}
             <section className="bg-gradient-to-r from-[#0e1626] via-[#141d33] to-[#0e1626] p-6 sm:p-8 rounded-3xl border border-indigo-500/30 shadow-xl space-y-5">
               <h2 className="text-2xl font-black text-cyan-300">
                 Strategic Differences: Rummy vs. Teen Patti Master
               </h2>
-              
               <div className="space-y-4">
                 <div className="bg-[#0a0f1d]/70 p-4 rounded-xl border-l-4 border-amber-400">
                   <h4 className="font-bold text-white text-sm sm:text-base">1. Hand Construction vs. Fixed Ranking</h4>
@@ -1099,7 +1091,6 @@ export default async function GameDetailPage({
                     In 13-card rummy, you actively build sequences and sets from discards and draws. In Teen Patti Master, your 3-card hand remains static, shifting the skill towards psychology, bankroll control, and knowing when to pack.
                   </p>
                 </div>
-
                 <div className="bg-[#0a0f1d]/70 p-4 rounded-xl border-l-4 border-cyan-400">
                   <h4 className="font-bold text-white text-sm sm:text-base">2. Time Commitment and Decision Pace</h4>
                   <p className="text-xs sm:text-sm text-slate-300 mt-1 leading-relaxed">
@@ -1109,7 +1100,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 4: Step-by-Step Installation */}
             <section className="bg-[#0e1626] p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-slate-800 pb-3">
                 Step-by-Step Installation Guide
@@ -1123,7 +1113,6 @@ export default async function GameDetailPage({
               </ol>
             </section>
 
-            {/* Box 5: FAQs */}
             <section className="bg-[#0e1626] p-6 sm:p-8 rounded-3xl border border-slate-800 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 mb-2 border-b border-slate-800 pb-3">
                 Frequently Asked Questions (FAQ)
@@ -1144,7 +1133,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Bottom Call-To-Action Box */}
             <div className="bg-gradient-to-r from-amber-950 via-slate-900 to-amber-950 border-2 border-amber-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-black text-amber-300">Ready to Play Cash Games?</h3>
               <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
@@ -1159,17 +1147,12 @@ export default async function GameDetailPage({
                 Download Junglee Rummy 🚀
               </a>
             </div>
-
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 5. POKERSTARS INDIA - EXCLUSIVE ROYAL INDIGO & NEON BLUE ARTICLE           */}
-        {/* ========================================================================= */}
+        {/* 5. POKERSTARS INDIA ARTICLE */}
         {isPoker && (
           <article className="space-y-8 text-slate-300 leading-relaxed text-sm sm:text-base">
-            
-            {/* Header Box Container */}
             <header className="bg-gradient-to-br from-[#0e1838] via-[#0b132b] to-[#070c1e] border-2 border-indigo-500/40 p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(99,102,241,0.2)] space-y-4">
               <span className="text-[11px] font-black uppercase tracking-widest text-indigo-300 bg-indigo-950/80 border border-indigo-500/40 px-3.5 py-1 rounded-full inline-block">
                 Exclusive Pro Card Sports Review &amp; Strategy Guide
@@ -1180,7 +1163,6 @@ export default async function GameDetailPage({
               <p className="text-indigo-200/80 text-xs sm:text-sm">
                 Verified Official Analysis • 12 min read • Texas Hold&apos;em, PLO, Hand Rankings &amp; Fair Play
               </p>
-              
               <div className="bg-[#060a17]/80 border border-indigo-500/30 p-4 rounded-2xl mt-4">
                 <p className="text-indigo-200 text-xs sm:text-sm">
                   ⚡ <strong>Quick Take:</strong> Digital card gaming diva-e-divas mahatva vadhi rahyo chhe Bharat ma. Intellect, math ane psychology par aadharit global card sport ramvo hoy to PokerStars India sauthi agrasar platform chhe, tyare instant decisions ane fast thrill mate <strong className="text-amber-400">Teen Patti Master</strong> lakho khiladiyo nu manpasand hub chhe.
@@ -1188,7 +1170,6 @@ export default async function GameDetailPage({
               </div>
             </header>
 
-            {/* Box 1: Introduction */}
             <section className="bg-gradient-to-br from-[#0c1430] to-[#070c1e] p-6 sm:p-8 rounded-3xl border border-indigo-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-indigo-300 border-b border-indigo-900/60 pb-3">
                 Digital Card Gaming no Uday: PokerStars India Shu Chhe?
@@ -1204,7 +1185,6 @@ export default async function GameDetailPage({
               </p>
             </section>
 
-            {/* Box 2: Synergy Between PokerStars & Teen Patti Master */}
             <section className="bg-gradient-to-r from-[#0a1128] via-[#101a3d] to-[#0a1128] p-6 sm:p-8 rounded-3xl border-2 border-indigo-500/30 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-cyan-300">
                 PokerStars India ane Teen Patti Master Vache No Sambandh
@@ -1228,7 +1208,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 3: Biggest Platform Highlights */}
             <section className="bg-[#0a1128] p-6 sm:p-8 rounded-3xl border border-indigo-500/20 shadow-xl space-y-6">
               <h2 className="text-2xl font-black text-indigo-300 border-b border-indigo-900/60 pb-3">
                 PokerStars India’s Biggest Highlights &amp; Features
@@ -1261,7 +1240,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 4: Game Formats */}
             <section className="bg-[#0a1128] p-6 sm:p-8 rounded-3xl border border-indigo-500/20 shadow-xl space-y-5">
               <h2 className="text-2xl font-black text-indigo-300 border-b border-indigo-900/60 pb-3">
                 The Main Poker Formats on the Platform
@@ -1288,7 +1266,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 5: Hand Rankings Table */}
             <section className="bg-[#0a1128] p-6 sm:p-8 rounded-3xl border border-indigo-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-indigo-300 border-b border-indigo-900/60 pb-3">
                 Poker Hand Rankings: Sauthi Moti Thi Sauthi Naani
@@ -1369,7 +1346,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 6: Winning Strategies */}
             <section className="bg-gradient-to-br from-[#0c1430] to-[#070c1e] p-6 sm:p-8 rounded-3xl border border-indigo-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-indigo-300 border-b border-indigo-900/60 pb-3">
                 Winning Strategies To Win on PokerStars India
@@ -1382,7 +1358,6 @@ export default async function GameDetailPage({
               </ul>
             </section>
 
-            {/* Box 7: Android Installation */}
             <section className="bg-[#0a1128] p-6 sm:p-8 rounded-3xl border border-indigo-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-indigo-300 border-b border-indigo-900/60 pb-3">
                 How to Install an App on an Android Phone?
@@ -1396,7 +1371,6 @@ export default async function GameDetailPage({
               </ol>
             </section>
 
-            {/* Box 8: FAQs */}
             <section className="bg-[#0a1128] p-6 sm:p-8 rounded-3xl border border-indigo-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-indigo-300 border-b border-indigo-900/60 pb-3">
                 Common Questions &amp; FAQs
@@ -1425,7 +1399,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Bottom Call-To-Action Box */}
             <div className="bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 border-2 border-indigo-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-black text-indigo-300 font-serif">Play World-Class Poker Online!</h3>
               <p className="text-xs sm:text-sm text-indigo-100/80 max-w-xl mx-auto">
@@ -1440,17 +1413,12 @@ export default async function GameDetailPage({
                 Download PokerStars India 🚀
               </a>
             </div>
-
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 6. WINZO GAMES - EXCLUSIVE VIBRANT ORANGE MULTI-GAMING ARTICLE (1800+ Words) */}
-        {/* ========================================================================= */}
+        {/* 6. WINZO GAMES ARTICLE */}
         {isWinzo && (
           <article className="space-y-8 text-orange-100/90 leading-relaxed text-sm sm:text-base">
-            
-            {/* Header Box Container */}
             <header className="bg-gradient-to-br from-[#33140c] via-[#220c07] to-[#140603] border-2 border-orange-500/40 p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(249,115,22,0.25)] space-y-4">
               <span className="text-[11px] font-black uppercase tracking-widest text-orange-300 bg-orange-950/80 border border-orange-500/40 px-3.5 py-1 rounded-full inline-block">
                 Exclusive Multi-Gaming Review &amp; Master Strategy (2027)
@@ -1461,7 +1429,6 @@ export default async function GameDetailPage({
               <p className="text-orange-200/80 text-xs sm:text-sm">
                 Verified Official Analysis • 14 min read • Ludo, Carrom, Cricket &amp; 100+ Skill Battles
               </p>
-
               <div className="bg-[#120503]/80 border border-orange-500/30 p-4 rounded-2xl mt-4">
                 <p className="text-orange-200 text-xs sm:text-sm">
                   ⚡ <strong>Quick Take:</strong> Digital gaming no craze Bharat ma divas-e-divas vadhe rahyo chhe. Smartphone users entertainment mate nahi, real cash rewards jitva mate pan mobile apps no upayog kari rahya chhe. Jo tame <strong className="text-amber-400">Teen Patti Master</strong> jeva premier card platform par active chho ane cards ni sathe sathe biji 100+ variety games ma pan potani skills batavva mango chho, tema mate WinZO Games ek adbhut platform chhe!
@@ -1469,7 +1436,6 @@ export default async function GameDetailPage({
               </div>
             </header>
 
-            {/* Box 1: How do WinZO Games work */}
             <section className="bg-gradient-to-br from-[#240e09] to-[#140704] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 How do WinZO Games work?
@@ -1482,7 +1448,6 @@ export default async function GameDetailPage({
               </p>
             </section>
 
-            {/* Box 2: WinZO & Teen Patti Master Connection */}
             <section className="bg-gradient-to-r from-[#1f0b07] via-[#2d110b] to-[#1f0b07] p-6 sm:p-8 rounded-3xl border-2 border-orange-500/30 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300">
                 WinZO Games Ane Teen Patti Master Vache Na Bandh
@@ -1506,7 +1471,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 3: Key Features */}
             <section className="bg-[#210c08] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-6">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 WinZO Games के प्रमुख फीचर्स (Key Features)
@@ -1551,7 +1515,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 4: Top Game Categories */}
             <section className="bg-[#210c08] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-5">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 Top Games Category to Play For WinZO
@@ -1565,7 +1528,6 @@ export default async function GameDetailPage({
                     <strong>Snakes &amp; Ladders:</strong> Te ek chhoti round board game chhe jema jya tactical planning dwara sauthi pehla upar pahochvanu hoy chhe.
                   </p>
                 </div>
-
                 <div className="bg-[#2b110b] p-4 rounded-xl border border-orange-500/20">
                   <h3 className="font-bold text-amber-300">2. Fast Casual &amp; Arcade Games</h3>
                   <p className="text-xs text-orange-200 mt-1">
@@ -1575,7 +1537,6 @@ export default async function GameDetailPage({
                     <strong>Knife Up:</strong> Target is arcade game focused on hitting the chhari and has perfect timing.
                   </p>
                 </div>
-
                 <div className="bg-[#2b110b] p-4 rounded-xl border border-orange-500/20">
                   <h3 className="font-bold text-amber-300">3. Fast Table Formats &amp; Card Games</h3>
                   <p className="text-xs text-orange-200 mt-1">
@@ -1584,7 +1545,6 @@ export default async function GameDetailPage({
                     <strong>Teen Patti Actions:</strong> If you want to play a classic cards format like <strong className="text-amber-400">Teen Patti Master</strong>, small table battles are also available here.
                   </p>
                 </div>
-
                 <div className="bg-[#2b110b] p-4 rounded-xl border border-orange-500/20">
                   <h3 className="font-bold text-amber-300">4. Esports &amp; Sports Simulations</h3>
                   <p className="text-xs text-orange-200 mt-1">
@@ -1595,7 +1555,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 5: Game Modes */}
             <section className="bg-gradient-to-br from-[#240e09] to-[#140704] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 GAME MODES KEVI RITE SPARDHA KARVI?
@@ -1616,7 +1575,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 6: Download Guide */}
             <section className="bg-[#210c08] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 WinZO Games APK Download Karvani Kaise?
@@ -1632,7 +1590,6 @@ export default async function GameDetailPage({
               </ol>
             </section>
 
-            {/* Box 7: Pro Winning Tips */}
             <section className="bg-gradient-to-br from-[#240e09] to-[#140704] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 WinZO Par Jitva Mate Tip
@@ -1645,7 +1602,6 @@ export default async function GameDetailPage({
               </ul>
             </section>
 
-            {/* Box 8: Legal Status */}
             <section className="bg-gradient-to-br from-[#240e09] to-[#140704] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 Legal Status Fair Play Guaranties
@@ -1655,7 +1611,6 @@ export default async function GameDetailPage({
               </p>
             </section>
 
-            {/* Box 9: FAQs */}
             <section className="bg-[#210c08] p-6 sm:p-8 rounded-3xl border border-orange-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-orange-300 border-b border-orange-900/60 pb-3">
                 FAQs (Frequently Asked Questions)
@@ -1684,7 +1639,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Bottom Call-To-Action Box */}
             <div className="bg-gradient-to-r from-orange-950 via-[#1c0805] to-orange-950 border-2 border-orange-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-black text-orange-300 font-serif">Play 100+ Real Cash Skill Games Today!</h3>
               <p className="text-xs sm:text-sm text-orange-200/80 max-w-xl mx-auto">
@@ -1699,17 +1653,12 @@ export default async function GameDetailPage({
                 Download WinZO Games APK 🚀
               </a>
             </div>
-
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 7. TEEN PATTI STAR - EXCLUSIVE VIBRANT NEON PURPLE/FUCHSIA (2000 Words)   */}
-        {/* ========================================================================= */}
+        {/* 7. TEEN PATTI STAR ARTICLE */}
         {isStar && (
           <article className="space-y-8 text-purple-100/90 leading-relaxed text-sm sm:text-base">
-            
-            {/* Header Box Container */}
             <header className="bg-gradient-to-br from-[#2a0e44] via-[#1a082c] to-[#0e0419] border-2 border-fuchsia-500/40 p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(217,70,239,0.25)] space-y-4">
               <span className="text-[11px] font-black uppercase tracking-widest text-fuchsia-300 bg-fuchsia-950/80 border border-fuchsia-500/40 px-3.5 py-1 rounded-full inline-block">
                 Exclusive VIP Lounge &amp; Card Mastery Guide (2026 Edition)
@@ -1720,7 +1669,6 @@ export default async function GameDetailPage({
               <p className="text-fuchsia-200/80 text-xs sm:text-sm">
                 Verified Official Analysis • 15 min read • Hand Rankings, Muflis, AK47 &amp; Instant Cash Payouts
               </p>
-
               <div className="bg-[#120421]/90 border border-fuchsia-500/30 p-4 rounded-2xl mt-4">
                 <p className="text-fuchsia-200 text-xs sm:text-sm">
                   ⚡ <strong>Quick Take:</strong> Online card gaming in India has transformed into an elite competitive sport. If you enjoy classic gaming on <strong className="text-amber-400">Teen Patti Master</strong> and desire high-stakes VIP lounges, rapid table matchmaking, and hourly chip rewards, <strong>Teen Patti Star</strong> is your ultimate premier destination!
@@ -1728,7 +1676,6 @@ export default async function GameDetailPage({
               </div>
             </header>
 
-            {/* Box 1: What is Teen Patti Star */}
             <section className="bg-gradient-to-br from-[#1d0a30] to-[#0f041a] p-6 sm:p-8 rounded-3xl border border-fuchsia-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-fuchsia-300 border-b border-purple-900/60 pb-3">
                 What is Teen Patti Star?
@@ -1741,7 +1688,6 @@ export default async function GameDetailPage({
               </p>
             </section>
 
-            {/* Box 2: Strategic Synergy with Teen Patti Master */}
             <section className="bg-gradient-to-r from-[#1b082e] via-[#260c3f] to-[#1b082e] p-6 sm:p-8 rounded-3xl border-2 border-fuchsia-500/30 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300">
                 The Strategic Synergy: Teen Patti Star &amp; Teen Patti Master
@@ -1765,7 +1711,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 3: Key Features */}
             <section className="bg-[#190829] p-6 sm:p-8 rounded-3xl border border-fuchsia-500/20 shadow-xl space-y-6">
               <h2 className="text-2xl font-black text-fuchsia-300 border-b border-purple-900/60 pb-3">
                 Key Architectural Highlights of Teen Patti Star
@@ -1798,7 +1743,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 4: Game Variations Comparison Table */}
             <section className="bg-[#190829] p-6 sm:p-8 rounded-3xl border border-fuchsia-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-fuchsia-300 border-b border-purple-900/60 pb-3">
                 Core Game Variations Available in the Lobby
@@ -1838,7 +1782,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 5: Hand Rankings Table */}
             <section className="bg-[#190829] p-6 sm:p-8 rounded-3xl border border-fuchsia-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-fuchsia-300 border-b border-purple-900/60 pb-3">
                 Official 3-Card Hand Rankings (Highest to Lowest)
@@ -1895,7 +1838,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 6: Download & Installation */}
             <section className="bg-[#190829] p-6 sm:p-8 rounded-3xl border border-fuchsia-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-fuchsia-300 border-b border-purple-900/60 pb-3">
                 How to Download &amp; Install Teen Patti Star APK
@@ -1909,7 +1851,6 @@ export default async function GameDetailPage({
               </ol>
             </section>
 
-            {/* Box 7: Advanced Winning Strategies */}
             <section className="bg-gradient-to-br from-[#1d0a30] to-[#0f041a] p-6 sm:p-8 rounded-3xl border border-fuchsia-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-fuchsia-300 border-b border-purple-900/60 pb-3">
                 Advanced Winning Strategies: Elevate Your Table Edge
@@ -1922,12 +1863,11 @@ export default async function GameDetailPage({
               </ul>
             </section>
 
-            {/* Box 8: Interactive Click-to-Open Native HTML FAQs (Zero JS Hydration Error) */}
+            {/* Native HTML FAQs */}
             <section className="bg-[#190829] p-6 sm:p-8 rounded-3xl border border-fuchsia-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-fuchsia-300 border-b border-purple-900/60 pb-3">
                 Frequently Asked Questions (Click on questions to expand)
               </h2>
-              
               <div className="space-y-3">
                 <details className="group bg-[#230d38] border border-fuchsia-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-fuchsia-300 transition list-none">
@@ -1938,7 +1878,6 @@ export default async function GameDetailPage({
                     Yes, the official APK package is 100% free to download. Every new user receives complimentary welcome chips and recurring bonus rewards to practice on live tables without requiring an immediate cash deposit.
                   </div>
                 </details>
-
                 <details className="group bg-[#230d38] border border-fuchsia-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-fuchsia-300 transition list-none">
                     <span className="text-sm sm:text-base">Q2: How does Teen Patti Star differ from Teen Patti Master?</span>
@@ -1948,7 +1887,6 @@ export default async function GameDetailPage({
                     While <strong className="text-amber-400">Teen Patti Master</strong> focuses on massive community tournaments and broad long-form tables, <strong>Teen Patti Star</strong> emphasizes VIP high-roller suites, rapid matchmaking rounds, hourly chip refills, and private customized lounges.
                   </div>
                 </details>
-
                 <details className="group bg-[#230d38] border border-fuchsia-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-fuchsia-300 transition list-none">
                     <span className="text-sm sm:text-base">Q3: How fast are fund withdrawals processed to bank accounts?</span>
@@ -1958,7 +1896,6 @@ export default async function GameDetailPage({
                     Once your account completes standard KYC identity verification, cash withdrawal requests submitted via UPI (Google Pay, PhonePe, Paytm) or IMPS bank transfers are typically processed within 5 to 15 minutes.
                   </div>
                 </details>
-
                 <details className="group bg-[#230d38] border border-fuchsia-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-fuchsia-300 transition list-none">
                     <span className="text-sm sm:text-base">Q4: Can I play Teen Patti Star on low-end Android phones?</span>
@@ -1968,7 +1905,6 @@ export default async function GameDetailPage({
                     Yes! With an optimized installer size of approximately 42 MB, the application runs smoothly on Android devices with 2 GB RAM and standard 4G connections without lag or battery heating.
                   </div>
                 </details>
-
                 <details className="group bg-[#230d38] border border-fuchsia-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-fuchsia-300 transition list-none">
                     <span className="text-sm sm:text-base">Q5: How does the platform ensure zero cheating and bots?</span>
@@ -1978,7 +1914,6 @@ export default async function GameDetailPage({
                     The game utilizes certified Random Number Generator (RNG) technology to guarantee completely random card dealing. Real-time AI anti-fraud monitoring tracks betting intervals to instantly ban multi-accounting and bot scripts.
                   </div>
                 </details>
-
                 <details className="group bg-[#230d38] border border-fuchsia-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-fuchsia-300 transition list-none">
                     <span className="text-sm sm:text-base">Q6: What should I do if a deposit doesn't immediately reflect in my wallet?</span>
@@ -1991,7 +1926,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Bottom Call-To-Action Box */}
             <div className="bg-gradient-to-r from-purple-950 via-[#180629] to-purple-950 border-2 border-fuchsia-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-black text-fuchsia-300 font-serif">Join India&apos;s Premier VIP Card Tables Today!</h3>
               <p className="text-xs sm:text-sm text-purple-200/80 max-w-xl mx-auto">
@@ -2006,17 +1940,12 @@ export default async function GameDetailPage({
                 Download Teen Patti Star APK 🚀
               </a>
             </div>
-
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 8. YONO GAMES - FULL GREEN THEME 1500+ WORDS SEO ARTICLE                  */}
-        {/* ========================================================================= */}
+        {/* 8. YONO GAMES ARTICLE */}
         {isYono && (
           <article className="space-y-8 text-emerald-100/90 leading-relaxed text-sm sm:text-base">
-            
-            {/* Header Box Container */}
             <header className="bg-gradient-to-br from-[#063318] via-[#042411] to-[#02150a] border-2 border-emerald-400/50 p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(16,185,129,0.3)] space-y-4">
               <span className="text-[11px] font-black uppercase tracking-widest text-emerald-300 bg-emerald-950/80 border border-emerald-400/40 px-3.5 py-1 rounded-full inline-block">
                 Verified Casino, Slots &amp; Card Hub (2026 Edition)
@@ -2027,7 +1956,6 @@ export default async function GameDetailPage({
               <p className="text-emerald-300/80 text-xs sm:text-sm">
                 Verified Official Analysis • 12 min read • Jackpot Slots, Roulette, Fast Cashout &amp; Fair Play
               </p>
-
               <div className="bg-[#031c0e]/90 border border-emerald-400/40 p-4 rounded-2xl mt-4">
                 <p className="text-emerald-200 text-xs sm:text-sm">
                   ⚡ <strong>Quick Take:</strong> Online casino gaming ane mega cash jackpots ma ruchi rakhva vala khiladiyo mate <strong>Yono Games</strong> Bharat nu sauthi lokpriya platform banine ubhri aavyu chhe. Jo tame <strong className="text-amber-400">Teen Patti Master</strong> par table discipline shikhya chho, to Yono Games ni jackpot slots ane dynamic roulette tables par tame instant rewards hasil kari sako chho!
@@ -2035,7 +1963,6 @@ export default async function GameDetailPage({
               </div>
             </header>
 
-            {/* Box 1: What is Yono Games */}
             <section className="bg-gradient-to-br from-[#052814] to-[#02150a] p-6 sm:p-8 rounded-3xl border border-emerald-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-emerald-300 border-b border-emerald-800/60 pb-3">
                 What is Yono Games and How Does It Operate?
@@ -2048,7 +1975,6 @@ export default async function GameDetailPage({
               </p>
             </section>
 
-            {/* Box 2: Connection with Teen Patti Master */}
             <section className="bg-gradient-to-r from-[#042110] via-[#07361a] to-[#042110] p-6 sm:p-8 rounded-3xl border-2 border-emerald-400/40 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300">
                 The Winning Connection: Yono Games &amp; Teen Patti Master
@@ -2072,7 +1998,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 3: Key Features */}
             <section className="bg-[#031d0f] p-6 sm:p-8 rounded-3xl border border-emerald-500/20 shadow-xl space-y-6">
               <h2 className="text-2xl font-black text-emerald-300 border-b border-emerald-800/60 pb-3">
                 Key Features of Yono Games
@@ -2105,7 +2030,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 4: Game Catalog Comparison Table */}
             <section className="bg-[#031d0f] p-6 sm:p-8 rounded-3xl border border-emerald-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-emerald-300 border-b border-emerald-800/60 pb-3">
                 Popular Game Categories on Yono Games
@@ -2145,7 +2069,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 5: How to Download */}
             <section className="bg-[#031d0f] p-6 sm:p-8 rounded-3xl border border-emerald-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-emerald-300 border-b border-emerald-800/60 pb-3">
                 How to Download &amp; Install Yono Games APK
@@ -2159,7 +2082,6 @@ export default async function GameDetailPage({
               </ol>
             </section>
 
-            {/* Box 6: Pro Winning Strategies */}
             <section className="bg-gradient-to-br from-[#052814] to-[#02150a] p-6 sm:p-8 rounded-3xl border border-emerald-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-emerald-300 border-b border-emerald-800/60 pb-3">
                 Pro Strategies: Maximizing Payouts on Yono Games
@@ -2172,12 +2094,11 @@ export default async function GameDetailPage({
               </ul>
             </section>
 
-            {/* Box 7: Native Accordion FAQs (Zero Hydration Error) */}
+            {/* Native HTML FAQs */}
             <section className="bg-[#031d0f] p-6 sm:p-8 rounded-3xl border border-emerald-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-emerald-300 border-b border-emerald-800/60 pb-3">
                 Frequently Asked Questions (Click to Expand)
               </h2>
-              
               <div className="space-y-3">
                 <details className="group bg-[#062814] border border-emerald-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-emerald-300 transition list-none">
@@ -2188,7 +2109,6 @@ export default async function GameDetailPage({
                     Yes, the official APK is 100% free to download. New users receive complimentary introductory chips upon phone binding to try practice games.
                   </div>
                 </details>
-
                 <details className="group bg-[#062814] border border-emerald-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-emerald-300 transition list-none">
                     <span className="text-sm sm:text-base">Q2: How does Yono Games differ from Teen Patti Master?</span>
@@ -2198,7 +2118,6 @@ export default async function GameDetailPage({
                     While <strong className="text-amber-400">Teen Patti Master</strong> specializes primarily in multi-player 3-card poker strategy and tournaments, <strong>Yono Games</strong> focuses on jackpot slot machines, casino roulette, lucky wheels, and instant cash games.
                   </div>
                 </details>
-
                 <details className="group bg-[#062814] border border-emerald-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-emerald-300 transition list-none">
                     <span className="text-sm sm:text-base">Q3: How fast are fund withdrawals processed?</span>
@@ -2208,7 +2127,6 @@ export default async function GameDetailPage({
                     Once KYC identity verification is completed, withdrawals to bank accounts via UPI (Google Pay, PhonePe, Paytm) or IMPS are typically processed within 5 to 15 minutes.
                   </div>
                 </details>
-
                 <details className="group bg-[#062814] border border-emerald-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-emerald-300 transition list-none">
                     <span className="text-sm sm:text-base">Q4: Is playing on Yono Games secure and fair?</span>
@@ -2221,7 +2139,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Bottom Call-To-Action Box */}
             <div className="bg-gradient-to-r from-[#063318] via-[#042411] to-[#063318] border-2 border-emerald-400/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-black text-emerald-300 font-serif">Spin &amp; Win Jackpot Cash Rewards Today!</h3>
               <p className="text-xs sm:text-sm text-emerald-200/80 max-w-xl mx-auto">
@@ -2236,17 +2153,12 @@ export default async function GameDetailPage({
                 Download Yono Games APK 🚀
               </a>
             </div>
-
           </article>
         )}
 
-        {/* ========================================================================= */}
-        {/* 9. TEEN PATTI MASTER OLD VERSION - EXCLUSIVE VINTAGE AMBER THEME (1900+ Words) */}
-        {/* ========================================================================= */}
+        {/* 9. TEEN PATTI MASTER OLD VERSION ARTICLE */}
         {isOldVersion && (
           <article className="space-y-8 text-amber-100/90 leading-relaxed text-sm sm:text-base">
-            
-            {/* Header Box Container */}
             <header className="bg-gradient-to-br from-[#331706] via-[#241004] to-[#120702] border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(245,158,11,0.35)] space-y-4">
               <span className="text-[11px] font-black uppercase tracking-widest text-amber-300 bg-amber-950/90 border border-amber-500/50 px-3.5 py-1 rounded-full inline-block">
                 Authentic Classic Build • Zero-Lag Performance • 2026 Edition
@@ -2257,7 +2169,6 @@ export default async function GameDetailPage({
               <p className="text-amber-200/80 text-xs sm:text-sm">
                 Verified Legacy Analysis • 16 min read • Fast Matching, 48 MB Lite Footprint, 3G/4G Reliability &amp; Cash Safety
               </p>
-
               <div className="bg-[#170903]/90 border border-amber-500/40 p-4 rounded-2xl mt-4">
                 <p className="text-amber-200 text-xs sm:text-sm">
                   ⚡ <strong>Quick Take:</strong> Heavy 3D updates thi thaki gaya chho? <strong className="text-amber-400">Teen Patti Master Old Version</strong> tamne aape chhe instant loading, 48 MB no super-lightweight footprint, ane genuine uninterrupted 3-card table excitement bina koi lag ke heating issue ae!
@@ -2265,7 +2176,6 @@ export default async function GameDetailPage({
               </div>
             </header>
 
-            {/* Box 1: Why Players Still Choose Old Version */}
             <section className="bg-gradient-to-br from-[#231106] to-[#120703] p-6 sm:p-8 rounded-3xl border border-amber-500/30 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3">
                 Why Players Still Like the Old Version of Teen Patti Master
@@ -2276,7 +2186,6 @@ export default async function GameDetailPage({
               <p>
                 Modern applications tend to get bloated as developers keep adding new social widgets, animated banners, and complex game lobbies. For millions of users across India, especially those playing on budget Android models or with inconsistent rural network connections, such updates can add performance friction.
               </p>
-              
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
                 <div className="bg-[#2e1608] p-5 rounded-2xl border border-amber-500/20 space-y-2">
                   <h3 className="font-bold text-white text-base">📦 Ultra-Low Hardware Footprint</h3>
@@ -2305,7 +2214,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 2: Cultural Roots & Evolution */}
             <section className="bg-gradient-to-r from-[#1f0d04] via-[#2c1306] to-[#1f0d04] p-6 sm:p-8 rounded-3xl border-2 border-amber-500/30 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300">
                 The Legacy of 3-Card Poker: Cultural Roots &amp; Modern Real-Money Action
@@ -2318,7 +2226,6 @@ export default async function GameDetailPage({
               </p>
             </section>
 
-            {/* Box 3: Comparison Table */}
             <section className="bg-[#1f0e05] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3">
                 Comparative Approach: Old Version vs. Modern Updated Version
@@ -2373,7 +2280,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 4: Official Hand Rankings */}
             <section className="bg-[#1f0e05] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3">
                 Official 3-Card Hand Rankings (Best to Worst)
@@ -2433,7 +2339,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 5: Classic Lobby Game Variations */}
             <section className="bg-[#1f0e05] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3">
                 Classic Lobby Game Variations Available
@@ -2460,7 +2365,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Box 6: Download Guide */}
             <section className="bg-[#1f0e05] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3">
                 How to Download and Install Teen Patti Master Old Version Safely
@@ -2474,7 +2378,6 @@ export default async function GameDetailPage({
               </ol>
             </section>
 
-            {/* Box 7: Tactical Principles */}
             <section className="bg-gradient-to-br from-[#231106] to-[#120703] p-6 sm:p-8 rounded-3xl border border-amber-500/30 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3">
                 Tactical Principles: How to Win on Classic Tables
@@ -2487,12 +2390,11 @@ export default async function GameDetailPage({
               </ul>
             </section>
 
-            {/* Box 8: FAQs */}
+            {/* Native HTML FAQs */}
             <section className="bg-[#1f0e05] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
               <h2 className="text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3">
                 Frequently Asked Questions (FAQs)
               </h2>
-              
               <div className="space-y-3">
                 <details className="group bg-[#2a1306] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-300 transition list-none">
@@ -2503,7 +2405,6 @@ export default async function GameDetailPage({
                     Yes, the official APK file is free to download and 100% safe. New players get introductory bonus chips to try out tables and learn without risk.
                   </div>
                 </details>
-
                 <details className="group bg-[#2a1306] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-300 transition list-none">
                     <span className="text-sm sm:text-base">Q2: Why do players prefer the old version over the latest update?</span>
@@ -2513,7 +2414,6 @@ export default async function GameDetailPage({
                     The old version has a small installation size (~48 MB), less RAM consumption, longer battery life, zero graphical lag, and a distraction-free classic table layout that works reliably even on older Android phones and 3G/4G networks.
                   </div>
                 </details>
-
                 <details className="group bg-[#2a1306] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-300 transition list-none">
                     <span className="text-sm sm:text-base">Q3: Can I run the old version and new version on one device?</span>
@@ -2523,7 +2423,6 @@ export default async function GameDetailPage({
                     On Android devices, older builds are treated as replacements because both packages share the same package identifiers. We recommend uninstalling newer builds before installing the legacy version to prevent package conflicts.
                   </div>
                 </details>
-
                 <details className="group bg-[#2a1306] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-300 transition list-none">
                     <span className="text-sm sm:text-base">Q4: How long does it take to process withdrawals on the old version?</span>
@@ -2533,7 +2432,6 @@ export default async function GameDetailPage({
                     Withdrawals are processed via the same centralized banking infrastructure as the latest build. Verified requests through UPI or IMPS bank transfers generally get credited within 5 to 15 minutes.
                   </div>
                 </details>
-
                 <details className="group bg-[#2a1306] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-300 transition list-none">
                     <span className="text-sm sm:text-base">Q5: Is card distribution fair and secure from bot manipulation?</span>
@@ -2543,7 +2441,6 @@ export default async function GameDetailPage({
                     Yes. The old version employs certified RNG (Random Number Generator) engines and server integrity checks to ensure fully random card dealing and 100% transparent matchmaking.
                   </div>
                 </details>
-
                 <details className="group bg-[#2a1306] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
                   <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-300 transition list-none">
                     <span className="text-sm sm:text-base">Q6: I can&apos;t see my deposit on my balance, what should I do?</span>
@@ -2556,7 +2453,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            {/* Bottom Call-To-Action Box */}
             <div className="bg-gradient-to-r from-[#331706] via-[#241004] to-[#331706] border-2 border-amber-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
               <h3 className="text-xl sm:text-2xl font-black text-amber-300 font-serif">Play the Classic High-Stability Edition Today!</h3>
               <p className="text-xs sm:text-sm text-amber-200/80 max-w-xl mx-auto">
@@ -2571,7 +2467,6 @@ export default async function GameDetailPage({
                 Download Old Version APK 🚀
               </a>
             </div>
-
           </article>
         )}
 
