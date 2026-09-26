@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Teen Patti Master Real Cash: Win Real Money & Claim ₹51",
     description:
       "Play Teen Patti Master Real Cash game! Claim ₹51 free bonus on signup, experience lightning 2-minute UPI withdrawals, and play safe 3-card tables.",
-    images: ["/teen-patti-master-winig.webp"],
+    images: ["/teen-patti-master-wining.webp"],
   },
   robots: {
     index: true,
