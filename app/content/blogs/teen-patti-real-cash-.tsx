@@ -157,7 +157,7 @@ export default function TeenPattiRealCash() {
           {/* Banner Image */}
           <div className="w-full max-w-xs sm:max-w-sm mx-auto aspect-square relative rounded-3xl overflow-hidden border-2 border-cyan-400 shadow-[0_0_35px_rgba(6,182,212,0.4)] bg-black">
             <Image 
-              src="/teen-patti-mastr-wining.webp" 
+              src="/teen-patti-master-wining.webp" 
               alt="Teen Patti Master Real Cash Game" 
               fill 
               className="object-cover" 
