@@ -141,7 +141,7 @@ const gamesData: Record<string, {
     category: "Teen Patti Star",
     rating: "4.8",
     size: "42 MB",
-    icon: "/teen patti star.webp",
+    icon: "/teen-patti-star.webp",
     description: "Enjoy exclusive VIP tables, free daily chips, and non-stop 24x7 real-time card action.",
     features: ["VIP Lounge", "Hourly Chips", "Non-stop Action"],
     downloadUrl: MAIN_DOWNLOAD_URL
