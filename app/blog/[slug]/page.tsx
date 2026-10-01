@@ -1,16 +1,49 @@
 import React from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { Metadata } from "next";
 import { myArticles } from "@/content/blogs/allBlogs";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
-// ૧. બધી જ લિંક (URLs) આપોઆપ બનશે
+// Title format karva mate helper function (slug mathi clean title banavshe)
+function formatTitleFromSlug(slug: string): string {
+  return slug
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+// 1. Dynamic SEO Metadata Function (Aa function darek page nu alag title set karshe)
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }> | { slug: string };
+}): Promise<Metadata> {
+  const resolvedParams = await params;
+  const slug = decodeURIComponent(resolvedParams.slug).toLowerCase().trim();
+  const ArticleComponent = myArticles[slug];
+
+  if (!ArticleComponent) {
+    return {
+      title: "Article Not Found - Teen Patti Master",
+    };
+  }
+
+  const pageTitle = formatTitleFromSlug(slug);
+
+  return {
+    title: `${pageTitle} - Teen Patti Master`,
+    description: `Read all about ${pageTitle}. Download the official Teen Patti Master APK, get tips, claim bonus, and play online safely.`,
+  };
+}
+
+// 2. Badhi j link (URLs) aapoaap banshe
 export async function generateStaticParams() {
   return Object.keys(myArticles).map((slug) => ({ slug }));
 }
 
-// ૨. ડાયનેમિક પેજ રેન્ડર થશે
+// 3. Dynamic page render thashe
 export default async function BlogPostPage({
   params,
 }: {
@@ -20,10 +53,10 @@ export default async function BlogPostPage({
   const rawSlug = resolvedParams.slug;
   const slug = decodeURIComponent(rawSlug).toLowerCase().trim();
 
-  // URL પ્રમાણે જે-તે આર્ટિકલની ફાઈલ સિલેક્ટ થશે
+  // URL pramane je-te article ni file select thashe
   const ArticleComponent = myArticles[slug];
 
-  // જો ખોટી લિંક હોય તો 404 પેજ બતાવશે
+  // Jo khoti link hoy to 404 page batavshe
   if (!ArticleComponent) {
     notFound();
   }
@@ -32,7 +65,7 @@ export default async function BlogPostPage({
     <div className="min-h-screen bg-slate-950 text-white py-10 px-4 sm:px-6 md:px-8 font-sans">
       <div className="max-w-4xl mx-auto space-y-8">
         
-        {/* પાછા જવા માટે બ્રેડક્રમ્બ લિંક */}
+        {/* Pacha java mate breadcrumb link */}
         <Link 
           href="/" 
           className="text-amber-400 hover:text-amber-300 font-bold inline-flex items-center gap-1 transition"
@@ -40,10 +73,10 @@ export default async function BlogPostPage({
           ← Back to All Guides
         </Link>
 
-        {/* તમે બનાવેલી અલગ-અલગ ફાઈલનો કન્ટેન્ટ અહીં લોડ થશે */}
+        {/* Tame banaveli alag-alag file no content ahi load thashe */}
         <ArticleComponent />
 
-        {/* નીચે ડાઉનલોડ બટન વાળો બોક્સ (બધા આર્ટિકલની નીચે આપોઆપ આવી જશે) */}
+        {/* Niche download button valo box */}
         <div className="bg-gradient-to-r from-amber-600/25 via-yellow-600/20 to-amber-600/25 border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl text-center space-y-4 shadow-[0_0_35px_rgba(245,158,11,0.2)]">
           <h3 className="text-2xl sm:text-3xl font-black text-white font-serif">
             Ready to Experience Teen Patti Master?
