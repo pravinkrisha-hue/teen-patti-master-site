@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { myArticles } from "@/app/content/blogs/allBlogs";
+import { myArticles } from "@/content/blogs/allBlogs";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
