@@ -1,7 +1,7 @@
 // 1. All Blog Imports (Including Pro)
 import TeenPattiAndroid from "./teen-patti-anroid";
 import TeenPattiAppDownloadFree from "./teen-patti-app-download";
-import TeenPattiExplain from "./teen-patti-explain";
+import TeenPattiMasterExplained from "./teen-patti-master-explained";
 import TeenPattiMasterFaq from "./teen-patti-master-faq";
 import TeenPattiGoldNew from "./teen-patti-gold-new";
 import TeenPattiGoldOld from "./teen-patti-gold-old";
@@ -33,7 +33,7 @@ import TeenPattiMasterProSecret from "./teen-patti-master-pro-secret";
 export const myArticles: Record<string, any> = {
   "teen-patti-android-game": TeenPattiAndroid,
   "teen-patti-master-app-download-free": TeenPattiAppDownloadFree,
-  "teen-patti-master-explained": TeenPattiExplain,
+  "teen-patti-master-explained": TeenPattiMasterExplained,
   "teen-patti-master-faq": TeenPattiMasterFaq,
   "teen-patti-Master-faq": TeenPattiMasterFaq,
   "teen-patti-gold-new-version": TeenPattiGoldNew,
