@@ -363,7 +363,7 @@ export default function Home() {
     },
     {
       id: 22,
-      slug: 'teen-patti-vungo-download-safe-bonus',
+      slug: 'teen-patti-master-vungo',
       title: 'Teen Patti Vungo Download & Safe Bonus',
       category: 'CASUAL APPS',
       symbol: '🌟',
