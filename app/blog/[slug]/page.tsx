@@ -6,7 +6,7 @@ import { myArticles } from "@/content/blogs/allBlogs";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
-// Title format karva mate helper function (slug mathi clean title banavshe)
+// Title format karva mate helper function
 function formatTitleFromSlug(slug: string): string {
   return slug
     .split("-")
@@ -14,7 +14,7 @@ function formatTitleFromSlug(slug: string): string {
     .join(" ");
 }
 
-// 1. Dynamic SEO Metadata Function (Aa function darek page nu alag title set karshe)
+// 1. Dynamic SEO Metadata Function
 export async function generateMetadata({
   params,
 }: {
@@ -22,9 +22,9 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const resolvedParams = await params;
   const slug = decodeURIComponent(resolvedParams.slug).toLowerCase().trim();
-  const ArticleComponent = myArticles[slug];
+  const ArticleEntry = myArticles[slug];
 
-  if (!ArticleComponent) {
+  if (!ArticleEntry) {
     return {
       title: "Article Not Found - Teen Patti Master",
     };
@@ -38,12 +38,12 @@ export async function generateMetadata({
   };
 }
 
-// 2. Badhi j link (URLs) aapoaap banshe
+// 2. Dynamic links mapping
 export async function generateStaticParams() {
   return Object.keys(myArticles).map((slug) => ({ slug }));
 }
 
-// 3. Dynamic page render thashe
+// 3. Dynamic page render
 export default async function BlogPostPage({
   params,
 }: {
@@ -54,9 +54,20 @@ export default async function BlogPostPage({
   const slug = decodeURIComponent(rawSlug).toLowerCase().trim();
 
   // URL pramane je-te article ni file select thashe
-  const ArticleComponent = myArticles[slug];
+  const rawComponent = myArticles[slug];
 
-  // Jo khoti link hoy to 404 page batavshe
+  if (!rawComponent) {
+    notFound();
+  }
+
+  // Component function chhe ke object wrapper (.default) te check kari ne extract karshe
+  const ArticleComponent =
+    typeof rawComponent === "function"
+      ? rawComponent
+      : rawComponent?.default && typeof rawComponent.default === "function"
+      ? rawComponent.default
+      : null;
+
   if (!ArticleComponent) {
     notFound();
   }
@@ -73,7 +84,7 @@ export default async function BlogPostPage({
           ← Back to All Guides
         </Link>
 
-        {/* Tame banaveli alag-alag file no content ahi load thashe */}
+        {/* Tame banaveli alag-alag file no content ahi render thashe */}
         <ArticleComponent />
 
         {/* Niche download button valo box */}

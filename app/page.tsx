@@ -327,8 +327,8 @@ export default function Home() {
     },
     {
       id: 19,
-      slug: 'teen-patti-master-faq-vs-real',
-      title: 'Teen Patti Master FAQ vs Real Truth',
+      slug: 'teen-patti-master-faq',
+      title: 'Teen Patti Master FAQ',
       category: 'FACT CHECK',
       symbol: '🔍',
       readTime: '4 min read',

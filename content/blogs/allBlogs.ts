@@ -1,14 +1,13 @@
 // 1. All Blog Imports (Including Pro)
-import TeenPattiPro from "./tee-patti-pro";
 import TeenPattiAndroid from "./teen-patti-anroid";
 import TeenPattiAppDownloadFree from "./teen-patti-app-download";
 import TeenPattiExplain from "./teen-patti-explain";
-import TeenPattiFaq from "./teen-patti-faq";
+import TeenPattiMasterFaq from "./teen-patti-master-faq";
 import TeenPattiGoldNew from "./teen-patti-gold-new";
 import TeenPattiGoldOld from "./teen-patti-gold-old";
 import TeenPattiGoldVsOld from "./teen-patti-gold-vs-old";
 import TeenPattiKing from "./teen-patti-king";
-import TeenPattiLoss from "./teen-patti-loss";
+import TeenPattiMasterLoss from "./teen-patti-master-loss";
 import TeenPattiMasterVsGold from "./teen-patti-master-vs-gold";
 import TeenPattiOldVsNew from "./teen-patti-old-vs-new";
 import TeenPattiRealCash from "./teen-patti-real-cash-";
@@ -28,20 +27,20 @@ import TeenPattiMasterNewVersion from "./teen-patti-master-new-version";
 import TeenPattiMasterOnlineTabal from "./teen-patti-master-online-tabal";
 import TeenPattiMasterGame from "./teen-patti-master-game";
 import TeenPattiMasterDownload from "./teen-patti-master-download";
-
+import TeenPattiMasterProSecret from "./teen-patti-master-pro-secret";
 
 // 2. Slug to Component Mapping
 export const myArticles: Record<string, any> = {
-  "teen-patti-pro": TeenPattiPro,
   "teen-patti-android-game": TeenPattiAndroid,
   "teen-patti-master-app-download-free": TeenPattiAppDownloadFree,
   "teen-patti-master-explained": TeenPattiExplain,
-  "teen-patti-master-faq": TeenPattiFaq,
+  "teen-patti-master-faq": TeenPattiMasterFaq,
+  "teen-patti-Master-faq": TeenPattiMasterFaq,
   "teen-patti-gold-new-version": TeenPattiGoldNew,
   "teen-patti-gold-old-version": TeenPattiGoldOld,
   "teen-patti-gold-new-vs-old": TeenPattiGoldVsOld,
   "teen-patti-master-king": TeenPattiKing,
-  "teen-patti-master-loss-recover": TeenPattiLoss,
+  "teen-patti-master-loss-recover": TeenPattiMasterLoss,
   "teen-patti-master-vs-gold": TeenPattiMasterVsGold,
   "teen-patti-master-old-vs-new": TeenPattiOldVsNew,
   "teen-patti-master-real-cash-game": TeenPattiRealCash,
@@ -57,13 +56,15 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-offline": TeenPattiOffline,
   "teen-patti-customer-care": TeenPattiCustomerCare,
   "teen-patti-master-customer-care": TeenPattiCustomerCare,
- "teen-patti-master-casino": TeenPattimastercasinogame,
+  "teen-patti-master-casino": TeenPattimastercasinogame,
   "teen-patti-master-casino-game": TeenPattimastercasinogame,
   "teen-patti-master-new-version": TeenPattiMasterNewVersion,
   "teen-patti-new-version": TeenPattiMasterNewVersion,
- "teen-patti-master-online-tabal": TeenPattiMasterOnlineTabal,
-"teen-patti-master-online": TeenPattiMasterOnlineTabal,
-"teen-patti-master-game": TeenPattiMasterGame,
-"teen-patti-master-download": TeenPattiMasterDownload,
-"teen-patti-master-download-guide": TeenPattiMasterDownload,
+  "teen-patti-master-online-tabal": TeenPattiMasterOnlineTabal,
+  "teen-patti-master-online": TeenPattiMasterOnlineTabal,
+  "teen-patti-master-game": TeenPattiMasterGame,
+  "teen-patti-master-download": TeenPattiMasterDownload,
+  "teen-patti-master-download-guide": TeenPattiMasterDownload,
+  "teen-patti-master-pro-secret": TeenPattiMasterProSecret,
+  "teen-patti-master-secrets": TeenPattiMasterProSecret,
 };
