@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Footer from "./components/Footer";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.techtonis.com"),
@@ -28,6 +29,7 @@ export default function RootLayout({
         <main className="flex-grow">{children}</main>
         {/* Aa Footer badha j pages, blogs ane games ma automatically dekhase */}
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
