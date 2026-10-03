@@ -35,8 +35,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/teen-patti-master-vs-yono-game.webp",
-        width: 512,
-        height: 512,
+        width: 1200,
+        height: 630,
         alt: "Teen Patti Master vs Yono Game Comparison",
       },
     ],
@@ -119,29 +119,29 @@ export default function TeenPattiMasterVsYonoGame() {
     ],
   };
 
-  // તમારા public/ ફોલ્ડરમાં જે નામ છે તે જ નામ સીધા પાથ સાથે (No Rename needed):
+  // તમારા જણાવ્યા મુજબ અપડેટ કરેલાં 4 કાર્ડ્સ અને કસ્ટમ લિંક્સ
   const relatedCards = [
     {
       title: "Teen Patti Master",
-      slug: "/blog/teen-patti-master-guide",
+      slug: "https://www.techtonis.com/games/teen-patti-master",
       image: "/icon.webp",
       alt: "Teen Patti Master Icon",
     },
     {
       title: "Teen Patti Gold",
-      slug: "/blog/teen-patti-gold-guide",
+      slug: "https://www.techtonis.com/games/teen-patti-gold",
       image: "/Teen Patti Gold.webp",
       alt: "Teen Patti Gold Icon",
     },
     {
       title: "Yono Game",
-      slug: "/blog/yono-game-guide",
+      slug: "https://www.techtonis.com/games/yono-games",
       image: "/YONO GAME.webp",
       alt: "Yono Game Icon",
     },
     {
       title: "Rummy Wealth",
-      slug: "/blog/rummy-wealth-guide",
+      slug: "https://www.techtonis.com/games/rummy-circle",
       image: "/rummy cirkal.webp",
       alt: "Rummy Wealth Icon",
     },
@@ -183,7 +183,7 @@ export default function TeenPattiMasterVsYonoGame() {
             </h1>
 
             <p style={styles.heroLead}>
-              India’s digital card gaming space has seen a revolution like never before. Diwali card sessions, which brought families together during festive seasons, have turned into mobile-first gaming environments 24x7. Amongst the hundreds of names that float around the internet, two keep popping up in gamer conversations, search queries and community groups: <strong>Teen Patti Master</strong> and <strong>Yono Game</strong>.
+              India’s digital card gaming space has seen a revolution like never before. Diwali card sessions, which brought families together during festive seasons, have turned into mobile-first gaming environments 24x7. Amongst the hundreds of names that float around the internet, two keep popping up in gamer conversations, search queries and community groups: <strong><Link href="https://www.techtonis.com/games/teen-patti-master" style={{ color: "#f59e0b", textDecoration: "underline" }}>Teen Patti Master</Link></strong> and <strong><Link href="https://www.techtonis.com/games/yono-games" style={{ color: "#f59e0b", textDecoration: "underline" }}>Yono Game</Link></strong>.
             </p>
 
             {/* Direct Official Download CTA */}
@@ -204,7 +204,7 @@ export default function TeenPattiMasterVsYonoGame() {
               <span>⏱️ Read Time: <strong>16 min read</strong></span>
             </div>
 
-            {/* Header Featured Image: public/teen-patti-master-vs-yono-game.webp */}
+            {/* Header Featured Image */}
             <div style={styles.featuredImageWrapper}>
               <img
                 src="/teen-patti-master-vs-yono-game.webp"
@@ -216,21 +216,32 @@ export default function TeenPattiMasterVsYonoGame() {
           </div>
         </section>
 
-        {/* Related Game Cards Grid */}
+        {/* Related Game Cards Grid with Complete Internal Linking */}
         <section style={styles.gridSection}>
           <div style={styles.container}>
             <div style={styles.cardGrid}>
               {relatedCards.map((card, idx) => (
                 <div key={idx} style={styles.gameCard}>
-                  <div style={styles.cardImageContainer}>
-                    <img
-                      src={card.image}
-                      alt={card.alt}
-                      style={styles.cardThumb}
-                      loading="lazy"
-                    />
-                  </div>
-                  <h3 style={styles.cardTitle}>{card.title}</h3>
+                  {/* Card Icon Linking */}
+                  <Link href={card.slug} style={{ display: "inline-block", textDecoration: "none" }}>
+                    <div style={styles.cardImageContainer}>
+                      <img
+                        src={card.image}
+                        alt={card.alt}
+                        style={styles.cardThumb}
+                        loading="lazy"
+                      />
+                    </div>
+                  </Link>
+
+                  {/* Title Linking */}
+                  <h3 style={styles.cardTitle}>
+                    <Link href={card.slug} style={styles.cardTitleLink}>
+                      {card.title}
+                    </Link>
+                  </h3>
+
+                  {/* Read Guide Internal Link */}
                   <Link href={card.slug} style={styles.guideLink}>
                     Read guide →
                   </Link>
@@ -307,7 +318,7 @@ export default function TeenPattiMasterVsYonoGame() {
             {/* Section 1 */}
             <h2 style={styles.h2}>1. What is Teen Patti Master? The Heritage of Modern 3-Card Strategy</h2>
             <p style={styles.paragraph}>
-              <strong>Teen Patti Master</strong> has built its reputation as one of the most dedicated card-focused platforms built exclusively for the South Asian audience. Rather than attempting to be an all-in-one entertainment browser, <strong>Teen Patti Master</strong> concentrates on perfecting the classic three-card experience that players have loved for generations.
+              <strong><Link href="https://www.techtonis.com/games/teen-patti-master" style={{ color: "#f59e0b", textDecoration: "underline" }}>Teen Patti Master</Link></strong> has built its reputation as one of the most dedicated card-focused platforms built exclusively for the South Asian audience. Rather than attempting to be an all-in-one entertainment browser, <strong>Teen Patti Master</strong> concentrates on perfecting the classic three-card experience that players have loved for generations.
             </p>
             <h3 style={styles.h3}>Core Philosophy of Teen Patti Master</h3>
             <p style={styles.paragraph}>
@@ -323,7 +334,7 @@ export default function TeenPattiMasterVsYonoGame() {
             {/* Section 2 */}
             <h2 style={styles.h2}>2. What is the Yono game? The Multi-Entertainment Contender</h2>
             <p style={styles.paragraph}>
-              On the other side of the aisle is <strong>Yono Game</strong>, an umbrella brand that encompasses a wide variety of casual gaming, mini-challenges, lottery-style options, and traditional card titles all under one roof.
+              On the other side of the aisle is <strong><Link href="https://www.techtonis.com/games/yono-games" style={{ color: "#f59e0b", textDecoration: "underline" }}>Yono Game</Link></strong>, an umbrella brand that encompasses a wide variety of casual gaming, mini-challenges, lottery-style options, and traditional card titles all under one roof.
             </p>
             <h3 style={styles.h3}>Yono Game Core Philosophy</h3>
             <p style={styles.paragraph}>
@@ -364,7 +375,7 @@ export default function TeenPattiMasterVsYonoGame() {
             {/* Section 4 */}
             <h2 style={styles.h2}>4. Game Modes and Tactical Variants</h2>
             <p style={styles.paragraph}>
-              A gaming app’s life and death is in its game library. Here is where the philosophical differences between <strong>Teen Patti Master App</strong> and Yono Game become stark.
+              A gaming app’s life and death is in its game library. Here is where the philosophical differences between <strong>Teen Patti Master App</strong> and Yono Game become stark. For traditional rummy alternatives, also check out <strong><Link href="https://www.techtonis.com/games/rummy-circle" style={{ color: "#f59e0b", textDecoration: "underline" }}>Rummy Circle</Link></strong> or <strong><Link href="https://www.techtonis.com/games/teen-patti-gold" style={{ color: "#f59e0b", textDecoration: "underline" }}>Teen Patti Gold</Link></strong>.
             </p>
             <h3 style={styles.h3}>Teen Patti Master Game Variations</h3>
             <p style={styles.paragraph}>For serious card players, Teen Patti Master is an absolute paradise:</p>
@@ -707,6 +718,8 @@ const styles: { [key: string]: React.CSSProperties } = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    cursor: "pointer",
+    transition: "transform 0.2s ease",
   },
   cardThumb: {
     width: "100%",
@@ -715,8 +728,11 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   cardTitle: {
     fontSize: "15px",
-    color: "#ffffff",
     marginBottom: "8px",
+  },
+  cardTitleLink: {
+    color: "#ffffff",
+    textDecoration: "none",
   },
   guideLink: {
     color: "#f59e0b",
