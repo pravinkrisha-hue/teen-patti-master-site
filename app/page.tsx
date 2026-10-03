@@ -375,8 +375,8 @@ export default function Home() {
     },
     {
       id: 23,
-      slug: 'teen-patti-yono-game-apk',
-      title: 'Teen Patti Yono Game APK Features',
+      slug: 'teen-patti-master-yono-game-apk',
+      title: 'Teen Patti Master Yono Game APK Features',
       category: 'YONO SLOTS',
       symbol: '🎰',
       readTime: '5 min read',
