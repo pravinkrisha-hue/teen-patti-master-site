@@ -159,7 +159,7 @@ export default function TeenPattiMasterVsYonoGame() {
         <header style={styles.navbar}>
           <div style={styles.navContainer}>
             <div style={styles.brandName}>
-              Techtonis <span style={{ color: "#f59e0b" }}>Gaming</span>
+              Teen Patti Master <span style={{ color: "#f59e0b" }}>Gaming App</span>
             </div>
             <nav style={styles.navMenu}>
               <Link href="/" style={styles.navLink}>Home</Link>

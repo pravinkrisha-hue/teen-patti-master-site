@@ -400,7 +400,7 @@ export default function Home() {
     {
       id: 25,
       slug: 'teen-patti-master-vs-rummy',
-      title: 'Teen Patti Master vs Online Rummy',
+      title: 'Teen Patti Master vs Rummy',
       category: 'SKILL VS LUCK',
       symbol: '🧠',
       readTime: '6 min read',
