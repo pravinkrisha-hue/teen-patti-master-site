@@ -13,7 +13,7 @@ import TeenPattiOldVsNew from "./teen-patti-old-vs-new";
 import TeenPattiRealCash from "./teen-patti-real-cash-";
 import TeenPattiMasterVungo from "./teen-patti-master-vungo";
 import TeenPattiVsOnlineRummy from "./teen-patti-vs-online-rummy";
-import TeenPattiVsYono from "./teen-patti-vs-yono";
+import TeenPattiMasterVsYonoGame from "./teen-patti-master-vs-yono-game";
 import TeenPattiMasterWelcomeBonus from "./teen-patti-master-welcome-bonus";
 import TeenPattiMasterYonoGameApk from "./teen-patti-master-yono-game-apk";
 import TeenPatti2026 from "./teen-patti-2026";
@@ -49,7 +49,7 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-vungo": TeenPattiMasterVungo,
   "teen-patti-vungo-download-safe-bonus": TeenPattiMasterVungo,
   "teen-patti-master-vs-rummy": TeenPattiVsOnlineRummy,
-  "teen-patti-master-vs-yono": TeenPattiVsYono,
+  "teen-patti-master-vs-yono-game": TeenPattiMasterVsYonoGame,
   "teen-patti-master-welcome-bonus": TeenPattiMasterWelcomeBonus,
   "teen-patti-master-yono-game-apk": TeenPattiMasterYonoGameApk,
   "teen-patti-master-2026": TeenPatti2026,

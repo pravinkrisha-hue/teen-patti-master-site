@@ -387,7 +387,7 @@ export default function Home() {
     },
     {
       id: 24,
-      slug: 'teen-patti-master-vs-yono',
+      slug: 'teen-patti-master-vs-yono-game',
       title: 'Teen Patti Master vs Yono Games',
       category: 'HEAD TO HEAD',
       symbol: '⚔️',
