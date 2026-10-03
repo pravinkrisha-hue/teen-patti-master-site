@@ -6,7 +6,7 @@ import TeenPattiMasterFaq from "./teen-patti-master-faq";
 import TeenPattiGoldNew from "./teen-patti-gold-new";
 import TeenPattiGoldOld from "./teen-patti-gold-old";
 import TeenPattiGoldVsOld from "./teen-patti-gold-vs-old";
-import TeenPattiKing from "./teen-patti-king";
+import TeenPattiMasterKing from "./teen-patti-master-king";
 import TeenPattiMasterLoss from "./teen-patti-master-loss";
 import TeenPattiMasterVsGold from "./teen-patti-master-vs-gold";
 import TeenPattiOldVsNew from "./teen-patti-old-vs-new";
@@ -39,7 +39,7 @@ export const myArticles: Record<string, any> = {
   "teen-patti-gold-new-version": TeenPattiGoldNew,
   "teen-patti-gold-old-version": TeenPattiGoldOld,
   "teen-patti-gold-new-vs-old": TeenPattiGoldVsOld,
-  "teen-patti-master-king": TeenPattiKing,
+  "teen-patti-master-king": TeenPattiMasterKing,
   "teen-patti-master-loss-recover": TeenPattiMasterLoss,
   "teen-patti-master-vs-gold": TeenPattiMasterVsGold,
   "teen-patti-master-old-vs-new": TeenPattiOldVsNew,

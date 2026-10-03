@@ -412,7 +412,7 @@ export default function Home() {
     {
       id: 26,
       slug: 'teen-patti-master-king',
-      title: 'How to Become a Teen Patti Master King',
+      title: 'Teen Patti Master King',
       category: 'PRO MASTERY',
       symbol: '👑',
       readTime: '7 min read',
