@@ -123,6 +123,9 @@ export default function TeenPattiMasterKingPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
+      {/* Global CSS for Zero-Crop Mobile Fluid Rendering */}
+      <style dangerouslySetInnerHTML={{ __html: mobileOptimizedStyles }} />
+
       <div style={styles.pageWrapper}>
         {/* Navigation Bar */}
         <header style={styles.navbar}>
@@ -132,7 +135,7 @@ export default function TeenPattiMasterKingPage() {
                 Teen patti master <span style={{ color: "#f59e0b" }}>King</span> ♠
               </Link>
             </div>
-            <nav style={styles.navMenu}>
+            <nav className="tpm-mobile-nav" style={styles.navMenu}>
               <Link href="https://www.techtonis.com" style={styles.navLink}>Home</Link>
               <Link href="https://www.techtonis.com/games/teen-patti-master" style={styles.navLink}>Teen Patti</Link>
               <Link href="https://www.techtonis.com/games/rummy-circle" style={styles.navLink}>Rummy</Link>
@@ -150,20 +153,20 @@ export default function TeenPattiMasterKingPage() {
         <section style={styles.heroSection}>
           <div style={styles.container}>
             {/* Top Row: Suits & Corner Logo */}
-            <div style={styles.topHeaderRow}>
+            <div className="tpm-hero-header-row" style={styles.topHeaderRow}>
               <div>
                 <div style={styles.suitDecoration}>♠ &nbsp; ♥ &nbsp; ♦ &nbsp; ♣</div>
                 <div style={styles.breadcrumb}>
                   <Link href="https://www.techtonis.com" style={styles.breadLink}>Home</Link>
-                  <span style={{ margin: "0 8px", color: "#64748b" }}>›</span>
+                  <span style={{ margin: "0 6px", color: "#64748b" }}>›</span>
                   <Link href="/blog" style={styles.breadLink}>Blog</Link>
-                  <span style={{ margin: "0 8px", color: "#64748b" }}>›</span>
+                  <span style={{ margin: "0 6px", color: "#64748b" }}>›</span>
                   <span style={{ color: "#cbd5e1" }}>Teen Patti Master King</span>
                 </div>
               </div>
 
               {/* Top Corner Logo */}
-              <div style={styles.cornerLogoBadge}>
+              <div className="tpm-corner-badge" style={styles.cornerLogoBadge}>
                 <img
                   src="/icon.webp"
                   alt="Teen Patti Master Logo"
@@ -173,7 +176,7 @@ export default function TeenPattiMasterKingPage() {
               </div>
             </div>
 
-            <h1 style={styles.heroTitle}>
+            <h1 className="tpm-hero-heading" style={styles.heroTitle}>
               Teen Patti Master <span style={{ color: "#f59e0b", fontStyle: "italic" }}>King</span>: Complete Gameplay Rules, Strategies & APK Cash Guide 2026
             </h1>
 
@@ -192,7 +195,7 @@ export default function TeenPattiMasterKingPage() {
               <span>Read: <strong style={{ color: "#f8fafc" }}>16 min</strong></span>
             </div>
 
-            {/* Header Image Banner */}
+            {/* Header Image Banner - Aspect Ratio Preserved */}
             <div style={styles.heroImageWrapper}>
               <img
                 src="/teen-patti-master-king.webp"
@@ -205,14 +208,14 @@ export default function TeenPattiMasterKingPage() {
         </section>
 
         {/* Main Content Layout with Sidebar */}
-        <div style={styles.mainLayout}>
-          <div style={styles.contentColumn}>
+        <div className="tpm-main-layout" style={styles.mainLayout}>
+          <div className="tpm-content-column" style={styles.contentColumn}>
             
             {/* Sponsored Download Banner */}
-            <div style={styles.sponsoredCard}>
+            <div className="tpm-sponsored-banner" style={styles.sponsoredCard}>
               <div style={styles.sponsoredLeft}>
                 <span style={styles.sponsoredTag}>SPONSORED</span>
-                <div style={{ display: "flex", alignItems: "center", gap: "14px", marginTop: "6px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "12px", marginTop: "6px" }}>
                   <img src="/icon.webp" alt="Teen Patti Master Icon" style={styles.sponsoredIcon} />
                   <div>
                     <h3 style={styles.sponsoredTitle}>Teen Patti Master</h3>
@@ -220,7 +223,7 @@ export default function TeenPattiMasterKingPage() {
                   </div>
                 </div>
               </div>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" style={styles.sponsoredBtn}>
+              <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" className="tpm-btn-full" style={styles.sponsoredBtn}>
                 Download APK ↓
               </a>
             </div>
@@ -244,7 +247,7 @@ export default function TeenPattiMasterKingPage() {
 
             {/* Quick Reference Table */}
             <h2 id="overview" style={styles.h2}>Quick Reference Overview: At a Glance</h2>
-            <div style={styles.tableWrapper}>
+            <div className="tpm-scroll-wrapper" style={styles.tableWrapper}>
               <table style={styles.table}>
                 <thead>
                   <tr>
@@ -315,7 +318,7 @@ export default function TeenPattiMasterKingPage() {
 
             {/* Section 2: Terminal Box 1 */}
             <h2 id="hand-rankings" style={styles.h2}>2. Standard Hand Hierarchy: Memorizing Hand Strengths</h2>
-            <div style={styles.terminalBox}>
+            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`TEEN PATTI MASTER HAND RANKINGS (Highest to Lowest)
 
@@ -330,7 +333,7 @@ export default function TeenPattiMasterKingPage() {
 
             {/* Section 3: Terminal Box 2 */}
             <h2 id="table-dynamics" style={styles.h2}>3. Table Dynamics: Blind Play vs. Seen Strategy</h2>
-            <div style={styles.terminalBox}>
+            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`+-------------------------------------------------------------+
 |             BETTING MECHANICS ARCHITECTURE                  |
@@ -358,13 +361,13 @@ export default function TeenPattiMasterKingPage() {
 
             {/* Mid-Content Download Banner */}
             <div style={styles.midContentCta}>
-              <h3 style={{ color: "#ffffff", fontSize: "22px", marginBottom: "8px" }}>
+              <h3 style={{ color: "#ffffff", fontSize: "20px", marginBottom: "8px" }}>
                 Play now on Teen Patti Master King
               </h3>
-              <p style={{ color: "#94a3b8", fontSize: "14px", marginBottom: "18px" }}>
+              <p style={{ color: "#94a3b8", fontSize: "14px", marginBottom: "16px" }}>
                 Join India&apos;s favourite card rooms on your smartphone — claim welcome bonuses, compete on King tables, and cash out safely via UPI.
               </p>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" style={styles.goldButton}>
+              <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" className="tpm-btn-full" style={styles.goldButton}>
                 Download Teen Patti Master →
               </a>
             </div>
@@ -394,7 +397,7 @@ export default function TeenPattiMasterKingPage() {
 
             {/* Section 7: Network Terminal Box */}
             <h2 id="network-performance" style={styles.h2}>7. Software Architecture: Low Data Usage & Lag-Free Engine</h2>
-            <div style={styles.terminalBox}>
+            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`NETWORK PROTOCOL COMPARISON
 
@@ -427,7 +430,7 @@ export default function TeenPattiMasterKingPage() {
 
             {/* Section 10 */}
             <h2 id="pros-cons" style={styles.h2}>10. Pros and Cons: A Balanced Assessment</h2>
-            <div style={styles.tableWrapper}>
+            <div className="tpm-scroll-wrapper" style={styles.tableWrapper}>
               <table style={styles.table}>
                 <thead>
                   <tr>
@@ -455,7 +458,7 @@ export default function TeenPattiMasterKingPage() {
 
             {/* Section 11: Installation Terminal Box */}
             <h2 id="installation" style={styles.h2}>11. Safe Installation Guide: Teen Patti Master APK Setup</h2>
-            <div style={styles.terminalBox}>
+            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`INSTALLATION WORKFLOW
 
@@ -476,7 +479,7 @@ Step 4: Register & Bind Credentials
             {/* Section 12 */}
             <h2 id="responsible-play" style={styles.h2}>12. Responsible Gaming: Protecting Your Health</h2>
             <div style={styles.alertBox}>
-              <h3 style={{ color: "#e0e7ff", margin: "0 0 10px 0", fontSize: "17px" }}>
+              <h3 style={{ color: "#e0e7ff", margin: "0 0 10px 0", fontSize: "16px" }}>
                 Responsible Play Code of Conduct
               </h3>
               <p style={{ color: "#cbd5e1", fontSize: "14px", margin: "0 0 8px 0" }}>
@@ -525,7 +528,7 @@ Step 4: Register & Bind Credentials
             {/* Related Guides Section */}
             <div style={styles.relatedGuidesSection}>
               <h3 style={styles.relatedGuidesHeading}>Related Guides</h3>
-              <div style={styles.relatedGrid}>
+              <div className="tpm-related-grid" style={styles.relatedGrid}>
                 {relatedGuides.map((guide, idx) => (
                   <Link key={idx} href={guide.href} style={styles.relatedCard}>
                     <span style={styles.relatedTag}>{guide.tag}</span>
@@ -538,7 +541,7 @@ Step 4: Register & Bind Credentials
           </div>
 
           {/* Right Sticky Sidebar Navigation */}
-          <aside style={styles.sidebarColumn}>
+          <aside className="tpm-sidebar-column" style={styles.sidebarColumn}>
             <div style={styles.stickySidebar}>
               <div style={styles.sidebarBox}>
                 <h4 style={styles.sidebarTitle}>On this page</h4>
@@ -569,7 +572,7 @@ Step 4: Register & Bind Credentials
                 <p style={{ color: "#94a3b8", fontSize: "13px", margin: "0 0 14px 0" }}>
                   Winning starts with knowing exactly what beats what at a glance.
                 </p>
-                <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" style={styles.sidebarCtaBtn}>
+                <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" className="tpm-btn-full" style={styles.sidebarCtaBtn}>
                   Sequence list →
                 </a>
               </div>
@@ -588,7 +591,85 @@ Step 4: Register & Bind Credentials
   );
 }
 
-// 3. Styles
+// 2. Comprehensive CSS Overrides for Seamless Mobile View
+const mobileOptimizedStyles = `
+  html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  * {
+    box-sizing: border-box !important;
+  }
+
+  /* Prevent table and pre containers from blowing up screen width */
+  .tpm-scroll-wrapper {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    max-width: 100% !important;
+    display: block !important;
+  }
+
+  @media (max-width: 900px) {
+    .tpm-main-layout {
+      flex-direction: column !important;
+      padding: 24px 12px 60px 12px !important;
+      gap: 24px !important;
+    }
+    .tpm-content-column {
+      flex: 1 1 100% !important;
+      width: 100% !important;
+      max-width: 100% !important;
+    }
+    .tpm-sidebar-column {
+      flex: 1 1 100% !important;
+      width: 100% !important;
+    }
+    .tpm-sidebar-column > div {
+      position: static !important;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .tpm-hero-heading {
+      font-size: 22px !important;
+      line-height: 1.3 !important;
+    }
+    .tpm-mobile-nav {
+      overflow-x: auto !important;
+      white-space: nowrap !important;
+      padding-bottom: 6px !important;
+      -webkit-overflow-scrolling: touch !important;
+      width: 100% !important;
+    }
+    .tpm-hero-header-row {
+      flex-direction: column-reverse !important;
+      align-items: flex-start !important;
+      gap: 12px !important;
+    }
+    .tpm-corner-badge {
+      width: 46px !important;
+      height: 46px !important;
+    }
+    .tpm-sponsored-banner {
+      flex-direction: column !important;
+      align-items: stretch !important;
+      gap: 14px !important;
+    }
+    .tpm-btn-full {
+      width: 100% !important;
+      text-align: center !important;
+      display: block !important;
+    }
+    .tpm-related-grid {
+      grid-template-columns: 1fr !important;
+    }
+  }
+`;
+
+// 3. Optimized Styles
 const styles: { [key: string]: React.CSSProperties } = {
   pageWrapper: {
     backgroundColor: "#070b14",
@@ -596,14 +677,17 @@ const styles: { [key: string]: React.CSSProperties } = {
     fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
     minHeight: "100vh",
     lineHeight: "1.7",
+    overflowX: "hidden",
+    width: "100%",
   },
   navbar: {
     borderBottom: "1px solid #1e293b",
-    padding: "16px 20px",
+    padding: "12px 14px",
     backgroundColor: "#0b1120",
     position: "sticky",
     top: 0,
     zIndex: 50,
+    width: "100%",
   },
   navContainer: {
     maxWidth: "1140px",
@@ -611,9 +695,12 @@ const styles: { [key: string]: React.CSSProperties } = {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+    flexWrap: "wrap",
+    gap: "10px",
+    width: "100%",
   },
   brandName: {
-    fontSize: "20px",
+    fontSize: "18px",
     fontWeight: "700",
   },
   brandLink: {
@@ -622,48 +709,52 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   navMenu: {
     display: "flex",
-    gap: "18px",
+    gap: "14px",
     alignItems: "center",
+    maxWidth: "100%",
   },
   navLink: {
     color: "#94a3b8",
     textDecoration: "none",
-    fontSize: "14px",
+    fontSize: "13px",
   },
   navCta: {
     backgroundColor: "#f59e0b",
     color: "#000000",
-    padding: "8px 16px",
+    padding: "6px 12px",
     borderRadius: "6px",
     fontWeight: "700",
-    fontSize: "13px",
+    fontSize: "12px",
     textDecoration: "none",
+    whiteSpace: "nowrap",
   },
   heroSection: {
-    padding: "48px 20px 36px 20px",
+    padding: "30px 14px 24px 14px",
     borderBottom: "1px solid #1e293b",
     background: "linear-gradient(180deg, #0f172a 0%, #070b14 100%)",
+    width: "100%",
   },
   container: {
     maxWidth: "1140px",
     margin: "0 auto",
-    padding: "0 16px",
+    padding: "0",
+    width: "100%",
   },
   topHeaderRow: {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "flex-start",
     marginBottom: "12px",
-    gap: "16px",
+    gap: "14px",
   },
   suitDecoration: {
     color: "#f59e0b",
     letterSpacing: "4px",
-    fontSize: "14px",
-    marginBottom: "8px",
+    fontSize: "13px",
+    marginBottom: "4px",
   },
   breadcrumb: {
-    fontSize: "13px",
+    fontSize: "12px",
     color: "#64748b",
   },
   breadLink: {
@@ -671,9 +762,9 @@ const styles: { [key: string]: React.CSSProperties } = {
     textDecoration: "none",
   },
   cornerLogoBadge: {
-    width: "60px",
-    height: "60px",
-    borderRadius: "14px",
+    width: "54px",
+    height: "54px",
+    borderRadius: "12px",
     padding: "2px",
     background: "linear-gradient(135deg, #f59e0b 0%, #1e293b 100%)",
     boxShadow: "0 4px 14px rgba(245, 158, 11, 0.25)",
@@ -685,43 +776,45 @@ const styles: { [key: string]: React.CSSProperties } = {
   cornerLogoImg: {
     width: "100%",
     height: "100%",
-    borderRadius: "12px",
+    borderRadius: "10px",
     objectFit: "cover",
     display: "block",
   },
   heroTitle: {
-    fontSize: "36px",
+    fontSize: "30px",
     fontWeight: "800",
     color: "#ffffff",
-    lineHeight: "1.25",
-    marginBottom: "14px",
+    lineHeight: "1.3",
+    marginBottom: "12px",
+    wordBreak: "break-word",
   },
   heroLead: {
-    fontSize: "17px",
+    fontSize: "15px",
     color: "#94a3b8",
     maxWidth: "880px",
     lineHeight: "1.6",
-    marginBottom: "20px",
+    marginBottom: "16px",
   },
   heroMetaPills: {
     display: "flex",
-    gap: "20px",
-    fontSize: "13px",
+    gap: "12px",
+    fontSize: "12px",
     color: "#94a3b8",
     flexWrap: "wrap",
-    marginBottom: "28px",
+    marginBottom: "20px",
   },
   heroImageWrapper: {
-    borderRadius: "14px",
+    borderRadius: "12px",
     overflow: "hidden",
     border: "1px solid #1e293b",
-    boxShadow: "0 10px 24px rgba(0,0,0,0.45)",
+    boxShadow: "0 8px 20px rgba(0,0,0,0.45)",
     backgroundColor: "#0b1120",
-    maxWidth: "580px",
+    maxWidth: "540px",
     margin: "0 auto",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    width: "100%",
   },
   heroImage: {
     width: "100%",
@@ -732,35 +825,39 @@ const styles: { [key: string]: React.CSSProperties } = {
   mainLayout: {
     maxWidth: "1140px",
     margin: "0 auto",
-    padding: "40px 16px 80px 16px",
+    padding: "32px 14px 60px 14px",
     display: "flex",
-    gap: "36px",
+    gap: "30px",
+    width: "100%",
   },
   contentColumn: {
     flex: "1 1 720px",
     minWidth: 0,
+    width: "100%",
   },
   sidebarColumn: {
     flex: "0 0 320px",
+    minWidth: 0,
   },
   stickySidebar: {
     position: "sticky",
-    top: "90px",
+    top: "76px",
     display: "flex",
     flexDirection: "column",
-    gap: "20px",
+    gap: "16px",
   },
   sidebarBox: {
     backgroundColor: "#0c1322",
     border: "1px solid #1e293b",
     borderRadius: "12px",
-    padding: "22px",
+    padding: "16px",
+    width: "100%",
   },
   sidebarTitle: {
     color: "#f59e0b",
-    fontSize: "16px",
+    fontSize: "15px",
     fontWeight: "700",
-    margin: "0 0 16px 0",
+    margin: "0 0 12px 0",
   },
   sidebarList: {
     listStyle: "none",
@@ -769,7 +866,7 @@ const styles: { [key: string]: React.CSSProperties } = {
   },
   sidebarLink: {
     color: "#94a3b8",
-    fontSize: "14px",
+    fontSize: "13px",
     textDecoration: "none",
     display: "block",
     padding: "6px 0",
@@ -779,15 +876,16 @@ const styles: { [key: string]: React.CSSProperties } = {
     backgroundColor: "#0c1322",
     border: "1px solid #1e293b",
     borderRadius: "12px",
-    padding: "20px",
+    padding: "16px",
+    width: "100%",
   },
   sidebarCtaBtn: {
     display: "inline-block",
     backgroundColor: "#f59e0b",
     color: "#000000",
-    padding: "10px 16px",
+    padding: "8px 14px",
     borderRadius: "6px",
-    fontSize: "13px",
+    fontSize: "12px",
     fontWeight: "700",
     textDecoration: "none",
   },
@@ -795,11 +893,12 @@ const styles: { [key: string]: React.CSSProperties } = {
     backgroundColor: "#0c1322",
     border: "1px solid #1e293b",
     borderRadius: "12px",
-    padding: "16px 20px",
+    padding: "14px",
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    marginBottom: "24px",
+    marginBottom: "20px",
+    width: "100%",
   },
   sponsoredLeft: {
     display: "flex",
@@ -812,14 +911,15 @@ const styles: { [key: string]: React.CSSProperties } = {
     letterSpacing: "1px",
   },
   sponsoredIcon: {
-    width: "44px",
-    height: "44px",
-    borderRadius: "10px",
+    width: "40px",
+    height: "40px",
+    borderRadius: "8px",
     border: "1px solid #334155",
+    flexShrink: 0,
   },
   sponsoredTitle: {
     margin: 0,
-    fontSize: "16px",
+    fontSize: "15px",
     color: "#ffffff",
   },
   sponsoredSub: {
@@ -830,23 +930,24 @@ const styles: { [key: string]: React.CSSProperties } = {
   sponsoredBtn: {
     backgroundColor: "#f59e0b",
     color: "#000000",
-    padding: "10px 18px",
-    borderRadius: "8px",
+    padding: "8px 16px",
+    borderRadius: "6px",
     fontWeight: "700",
     fontSize: "13px",
     textDecoration: "none",
+    whiteSpace: "nowrap",
   },
   authorBar: {
     display: "flex",
     alignItems: "center",
-    gap: "14px",
-    paddingBottom: "22px",
-    marginBottom: "24px",
+    gap: "12px",
+    paddingBottom: "16px",
+    marginBottom: "18px",
     borderBottom: "1px solid #1e293b",
   },
   authorAvatar: {
-    width: "42px",
-    height: "42px",
+    width: "36px",
+    height: "36px",
     borderRadius: "50%",
     backgroundColor: "#1e293b",
     color: "#f59e0b",
@@ -854,43 +955,47 @@ const styles: { [key: string]: React.CSSProperties } = {
     alignItems: "center",
     justifyContent: "center",
     fontWeight: "800",
-    fontSize: "14px",
+    fontSize: "13px",
+    flexShrink: 0,
   },
   authorName: {
     color: "#ffffff",
-    fontSize: "14px",
+    fontSize: "13px",
   },
   authorDate: {
     color: "#64748b",
-    fontSize: "12px",
+    fontSize: "11px",
   },
   paragraphLead: {
-    fontSize: "16px",
+    fontSize: "15px",
     lineHeight: "1.75",
     color: "#e2e8f0",
-    marginBottom: "28px",
+    marginBottom: "20px",
   },
   h2: {
-    fontSize: "24px",
+    fontSize: "20px",
     fontWeight: "700",
     color: "#ffffff",
-    marginTop: "38px",
-    marginBottom: "16px",
+    marginTop: "28px",
+    marginBottom: "12px",
     borderLeft: "4px solid #f59e0b",
-    paddingLeft: "12px",
+    paddingLeft: "10px",
+    lineHeight: "1.35",
+    wordBreak: "break-word",
   },
   h3: {
-    fontSize: "18px",
+    fontSize: "16px",
     fontWeight: "600",
     color: "#f1f5f9",
-    marginTop: "22px",
-    marginBottom: "10px",
+    marginTop: "18px",
+    marginBottom: "8px",
   },
   paragraph: {
-    fontSize: "15px",
+    fontSize: "14px",
     lineHeight: "1.7",
     color: "#cbd5e1",
-    marginBottom: "18px",
+    marginBottom: "16px",
+    wordBreak: "break-word",
   },
   goldInlineLink: {
     color: "#f59e0b",
@@ -898,135 +1003,138 @@ const styles: { [key: string]: React.CSSProperties } = {
     fontWeight: "500",
   },
   ul: {
-    paddingLeft: "20px",
-    marginBottom: "22px",
+    paddingLeft: "18px",
+    marginBottom: "18px",
   },
   li: {
-    fontSize: "15px",
+    fontSize: "14px",
     marginBottom: "8px",
   },
   tableWrapper: {
-    overflowX: "auto",
-    marginBottom: "28px",
+    marginBottom: "20px",
+    borderRadius: "8px",
+    border: "1px solid #1e293b",
   },
   table: {
     width: "100%",
+    minWidth: "480px",
     borderCollapse: "collapse",
-    fontSize: "14px",
+    fontSize: "13px",
     backgroundColor: "#0c1322",
-    borderRadius: "8px",
-    overflow: "hidden",
   },
   th: {
     backgroundColor: "#162033",
     color: "#ffffff",
-    padding: "12px",
+    padding: "10px",
     textAlign: "left",
     borderBottom: "1px solid #1e293b",
+    whiteSpace: "nowrap",
   },
   td: {
-    padding: "12px",
+    padding: "10px",
     borderBottom: "1px solid #162033",
     verticalAlign: "top",
   },
   terminalBox: {
     backgroundColor: "#020617",
     border: "1px solid #1e293b",
-    borderRadius: "14px",
-    padding: "20px",
-    margin: "24px 0",
-    overflowX: "auto",
+    borderRadius: "10px",
+    padding: "12px",
+    margin: "18px 0",
   },
   pre: {
     color: "#f1f5f9",
     fontFamily: '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace',
-    fontSize: "13px",
+    fontSize: "12px",
     lineHeight: "1.6",
     margin: 0,
+    whiteSpace: "pre",
   },
   midContentCta: {
     backgroundColor: "#0c1322",
     border: "1px solid #1e293b",
-    borderRadius: "14px",
-    padding: "28px 24px",
+    borderRadius: "12px",
+    padding: "18px 14px",
     textAlign: "center",
-    margin: "34px 0",
+    margin: "24px 0",
+    width: "100%",
   },
   goldButton: {
     display: "inline-block",
     backgroundColor: "#f59e0b",
     color: "#000000",
-    padding: "12px 24px",
-    borderRadius: "8px",
+    padding: "10px 18px",
+    borderRadius: "6px",
     fontWeight: "700",
-    fontSize: "14px",
+    fontSize: "13px",
     textDecoration: "none",
   },
   alertBox: {
     backgroundColor: "#0c1322",
     border: "1px solid #3b82f6",
     borderRadius: "10px",
-    padding: "20px",
-    margin: "24px 0",
+    padding: "14px",
+    margin: "18px 0",
   },
   faqCard: {
     backgroundColor: "#0c1322",
     border: "1px solid #1e293b",
     borderRadius: "8px",
-    padding: "18px",
-    marginBottom: "12px",
+    padding: "14px",
+    marginBottom: "10px",
   },
   faqQ: {
     color: "#ffffff",
     margin: "0 0 6px 0",
-    fontSize: "15px",
+    fontSize: "14px",
+    fontWeight: "600",
   },
   faqA: {
     color: "#94a3b8",
     margin: 0,
-    fontSize: "14px",
+    fontSize: "13px",
   },
   relatedGuidesSection: {
-    marginTop: "48px",
-    paddingTop: "24px",
+    marginTop: "32px",
+    paddingTop: "18px",
     borderTop: "1px solid #1e293b",
   },
   relatedGuidesHeading: {
-    fontSize: "20px",
+    fontSize: "17px",
     color: "#ffffff",
-    marginBottom: "18px",
+    marginBottom: "12px",
   },
   relatedGrid: {
     display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-    gap: "14px",
+    gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))",
+    gap: "10px",
   },
   relatedCard: {
     backgroundColor: "#0c1322",
     border: "1px solid #1e293b",
-    borderRadius: "10px",
-    padding: "16px",
+    borderRadius: "8px",
+    padding: "12px",
     textDecoration: "none",
     display: "block",
   },
   relatedTag: {
-    fontSize: "10px",
+    fontSize: "9px",
     fontWeight: "700",
     color: "#64748b",
     letterSpacing: "1px",
     display: "block",
-    marginBottom: "6px",
+    marginBottom: "4px",
   },
   relatedTitle: {
-    fontSize: "14px",
+    fontSize: "13px",
     color: "#f8fafc",
     margin: 0,
   },
   footer: {
     borderTop: "1px solid #1e293b",
-    padding: "24px 0",
+    padding: "18px 14px",
     textAlign: "center",
-    fontSize: "13px",
+    fontSize: "12px",
     color: "#64748b",
     backgroundColor: "#050811",
   },
