@@ -11,7 +11,10 @@ export const metadata: Metadata = {
   description:
     "Explore the Teen Patti Gold New Version 2026. Teen Patti Master New Version12 APK download info, UI, fast cashouts, security, VIP rewards, table strategy.",
   keywords: [
-    "Teen Patti Master New Version12",
+    "Teen Patti Master New Version",
+    "Teen Patti Master",
+    "Teen Patti Master apk",
+    "Teen Patti Master App",
     "Teen Patti Gold APK download",
     "Teen Patti Gold new update",
     "Teen Patti Gold latest version 2026",
