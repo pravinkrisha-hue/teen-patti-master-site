@@ -459,7 +459,7 @@ export default function Home() {
     },
     {
       id: 30,
-      slug: 'teen-patti-master-faq',
+      slug: 'teen-patti-master-faq-vs-real-game',
       title: 'Teen Patti Master FAQ: Top Questions Answered',
       category: 'HELP & FAQ',
       symbol: '❓',

@@ -3,9 +3,9 @@ import TeenPattiAndroid from "./teen-patti-anroid";
 import TeenPattiAppDownloadFree from "./teen-patti-app-download";
 import TeenPattiMasterExplained from "./teen-patti-master-explained";
 import TeenPattiMasterFaq from "./teen-patti-master-faq";
-import TeenPattiGoldNew from "./teen-patti-gold-new";
-import TeenPattiGoldOld from "./teen-patti-gold-old";
-import TeenPattiGoldVsOld from "./teen-patti-gold-vs-old";
+import TeenPattiGoldNewVersion from "./teen-patti-gold-new-version";
+import TeenPattiGoldOldVersion from "./teen-patti-gold-old-version";
+import TeenPattiGoldNewVsOld from "./teen-patti-gold-new-vs-old";
 import TeenPattiMasterKing from "./teen-patti-master-king";
 import TeenPattiMasterLoss from "./teen-patti-master-loss";
 import TeenPattiMasterVsGold from "./teen-patti-master-vs-gold";
@@ -28,6 +28,8 @@ import TeenPattiMasterOnlineTabal from "./teen-patti-master-online-tabal";
 import TeenPattiMasterGame from "./teen-patti-master-game";
 import TeenPattiMasterDownload from "./teen-patti-master-download";
 import TeenPattiMasterProSecret from "./teen-patti-master-pro-secret";
+import TeenPattiMasterFaqVsRealGame from "./teen-patti-master-faq-vs-real-game";
+
 
 // 2. Slug to Component Mapping
 export const myArticles: Record<string, any> = {
@@ -36,9 +38,9 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-explained": TeenPattiMasterExplained,
   "teen-patti-master-faq": TeenPattiMasterFaq,
   "teen-patti-Master-faq": TeenPattiMasterFaq,
-  "teen-patti-gold-new-version": TeenPattiGoldNew,
-  "teen-patti-gold-old-version": TeenPattiGoldOld,
-  "teen-patti-gold-new-vs-old": TeenPattiGoldVsOld,
+  "teen-patti-gold-new-version": TeenPattiGoldNewVersion,
+  "teen-patti-gold-old-version": TeenPattiGoldOldVersion,
+  "teen-patti-gold-new-vs-old": TeenPattiGoldNewVsOld,
   "teen-patti-master-king": TeenPattiMasterKing,
   "teen-patti-master-loss-recover": TeenPattiMasterLoss,
   "teen-patti-master-vs-gold": TeenPattiMasterVsGold,
@@ -71,4 +73,6 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-download-guide": TeenPattiMasterDownload,
   "teen-patti-master-pro-secret": TeenPattiMasterProSecret,
   "teen-patti-master-secrets": TeenPattiMasterProSecret,
+    "teen-patti-master-faq-vs-real-game": TeenPattiMasterFaqVsRealGame,
+
 };
