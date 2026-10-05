@@ -6,10 +6,10 @@ import { useState } from 'react';
 
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
-  // Footer FAQ Accordion State
-  const [openFaq, setOpenFaq] = useState<number | null>(0);
   // 7 Posts vs All Posts Toggle State
   const [showAllPosts, setShowAllPosts] = useState<boolean>(false);
+  // FAQ Accordion State (+ par click karta khulva/bandh thava mate)
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   // Affiliate Download Link
   const DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
@@ -107,7 +107,7 @@ export default function Home() {
     }
   ];
 
-  // Tamara badha j 30 SEO Blog Posts
+  // 30 SEO Blog Posts
   const seoBlogPosts = [
     {
       id: 1,
@@ -270,7 +270,7 @@ export default function Home() {
       slug: 'teen-patti-master-old-vs-new',
       title: 'Teen Patti Master Old vs New Version',
       category: 'COMPARISON',
-      symbol: '⚖️',
+      symbol: '⚖',
       readTime: '6 min read',
       excerpt: 'Which version suits your phone better? We compare battery consumption, table responsiveness, and payment gateway stability.',
       cardBg: 'bg-violet-50 hover:bg-violet-100/90 border-violet-300',
@@ -471,6 +471,100 @@ export default function Home() {
     }
   ];
 
+  // 15 FAQs List with Content
+  const faqList = [
+    {
+      id: 1,
+      badge: "DOWNLOAD",
+      q: "What is Teen Patti Master App? How to get the official app?",
+      a: "Teen Patti Master is one of the most popular online 3 card and card gaming apps in India. It lets users get onto live multiplayer tables with real players. It’s not available on Google Play Store directly due to the store-listing policies, but you can safely download the official APK package from the verified website."
+    },
+    {
+      id: 2,
+      badge: "FREE BONUS",
+      q: "How to claim ₹51 Welcome Signup Bonus at Teen Patti Master?",
+      a: "To claim the welcome bonus: 1. Please install and run the app as guest. 2. Link Your 10 Digit Mobile Number To Your Profile. 3. Enter and confirm the OTP code received by SMS. The bonus chips (up to ₹51) will be credited instantly to your gaming account on verification and you can start exploring the games."
+    },
+    {
+      id: 3,
+      badge: "SECURITY",
+      q: "Download an APK file, Android says 'File may be harmful' Why?",
+      a: "This is a common security warning given by the Android operating system when you download an APK file directly from an Internet browser outside of the Google Play Store. It’s a system prompt automation. If you're downloading from an official portal that you know is verified, just tap 'Download Anyway' to continue."
+    },
+    {
+      id: 4,
+      badge: "FAIR PLAY",
+      q: "Is the card dealing in Teen Patti Master app fair and safe?",
+      a: "Yes. The gaming system utilises a certified Random Number Generator (RNG) engine to guarantee all card deals are entirely unbiased and unpredictable. This architecture ensures that the shuffles and distributions of cards are mathematically neutral and do not require human or backend intervention."
+    },
+    {
+      id: 5,
+      badge: "PAYMENTS",
+      q: "How can you take out your earnings through UPI or Direct Bank Transfer?",
+      a: "Open the game lobby and select the Withdraw button. Enter your Bank details or UPI ID (Account Number, IFSC Code, Account Holder Name). Enter the cash out amount within the limits of available balance, then tap on Confirm. Payouts verified via fast Indian payment channels generally take 60 seconds to 15 minutes to get credited."
+    },
+    {
+      id: 6,
+      badge: "LIMITS",
+      q: "What’s the minimum withdrawal and are there any fees for the withdrawal?",
+      a: "The minimum amount for withdrawal is generally ₹100 to ₹200 depending on your account and prevailing policies. Most standard payments using UPI aren’t subject to a platform fee deduction."
+    },
+    {
+      id: 7,
+      badge: "GAME MODES",
+      q: "What is the name of Teen Patti Master and its game modes?",
+      a: "The app includes Classic Teen Patti (Blind & Chaal), Pool Rummy & Point Rummy Games, Dragon vs Tiger, 7 Up Down, Animal Roulette & Car Roulette, Andar Bahar, and Arcade Slot Mini Games."
+    },
+    {
+      id: 8,
+      badge: "PRIVATE ROOM",
+      q: "How can I get a private room/table to play with my friends?",
+      a: "Select the 'Private Table' game option in the main lobby. Select your preferred boot size and player limits. Once created, the app will generate a 6-digit room code or a link to invite your friends to join on WhatsApp or messaging apps."
+    },
+    {
+      id: 9,
+      badge: "RULES",
+      q: "What is the difference between 'Blind' and 'Chaal' turn in Teen Patti?",
+      a: "Blind means playing without looking at your 3 hole-cards, which starts at a lower pot stake (boot value). Chaal means playing when you have seen your cards. If you are a seen player, you must put in at least twice the current blind bet to stay in the hand."
+    },
+    {
+      id: 10,
+      badge: "AFFILIATE",
+      q: "What is the Teen Patti Master Refer & Earn programme?",
+      a: "Each member has a personal referral code and personal referral link. When new players sign up and play through your link, you receive an instant sign-up bonus plus up to 30% recurring affiliate commission/rebate on their gameplay and balance recharge. No gameplay is needed to cash out."
+    },
+    {
+      id: 11,
+      badge: "LEGAL",
+      q: "Which Indian states have restrictions on real money card games?",
+      a: "Games of skill are nationally recognised. However, states such as Andhra Pradesh, Telangana, Assam, Odisha, Sikkim, and Nagaland have their own laws that ban gaming for real stakes. Players from these regions should not be playing for cash."
+    },
+    {
+      id: 12,
+      badge: "SUPPORT",
+      q: "What happens if a withdrawal fails or doesn’t go through?",
+      a: "If your payment is delayed due to banking delays or network congestion, bank servers may take up to 24 hours to clear routines. If it is marked as failed, funds will generally be refunded to your gaming wallet automatically. If you are still facing an issue, contact the in-app 24/7 Customer Care Chat with your transaction Order ID and screenshot."
+    },
+    {
+      id: 13,
+      badge: "OPTIMIZE",
+      q: "How to avoid app lag or sudden network disconnect?",
+      a: "Please close any background apps (such as streaming video or social feeds) before playing, make sure you have enough free space on your phone’s internal memory, use a good Wi-Fi router or solid 4G/5G connection, and occasionally clear cached files from the app settings menu."
+    },
+    {
+      id: 14,
+      badge: "ACCOUNTS",
+      q: "Is it possible to create more than one Teen Patti Master account on a single mobile phone?",
+      a: "No. We only allow one verified profile per smartphone to ensure fair-play and security policies. Anti-fraud detection systems can suspend wallets permanently on the same hardware if duplicate wallets or cloned apps are found."
+    },
+    {
+      id: 15,
+      badge: "DISCIPLINE",
+      q: "How to protect your balance and avoid a back to back loss?",
+      a: "Practice structured bankroll management: don’t risk more than 5% of your bankroll at any one hand or table, set a daily loss limit (e.g., stop playing after losing ₹500), and avoid 'revenge play' when losing several hands in a row."
+    }
+  ];
+
   // 7 posts view or All posts view
   const visiblePosts = showAllPosts ? seoBlogPosts : seoBlogPosts.slice(0, 7);
 
@@ -650,7 +744,7 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Unique "All Read Blog Post" Button (Matching Screenshot UI Concept) */}
+        {/* All Read Blog Post Button */}
         <div className="mt-12 text-center">
           <button
             onClick={() => setShowAllPosts(!showAllPosts)}
@@ -665,23 +759,87 @@ export default function Home() {
       </section>
 
       {/* 5. Comprehensive Humanized SEO Article Section */}
-      <article id="guide" className="max-w-5xl mx-auto px-6 py-12 text-gray-300 space-y-10 border-t border-slate-800/80 mt-6">
+      <article id="guide" className="max-w-5xl mx-auto px-6 py-12 text-gray-300 space-y-10 border-t border-slate-800/80 mt-6 pb-20">
         
-        {/* Intro */}
-        <div className="space-y-4">
+        {/* ========================================================================= */}
+        {/* REPLACED SECTION (Only 1st screenshot content replaced with 500+ Words)  */}
+        {/* ========================================================================= */}
+        <div className="space-y-6">
           <h2 className="text-2xl sm:text-4xl font-extrabold text-amber-400 leading-tight">
-            Teen Patti Master APK: Everything You Need to Know in 2026
+            Teen Patti Master APK 2026: Everything You Need To Know
           </h2>
           <p className="text-base sm:text-lg leading-relaxed text-gray-300">
-            Teen Patti, also called Indian Poker, has been a part of family get-togethers, festive celebrations and casual game nights across India for ages. Today, this age-old custom has smoothly transitioned into the digital realm with <strong>Teen Patti Master</strong>—one of the most responsive, genuine, and visually-rich mobile card gaming platforms around.
+            Card games in India have always been more than just numbers or chips, they are a part of age-old cultural tradition. For generations, games like Teen Patti have brought cousins together on Diwali nights, sparked spirited conversations at weekend family get-togethers, and provided the setting for casual rooftop evenings. As mobile technology has been advancing at a dizzying pace, the cherished tradition has smoothly transitioned to our smartphone screens. Leading that transition in 2026 is <Link href="/" className="text-amber-400 hover:underline font-semibold">Teen Patti Master</Link>, a mobile card platform that is lightweight, visually polished, and secure, built for both casual entertainment and tactical play.
           </p>
           <p className="text-sm sm:text-base leading-relaxed text-gray-400">
-            Whether you are an experienced player wanting to challenge real opponents in live card rooms or a beginner looking to understand sequence rankings and basic gameplay, this guide covers game modes, safety protocols, APK download steps, and tips to maximize your overall experience.
+            Whether you’re a first-time user jumping into a virtual lobby to learn hand sequences, or a seasoned player testing your bluffing ability against real opponents, this complete 2026 guide breaks down everything from app mechanics and safety verifications to bankroll discipline.
+          </p>
+
+          <h3 className="text-xl sm:text-3xl font-bold text-amber-400 pt-2">
+            What Makes Teen Patti Master Different From Other Card Gaming Apps
+          </h3>
+          <p className="text-sm sm:text-base leading-relaxed text-gray-300">
+            The digital gaming ecosystem is full of card apps that crash halfway, drain your device’s battery, or clutter your screen with annoying popups. Teen Patti Master is player-first in approach with strong emphasis on backend stability, fair matchmaking and transparency.
+          </p>
+
+          <div className="space-y-4">
+            <div className="bg-slate-900 border border-slate-800 p-5 rounded-xl">
+              <h4 className="text-lg font-bold text-amber-300 mb-2">⚡ Lag-Free Lightweight Performance</h4>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                While the majority of the high-end games are hundreds of megabytes, the Teen Patti Master installation bundle is small, approximately 45 MB. The developers have also optimised asset pipelines so that the app runs smoothly on older Android smartphones without any frame drops. And dynamic data compression keeps you connected to tables consistently, even on weak 4G or unreliable Wi-Fi, so you don’t get disconnected during a critical showdown.
+              </p>
+            </div>
+
+            <div className="bg-slate-900 border border-slate-800 p-5 rounded-xl">
+              <h4 className="text-lg font-bold text-amber-300 mb-2">🛡️ Certified Random Number Generator (RNG) Validity</h4>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                The greatest concern for online card players is rigged shuffling or systemic bias. That’s where Teen Patti Master comes in with a certified Random Number Generator (RNG). Strict cryptographic randomness rules every card dealt, shuffled and dealt across the virtual green felt. No way to manipulate the backend or bias the algorithms. The deck is mathematically neutral.
+              </p>
+            </div>
+
+            <div className="bg-slate-900 border border-slate-800 p-5 rounded-xl">
+              <h4 className="text-lg font-bold text-amber-300 mb-2">🎮 Different Table Dynamics and Mini Games</h4>
+              <p className="text-sm text-gray-300 leading-relaxed mb-3">
+                The monotony kills card gaming. In addition to the standard Teen Patti (featuring real Blind and Chaal mechanics), the lobby contains numerous casual and casino-style variants available in our <a href="#games" className="text-amber-400 hover:underline font-semibold">trending games section</a>:
+              </p>
+              <ul className="list-disc pl-5 space-y-2 text-sm text-gray-400">
+                <li><strong className="text-gray-200">Point and Pool Rummy:</strong> For those who love to calculate runs and pure sequences.</li>
+                <li><strong className="text-gray-200">Quick Arcade Fun:</strong> Fast and easy rounds with Dragon vs Tiger, 7 Up Down, and Car Roulette.</li>
+                <li><strong className="text-gray-200">Social Private Tables:</strong> Create your own tables with friends with a simple 6 digit room code, interactive emojis and live chat.</li>
+              </ul>
+            </div>
+
+            <div className="bg-slate-900 border border-slate-800 p-5 rounded-xl">
+              <h4 className="text-lg font-bold text-amber-300 mb-2">💳 UPI & Banking Infrastructure That Just Works</h4>
+              <p className="text-sm text-gray-300 leading-relaxed">
+                The transaction gateway has been developed according to the Indian digital payment standards. Verified accounts get the benefit of 256-bit SSL encryption, enabling near-instant UPI and direct bank transfers. Payout requests are processed by automated payment switches and typically clear securely in a few minutes with no platform deduction fees. You can read common cashout questions in our <a href="#faq" className="text-amber-400 hover:underline font-semibold">FAQ section below</a>.
+              </p>
+            </div>
+          </div>
+
+          <div className="bg-slate-900/60 border border-slate-800 p-6 rounded-2xl space-y-3">
+            <h4 className="text-xl font-bold text-amber-400">Play Smart: Bankroll Discipline is Important</h4>
+            <p className="text-sm text-gray-300 leading-relaxed">
+              Card gaming should always be a fun, relaxing pastime fundamentally. Long-term successful players are based on discipline, not superstition. It’s important to handle virtual balances responsibly to keep the game fun:
+            </p>
+            <ul className="list-disc pl-5 space-y-2 text-sm text-gray-400">
+              <li><strong className="text-gray-200">The 5% Rule:</strong> Never wager more than 5% of your total bankroll on one hand or one session.</li>
+              <li><strong className="text-gray-200">Set Loss Limits:</strong> Decide how much you can afford to lose before you sit at the table. If you hit your limit, close the app and don’t look back.</li>
+              <li><strong className="text-gray-200">Tilt Avoidance:</strong> Don’t react to back-to-back losses with rash, double-or-nothing decisions. The highest-percentage decision is always to walk away for a few hours. Explore more tips in our <a href="#posts" className="text-amber-400 hover:underline font-semibold">expert guides & blog posts</a>.</li>
+            </ul>
+          </div>
+
+          <p className="text-sm sm:text-base leading-relaxed text-gray-300 border-l-4 border-amber-400 pl-4 italic">
+            Teen Patti Master is a reliable and exciting destination for all classic 3-card poker lovers in India, with regular updates, strict anti-fraud monitoring, and a live community of card lovers across the country. You can <a href={DOWNLOAD_URL} target="_blank" rel="noopener noreferrer" className="text-amber-400 hover:underline font-semibold not-italic">download the official APK now</a> to get started.
           </p>
         </div>
 
-        {/* Features Grid */}
-        <div className="space-y-4">
+        {/* ========================================================================= */}
+        {/* KEPT UNTOUCHED: 2nd & 3rd SCREENSHOT SECTIONS (Features, Steps, Table, etc)*/}
+        {/* ========================================================================= */}
+        
+        {/* Features Grid from Screenshot 2 */}
+        <div className="space-y-4 pt-4 border-t border-slate-800/80">
           <h2 className="text-xl sm:text-3xl font-bold text-amber-400">
             Why Teen Patti Master Stands Out Among Card Gaming Apps
           </h2>
@@ -717,7 +875,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Step-by-Step Installation */}
+        {/* Step-by-Step Installation from Screenshot 2 */}
         <div className="space-y-4">
           <h2 className="text-xl sm:text-3xl font-bold text-amber-400">
             How to Safely Download and Install Teen Patti Master APK
@@ -754,7 +912,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Hand Rankings Overview */}
+        {/* Hand Rankings Overview from Screenshot 3 */}
         <div className="space-y-4">
           <h2 className="text-xl sm:text-3xl font-bold text-amber-400">
             Understanding Basic Teen Patti Hand Rankings
@@ -815,7 +973,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Responsible Gaming */}
+        {/* Responsible Gaming from Screenshot 3 */}
         <div className="space-y-4">
           <h2 className="text-xl sm:text-3xl font-bold text-amber-400">
             Responsible Gaming Guidelines
@@ -833,213 +991,68 @@ export default function Home() {
       </article>
 
       {/* ========================================================================= */}
-      {/* 6. BANNE FOOTER (Interactive Accordion FAQ + Deep Multi-Column Directory) */}
+      {/* 6. FAQ ACCORDION SECTION (15 QUESTIONS - CLICK '+' TO OPEN/CLOSE)         */}
       {/* ========================================================================= */}
-      <footer className="mt-20 border-t border-amber-500/20 bg-[#060c0a] text-stone-300">
-        
-        {/* FOOTER 1: Unique Accordion FAQ (Screenshot 1 jevu pan humanized & anti-copy) */}
-        <div id="faq" className="max-w-5xl mx-auto px-6 pt-16 pb-14">
-          <div className="text-center mb-12">
-            <span className="text-[11px] font-extrabold uppercase tracking-widest text-emerald-400 bg-emerald-950/80 border border-emerald-500/30 px-4 py-1.5 rounded-full inline-block mb-3">
-              Player Verification & Guidelines
-            </span>
-            <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight font-serif">
-              Card Games, <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-200">Answered Honestly</span>
-            </h2>
-            <p className="text-stone-400 text-sm sm:text-base mt-3 max-w-2xl mx-auto leading-relaxed">
-              Clear, unbiased facts about RNG mechanics, withdrawal speeds, bank safety, and Indian gaming laws.
-            </p>
-          </div>
+      <section id="faq" className="max-w-5xl mx-auto px-6 py-16 border-t border-slate-800/80">
+        <div className="text-center mb-12">
+          <span className="text-[11px] font-black uppercase tracking-widest text-emerald-400 bg-emerald-950/80 border border-emerald-500/30 px-4 py-1.5 rounded-full inline-block mb-3">
+            Help & Guidelines
+          </span>
+          <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
+            Frequently Asked <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-200">Questions</span>
+          </h2>
+          <p className="text-slate-400 text-sm sm:text-base mt-3 max-w-2xl mx-auto leading-relaxed">
+            Everything you need to know about Teen Patti Master APK download, bonuses, UPI withdrawals, rules, and game safety.
+          </p>
+        </div>
 
-          <div className="space-y-4">
-            {[
-              {
-                q: "What is Teen Patti Master Gaming Hub?",
-                badge: "ABOUT US",
-                a: "Teen Patti Master Gaming Hub is an independent analysis and direct APK verification portal for Indian card game players. We document hand hierarchies, statistical strategies, APK integrity protocols, and bankroll management. We are an educational reference, not a gambling operator."
-              },
-              {
-                q: "Is Teen Patti purely a game of luck or strategic calculation?",
-                badge: "STRATEGY",
-                a: "Card dealing utilizes certified Random Number Generation (RNG), which is chance-driven. However, sustained long-term success requires tactical fold discipline, managing boot stakes, reading table velocities, and avoiding tilt. Skill controls risk management and balance protection."
-              },
-              {
-                q: "Which game should new players practice first: Teen Patti or Rummy?",
-                badge: "LEARNING",
-                a: "Teen Patti is straightforward with 3-card ranking orders, making it great for quick casual rounds. 13-Card Rummy requires structured pure sequence calculation and card tracking. Beginners usually master 3 Patti basics first before exploring multi-table rummy leagues."
-              },
-              {
-                q: "Are real-cash card games legally permissible in India?",
-                badge: "REGULATION",
-                a: "Skill-based card gaming is legally recognized under Indian constitutional precedents across most regions. However, specific states including Andhra Pradesh, Telangana, Assam, and Odisha restrict real-stakes gaming. Players must verify their localized municipal guidelines prior to participating."
-              },
-              {
-                q: "How fast and secure are UPI & Bank withdrawals?",
-                badge: "PAYMENTS",
-                a: "Financial payouts are routed through verified Indian payment gateways protected by 256-bit SSL protocols. Legitimate registered accounts with verified mobile numbers typically receive funds directly into their UPI ID or bank within 60 seconds to a few minutes."
-              }
-            ].map((faqItem, fIdx) => {
-              const isOpen = openFaq === fIdx;
-              return (
-                <div
-                  key={fIdx}
-                  className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
+        <div className="space-y-3">
+          {faqList.map((faq, index) => {
+            const isOpen = openFaq === index;
+            return (
+              <div
+                key={faq.id}
+                className={`rounded-2xl border transition-all duration-300 overflow-hidden ${
+                  isOpen 
+                    ? "bg-[#0c1613] border-amber-400/60 shadow-[0_4px_25px_rgba(251,191,36,0.1)]" 
+                    : "bg-slate-900/80 border-slate-800 hover:border-slate-700"
+                }`}
+              >
+                <button
+                  type="button"
+                  onClick={() => setOpenFaq(isOpen ? null : index)}
+                  className="w-full text-left px-6 py-4 flex items-center justify-between gap-4 cursor-pointer focus:outline-none"
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 hidden sm:inline-block">
+                      {faq.badge}
+                    </span>
+                    <span className={`text-base sm:text-lg font-bold transition-colors ${isOpen ? "text-amber-300" : "text-stone-200"}`}>
+                      {faq.id}. {faq.q}
+                    </span>
+                  </div>
+
+                  {/* '+' button with rotation on open */}
+                  <div className={`w-8 h-8 rounded-full flex items-center justify-center text-base font-black flex-shrink-0 transition-all duration-300 select-none ${
                     isOpen 
-                      ? "bg-[#0c1613] border-amber-400/60 shadow-[0_4px_25px_rgba(251,191,36,0.1)]" 
-                      : "bg-[#09110f]/60 border-emerald-950 hover:border-emerald-800/50"
-                  }`}
-                >
-                  <button
-                    onClick={() => setOpenFaq(isOpen ? null : fIdx)}
-                    className="w-full text-left px-6 py-5 flex items-center justify-between gap-4 font-serif focus:outline-none"
-                  >
-                    <div className="flex items-center gap-3">
-                      <span className="text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 hidden sm:inline-block">
-                        {faqItem.badge}
-                      </span>
-                      <span className={`text-base sm:text-lg font-bold transition-colors ${isOpen ? "text-amber-300" : "text-stone-200"}`}>
-                        {faqItem.q}
-                      </span>
-                    </div>
+                      ? "bg-amber-400 text-slate-950 rotate-45 shadow-[0_0_10px_rgba(251,191,36,0.6)]" 
+                      : "bg-slate-800 text-amber-400 border border-slate-700"
+                  }`}>
+                    +
+                  </div>
+                </button>
 
-                    <div className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-black flex-shrink-0 transition-all duration-300 ${
-                      isOpen 
-                        ? "bg-amber-400 text-slate-950 rotate-45 shadow-[0_0_10px_rgba(251,191,36,0.6)]" 
-                        : "bg-stone-900 text-amber-400 border border-stone-800"
-                    }`}>
-                      +
-                    </div>
-                  </button>
-
-                  {isOpen && (
-                    <div className="px-6 pb-6 pt-2 text-sm sm:text-base text-stone-300 leading-relaxed border-t border-emerald-950/80">
-                      <p>{faqItem.a}</p>
-                    </div>
-                  )}
-                </div>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* FOOTER 2: Deep Directory Footer (Screenshot 2 jevu dark green styling) */}
-        <div className="border-t border-emerald-950 bg-[#040807] pt-14 pb-12">
-          <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-10">
-            
-            {/* Column 1 & 2: Brand Identity, Manifesto & Social Links */}
-            <div className="md:col-span-2 space-y-4">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 relative rounded-lg overflow-hidden border border-amber-400/40">
-                  <Image 
-                    src="/teen-patti-master.webp" 
-                    alt="Teen Patti Master Hub" 
-                    fill 
-                    sizes="36px"
-                    className="object-cover" 
-                  />
-                </div>
-                <span className="text-2xl font-black text-amber-400 tracking-wide font-serif">
-                  Teen Patti Master <span className="text-emerald-400 text-lg">♠</span>
-                </span>
+                {/* Animated Dropdown Content */}
+                {isOpen && (
+                  <div className="px-6 pb-5 pt-2 text-sm sm:text-base text-slate-300 leading-relaxed border-t border-slate-800/60 bg-black/20">
+                    <p>{faq.a}</p>
+                  </div>
+                )}
               </div>
-
-              <p className="text-xs sm:text-sm text-stone-400 leading-relaxed pr-2">
-                An authoritative, community-led research directory dedicated to Indian card games, probability analysis, APK security audits, and responsible mobile entertainment.
-              </p>
-
-              {/* Social Channels with Authentic Badges */}
-              <div className="flex items-center gap-3 pt-2">
-                <a 
-                  href="https://x.com/Tpmasterclub/status/2092482435942691319" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-stone-900/90 border border-stone-800 hover:border-amber-400/50 hover:text-white transition"
-                >
-                  <span>𝕏</span>
-                  <span>@teenpattimaster</span>
-                </a>
-                <a 
-                  href="https://www.youtube.com/@MasterTeenpatti-e3o" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-stone-900/90 border border-stone-800 hover:border-red-400/50 hover:text-white transition"
-                >
-                  <span className="text-red-400">▶</span>
-                  <span>Guides Channel</span>
-                </a>
-              </div>
-            </div>
-
-            {/* Column 3: Game Directories */}
-            <div>
-              <h3 className="text-white font-extrabold text-xs uppercase tracking-widest mb-4 border-l-2 border-emerald-500 pl-2">
-                GAMES
-              </h3>
-              <ul className="space-y-2.5 text-xs text-stone-400 font-medium">
-                <li><Link href="/games/teen-patti-master" className="hover:text-amber-400 transition">Teen Patti</Link></li>
-                <li><Link href="/games/rummy-circle" className="hover:text-amber-400 transition">Rummy</Link></li>
-                <li><Link href="/games/yono-games" className="hover:text-amber-400 transition">Yono</Link></li>
-                <li><Link href="/games/teen-patti-gold" className="hover:text-amber-400 transition">Teen Patti Gold</Link></li>
-                <li><Link href="/games/winzo-games" className="hover:text-amber-400 transition">WinZO Games</Link></li>
-              </ul>
-            </div>
-
-            {/* Column 4: Learning & Strategy */}
-            <div>
-              <h3 className="text-white font-extrabold text-xs uppercase tracking-widest mb-4 border-l-2 border-emerald-500 pl-2">
-                LEARN
-              </h3>
-              <ul className="space-y-2.5 text-xs text-stone-400 font-medium">
-                <li><Link href="#posts" className="hover:text-amber-400 transition">Blog & Guides</Link></li>
-                <li><Link href="/blog/teen-patti-master-game" className="hover:text-amber-400 transition">Hand Rankings</Link></li>
-                <li><Link href="/blog/teen-patti-master-vs-rummy" className="hover:text-amber-400 transition">Rummy Sequences</Link></li>
-                <li><Link href="/blog/teen-patti-master-offline" className="hover:text-amber-400 transition">Offline Practice</Link></li>
-                <li><Link href="/blog/teen-patti-master-loss-recover" className="hover:text-amber-400 transition">Bankroll Rules</Link></li>
-              </ul>
-            </div>
-
-            {/* Column 5: Trust, Safety & Site */}
-            <div>
-              <h3 className="text-white font-extrabold text-xs uppercase tracking-widest mb-4 border-l-2 border-emerald-500 pl-2">
-                SITE
-              </h3>
-              <ul className="space-y-2.5 text-xs text-stone-400 font-medium">
-                <li><a href="#guide" className="hover:text-amber-400 transition">About Us</a></li>
-                <li><a href="#guide" className="hover:text-amber-400 transition">Responsible Gaming</a></li>
-                <li><Link href="/blog/teen-patti-master-customer-care" className="hover:text-amber-400 transition">Customer Care</Link></li>
-                <li><Link href="/blog/teen-patti-master-faq" className="hover:text-amber-400 transition">Help & Support</Link></li>
-                <li><span className="text-emerald-400 font-semibold cursor-default">🇮🇳 हिंदी (Hindi) / English</span></li>
-              </ul>
-            </div>
-
-          </div>
+            );
+          })}
         </div>
-
-        {/* Card Suit Symbols Watermark & Strict Legal Advisory */}
-        <div className="border-t border-emerald-950/60 bg-[#020504] py-8 text-stone-500 text-xs px-6">
-          <div className="max-w-5xl mx-auto space-y-4 text-center sm:text-left">
-            
-            {/* Playing Card Suit Symbols */}
-            <div className="flex justify-center sm:justify-start gap-4 text-emerald-600/50 text-sm tracking-widest select-none">
-              <span>♠</span>
-              <span>♥</span>
-              <span>♦</span>
-              <span>♣</span>
-            </div>
-
-            {/* Anti-Plagiarism Legal Disclaimer */}
-            <p className="leading-relaxed text-[11px] text-stone-400">
-              <strong className="text-amber-400 font-semibold">18+ only.</strong> Teen Patti Master Hub provides information and guides about card games. Real-cash gaming may be restricted or illegal in your state — please check your local laws. Play for entertainment only and never to make money or recover losses.
-            </p>
-
-            <div className="flex flex-col sm:flex-row justify-between items-center pt-2 border-t border-stone-900 text-[11px] text-stone-500 gap-2">
-              <p>© {new Date().getFullYear()} Teen Patti Master Hub. All rights reserved.</p>
-              <p className="text-stone-600">Built with Next.js • 100% Verified RNG & Education Directory</p>
-            </div>
-          </div>
-        </div>
-
-      </footer>
+      </section>
 
       {/* 7. Floating Bottom-Right Download Widget */}
       <div className="fixed bottom-5 right-5 flex flex-col items-center gap-3 z-50">
