@@ -1054,6 +1054,25 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Quick Internal Links: Crawl Booster for All 30 Articles */}
+      <section className="max-w-6xl mx-auto px-6 py-12 border-t border-slate-800">
+        <h3 className="text-xl font-bold text-amber-400 mb-6 flex items-center gap-2">
+          📑 All Guides, Game Reviews & Updates
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm text-gray-300">
+          {seoBlogPosts.map((post) => (
+            <Link 
+              key={post.id} 
+              href={`/blog/${post.slug}`} 
+              className="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800/80 hover:border-amber-400/60 hover:text-amber-300 transition-all flex items-center gap-2 group"
+            >
+              <span className="text-xs text-amber-400/80 group-hover:translate-x-1 transition-transform">→</span>
+              <span className="line-clamp-1">{post.title}</span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
       {/* 7. Floating Bottom-Right Download Widget */}
       <div className="fixed bottom-5 right-5 flex flex-col items-center gap-3 z-50">
         <a 
