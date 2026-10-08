@@ -91,7 +91,7 @@ const gamesData: Record<string, {
     category: "Teen Patti Gold",
     rating: "4.8",
     size: "38 MB",
-    icon: "/Teen Patti Gold.webp",
+    icon: "/teen-patti-gold.webp",
     description: "Play live on private tables with friends featuring a classic premium gold theme.",
     features: ["Private Tables", "Classic Gold Theme", "Smooth Performance", "Free Daily Chips"],
     downloadUrl: MAIN_DOWNLOAD_URL
@@ -101,7 +101,7 @@ const gamesData: Record<string, {
     category: "Rummy",
     rating: "4.7",
     size: "52 MB",
-    icon: "/rummy cirkal.webp",
+    icon: "/rummy-cirkal.webp",
     description: "Compete with millions of real players in 13-card rummy and win mega daily tournaments with certified fair play.",
     features: ["13-Card Formats", "Mega Tournaments", "Fair Play Certified", "Quick Matching"],
     downloadUrl: MAIN_DOWNLOAD_URL
@@ -111,7 +111,7 @@ const gamesData: Record<string, {
     category: "Junglee Rummy",
     rating: "4.6",
     size: "41 MB",
-    icon: "/JUNGLEE RUMMY.webp",
+    icon: "/junglee-rummy.webp",
     description: "The most trusted and secure platform for 100% legal cash rummy gameplay.",
     features: ["Instant Cash Games", "Zero Fraud System", "Legal & Certified"],
     downloadUrl: MAIN_DOWNLOAD_URL
@@ -121,7 +121,7 @@ const gamesData: Record<string, {
     category: "Poker",
     rating: "4.8",
     size: "60 MB",
-    icon: "/POKER STARS.webp",
+    icon: "/poker-stars.webp",
     description: "World-class poker experience featuring Texas Hold’em, high-stakes tournaments, and global certified security.",
     features: ["Texas Hold'em", "Global Standards", "High Roller Tables", "Fast UPI Payouts"],
     downloadUrl: MAIN_DOWNLOAD_URL
@@ -131,7 +131,7 @@ const gamesData: Record<string, {
     category: "WINZO Game",
     rating: "4.5",
     size: "95 MB",
-    icon: "/WINZO Game.webp",
+    icon: "/winzo-game.webp",
     description: "Over 100+ popular casual games like Ludo, Carrom, Cricket, and card games in one app.",
     features: ["100+ Games in 1 App", "Ludo & Carrom", "Micro Contests"],
     downloadUrl: MAIN_DOWNLOAD_URL
@@ -151,7 +151,7 @@ const gamesData: Record<string, {
     category: "YONO Game",
     rating: "4.7",
     size: "58 MB",
-    icon: "/YONO GAME.webp",
+    icon: "/yono-game.webp",
     description: "Exciting casino slots, lucky roulette, and jackpot games with instant signup bonuses.",
     features: ["Jackpot Slots", "Instant Bonus", "Fast Cashout"],
     downloadUrl: MAIN_DOWNLOAD_URL
@@ -161,7 +161,7 @@ const gamesData: Record<string, {
     category: "Teen Patti Old",
     rating: "4.6",
     size: "48 MB",
-    icon: "/Teen Patti Master Old Version.webp",
+    icon: "/teen-patti-master-old-version.webp",
     description: "Experience real-time multiplayer tables and play live 3 Patti with genuine dealers.",
     features: ["Lightweight App", "Classic Feel", "Live Dealers"],
     downloadUrl: MAIN_DOWNLOAD_URL

@@ -948,11 +948,11 @@ export default function TeenPattiGoldOldVsNewPage() {
               </Link>
             </div>
 
-            {/* Card 2: /Teen Patti Gold.webp */}
+            {/* Card 2: /teen-patti-gold.webp */}
             <div className="bg-[#111d33] border border-slate-800 rounded-xl p-3 sm:p-4 flex flex-col items-center text-center space-y-2 hover:border-sky-500/50 transition shadow-lg">
               <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden shadow-md bg-black/40">
                 <Image
-                  src="/Teen Patti Gold.webp"
+                  src="/teen-patti-gold.webp"
                   alt="Teen Patti Gold"
                   fill
                   sizes="80px"
@@ -965,11 +965,11 @@ export default function TeenPattiGoldOldVsNewPage() {
               </Link>
             </div>
 
-            {/* Card 3: /YONO GAME.webp */}
+            {/* Card 3: /yono-game.webp */}
             <div className="bg-[#111d33] border border-slate-800 rounded-xl p-3 sm:p-4 flex flex-col items-center text-center space-y-2 hover:border-sky-500/50 transition shadow-lg">
               <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden shadow-md bg-black/40">
                 <Image
-                  src="/YONO GAME.webp"
+                  src="/yono-game.webp"
                   alt="Yono Game"
                   fill
                   sizes="80px"
@@ -982,11 +982,11 @@ export default function TeenPattiGoldOldVsNewPage() {
               </Link>
             </div>
 
-            {/* Card 4: /rummy cirkal.webp */}
+            {/* Card 4: /rummy-cirkal.webp */}
             <div className="bg-[#111d33] border border-slate-800 rounded-xl p-3 sm:p-4 flex flex-col items-center text-center space-y-2 hover:border-sky-500/50 transition shadow-lg">
               <div className="relative w-16 h-16 rounded-xl overflow-hidden shadow-md bg-black/40">
                 <Image
-                  src="/rummy cirkal.webp"
+                  src="/rummy-cirkal.webp"
                   alt="Rummy Circle"
                   fill
                   sizes="80px"

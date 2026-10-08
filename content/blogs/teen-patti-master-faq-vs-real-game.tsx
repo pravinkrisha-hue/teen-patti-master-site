@@ -964,7 +964,7 @@ Phase 3: Position Play  ──> Tight early position; late position controls the
             <div className="bg-[#111d33] border border-slate-800 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex flex-col items-center text-center space-y-2 sm:space-y-3 hover:border-sky-500/50 transition">
               <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden shadow-md bg-black/40">
                 <Image
-                  src="/Teen Patti Gold.webp"
+                  src="/teen-patti-gold.webp"
                   alt="Teen Patti Gold"
                   fill
                   sizes="64px"

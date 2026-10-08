@@ -129,7 +129,7 @@ export default function Footer() {
           className="relative hover:scale-105 transition-transform duration-300 cursor-pointer hidden sm:block"
         >
           <Image 
-            src="/Teen Patti Master Features.webp" 
+            src="/teen-patti-master-features.webp" 
             alt="Teen Patti Features" 
             width={180} 
             height={280} 

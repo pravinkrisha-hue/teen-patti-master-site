@@ -32,7 +32,7 @@ export default function Home() {
       category: 'Teen Patti Gold',
       rating: '4.8',
       size: '38 MB',
-      icon: '/Teen Patti Gold.webp',
+      icon: '/teen-patti-gold.webp',
       description: 'Play live on private tables with friends featuring a classic premium gold theme.'
     },
     {
@@ -42,7 +42,7 @@ export default function Home() {
       category: 'Rummy',
       rating: '4.7',
       size: '52 MB',
-      icon: '/rummy cirkal.webp',
+      icon: '/rummy-cirkal.webp',
       description: 'Compete with millions of real players in 13-card rummy and win mega daily tournaments.'
     },
     {
@@ -52,7 +52,7 @@ export default function Home() {
       category: 'Junglee Rummy',
       rating: '4.6',
       size: '41 MB',
-      icon: '/JUNGLEE RUMMY.webp',
+      icon: '/junglee-rummy.webp',
       description: 'The most trusted and secure platform for 100% legal cash rummy gameplay.'
     },
     {
@@ -62,7 +62,7 @@ export default function Home() {
       category: 'Poker',
       rating: '4.8',
       size: '60 MB',
-      icon: '/POKER STARS.webp',
+      icon: '/poker-stars.webp',
       description: 'World-class poker experience featuring Texas Hold’em and high-stakes tournaments.'
     },
     {
@@ -72,7 +72,7 @@ export default function Home() {
       category: 'WINZO Game',
       rating: '4.5',
       size: '95 MB',
-      icon: '/WINZO Game.webp',
+      icon: '/winzo-game.webp',
       description: 'Over 100+ popular casual games like Ludo, Carrom, Cricket, and card games in one app.'
     },
     {
@@ -92,7 +92,7 @@ export default function Home() {
       category: 'YONO Game',
       rating: '4.7',
       size: '58 MB',
-      icon: '/YONO GAME.webp',
+      icon: '/yono-game.webp',
       description: 'Exciting casino slots, lucky roulette, and jackpot games with instant signup bonuses.'
     },
     {
@@ -102,7 +102,7 @@ export default function Home() {
       category: 'Teen Patti Old',
       rating: '4.6',
       size: '48 MB',
-      icon: '/Teen Patti Master Old Version.webp',
+      icon: '/teen-patti-master-old-version.webp',
       description: 'Experience real-time multiplayer tables and play live 3 Patti with genuine dealers.'
     }
   ];
@@ -1082,7 +1082,7 @@ export default function Home() {
           className="relative hover:scale-105 transition-transform duration-300 cursor-pointer hidden sm:block"
         >
           <Image 
-            src="/Teen Patti Master Features.webp" 
+            src="/teen-patti-master-features.webp" 
             alt="Teen Patti Features" 
             width={180} 
             height={280} 

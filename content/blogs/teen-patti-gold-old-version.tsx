@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "Teen Patti Gaming Portal",
     images: [
       {
-        url: "/Teen Patti Gold.webp",
+        url: "/teen-patti-gold.webp",
         width: 800,
         height: 800,
         alt: "Teen Patti Gold Old Version vs Teen Patti Master",
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     title: "Teen Patti Gold Old Version APK Download vs Teen Patti Master",
     description:
       "Download Teen Patti Gold old version APK safely. 2026 Compare classic UI, Low RAM stability and Transition to Teen Patti Master for real cash rewards",
-    images: ["/Teen Patti Gold.webp"],
+    images: ["/teen-patti-gold.webp"],
   },
   robots: {
     index: true,
@@ -191,12 +191,12 @@ export default function TeenPattiGoldOldVersionPage() {
             </div>
           </div>
 
-          {/* Right Download CTA Widget (Header image: /Teen Patti Gold.webp) */}
+          {/* Right Download CTA Widget (Header image: /teen-patti-gold.webp) */}
           <aside className="w-full md:w-64 flex flex-col items-center shrink-0">
             <div className="w-full max-w-[220px] md:max-w-none bg-[#111d33] border-2 border-amber-500/80 rounded-2xl p-2 shadow-[0_0_25px_rgba(245,158,11,0.25)] flex items-center justify-center">
               <div className="relative w-full aspect-square rounded-xl overflow-hidden bg-black/40 flex items-center justify-center">
                 <Image
-                  src="/Teen Patti Gold.webp"
+                  src="/teen-patti-gold.webp"
                   alt="Teen Patti Gold Old Version"
                   fill
                   sizes="(max-width: 768px) 220px, 256px"
@@ -692,11 +692,11 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
               </Link>
             </div>
 
-            {/* Card 3: /YONO GAME.webp */}
+            {/* Card 3: /yono-game.webp */}
             <div className="bg-[#111d33] border border-slate-800 rounded-xl p-3 sm:p-4 flex flex-col items-center text-center space-y-2 hover:border-sky-500/50 transition shadow-lg">
               <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden shadow-md bg-black/40">
                 <Image
-                  src="/YONO GAME.webp"
+                  src="/yono-game.webp"
                   alt="Yono Game"
                   fill
                   sizes="80px"
@@ -709,11 +709,11 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
               </Link>
             </div>
 
-            {/* Card 4: /rummy cirkal.webp */}
+            {/* Card 4: /rummy-cirkal.webp */}
             <div className="bg-[#111d33] border border-slate-800 rounded-xl p-3 sm:p-4 flex flex-col items-center text-center space-y-2 hover:border-sky-500/50 transition shadow-lg">
               <div className="relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden shadow-md bg-black/40">
                 <Image
-                  src="/rummy cirkal.webp"
+                  src="/rummy-cirkal.webp"
                   alt="Rummy Circle"
                   fill
                   sizes="80px"

@@ -130,19 +130,19 @@ export default function TeenPattiMasterVsYonoGame() {
     {
       title: "Teen Patti Gold",
       slug: "https://www.techtonis.com/games/teen-patti-gold",
-      image: "/Teen Patti Gold.webp",
+      image: "/teen-patti-gold.webp",
       alt: "Teen Patti Gold Icon",
     },
     {
       title: "Yono Game",
       slug: "https://www.techtonis.com/games/yono-games",
-      image: "/YONO GAME.webp",
+      image: "/yono-game.webp",
       alt: "Yono Game Icon",
     },
     {
       title: "Rummy Wealth",
       slug: "https://www.techtonis.com/games/rummy-circle",
-      image: "/rummy cirkal.webp",
+      image: "/rummy-cirkal.webp",
       alt: "Rummy Wealth Icon",
     },
   ];
