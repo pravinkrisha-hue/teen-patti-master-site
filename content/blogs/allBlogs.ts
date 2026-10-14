@@ -1,4 +1,4 @@
-// 1. All Blog Imports (Including Pro)
+// 1. All Blog Imports (30 Unique Articles)
 import TeenPattiAndroid from "./teen-patti-anroid";
 import TeenPattiAppDownloadFree from "./teen-patti-app-download";
 import TeenPattiMasterExplained from "./teen-patti-master-explained";
@@ -30,14 +30,12 @@ import TeenPattiMasterDownload from "./teen-patti-master-download";
 import TeenPattiMasterProSecret from "./teen-patti-master-pro-secret";
 import TeenPattiMasterFaqVsRealGame from "./teen-patti-master-faq-vs-real-game";
 
-
-// 2. Slug to Component Mapping
+// 2. Clean 1-to-1 Slug Mapping (Exactly 30 Articles)
 export const myArticles: Record<string, any> = {
   "teen-patti-android-game": TeenPattiAndroid,
   "teen-patti-master-app-download-free": TeenPattiAppDownloadFree,
   "teen-patti-master-explained": TeenPattiMasterExplained,
   "teen-patti-master-faq": TeenPattiMasterFaq,
-  "teen-patti-Master-faq": TeenPattiMasterFaq,
   "teen-patti-gold-new-version": TeenPattiGoldNewVersion,
   "teen-patti-gold-old-version": TeenPattiGoldOldVersion,
   "teen-patti-gold-new-vs-old": TeenPattiGoldNewVsOld,
@@ -46,10 +44,7 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-vs-gold": TeenPattiMasterVsGold,
   "teen-patti-master-old-vs-new": TeenPattiOldVsNew,
   "teen-patti-master-real-cash-game": TeenPattiRealCash,
-  "teen-patti-real-cash": TeenPattiRealCash,
-  "teen-patti-master-real-cash": TeenPattiRealCash,
   "teen-patti-master-vungo": TeenPattiMasterVungo,
-  "teen-patti-vungo-download-safe-bonus": TeenPattiMasterVungo,
   "teen-patti-master-vs-rummy": TeenPattiMasterVsRummy,
   "teen-patti-master-vs-yono-game": TeenPattiMasterVsYonoGame,
   "teen-patti-master-welcome-bonus": TeenPattiMasterWelcomeBonus,
@@ -59,20 +54,12 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-apk-download": TeenPattiApkDownload,
   "teen-patti-master-51-bonus": TeenPattiMaster51Bonus,
   "teen-patti-master-offline": TeenPattiOffline,
-  "teen-patti-offline": TeenPattiOffline,
-  "teen-patti-customer-care": TeenPattiCustomerCare,
   "teen-patti-master-customer-care": TeenPattiCustomerCare,
   "teen-patti-master-casino": TeenPattimastercasinogame,
-  "teen-patti-master-casino-game": TeenPattimastercasinogame,
   "teen-patti-master-new-version": TeenPattiMasterNewVersion,
-  "teen-patti-new-version": TeenPattiMasterNewVersion,
-  "teen-patti-master-online-tabal": TeenPattiMasterOnlineTabal,
   "teen-patti-master-online": TeenPattiMasterOnlineTabal,
   "teen-patti-master-game": TeenPattiMasterGame,
-  "teen-patti-master-download": TeenPattiMasterDownload,
   "teen-patti-master-download-guide": TeenPattiMasterDownload,
-  "teen-patti-master-pro-secret": TeenPattiMasterProSecret,
   "teen-patti-master-secrets": TeenPattiMasterProSecret,
-    "teen-patti-master-faq-vs-real-game": TeenPattiMasterFaqVsRealGame,
-
+  "teen-patti-master-faq-vs-real-game": TeenPattiMasterFaqVsRealGame,
 };
