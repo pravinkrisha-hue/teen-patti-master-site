@@ -14,6 +14,40 @@ function formatTitleFromSlug(slug: string): string {
     .join(" ");
 }
 
+// Custom Unique Meta Descriptions mapping (har ek page mate alag description)
+const customDescriptions: Record<string, string> = {
+  "teen-patti-master-apk-download": "Download the latest official Teen Patti Master APK version. Get 100% clean direct link, 45MB lightweight package, and install on Android.",
+  "teen-patti-master-51-bonus": "Claim ₹51 instant welcome sign-up bonus on Teen Patti Master. Follow simple steps to bind mobile number with OTP and get free chips.",
+  "teen-patti-master-offline": "Learn how to play Teen Patti Master offline with AI practice bots without mobile internet connection. Complete offline mode tutorial.",
+  "teen-patti-master-2026": "Explore Teen Patti Master 2026 Edition: latest UI updates, enhanced RNG card distribution, lightning-fast gameplay, and UPI withdrawals.",
+  "teen-patti-master-2027": "Upcoming Teen Patti Master 2027 features: advanced anti-cheat AI systems, next-gen 3D tables, private lobby upgrades, and tournament rewards.",
+  "teen-patti-master-real-cash-game": "Essential rules, bankroll safety, and smart strategies for playing Teen Patti Master real cash games responsibly.",
+  "teen-patti-master-app-download-free": "Step-by-step instructions to safely install the official Teen Patti Master app for free and receive immediate sign-up chips.",
+  "teen-patti-master-customer-care": "Get official Teen Patti Master customer care contacts, 24/7 in-app support chat, WhatsApp helpline, and payment ticket resolution.",
+  "teen-patti-master-casino": "Explore online casino games in Teen Patti Master: Dragon vs Tiger, Roulette, Car Roulette, 7 Up Down, and 3-card poker tables.",
+  "teen-patti-master-new-version": "Download the newest Teen Patti Master version with improved table latency, zero lag, updated security, and 60-second UPI payouts.",
+  "teen-patti-master-online": "Complete guide to entering live multiplayer tables on Teen Patti Master, picking the right boot value, and playing against real opponents.",
+  "teen-patti-master-game": "Comprehensive overview of Teen Patti Master card rules, boot wagering rounds, blind moves, chaal limits, and show showdowns.",
+  "teen-patti-master-download-guide": "Quick setup guide to download Teen Patti Master APK, enable Unknown Sources safely on Android, and activate your first wallet balance.",
+  "teen-patti-master-old-vs-new": "Detailed comparison between old and new versions of Teen Patti Master: battery usage, APK file size, graphics, and table stability.",
+  "teen-patti-master-vs-gold": "Teen Patti Master vs Teen Patti Gold: comparison of bonus structures, VIP table perks, cashout reliability, and user interfaces.",
+  "teen-patti-android-game": "Best Android settings to optimize Teen Patti Master for zero lag, low battery consumption, and crash-free card sessions.",
+  "teen-patti-master-secrets": "Master winning strategies in Teen Patti Master: blind betting tactics, early hand folding rules, bankroll management, and bluffing timing.",
+  "teen-patti-master-loss-recover": "Practical, disciplined loss recovery guide for Teen Patti Master: control tilt playing, set daily bankroll limits, and protect chips.",
+  "teen-patti-master-faq": "Frequently asked questions about Teen Patti Master: cashout limits, RNG certification, security alerts, and device compatibility.",
+  "teen-patti-master-welcome-bonus": "Guide to claiming your Teen Patti Master welcome bonus, daily login spin wheel chips, and promotional cashback codes.",
+  "teen-patti-master-explained": "In-depth breakdown of Teen Patti Master features, card rankings, VIP tiers, referral rewards, and withdrawal procedures.",
+  "teen-patti-vungo": "Objective review of Teen Patti Vungo: download safety, APK authenticity check, bonus terms, and payout validation.",
+  "teen-patti-master-yono-game-apk": "Explore mini-games, slot features, arcade jackpots, and card lobbies inside the Teen Patti Master Yono ecosystem.",
+  "teen-patti-master-vs-yono-game": "Head-to-head showdown between Teen Patti Master and Yono Games: cashout speeds, user rewards, table varieties, and platform safety.",
+  "teen-patti-master-vs-rummy": "Detailed analytical comparison between Indian Rummy and Teen Patti Master: card rules, skill requirements, and cashout systems.",
+  "teen-patti-master-king": "Tactical advice for pro tables: how tournament players read opponents, adjust boot sizing, and dominate Teen Patti Master King games.",
+  "teen-patti-gold-old-version": "Download and guide for Teen Patti Gold old version: lightweight setup for legacy Android smartphones with minimal storage.",
+  "teen-patti-gold-new-version": "Discover the latest features in Teen Patti Gold new release: private room options, festive contests, and updated animations.",
+  "teen-patti-gold-new-vs-old": "Technical test and benchmarks: Teen Patti Gold old vs new build performance, frame rates, and memory footprints.",
+  "teen-patti-master-faq-vs-real-game": "Top questions answered on game safety, rules, fair play RNG verification, and UPI payment reconciliation for Teen Patti Master.",
+};
+
 // 1. Dynamic SEO Metadata Function
 export async function generateMetadata({
   params,
@@ -27,14 +61,27 @@ export async function generateMetadata({
   if (!ArticleEntry) {
     return {
       title: "Article Not Found - Teen Patti Master",
+      description: "The requested guide or article could not be found.",
     };
   }
 
   const pageTitle = formatTitleFromSlug(slug);
 
+  // 1. Check custom unique description, 2. check property inside article, 3. clean fallback
+  const uniqueDescription =
+    customDescriptions[slug] ||
+    (typeof ArticleEntry === "object" && ArticleEntry !== null && "description" in ArticleEntry
+      ? (ArticleEntry as { description?: string }).description
+      : undefined) ||
+    `Detailed guide and comprehensive strategies for ${pageTitle} on Teen Patti Master.`;
+
   return {
     title: `${pageTitle} - Teen Patti Master`,
-    description: `Read all about ${pageTitle}. Download the official Teen Patti Master APK, get tips, claim bonus, and play online safely.`,
+    description: uniqueDescription,
+    openGraph: {
+      title: `${pageTitle} - Teen Patti Master`,
+      description: uniqueDescription,
+    },
   };
 }
 
