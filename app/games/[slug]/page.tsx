@@ -511,7 +511,7 @@ export default async function GameDetailPage({
               </p>
               <p>
                 The platform caters to both social players who prefer recreational practice tables and enthusiasts looking for real-money skill challenges. For more details on the application file architecture, check our{' '}
-                <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 underline font-semibold hover:text-amber-300">
+                <Link href="/" className="text-amber-400 underline font-semibold hover:text-amber-300">
                   Teen Patti Master APK Download Guide
                 </Link>.
               </p>

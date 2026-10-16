@@ -148,7 +148,7 @@ export default function TeenPattiAppDownload() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-indigo-200 underline">
+            <Link href="/" className="hover:text-indigo-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -210,7 +210,7 @@ export default function TeenPattiAppDownload() {
                 Teen Patti Master Home Portal
               </Link>{" "}
               no upyog karo jethi malware ane duplicate clones thi surakshit rahi shakay. Direct APK access mate tame amari{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-indigo-400 underline font-semibold hover:text-indigo-200">
+              <Link href="/" className="text-indigo-400 underline font-semibold hover:text-indigo-200">
                 Teen Patti Master APK Download Guide
               </Link>{" "}
               pan joi shako chho.
@@ -323,7 +323,7 @@ export default function TeenPattiAppDownload() {
           <ol className="list-decimal list-inside space-y-3 text-slate-300">
             <li>
               <strong className="text-white">Official Link Par Jao:</strong> Sauthi pehla authentic source mate amari{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-indigo-400 hover:underline font-bold">
+              <Link href="/" className="text-indigo-400 hover:underline font-bold">
                 Teen Patti Master APK Download Guide
               </Link>{" "}
               refer karo.

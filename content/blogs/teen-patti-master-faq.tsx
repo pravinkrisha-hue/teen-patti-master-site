@@ -168,7 +168,7 @@ export default function TeenPattiFaq() {
           <nav aria-label="Breadcrumb" className="text-xs text-amber-400/90 flex items-center gap-2">
             <Link href="/" className="hover:text-amber-200 underline">Home</Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">Guides</Link>
+            <Link href="/" className="hover:text-amber-200 underline">Guides</Link>
             <span>/</span>
             <span className="text-slate-400">Master FAQ Directory</span>
           </nav>
@@ -323,7 +323,7 @@ export default function TeenPattiFaq() {
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
                 Google Play Store restricts real-money skill and wagering apps in India. Developers distribute official packages directly through secure external portals. Learn more in our{" "}
-                <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 underline hover:text-amber-300">
+                <Link href="/" className="text-amber-400 underline hover:text-amber-300">
                   Teen Patti Master APK Download Guide
                 </Link>.
               </div>

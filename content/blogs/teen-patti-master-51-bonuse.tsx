@@ -118,7 +118,7 @@ export default function BonusClaimArticle() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">
+            <Link href="/" className="hover:text-amber-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -157,7 +157,7 @@ export default function BonusClaimArticle() {
           <div className="bg-[#0b0602]/90 border border-amber-500/30 p-4 sm:p-5 rounded-2xl mt-4">
             <p className="text-amber-100 text-xs sm:text-sm">
               ✨ <strong>Quick Take:</strong> In India, online card games have evolved into an intellectual, digital arena. By grabbing the authentic{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 font-bold underline hover:text-amber-300">
+              <Link href="/" className="text-amber-400 font-bold underline hover:text-amber-300">
                 Teen Patti Master APK download
               </Link>
               , new players receive a guaranteed welcome bonus of ₹51 upon mobile binding to play real 3-card multiplayer tables instantly without any advance deposit.
@@ -239,7 +239,7 @@ export default function BonusClaimArticle() {
           <ol className="list-decimal list-inside space-y-3 text-slate-300">
             <li>
               <strong className="text-white">Get the Official App:</strong> Ensure you install the official package via our direct{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 font-bold underline hover:text-amber-300">
+              <Link href="/" className="text-amber-400 font-bold underline hover:text-amber-300">
                 Teen Patti Master APK download guide
               </Link>{" "}
               to avoid counterfeit or malware-ridden clones.
@@ -375,7 +375,7 @@ export default function BonusClaimArticle() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
             <Link
-              href="/blog/teen-patti-master-apk-download"
+              href="/"
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">

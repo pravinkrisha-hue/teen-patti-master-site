@@ -171,7 +171,7 @@ export default function TeenPattiMasterWelcomeBonus() {
                 <div>
                   <h4 className="font-bold text-[#0b2416]">Step 1: Download the Authentic App Build</h4>
                   <p className="text-xs sm:text-sm text-[#4a584e] mt-1">
-                    Always download the clean APK package from trusted sources. Check our complete <Link href="/blog/teen-patti-master-apk-download" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Master APK Download Guide</Link> to avoid modified third-party files that strip bonus tracking cookies.
+                    Always download the clean APK package from trusted sources. Check our complete <Link href="/" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Master APK Download Guide</Link> to avoid modified third-party files that strip bonus tracking cookies.
                   </p>
                 </div>
                 <div>

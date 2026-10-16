@@ -26,11 +26,11 @@ function relatedSlugs(slug: string): string[] {
 
 // Human-readable SEO titles (same headings as the home page guide cards)
 const customTitles: Record<string, string> = {
-  "teen-patti-master-apk-download": "Teen Patti Master APK: File Size, Version & Safety Check",
+  "teen-patti-master-apk-download": "Teen Patti Master APK Safe or Fake? How to Check",
   "teen-patti-master-51-bonus": "Teen Patti Master ₹51 Bonus Claim Guide",
   "teen-patti-master-offline": "Teen Patti Master Offline: Play Without Internet",
   "teen-patti-master-2026": "Teen Patti Master 2026 Edition",
-  "teen-patti-master-2027": "Teen Patti Master 2027 Roadmap",
+  "teen-patti-master-2027": "Teen Patti Master Update Kaise Kare? (2027 हिंदी गाइड)",
   "teen-patti-master-real-cash-game": "Teen Patti Master Real Cash Game",
   "teen-patti-master-app-download-free": "Teen Patti Master App Free Install: Android Steps",
   "teen-patti-master-customer-care": "Teen Patti Master Customer Care",
@@ -38,7 +38,7 @@ const customTitles: Record<string, string> = {
   "teen-patti-master-new-version": "Teen Patti Master New Version: Latest Update",
   "teen-patti-master-online": "Teen Patti Master Online Table Play",
   "teen-patti-master-game": "How to Play Teen Patti Master: Rules, Blind & Chaal",
-  "teen-patti-master-download-guide": "Teen Patti Master Download Guide: Unknown Sources Fix",
+  "teen-patti-master-download-guide": "Teen Patti Master App Not Installed? Install Fixes",
   "teen-patti-master-old-vs-new": "Teen Patti Master Old vs New Version",
   "teen-patti-master-vs-gold": "Teen Patti Master vs Teen Patti Gold",
   "teen-patti-android-game": "Teen Patti Android Game Setup",
@@ -62,11 +62,11 @@ const customTitles: Record<string, string> = {
 // Custom Unique Meta Descriptions mapping (har ek page mate alag description)
 const customDescriptions: Record<string, string> = {
   "teen-patti-master-kaise-khele": "Teen Patti Master kaise khele? आसान हिंदी में boot, Blind-Chaal, Side Show, Show, पत्तों की रैंकिंग और नए खिलाड़ियों के लिए टिप्स।",
-  "teen-patti-master-apk-download": "Download the latest official Teen Patti Master APK version. Get 100% clean direct link, 45MB lightweight package, and install on Android.",
+  "teen-patti-master-apk-download": "Is Teen Patti Master APK safe or fake? 6 checks before you install, red flags of fake apps, and how to protect your UPI money.",
   "teen-patti-master-51-bonus": "Claim ₹51 instant welcome sign-up bonus on Teen Patti Master. Follow simple steps to bind mobile number with OTP and get free chips.",
   "teen-patti-master-offline": "Learn how to play Teen Patti Master offline with AI practice bots without mobile internet connection. Complete offline mode tutorial.",
   "teen-patti-master-2026": "Explore Teen Patti Master 2026 Edition: latest UI updates, enhanced RNG card distribution, lightning-fast gameplay, and UPI withdrawals.",
-  "teen-patti-master-2027": "Upcoming Teen Patti Master 2027 features: advanced anti-cheat AI systems, next-gen 3D tables, private lobby upgrades, and tournament rewards.",
+  "teen-patti-master-2027": "Teen Patti Master update kaise kare? पुराना वर्ज़न बिना बैलेंस खोए अपडेट करने के 3 तरीके, 2027 फेक APK से बचाव और अपडेट समस्याओं का हल।",
   "teen-patti-master-real-cash-game": "Essential rules, bankroll safety, and smart strategies for playing Teen Patti Master real cash games responsibly.",
   "teen-patti-master-app-download-free": "Step-by-step instructions to safely install the official Teen Patti Master app for free and receive immediate sign-up chips.",
   "teen-patti-master-customer-care": "Get official Teen Patti Master customer care contacts, 24/7 in-app support chat, WhatsApp helpline, and payment ticket resolution.",
@@ -74,7 +74,7 @@ const customDescriptions: Record<string, string> = {
   "teen-patti-master-new-version": "Download the newest Teen Patti Master version with improved table latency, zero lag, updated security, and 60-second UPI payouts.",
   "teen-patti-master-online": "Complete guide to entering live multiplayer tables on Teen Patti Master, picking the right boot value, and playing against real opponents.",
   "teen-patti-master-game": "Comprehensive overview of Teen Patti Master card rules, boot wagering rounds, blind moves, chaal limits, and show showdowns.",
-  "teen-patti-master-download-guide": "Quick setup guide to download Teen Patti Master APK, enable Unknown Sources safely on Android, and activate your first wallet balance.",
+  "teen-patti-master-download-guide": "Teen Patti Master app not installed? Fix every install problem: package invalid, parse error, unknown apps blocked, Play Protect and storage.",
   "teen-patti-master-old-vs-new": "Detailed comparison between old and new versions of Teen Patti Master: battery usage, APK file size, graphics, and table stability.",
   "teen-patti-master-vs-gold": "Teen Patti Master vs Teen Patti Gold: comparison of bonus structures, VIP table perks, cashout reliability, and user interfaces.",
   "teen-patti-android-game": "Best Android settings to optimize Teen Patti Master for zero lag, low battery consumption, and crash-free card sessions.",

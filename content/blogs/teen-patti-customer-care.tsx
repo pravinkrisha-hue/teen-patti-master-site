@@ -137,7 +137,7 @@ export default function TeenPattiCustomerCare() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-fuchsia-200 underline">
+            <Link href="/" className="hover:text-fuchsia-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -193,7 +193,7 @@ export default function TeenPattiCustomerCare() {
                     Teen Patti Master Home Portal
                   </Link>{" "}
                   na official in-app ticket system mathi j melavvo. Genuine client update mate tame amari{" "}
-                  <Link href="/blog/teen-patti-master-apk-download" className="text-fuchsia-400 underline font-semibold hover:text-fuchsia-200">
+                  <Link href="/" className="text-fuchsia-400 underline font-semibold hover:text-fuchsia-200">
                     Teen Patti Master APK Download
                   </Link>{" "}
                   page pan use kari shako chho.
@@ -418,7 +418,7 @@ export default function TeenPattiCustomerCare() {
                   <td className="p-4 font-bold text-rose-400">Original APK Source</td>
                   <td className="p-4 text-slate-300 leading-relaxed">
                     Phishing clones thi bachi ne genuine app install karva mate{" "}
-                    <Link href="/blog/teen-patti-master-apk-download" className="text-fuchsia-400 underline font-semibold">
+                    <Link href="/" className="text-fuchsia-400 underline font-semibold">
                       Teen Patti Master APK Download Page
                     </Link>{" "}
                     no j upyog karo.
@@ -436,7 +436,7 @@ export default function TeenPattiCustomerCare() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
             <Link
-              href="/blog/teen-patti-master-apk-download"
+              href="/"
               className="p-4 rounded-2xl bg-[#0f071c] border border-fuchsia-900/40 hover:border-fuchsia-500/60 transition group block"
             >
               <h3 className="font-bold text-fuchsia-300 text-sm group-hover:text-fuchsia-200 flex items-center gap-1.5">

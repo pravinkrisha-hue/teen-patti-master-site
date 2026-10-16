@@ -161,7 +161,7 @@ export default function TeenPattiMasterProSecret() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">
+            <Link href="/" className="hover:text-amber-200 underline">
               Guides
             </Link>
             <span>/</span>

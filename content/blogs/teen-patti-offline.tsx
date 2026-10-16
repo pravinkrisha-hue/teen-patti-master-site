@@ -136,7 +136,7 @@ export default function OfflineModeArticle() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">
+            <Link href="/" className="hover:text-amber-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -250,7 +250,7 @@ export default function OfflineModeArticle() {
           <ol className="list-decimal list-inside space-y-3 text-slate-300">
             <li>
               <strong className="text-white">Launch the Official App:</strong> Ensure you have the authentic build from our{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 font-bold underline hover:text-amber-300">
+              <Link href="/" className="text-amber-400 font-bold underline hover:text-amber-300">
                 Teen Patti Master APK download page
               </Link>{" "}
               which includes the embedded AI training module.
@@ -322,7 +322,7 @@ export default function OfflineModeArticle() {
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
             <Link
-              href="/blog/teen-patti-master-apk-download"
+              href="/"
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">

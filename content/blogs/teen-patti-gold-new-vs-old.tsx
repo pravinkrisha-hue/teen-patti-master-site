@@ -252,7 +252,7 @@ export default function TeenPattiGoldOldVsNewPage() {
           </p>
           <p>
             But as mobile operating systems and hardware advanced, the refresh rate of screens increased from 60 Hz to 120 Hz and network infrastructure shifted from flaky 3G to ubiquitous 5G, the legacy applications of yesteryear started to feel antiquated. To match up with the modern requirements and combat the rising rivalry from performance-based platforms like{" "}
-            <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 underline hover:text-sky-300">
+            <Link href="/" className="text-sky-400 underline hover:text-sky-300">
               Teen Patti Master
             </Link>
             , the developers have brought major updates to the Teen Patti Gold ecosystem.
@@ -523,7 +523,7 @@ export default function TeenPattiGoldOldVsNewPage() {
             <strong>Battery Consumption:</strong> The 60 FPS transitions, animated chip movements, and large collection of audio libraries in the new release use about 2x the battery percentage of the original legacy build.
           </p>
           <p>
-            <strong>The Alternative:</strong> This is where the <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 underline hover:text-sky-300 font-semibold">Teen Patti Master APK</Link> offers an ideal happy medium. It offers a modern, high-contrast dark look, while keeping a lightweight data pipeline that respects device thermals and battery life.
+            <strong>The Alternative:</strong> This is where the <Link href="/" className="text-sky-400 underline hover:text-sky-300 font-semibold">Teen Patti Master APK</Link> offers an ideal happy medium. It offers a modern, high-contrast dark look, while keeping a lightweight data pipeline that respects device thermals and battery life.
           </p>
         </section>
 
@@ -920,7 +920,7 @@ export default function TeenPattiGoldOldVsNewPage() {
               <strong>Upgrade to the New Version (2026) if:</strong> You have a modern smartphone, care about high-definition visual polish, demand certified server-side RNG security, love exciting card variants like Muflis and AK47, and want fast direct UPI/IMPS cashouts.
             </li>
             <li>
-              <strong>Choose Teen Patti Master if:</strong> You want the best of both worlds. <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 underline font-bold hover:text-sky-300">Teen Patti Master</Link> offers a VIP cardroom look and feel, with a high contrast, low latency and data usage optimised experience, strong player traffic and fast withdrawals – the fastest in the industry.
+              <strong>Choose Teen Patti Master if:</strong> You want the best of both worlds. <Link href="/" className="text-sky-400 underline font-bold hover:text-sky-300">Teen Patti Master</Link> offers a VIP cardroom look and feel, with a high contrast, low latency and data usage optimised experience, strong player traffic and fast withdrawals – the fastest in the industry.
             </li>
           </ul>
         </section>
@@ -943,7 +943,7 @@ export default function TeenPattiGoldOldVsNewPage() {
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Teen Patti Master</span>
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>

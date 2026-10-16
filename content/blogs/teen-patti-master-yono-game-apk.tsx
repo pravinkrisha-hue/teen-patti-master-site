@@ -226,7 +226,7 @@ export default function TeenPattiMasterYonoGameApk() {
                 2. Safe APK: How to Install Without Modified Clones and Phishing
               </h2>
               <p>
-                Because real-money skill and card wagering apps are restricted across India on the Google Play Store, downloading an external package is required to <Link href="/blog/teen-patti-master-apk-download" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Download Teen patti master app for free</Link>. While standard across the industry, thorough verification is necessary to keep your personal data and funds protected.
+                Because real-money skill and card wagering apps are restricted across India on the Google Play Store, downloading an external package is required to <Link href="/" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Download Teen patti master app for free</Link>. While standard across the industry, thorough verification is necessary to keep your personal data and funds protected.
               </p>
 
               <div className="bg-[#e4f3f2] p-5 rounded-2xl border border-[#b8dedb] space-y-3">

@@ -145,7 +145,7 @@ export default function TeenPattimastercasinogame() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">
+            <Link href="/" className="hover:text-amber-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -180,7 +180,7 @@ export default function TeenPattimastercasinogame() {
                   Download APK
                 </a>
                 <Link
-                  href="/blog/teen-patti-master-apk-download"
+                  href="/"
                   className="bg-slate-900/90 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm py-3.5 px-7 rounded-2xl border border-rose-500/30 transition"
                 >
                   APK Details
@@ -442,7 +442,7 @@ export default function TeenPattimastercasinogame() {
             <ol className="list-decimal list-inside space-y-2 text-slate-300 text-xs sm:text-sm">
               <li>
                 <strong>Download Verified APK:</strong> Get the genuine installer from our{" "}
-                <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 hover:underline font-bold">
+                <Link href="/" className="text-amber-400 hover:underline font-bold">
                   Teen Patti Master APK Download Page
                 </Link>.
               </li>
@@ -478,7 +478,7 @@ export default function TeenPattimastercasinogame() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
               <Link
-                href="/blog/teen-patti-master-apk-download"
+                href="/"
                 className="p-3.5 rounded-xl bg-[#180511] border border-rose-500/20 hover:border-amber-400 transition group block"
               >
                 <h4 className="font-bold text-amber-300 text-xs sm:text-sm group-hover:text-amber-200">

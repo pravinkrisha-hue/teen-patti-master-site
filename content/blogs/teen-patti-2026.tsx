@@ -154,7 +154,7 @@ export default function TeenPatti2026() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-emerald-200 underline">
+            <Link href="/" className="hover:text-emerald-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -198,7 +198,7 @@ export default function TeenPatti2026() {
                 Teen Patti Master
               </Link>{" "}
               features complete code rewrites, military-grade anti-bot protocols, low-ping matchmaking, and fast direct-to-bank automated settlements. You can also explore our{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-emerald-400 underline font-bold hover:text-emerald-300">
+              <Link href="/" className="text-emerald-400 underline font-bold hover:text-emerald-300">
                 Teen Patti Master APK download guide
               </Link>{" "}
               to install the official client.
@@ -442,7 +442,7 @@ export default function TeenPatti2026() {
           <ol className="list-decimal list-inside space-y-3 text-slate-300">
             <li>
               <strong className="text-white">Download Official APK:</strong> Access our verified portal through the{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-emerald-400 hover:underline font-bold">
+              <Link href="/" className="text-emerald-400 hover:underline font-bold">
                 Teen Patti Master APK Download Page
               </Link>{" "}
               to secure the genuine, virus-free installer.
@@ -540,7 +540,7 @@ export default function TeenPatti2026() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
             <Link
-              href="/blog/teen-patti-master-apk-download"
+              href="/"
               className="p-4 rounded-2xl bg-[#071710] border border-emerald-900/40 hover:border-emerald-500/60 transition group block"
             >
               <h3 className="font-bold text-emerald-300 text-sm group-hover:text-emerald-200 flex items-center gap-1.5">

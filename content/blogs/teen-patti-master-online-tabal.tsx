@@ -134,7 +134,7 @@ export default function TeenPattiMasterOnlinetabal() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">
+            <Link href="/" className="hover:text-amber-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -397,7 +397,7 @@ export default function TeenPattiMasterOnlinetabal() {
           <ol className="list-decimal list-inside space-y-2.5 text-xs sm:text-sm text-slate-300">
             <li>
               <strong className="text-white">Official App Download:</strong> Download the lightweight APK package via verified platforms directly from our{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 font-semibold underline hover:text-amber-300">
+              <Link href="/" className="text-amber-400 font-semibold underline hover:text-amber-300">
                 Teen Patti Master APK Download Page
               </Link>.
             </li>

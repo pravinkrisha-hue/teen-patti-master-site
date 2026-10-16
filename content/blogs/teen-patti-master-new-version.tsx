@@ -153,7 +153,7 @@ export default function TeenPattiMasterNewVersion() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">
+            <Link href="/" className="hover:text-amber-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -195,7 +195,7 @@ export default function TeenPattiMasterNewVersion() {
                   Download APK
                 </a>
                 <Link
-                  href="/blog/teen-patti-master-apk-download"
+                  href="/"
                   className="bg-black/50 hover:bg-black/80 text-white font-bold text-xs sm:text-sm py-3.5 px-7 rounded-2xl border border-slate-600 hover:border-amber-400/60 transition shadow-md"
                 >
                   APK Details
@@ -563,7 +563,7 @@ export default function TeenPattiMasterNewVersion() {
             <ol className="list-decimal list-inside space-y-2 text-slate-300 text-xs sm:text-sm">
               <li>
                 <strong>सत्यापित APK डाउनलोड करें:</strong> सुरक्षित फ़ाइल प्राप्त करने के लिए आप हमारे आधिकारिक{" "}
-                <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 hover:underline">
+                <Link href="/" className="text-amber-400 hover:underline">
                   तीन पत्ती मास्टर एपीके डाउनलोड पेज
                 </Link>{" "}
                 पर जा सकते हैं।
@@ -607,7 +607,7 @@ export default function TeenPattiMasterNewVersion() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
               <Link
-                href="/blog/teen-patti-master-apk-download"
+                href="/"
                 className="p-3.5 rounded-xl bg-[#180512] border border-rose-500/20 hover:border-amber-400 transition group block"
               >
                 <h4 className="font-bold text-amber-300 text-xs sm:text-sm group-hover:text-amber-200">

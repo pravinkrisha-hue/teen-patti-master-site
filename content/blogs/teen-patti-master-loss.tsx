@@ -160,7 +160,7 @@ export default function TeenPattiMasterLossRecovery() {
           <nav aria-label="Breadcrumb" className="text-xs text-amber-400/90 flex items-center gap-2">
             <Link href="/" className="hover:text-amber-200 underline">Home</Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-amber-200 underline">Guides</Link>
+            <Link href="/" className="hover:text-amber-200 underline">Guides</Link>
             <span>/</span>
             <span className="text-slate-400">Loss Recovery</span>
           </nav>
@@ -437,7 +437,7 @@ export default function TeenPattiMasterLossRecovery() {
           </div>
           <p className="text-xs text-slate-400">
             Ensure you always download packages from legitimate servers. Check our{" "}
-            <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 underline hover:text-amber-300">
+            <Link href="/" className="text-amber-400 underline hover:text-amber-300">
               Teen Patti Master APK Download Guide
             </Link>{" "}
             for SHA-256 verified installation packages.

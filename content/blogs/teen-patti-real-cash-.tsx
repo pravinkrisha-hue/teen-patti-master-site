@@ -147,7 +147,7 @@ export default function TeenPattiRealCash() {
               Home
             </Link>
             <span>/</span>
-            <Link href="/blog/teen-patti-master-apk-download" className="hover:text-cyan-200 underline">
+            <Link href="/" className="hover:text-cyan-200 underline">
               Guides
             </Link>
             <span>/</span>
@@ -193,7 +193,7 @@ export default function TeenPattiRealCash() {
                 Teen Patti Master
               </Link>{" "}
               par real money showdowns ma blind luck thi nahi pan math, table positioning, balance safety ane player psychology no upyog kari ne lambe samaye consistent winning maintain kari shakay chhe. Tamara game setup mate tame{" "}
-              <Link href="/blog/teen-patti-master-apk-download" className="text-cyan-400 underline font-semibold hover:text-cyan-200">
+              <Link href="/" className="text-cyan-400 underline font-semibold hover:text-cyan-200">
                 Teen Patti Master APK Download
               </Link>{" "}
               kari shako chho.
@@ -308,7 +308,7 @@ export default function TeenPattiRealCash() {
             <ol className="list-decimal list-inside space-y-2 text-slate-300 text-xs sm:text-sm">
               <li>
                 <strong>Verified Package:</strong> Verified APK mate{" "}
-                <Link href="/blog/teen-patti-master-apk-download" className="text-cyan-400 hover:underline">
+                <Link href="/" className="text-cyan-400 hover:underline">
                   Teen Patti Master APK Download Page
                 </Link>{" "}
                 parthi application install karo.
@@ -407,7 +407,7 @@ export default function TeenPattiRealCash() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
               <Link
-                href="/blog/teen-patti-master-apk-download"
+                href="/"
                 className="p-3.5 rounded-xl bg-[#0b1d33] border border-cyan-500/20 hover:border-cyan-400 transition group block"
               >
                 <h4 className="font-bold text-cyan-300 text-xs sm:text-sm group-hover:text-cyan-200">

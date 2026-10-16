@@ -1,332 +1,293 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
+const PAGE_URL = "https://www.techtonis.com/blog/teen-patti-master-apk-download";
 
-// 1. 100% SEO Friendly Metadata for Google Ranking (Target Focus Keyword: Teen Patti Master)
-export const metadata: Metadata = {
-  title: "Teen Patti Master APK Download: Official Android App 2026",
-  description:
-    "Install Teen Patti Master safely on Android. Get the verified official APK link with 100% malware-free installation, instant cash play, and seamless setup.",
-  keywords: [
-    "Teen Patti Master",
-    "Teen Patti Master APK Download",
-    "Teen Patti Master Official APK",
-    "Teen Patti Master 51 Bonus",
-    "Teen Patti Master Real Cash",
-    "Safe Android Card Game",
-    "Teen Patti Master 2026",
-  ],
-  other: {
-    name: "Teen Patti Master, Teen Patti Master APK Download, Official APK, Safe Android Card Game",
-  },
-  alternates: {
-    canonical: "/blog/teen-patti-master-apk-download",
-  },
-  openGraph: {
-    title: "Teen Patti Master APK Download: Official Android App 2026",
-    description:
-      "Install Teen Patti Master safely on Android. Get the verified official APK link with 100% malware-free installation, instant cash play, and seamless setup.",
-    url: "/blog/teen-patti-master-apk-download",
-    siteName: "Teen Patti Master Hub",
-    images: [
-      {
-        url: "/master-app.webp",
-        width: 800,
-        height: 800,
-        alt: "Teen Patti Master Official APK Download",
-      },
-    ],
-    locale: "en_IN",
-    type: "article",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Teen Patti Master APK Download: Official Android App 2026",
-    description:
-      "Install Teen Patti Master safely on Android. Get the verified official APK link with 100% malware-free installation, instant cash play, and seamless setup.",
-    images: ["/master-app.webp"],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-};
+const redFlags = [
+  { sign: "The app or a \"helper\" asks you to send money to a personal UPI ID or scan a personal QR code", why: "Genuine apps take deposits through a payment gateway inside the app, showing a registered merchant name." },
+  { sign: "You must pay a \"tax\", \"GST\" or \"unlock fee\" before you can withdraw", why: "This is the most common scam pattern. Real withdrawals never ask you to send more money first." },
+  { sign: "The file calls itself \"mod\", \"hack\", \"VIP unlocked\" or \"winning trick\"", why: "Cards are dealt on the game's server, not on your phone. No file can change them. These files exist to steal from you." },
+  { sign: "The app wants to read your SMS, control your screen (Accessibility) or become a device admin", why: "These permissions can be used to read OTPs and take over your banking apps. A card game doesn't need them." },
+  { sign: "The bonus is unbelievable — ₹5,000 or ₹10,000 just for signing up", why: "Fake apps use huge bonuses as bait. Typical sign-up bonuses are small." },
+  { sign: "The name or logo is slightly off — \"Teen Pati Master\", \"Teen Patti Mastar\", a blurry icon", why: "Copycat apps rely on you not looking closely." },
+  { sign: "The file size is far smaller or larger than the size shown on the download page", why: "A different size usually means a different (possibly modified) file." },
+];
 
-// 2. Structured Data (Schema Markup) for Google Fast Indexing
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Is the Teen Patti Master APK free to download?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes, the official Teen Patti Master APK package is 100% free to download. All new accounts get free welcome chips and recurring bonus rewards to play on live tables without requiring an immediate deposit.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How fast are withdrawal requests processed to bank accounts?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Cash withdrawal requests made via UPI (Google Pay, PhonePe, Paytm) or direct IMPS bank transfers are usually processed within 2 to 15 minutes after standard verification.",
-      },
-    },
-  ],
-};
+const faqs = [
+  {
+    q: "Is Teen Patti Master APK safe or not?",
+    a: "The genuine file from a trusted source is generally safe to install as software, but it is still an app from outside the Play Store, so Google has not checked it. Copycat and \"mod\" versions are not safe. Beyond the file itself, remember that real-money play carries a financial risk no app check can remove.",
+  },
+  {
+    q: "How can I tell if Teen Patti Master is real or fake?",
+    a: "Check the source of the file, the exact app name and icon, the file size, and the permissions it asks for. Then watch how payments work: a real app takes deposits through an in-app payment gateway and never asks for a fee before paying out.",
+  },
+  {
+    q: "Why does Android say the file might be harmful?",
+    a: "Android shows this warning for nearly every app downloaded outside the Play Store. The warning alone doesn't prove the file is dangerous, but you should only continue if you trust where it came from.",
+  },
+  {
+    q: "Should I share my UPI PIN or OTP with Teen Patti Master support?",
+    a: "Never. You never need a UPI PIN to receive money, and no genuine support team will ask for your PIN or OTP. Anyone who asks is trying to steal from you.",
+  },
+  {
+    q: "I think I was cheated. Where can I complain?",
+    a: "Report it immediately on the national cyber crime helpline 1930 or at cybercrime.gov.in, and inform your bank. Fast reporting gives the best chance of freezing the money.",
+  },
+];
 
-export default function ApkDownloadArticle() {
+export default function TeenPattiMasterApkSafeOrFake() {
   return (
-    <>
-      {/* Schema Injection for Google Bot */}
+    <article className="max-w-4xl mx-auto py-6 text-slate-300 font-sans leading-relaxed space-y-10">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify([
+            {
+              "@context": "https://schema.org",
+              "@type": "Article",
+              headline: "Is Teen Patti Master APK Safe or Fake? How to Check Before You Install",
+              url: PAGE_URL,
+              image: "https://www.techtonis.com/teen-patti-faq-real.webp",
+              datePublished: "2026-10-16",
+              dateModified: "2026-10-16",
+              author: { "@type": "Person", name: "Rohan Mehta", url: "https://www.techtonis.com/about#team" },
+              publisher: { "@type": "Organization", name: "Teen Patti Master Hub", logo: { "@type": "ImageObject", url: "https://www.techtonis.com/icon.png" } },
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })),
+            },
+          ]),
+        }}
       />
 
-      <article className="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans">
-        {/* Hero Header Box */}
-        <header className="bg-gradient-to-br from-[#1e1305] via-[#140b03] to-[#0c0702] border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(245,158,11,0.25)] space-y-6">
-          {/* Banner Image */}
-          <div className="w-full max-w-xs sm:max-w-sm mx-auto aspect-square relative rounded-3xl overflow-hidden border-2 border-amber-400 shadow-[0_0_35px_rgba(245,158,11,0.6)] bg-black">
-            <Image
-              src="/master-app.webp"
-              alt="Teen Patti Master App APK Download"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-
-          {/* Badges */}
-          <div className="flex flex-wrap justify-center items-center gap-2 pt-2 border-t border-amber-900/60">
-            <span className="text-[11px] font-black uppercase tracking-widest text-amber-300 bg-amber-950/80 border border-amber-500/40 px-3.5 py-1 rounded-full inline-flex items-center gap-1.5">
-              <span>📥</span> Official APK Guide • 2026 Edition
-            </span>
-            <span className="text-[11px] font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-3 py-1 rounded-full inline-flex items-center gap-1">
-              <span>⚡</span> 100% Anti-Cheat Certified
-            </span>
-          </div>
-
-          {/* H1 Heading: Primary Keyword Target */}
-          <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight font-serif tracking-tight text-center sm:text-left">
-            Teen Patti Master APK Download: Official Android App 2026
-          </h1>
-
-          <p className="text-amber-200/70 text-xs sm:text-sm text-center sm:text-left">
-            Updated on September 22, 2026 • 15 min read • Comprehensive Technical &amp; Strategy Breakdown
-          </p>
-
-          <div className="bg-[#0b0602]/90 border border-amber-500/30 p-4 sm:p-5 rounded-2xl mt-4">
-            <p className="text-amber-100 text-xs sm:text-sm">
-              ✨ <strong>Quick Take:</strong> Install Teen Patti Master safely on Android. Get the verified official APK link with 100% malware-free installation, instant cash play, and seamless setup. Check out our{" "}
-              <Link href="/blog/teen-patti-master-51-bonus" className="text-amber-400 underline hover:text-amber-300 font-bold">
-                Teen Patti Master ₹51 Bonus Claim Guide
-              </Link>{" "}
-              to unlock free starting funds on registration.
-            </p>
-          </div>
-        </header>
-
-        {/* Overview Section */}
-        <section className="bg-gradient-to-br from-[#180e05] to-[#0d0703] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3 flex items-center gap-2.5">
-            <span>🏛️</span> What is Teen Patti Master and Why is it the Top Card Platform in India?
-          </h2>
-          <p>
-            Teen Patti Master is an enterprise-grade mobile card game application engineered specifically for the Indian gaming audience. Based on the traditional rules of Indian Flush (known locally as <em>3 Patti</em> or <em>Flash</em>), the platform brings the tension, bluffing dynamics, and psychological excitement of physical card rooms directly to mobile touchscreens.
-          </p>
-          <p>
-            Unlike cluttered, ad-heavy applications that are prone to frequent socket disconnects or high memory footprints, the official platform runs on a streamlined, <strong>45 MB lightweight architecture</strong>. This technical optimization guarantees that matches retain high frame rates and immediate touch responsiveness, even on budget Android devices with limited RAM capacities. Want to practice without consuming data? You can also explore how to use{" "}
-            <Link href="/blog/teen-patti-master-offline" className="text-amber-400 font-bold underline hover:text-amber-300">
-              Teen Patti Master offline mode
-            </Link>{" "}
-            against AI practice bots anytime.
-          </p>
-        </section>
-
-        {/* Technical Specs Table */}
-        <section className="bg-[#120a04] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-5">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3 flex items-center gap-2.5">
-            <span>📋</span> Technical Specifications &amp; Compatibility Checklist
-          </h2>
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border border-amber-900/60 rounded-2xl overflow-hidden text-xs sm:text-sm">
-              <thead className="bg-[#1f1005] text-amber-300 font-bold uppercase tracking-wider">
-                <tr>
-                  <th className="p-3.5">Specification Parameter</th>
-                  <th className="p-3.5">Value / Detail</th>
-                  <th className="p-3.5">Practical Benefit</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-amber-950 bg-[#160c04]">
-                <tr>
-                  <td className="p-3.5 font-bold text-white">Official Application Title</td>
-                  <td className="p-3.5 text-amber-300 font-semibold">Teen Patti Master</td>
-                  <td className="p-3.5 text-slate-300">Verified, cryptographically signed release</td>
-                </tr>
-                <tr>
-                  <td className="p-3.5 font-bold text-white">Latest Build Version</td>
-                  <td className="p-3.5 text-emerald-400 font-bold">
-                    <Link href="/blog/teen-patti-master-2026" className="hover:underline">
-                      v4.9 (Official 2026 Architecture)
-                    </Link>
-                  </td>
-                  <td className="p-3.5 text-slate-300">Includes updated anti-cheat algorithms &amp; fast UPI rails</td>
-                </tr>
-                <tr>
-                  <td className="p-3.5 font-bold text-white">Package Installer Size</td>
-                  <td className="p-3.5 text-slate-200 font-semibold">~45 MB</td>
-                  <td className="p-3.5 text-slate-300">Installs rapidly without exhausting internal storage</td>
-                </tr>
-                <tr>
-                  <td className="p-3.5 font-bold text-white">OS Compatibility</td>
-                  <td className="p-3.5 text-slate-200">Android 5.0 (Lollipop) or Higher</td>
-                  <td className="p-3.5 text-slate-300">Compatible with budget and flagship smartphones alike</td>
-                </tr>
-                <tr>
-                  <td className="p-3.5 font-bold text-white">Welcome Bonus</td>
-                  <td className="p-3.5 text-amber-400 font-bold">
-                    <Link href="/blog/teen-patti-master-51-bonus" className="hover:underline">
-                      Up to ₹51 Free Practice Chips
-                    </Link>
-                  </td>
-                  <td className="p-3.5 text-slate-300">Instantly awarded upon valid mobile OTP binding</td>
-                </tr>
-                <tr>
-                  <td className="p-3.5 font-bold text-white">Withdrawal Turnaround</td>
-                  <td className="p-3.5 text-emerald-400 font-bold">2 to 15 Minutes</td>
-                  <td className="p-3.5 text-slate-300">Direct-to-bank settlement via IMPS and UPI</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        {/* SEO Internal Linking / Related Guides Grid */}
-        <section className="bg-gradient-to-br from-[#180e05] to-[#0d0703] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3 flex items-center gap-2.5">
-            <span>📚</span> Explore Essential Teen Patti Master Guides
-          </h2>
-          <p className="text-xs sm:text-sm text-slate-400">
-            Learn winning tricks, claim free bonuses, and solve account issues with our in-depth tutorials:
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-            <Link
-              href="/blog/teen-patti-master-51-bonus"
-              className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
-            >
-              <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
-                <span>🎁</span> ₹51 Signup Bonus Claim Guide &rarr;
-              </h3>
-              <p className="text-xs text-slate-400 mt-1">
-                Step-by-step instructions to get free registration cash without making a deposit.
-              </p>
-            </Link>
-
-            <Link
-              href="/blog/teen-patti-master-real-cash-game"
-              className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
-            >
-              <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
-                <span>💰</span> Real Cash Gaming &amp; Winning Tips &rarr;
-              </h3>
-              <p className="text-xs text-slate-400 mt-1">
-                Master 3-card table strategies, rules, and bankroll control to maximize profits.
-              </p>
-            </Link>
-
-            <Link
-              href="/blog/teen-patti-master-customer-care"
-              className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
-            >
-              <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
-                <span>🎧</span> 24/7 Customer Care &amp; WhatsApp Support &rarr;
-              </h3>
-              <p className="text-xs text-slate-400 mt-1">
-                Official contact details and helpline numbers for fast payment and withdrawal help.
-              </p>
-            </Link>
-
-            <Link
-              href="/blog/teen-patti-master-2026"
-              className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
-            >
-              <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
-                <span>🚀</span> Teen Patti Master 2026 Release Notes &rarr;
-              </h3>
-              <p className="text-xs text-slate-400 mt-1">
-                Check all new feature updates, UI redesigns, and rapid UPI settlement systems.
-              </p>
-            </Link>
-          </div>
-        </section>
-
-        {/* Interactive FAQs Accordion */}
-        <section className="bg-[#120a04] p-6 sm:p-8 rounded-3xl border border-amber-500/20 shadow-xl space-y-4">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-amber-900/60 pb-3 flex items-center gap-2.5">
-            <span>❓</span> Frequently Asked Questions (Click to Expand)
-          </h2>
-          <div className="space-y-3">
-            <details className="group bg-[#211105] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
-              <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-400 transition list-none">
-                <span className="text-sm sm:text-base">Q1: Is the Teen Patti Master APK free to download?</span>
-                <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">
-                  +
-                </span>
-              </summary>
-              <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-amber-900/40 mt-1">
-                Yes, the official APK package is 100% free to download. All new accounts get free welcome chips and recurring bonus rewards to play on live tables without requiring an immediate deposit.
-              </div>
-            </details>
-
-            <details className="group bg-[#211105] border border-amber-500/30 rounded-2xl overflow-hidden transition-all duration-200">
-              <summary className="p-4 font-bold text-white flex justify-between items-center cursor-pointer hover:text-amber-400 transition list-none">
-                <span className="text-sm sm:text-base">Q2: How fast are withdrawal requests processed to bank accounts?</span>
-                <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">
-                  +
-                </span>
-              </summary>
-              <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-amber-900/40 mt-1">
-                Cash withdrawal requests made via UPI (Google Pay, PhonePe, Paytm) or direct IMPS bank transfers are usually processed within 2 to 15 minutes after your account completes standard identity verification. If you ever face delays, check the{" "}
-                <Link href="/blog/teen-patti-master-customer-care" className="text-amber-400 font-semibold underline hover:text-amber-300">
-                  Teen Patti Master customer care helpline
-                </Link>{" "}
-                for instant assistance.
-              </div>
-            </details>
-          </div>
-        </section>
-
-        {/* Call to Action Box */}
-        <div className="bg-gradient-to-r from-amber-600/25 via-yellow-600/20 to-amber-600/25 border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl text-center space-y-4 shadow-[0_0_35px_rgba(245,158,11,0.2)]">
-          <h3 className="text-2xl sm:text-3xl font-black text-white font-serif">
-            Ready to Experience Teen Patti Master?
-          </h3>
-          <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-            Download the authentic 45 MB Android APK, bind your mobile number for ₹51 free practice credits, and challenge verified card players across India!
-          </p>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
-          >
-            Download Official APK Now 🚀
-          </a>
+      <header className="space-y-5 border-b border-slate-800 pb-8">
+        <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
+          Safety check • Read before installing
+        </span>
+        <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
+          Is Teen Patti Master APK Safe or Fake? How to Check Before You Install
+        </h1>
+        <p className="text-base sm:text-lg text-slate-400">
+          Type &quot;Teen Patti Master&quot; into any search bar and you&apos;ll find dozens of download links, Telegram channels and
+          YouTube videos promising the &quot;latest&quot; or &quot;VIP&quot; version. Some are the real app. Many are not. This guide shows
+          you, step by step, how to tell the difference — and what &quot;safe&quot; really means for an app that handles real money.
+        </p>
+        <div className="flex justify-center">
+          <Image
+            src="/teen-patti-faq-real.webp"
+            alt="How to check if Teen Patti Master APK is safe, real or fake"
+            width={752}
+            height={420}
+            sizes="(max-width: 800px) 100vw, 752px"
+            className="w-full max-w-[752px] h-auto rounded-2xl border border-slate-800 shadow-xl"
+            priority
+          />
         </div>
-      </article>
-    </>
+      </header>
+
+      <section className="bg-amber-500/10 border border-amber-500/30 rounded-2xl p-5 sm:p-6 space-y-2">
+        <h2 className="text-xl font-bold text-amber-300">The honest short answer</h2>
+        <p>
+          The genuine Teen Patti Master file, from a source you trust, is generally safe to install as software. Copies from
+          random channels and anything labelled &quot;mod&quot; or &quot;hack&quot; are not. And even the real app comes with
+          a risk no virus scan can remove: you can lose money. &quot;Safe to install&quot; and &quot;safe with your money&quot; are two
+          different questions, and this guide covers both.
+        </p>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Why this question comes up at all</h2>
+        <p>
+          Apps on the Google Play Store go through Google&apos;s checks before you ever see them. Real-money card games generally
+          aren&apos;t available there, so Teen Patti Master is installed from an APK file instead. That isn&apos;t automatically
+          bad — but it means the checking job moves from Google to you. Scammers know this, and they copy popular app names
+          precisely because people are already used to installing them from outside the Play Store.
+        </p>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">The four kinds of risk</h2>
+        <div className="grid sm:grid-cols-2 gap-3">
+          <div className="bg-slate-900/70 border border-slate-800 rounded-xl p-4">
+            <p className="font-bold text-white">1. The file itself</p>
+            <p className="text-sm mt-1">A modified APK can carry malware that reads your messages or steals banking details.</p>
+          </div>
+          <div className="bg-slate-900/70 border border-slate-800 rounded-xl p-4">
+            <p className="font-bold text-white">2. Fake apps</p>
+            <p className="text-sm mt-1">A copycat that looks real but never pays out, or demands &quot;fees&quot; to release your winnings.</p>
+          </div>
+          <div className="bg-slate-900/70 border border-slate-800 rounded-xl p-4">
+            <p className="font-bold text-white">3. Your money</p>
+            <p className="text-sm mt-1">Even on the real app, real-money play means you can lose what you deposit.</p>
+          </div>
+          <div className="bg-slate-900/70 border border-slate-800 rounded-xl p-4">
+            <p className="font-bold text-white">4. The law</p>
+            <p className="text-sm mt-1">Real-money gaming is restricted in some Indian states. It&apos;s your responsibility to check yours.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Safe is not the same as legal</h2>
+        <p>
+          A file can pass every check in this guide and still be a problem where you live. In 2025 India passed a central law,
+          the Promotion and Regulation of Online Gaming Act, which targets online games played for real money, and several
+          states had their own restrictions before that. The rules and how they are enforced can change, so check the current
+          position for your state before you deposit anything. Playing free or practice modes is a different matter from
+          staking money.
+        </p>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Real or fake: 6 checks before you tap Install</h2>
+        <ol className="space-y-3 list-decimal pl-6">
+          <li>
+            <strong className="text-white">Where did the link come from?</strong> A link someone forwarded on WhatsApp, a comment
+            under a video, or a channel promising &quot;guaranteed wins&quot; is the riskiest possible source. Use one trusted link
+            and stick to it for every update.
+          </li>
+          <li>
+            <strong className="text-white">Read the name letter by letter.</strong> Copycats use names like &quot;Teen Pati
+            Master&quot; or slightly different logos. If anything looks off, don&apos;t install.
+          </li>
+          <li>
+            <strong className="text-white">Compare the file size.</strong> Look at the size in your Downloads folder and
+            compare it with the size stated on the download page. A big difference means it isn&apos;t the same file.
+          </li>
+          <li>
+            <strong className="text-white">Scan it.</strong> Upload the file to{" "}
+            <span className="text-white">VirusTotal</span> (virustotal.com), a free service that checks it against dozens of
+            antivirus engines. A clean result isn&apos;t a guarantee, but several detections is a clear stop sign.
+          </li>
+          <li>
+            <strong className="text-white">Let Play Protect check it.</strong> Open the Play Store → your profile icon → Play
+            Protect → Scan. Keep Play Protect switched on.
+          </li>
+          <li>
+            <strong className="text-white">Check permissions after installing.</strong> Go to Settings → Apps → Teen Patti
+            Master → Permissions. A card game has no reason to read your SMS, control your screen through Accessibility, or
+            act as a device administrator. If you see those, uninstall immediately.
+          </li>
+        </ol>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Red flags that mean &quot;fake&quot;</h2>
+        <p>Spot any one of these and treat the app as fake, however professional it looks:</p>
+        <div className="space-y-3">
+          {redFlags.map((r) => (
+            <div key={r.sign} className="bg-red-950/30 border border-red-500/30 rounded-xl p-4">
+              <p className="font-semibold text-white">🚩 {r.sign}</p>
+              <p className="text-sm mt-1">{r.why}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">What &quot;normal&quot; looks like on a genuine app</h2>
+        <p>
+          Knowing the warning signs is only half the job. It also helps to know what a genuine app normally does, so you
+          don&apos;t panic at things that are perfectly ordinary:
+        </p>
+        <ul className="space-y-3 list-disc pl-6">
+          <li>
+            <strong className="text-white">Deposits open a payment page inside the app.</strong> You pay through PhonePe, Google
+            Pay, Paytm or another UPI app, and the screen shows a registered merchant or company name — not a person&apos;s
+            name or a mobile number.
+          </li>
+          <li>
+            <strong className="text-white">KYC before bigger withdrawals.</strong> Being asked for PAN or ID details before
+            withdrawing larger amounts is normal. Upload them only inside the app, never over WhatsApp.
+          </li>
+          <li>
+            <strong className="text-white">Tax is deducted, never collected.</strong> In India, tax on online gaming winnings is
+            deducted by the platform from your net winnings before they reach you. You should never have to send money to
+            &quot;pay the tax&quot; first. If someone asks, it&apos;s a scam.
+          </li>
+          <li>
+            <strong className="text-white">Support works through the app.</strong> Genuine help comes from the in-app chat or
+            ticket system, and it will ask for your user ID and order ID — never your PIN, password or OTP.
+          </li>
+          <li>
+            <strong className="text-white">Small delays happen.</strong> A withdrawal that takes a few hours during bank
+            maintenance isn&apos;t automatically a scam. A withdrawal that needs a &quot;release fee&quot; always is.
+          </li>
+        </ul>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">How to protect your money on the real app</h2>
+        <ul className="space-y-3 list-disc pl-6">
+          <li><strong className="text-white">Start tiny.</strong> Deposit the smallest amount allowed first.</li>
+          <li>
+            <strong className="text-white">Test a withdrawal early.</strong> Before you deposit more, withdraw a small amount and
+            make sure it actually reaches your bank. If it doesn&apos;t, stop there.
+          </li>
+          <li><strong className="text-white">Never share your UPI PIN or OTP.</strong> You never need a PIN to receive money.</li>
+          <li><strong className="text-white">Keep screenshots</strong> of every deposit and withdrawal, with the order ID.</li>
+          <li><strong className="text-white">Use one bank account</strong> or UPI ID for gaming, separate from your main savings.</li>
+          <li>
+            <strong className="text-white">Set a monthly limit</strong> you can afford to lose completely. Our{" "}
+            <Link href="/blog/teen-patti-master-loss-recover" className="text-amber-400 underline">loss control guide</Link> explains how.
+          </li>
+        </ul>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Already installed something suspicious?</h2>
+        <ol className="space-y-2 list-decimal pl-6">
+          <li>Turn off mobile data and Wi-Fi.</li>
+          <li>Uninstall the app. If Android won&apos;t let you, check Settings → Security → Device admin apps and remove it there first.</li>
+          <li>Run a Play Protect scan.</li>
+          <li>Change your UPI PIN and the passwords of your email and banking apps.</li>
+          <li>
+            If money was taken, call the national cyber crime helpline <strong className="text-white">1930</strong> or report at
+            cybercrime.gov.in, and inform your bank immediately.
+          </li>
+        </ol>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Where we stand</h2>
+        <p>
+          We&apos;re an independent guide, not the app&apos;s publisher. We point you to one download link and recheck it when we
+          update our guides, but we can&apos;t vouch for copies found anywhere else, and we can&apos;t guarantee any app&apos;s
+          payouts. If you decide to play, install the real app from a trusted link, keep your deposits small, and treat it as
+          entertainment.
+        </p>
+        <p>
+          Ready to install? Follow our{" "}
+          <Link href="/" className="text-amber-400 underline">Teen Patti Master APK download guide</Link>. If Android throws an
+          error, our{" "}
+          <Link href="/blog/teen-patti-master-download-guide" className="text-amber-400 underline">App not installed fix guide</Link>{" "}
+          covers every message. Already have an older version? See{" "}
+          <Link href="/blog/teen-patti-master-2027" className="text-amber-400 underline">Teen Patti Master update kaise kare</Link>.
+        </p>
+      </section>
+
+      <section className="space-y-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-white">Frequently asked questions</h2>
+        <div className="space-y-3">
+          {faqs.map((f) => (
+            <details key={f.q} className="bg-slate-900/70 border border-slate-800 rounded-xl p-4">
+              <summary className="font-semibold text-white cursor-pointer">{f.q}</summary>
+              <p className="mt-2">{f.a}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <div className="bg-red-950/40 border border-red-500/40 rounded-2xl p-5 text-sm">
+        <p>
+          <strong className="text-white">18+ only.</strong> Real-money card games carry a risk of losing money and are restricted
+          in some Indian states. Read our <Link href="/responsible-gaming" className="text-amber-400 underline">Responsible Gaming</Link> page.
+        </p>
+      </div>
+    </article>
   );
 }

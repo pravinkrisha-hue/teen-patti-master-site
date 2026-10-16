@@ -193,7 +193,7 @@ export default function TeenPattiMasterExplained() {
                   <span className="text-xs font-bold text-sky-600 uppercase tracking-wider">Step 1</span>
                   <h4 className="font-bold text-[#0f172a]">Download Official APK</h4>
                   <p className="text-xs text-[#64748b]">
-                    Obtain the untampered APK package directly through our verified portal. Read our <Link href="/blog/teen-patti-master-apk-download" className="text-sky-600 underline font-semibold hover:text-sky-800">Teen Patti Master APK Download Guide</Link> for direct release updates.
+                    Obtain the untampered APK package directly through our verified portal. Read our <Link href="/" className="text-sky-600 underline font-semibold hover:text-sky-800">Teen Patti Master APK Download Guide</Link> for direct release updates.
                   </p>
                 </div>
 

@@ -230,14 +230,14 @@ export default function TeenPattiGoldOldVersionPage() {
           </p>
           <p>
             But gaming in 2026 has reached a critical crossroads. Teen Patti Gold’s legacy releases are pure nostalgia and effortless stability on low-end hardware. However, the modern demands of gaming have moved away from just simulated social chips to competitive tournaments and verified real rewards. This is where{" "}
-            <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 underline hover:text-sky-300">
+            <Link href="/" className="text-sky-400 underline hover:text-sky-300">
               teen patti master
             </Link>{" "}
             has grabbed the attention of serious card lovers.
           </p>
           <p>
             This all-inclusive analytical guide goes through the reasons why gamers are so interested in downloading legacy APK packages, how old builds perform technically on modern Android OS, the security vulnerabilities of archival mirrors, and why you should upgrade your gaming session to{" "}
-            <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 underline hover:text-sky-300">
+            <Link href="/" className="text-sky-400 underline hover:text-sky-300">
               teen patti master apk download old version
             </Link>{" "}
             for the ultimate combination of classic simplicity and monetary utility.
@@ -438,7 +438,7 @@ Step 5: Launch Game and Download In-App Patch Updates`}</pre>
           <h3 className="text-base sm:text-xl font-bold text-slate-100 pt-1">B. Total Non-Recovery of Account</h3>
           <p>
             If you lose access to a guest profile or have an account desynchronization on an older package, official support will not help you. Legacy builds are now officially EOL (end-of-life). In contrast, modern platforms like{" "}
-            <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 underline hover:text-sky-300">
+            <Link href="/" className="text-sky-400 underline hover:text-sky-300">
               teen patti master
             </Link>{" "}
             provide synchronised cloud backups that directly link to verified 10-digit mobile numbers to keep player wallets safe for an indefinite period of time.
@@ -636,7 +636,7 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
           </p>
           <p>
             For those who crave the simplicity of classic card action, but with the benefits of modern high-speed infrastructure, secure UPI cashouts and certified table fairness, the upgrade to{" "}
-            <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 font-bold underline hover:text-sky-300">
+            <Link href="/" className="text-sky-400 font-bold underline hover:text-sky-300">
               teen patti master
             </Link>{" "}
             is the smart, future-proof choice.{" "}
@@ -670,7 +670,7 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Teen Patti Master</span>
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>

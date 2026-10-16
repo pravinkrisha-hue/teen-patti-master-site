@@ -305,7 +305,7 @@ export default function TeenPattiMasterFaqRealGamePage() {
             In the last few years, the world of casual and competitive gaming in India has experienced a huge digital revolution. Traditional festive card sessions on living room floors have moved straight to high-refresh-rate mobile screens. Combined with the affordable high-speed 5G connectivity and the frictionless Unified Payments Interface (UPI) banking rails that are available across the country, millions of players join real-time card rooms daily.
           </p>
           <p>
-            In this large ecosystem, <Link href="/blog/teen-patti-master-apk-download" className="text-sky-400 underline hover:text-sky-300">teen patti master</Link> has become one of the most prominent, played and argued gaming titles. However, the fast popularity poses big challenges. The mobile card space is flooded with clone platforms, lookalike APK packages, unverified third party mirrors and aggressive marketing advertisements. This creates a lot of confusion for both new and experienced players:
+            In this large ecosystem, <Link href="/" className="text-sky-400 underline hover:text-sky-300">teen patti master</Link> has become one of the most prominent, played and argued gaming titles. However, the fast popularity poses big challenges. The mobile card space is flooded with clone platforms, lookalike APK packages, unverified third party mirrors and aggressive marketing advertisements. This creates a lot of confusion for both new and experienced players:
           </p>
           <ul className="list-disc list-inside space-y-2 text-slate-200 pl-1">
             <li>Is the client I downloaded the real, server backed client or a modified clone?</li>
@@ -955,7 +955,7 @@ Phase 3: Position Play  ──> Tight early position; late position controls the
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-sm">Teen Patti Master</span>
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>

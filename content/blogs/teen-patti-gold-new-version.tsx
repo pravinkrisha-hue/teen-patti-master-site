@@ -860,7 +860,7 @@ Account security: multi-factor binding and hardware anomaly detection`}</pre>
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Teen Patti Master</span>
-              <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>
