@@ -125,7 +125,7 @@ export default function Home() {
       category: 'OFFICIAL APK',
       symbol: '📥',
       readTime: '4 min read',
-      excerpt: 'Get the latest official Teen Patti Master APK direct download link with zero malware risk for all Android devices.',
+      excerpt: 'Get the latest Teen Patti Master APK direct download link with zero malware risk for all Android devices.',
       cardBg: 'bg-emerald-50 hover:bg-emerald-100/90 border-emerald-300',
       badgeBg: 'bg-emerald-600 text-white',
       titleColor: 'text-emerald-950'
@@ -484,8 +484,8 @@ export default function Home() {
     {
       id: 1,
       badge: "DOWNLOAD",
-      q: "What is Teen Patti Master App? How to get the official app?",
-      a: "Teen Patti Master is India's leading 3-card poker mobile platform offering real-cash table action, seamless UPI cashouts, and multi-mode gameplay. Since cash gaming apps are restricted on Google Play Store, you can safely download the authentic, malware-free APK package directly from this official portal."
+      q: "What is Teen Patti Master App? How to download the app?",
+      a: "Teen Patti Master is India's leading 3-card poker mobile platform offering real-cash table action, seamless UPI cashouts, and multi-mode gameplay. Since cash gaming apps are restricted on Google Play Store, you can safely download the authentic, malware-free APK package using the verified download link on this page."
     },
     {
       id: 2,
@@ -590,20 +590,36 @@ export default function Home() {
           __html: JSON.stringify([
             {
               "@context": "https://schema.org",
-              "@type": "SoftwareApplication",
-              "name": "Teen Patti Master",
-              "operatingSystem": "Android",
-              "applicationCategory": "GameApplication",
-              "aggregateRating": {
-                "@type": "AggregateRating",
-                "ratingValue": "4.9",
-                "ratingCount": "124800"
+              "@type": "WebSite",
+              "@id": "https://www.techtonis.com/#website",
+              "url": "https://www.techtonis.com",
+              "name": "Teen Patti Master Hub",
+              "alternateName": "Teen Patti Master",
+              "inLanguage": "en-IN",
+              "publisher": { "@id": "https://www.techtonis.com/#organization" }
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://www.techtonis.com/#organization",
+              "name": "Teen Patti Master Hub",
+              "url": "https://www.techtonis.com",
+              "logo": "https://www.techtonis.com/icon.png"
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebPage",
+              "@id": "https://www.techtonis.com/#webpage",
+              "url": "https://www.techtonis.com",
+              "name": "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
+              "isPartOf": { "@id": "https://www.techtonis.com/#website" },
+              "about": {
+                "@type": "SoftwareApplication",
+                "name": "Teen Patti Master",
+                "operatingSystem": "Android",
+                "applicationCategory": "GameApplication"
               },
-              "offers": {
-                "@type": "Offer",
-                "price": "0",
-                "priceCurrency": "INR"
-              }
+              "reviewedBy": { "@type": "Person", "name": "Sunil Sharma", "jobTitle": "QA Tester" }
             },
             {
               "@context": "https://schema.org",
@@ -647,7 +663,7 @@ export default function Home() {
       {/* 2. Hero Section */}
       <section className="text-center py-12 px-4 bg-gradient-to-b from-slate-900 to-slate-950">
         <h1 className="text-4xl md:text-6xl font-extrabold text-amber-400 mb-4 drop-shadow-md">
-          Teen Patti Master APK Download (Official)
+          Teen Patti Master APK Download – Latest Version 2026
         </h1>
         <p className="text-gray-100 text-base md:text-lg max-w-2xl mx-auto mb-8">
           Download the latest Teen Patti Master APK version. Get ₹51 instant welcome bonus chips, certified RNG card tables, and 60-second UPI cashouts.
@@ -756,11 +772,12 @@ export default function Home() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {visiblePosts.map((post) => (
+          {/* All posts stay in the HTML so Google can crawl every article; extras are only visually hidden */}
+          {seoBlogPosts.map((post, index) => (
             <Link
               key={post.id}
               href={`/blog/${post.slug}`}
-              className={`${post.cardBg} rounded-2xl p-6 border transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1.5 flex flex-col justify-between group`}
+              className={`${!showAllPosts && index >= 7 ? "hidden" : ""} ${post.cardBg} rounded-2xl p-6 border transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1.5 flex flex-col justify-between group`}
             >
               <div>
                 <div className="flex items-center justify-between mb-4">
@@ -808,7 +825,7 @@ export default function Home() {
         {/* Main Pillar Header */}
         <div className="space-y-4">
           <span className="text-xs font-black uppercase tracking-widest text-amber-400 bg-amber-400/10 border border-amber-400/20 px-3.5 py-1.5 rounded-full inline-block">
-            Official 2026 Release &amp; APK Verification
+            2026 Release &amp; APK Verification
           </span>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-white leading-tight">
             Teen Patti Master APK Download: <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-200">The Complete Guide &amp; Latest Version</span>
@@ -817,14 +834,14 @@ export default function Home() {
             Card games in India have evolved from family gathering traditions to interactive, secure mobile entertainment. Leading this digital transformation is <strong>Teen Patti Master</strong>—a premier 3-card poker and casino game application engineered for seamless real-time multiplayer action, certified RNG fairness, and fast UPI cashouts across India.
           </p>
           <p className="text-sm sm:text-base leading-relaxed text-gray-400">
-            Whether you are downloading the APK for the first time to claim your free ₹51 welcome chips or seeking tactical poker strategies, this official guide breaks down system specifications, security checks, and hand hierarchy rankings.
+            Whether you are downloading the APK for the first time to claim your free ₹51 welcome chips or seeking tactical poker strategies, this complete guide breaks down system specifications, security checks, and hand hierarchy rankings.
           </p>
         </div>
 
         {/* Quick Spec Sheet Table for Search Engine Featured Answers */}
         <div className="bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl">
           <h3 className="text-xl font-bold text-amber-300 mb-4 flex items-center gap-2">
-            📊 Teen Patti Master Official APK Overview
+            📊 Teen Patti Master APK Overview
           </h3>
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm">

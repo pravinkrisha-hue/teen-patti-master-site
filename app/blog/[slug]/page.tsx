@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { myArticles } from "@/content/blogs/allBlogs";
 import AuthorBox from "../../components/AuthorBox";
+import Breadcrumbs from "../../components/Breadcrumbs";
 import { AUTHOR, REVIEWER, LAST_REVIEWED, SITE_URL } from "../../siteTeam";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
@@ -16,37 +17,44 @@ function formatTitleFromSlug(slug: string): string {
     .join(" ");
 }
 
+// Next 4 articles in the list (wrapping around), so every article gets incoming links
+function relatedSlugs(slug: string): string[] {
+  const all = Object.keys(myArticles);
+  const i = all.indexOf(slug);
+  return [1, 2, 3, 4].map((n) => all[(i + n) % all.length]);
+}
+
 // Human-readable SEO titles (same headings as the home page guide cards)
 const customTitles: Record<string, string> = {
-  "teen-patti-master-apk-download": "Teen Patti Master APK Download",
+  "teen-patti-master-apk-download": "Teen Patti Master APK: File Size, Version & Safety Check",
   "teen-patti-master-51-bonus": "Teen Patti Master ₹51 Bonus Claim Guide",
   "teen-patti-master-offline": "Teen Patti Master Offline: Play Without Internet",
   "teen-patti-master-2026": "Teen Patti Master 2026 Edition",
   "teen-patti-master-2027": "Teen Patti Master 2027 Roadmap",
   "teen-patti-master-real-cash-game": "Teen Patti Master Real Cash Game",
-  "teen-patti-master-app-download-free": "Teen Patti Master App Download Free",
+  "teen-patti-master-app-download-free": "Teen Patti Master App Free Install: Android Steps",
   "teen-patti-master-customer-care": "Teen Patti Master Customer Care",
   "teen-patti-master-casino": "Teen Patti Master Casino Games",
-  "teen-patti-master-new-version": "Teen Patti Master New Version",
+  "teen-patti-master-new-version": "Teen Patti Master New Version: Latest Update",
   "teen-patti-master-online": "Teen Patti Master Online Table Play",
-  "teen-patti-master-game": "Teen Patti Master Game Overview",
-  "teen-patti-master-download-guide": "Teen Patti Master Download Guide",
+  "teen-patti-master-game": "How to Play Teen Patti Master: Rules, Blind & Chaal",
+  "teen-patti-master-download-guide": "Teen Patti Master Download Guide: Unknown Sources Fix",
   "teen-patti-master-old-vs-new": "Teen Patti Master Old vs New Version",
   "teen-patti-master-vs-gold": "Teen Patti Master vs Teen Patti Gold",
   "teen-patti-android-game": "Teen Patti Android Game Setup",
-  "teen-patti-master-secrets": "Teen Patti Master Pro Secrets",
+  "teen-patti-master-secrets": "Teen Patti Master Pro Secrets & Winning Tips",
   "teen-patti-master-loss-recover": "Teen Patti Master Loss Recovery Strategy",
-  "teen-patti-master-faq": "Teen Patti Master FAQ",
+  "teen-patti-master-faq": "Teen Patti Master FAQ: Payouts, Safety & Bonus",
   "teen-patti-master-welcome-bonus": "Teen Patti Master Welcome Bonus Guide",
-  "teen-patti-master-explained": "Teen Patti Master Explained Completely",
+  "teen-patti-master-explained": "Teen Patti Master Features: VIP, Referral & Withdrawal",
   "teen-patti-master-vungo": "Teen Patti Vungo Download & Safe Bonus",
   "teen-patti-master-yono-game-apk": "Teen Patti Master Yono Game APK Features",
   "teen-patti-master-vs-yono-game": "Teen Patti Master vs Yono Games",
-  "teen-patti-master-vs-rummy": "Teen Patti Master vs Rummy",
-  "teen-patti-master-king": "Teen Patti Master King",
+  "teen-patti-master-vs-rummy": "Teen Patti Master vs Rummy: Which Is Better?",
+  "teen-patti-master-king": "Teen Patti Master King: Pro Table Strategy",
   "teen-patti-gold-old-version": "Teen Patti Gold Old Version Legacy Guide",
   "teen-patti-gold-new-version": "Teen Patti Gold New Version Updates",
-  "teen-patti-gold-new-vs-old": "Teen Patti Gold: New vs Old Version Verdict",
+  "teen-patti-gold-new-vs-old": "Teen Patti Gold New vs Old Version",
   "teen-patti-master-faq-vs-real-game": "Teen Patti Master FAQ: Top Questions Answered",
   "teen-patti-master-kaise-khele": "Teen Patti Master Kaise Khele? नियम और टिप्स (हिंदी)",
 };
@@ -177,13 +185,13 @@ export default async function BlogPostPage({
     <div className="min-h-screen bg-slate-950 text-white py-10 px-4 sm:px-6 md:px-8 font-sans">
       <div className="max-w-4xl mx-auto space-y-8">
         
-        {/* Pacha java mate breadcrumb link */}
-        <Link 
-          href="/" 
-          className="text-amber-400 hover:text-amber-300 font-bold inline-flex items-center gap-1 transition"
-        >
-          ← Back to All Guides
-        </Link>
+        {/* Breadcrumb: Teen Patti Master (home) › Guides › article */}
+        <Breadcrumbs
+          items={[
+            { name: "Guides", href: "/#posts" },
+            { name: customTitles[slug] || formatTitleFromSlug(slug), href: `/blog/${slug}` },
+          ]}
+        />
 
         {/* Tame banaveli alag-alag file no content ahi render thashe */}
         <ArticleComponent />
@@ -213,6 +221,25 @@ export default async function BlogPostPage({
           }}
         />
         <AuthorBox />
+
+        {/* Hub links: back to the main Teen Patti Master page + 4 sibling guides */}
+        <nav aria-label="Related guides" className="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-3">
+          <h2 className="text-lg font-bold text-white">More Teen Patti Master Guides</h2>
+          <p className="text-sm text-slate-400">
+            Start with the main{" "}
+            <Link href="/" className="text-amber-400 font-semibold hover:underline">Teen Patti Master APK download guide</Link>
+            , then read:
+          </p>
+          <ul className="grid sm:grid-cols-2 gap-2 text-sm">
+            {relatedSlugs(slug).map((s) => (
+              <li key={s}>
+                <Link href={`/blog/${s}`} className="text-amber-300 hover:text-amber-200 hover:underline">
+                  {customTitles[s] || formatTitleFromSlug(s)}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* Niche download button valo box */}
         <div className="bg-gradient-to-r from-amber-600/25 via-yellow-600/20 to-amber-600/25 border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl text-center space-y-4 shadow-[0_0_35px_rgba(245,158,11,0.2)]">

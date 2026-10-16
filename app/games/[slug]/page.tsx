@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 // Official Affiliate Download Link
 const MAIN_DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
@@ -18,40 +19,40 @@ export async function generateMetadata({
 
   const seoMeta: Record<string, { title: string; description: string }> = {
     "teen-patti-master": {
-      title: "Teen Patti Master APK Download: Real Cash App & ₹51 Bonus",
-      description: "Download the Teen Patti Master APK for Android securely, get your instant ₹51 signup bonus and play live tables with instant UPI withdrawals.",
+      title: "Teen Patti Master Review: Features, Rules & Hand Rankings",
+      description: "Honest Teen Patti Master review: game features, 3 Patti rules, hand rankings, bonus system, withdrawal process, pros and cons, and safe-play tips.",
     },
     "teen-patti-gold": {
-      title: "Teen Patti Gold Review: Classic 3-Card Poker Tables & Free Chips",
+      title: "Teen Patti Gold Review: 3-Card Poker Tables & Free Chips",
       description: "Experience the timeless Teen Patti Gold. Learn official rules, understand hand rankings, play private rooms with friends, claim daily free rewards.",
     },
     "rummy-circle": {
-      title: "Rummy Circle Review: 13-Card Skill Rules, Tournaments & Strategy in teen patti",
+      title: "Rummy Circle Review: 13-Card Rules, Tournaments & Strategy",
       description: "Master patti 13-card Indian Rummy on Rummy Circle. Discover certified fair-play tables, pool variants, and proven strategies to win daily cash tournaments.",
     },
     "junglee-rummy": {
-      title: "Junglee Rummy APK: Legal 13-Card Cash Games & Instant Payouts",
+      title: "Junglee Rummy APK: 13-Card Cash Games & Instant Payouts",
       description: "Play 100% legal and secure 13-card cash rummy on Junglee Rummy. Enjoy points rummy, zero fraud protection, and lightning-fast bank transfers.",
     },
     "poker-stars-india": {
-      title: "PokerStars India: Texas Hold'em, PLO Tournaments & Teen Patti Master Guide",
+      title: "PokerStars India: Texas Hold'em & PLO Tournament Guide",
       description: "Experience real-money poker on PokerStars India. Transition from a Teen Patti master to a poker pro with our Hold'em strategies, tournaments, and secure tables.",
     },
     "winzo-games": {
-      title: "WinZO Games APK: Play Teen Patti Master, Ludo & 100+ Cash Games",
+      title: "WinZO Games APK: Teen Patti, Ludo & 100+ Cash Games",
       description: "Download WinZO Games APK to play Ludo, Carrom & become a Teen Patti master on secure tables. Join verified players for instant UPI withdrawals and cash rewards.",
     },
     "teen-patti-star": {
-      title: "Teen Patti Star APK: Play Teen Patti Master VIP Tables & Win Big",
-      description: "Download Teen Patti Star APK for the ultimate Teen Patti master experience. Play on exclusive VIP lounges, grab hourly free chips, and enjoy non-stop card action.",
+      title: "Teen Patti Star APK: VIP Tables, Free Chips & Rewards",
+      description: "Download Teen Patti Star APK for a premium 3 Patti experience. Play on exclusive VIP lounges, grab hourly free chips, and enjoy non-stop card action.",
     },
     "yono-games": {
-      title: "Yono Games APK: Teen Patti Master, Casino Slots & Quick Jackpots",
+      title: "Yono Games APK: Teen Patti, Casino Slots & Jackpots",
       description: "Download Yono Games APK to play slots, roulette & challenge real Teen Patti master tables. Claim exclusive signup bonuses with sub-minute instant cashouts.",
     },
     "teen-patti-old-version": {
-      title: "Teen Patti Master Old Version: Download 48MB Smooth Classic APK",
-      description: "Tired of app lags? Download the lightweight Teen Patti Master old version (48MB). Enjoy zero-freeze gaming, low battery usage, and stable tables on any budget phone.",
+      title: "Teen Patti Master Old Version: 48MB Classic APK Download",
+      description: "Download the lightweight Teen Patti Master old version (48MB). Enjoy zero-freeze gaming, low battery usage, and stable tables on any budget phone.",
     },
   };
 
@@ -259,9 +260,12 @@ export default async function GameDetailPage({
       <div className="max-w-4xl mx-auto space-y-10">
         
         {/* Navigation Breadcrumb */}
-        <Link href="/" className={`${linkColor} font-bold inline-block transition`}>
-          ← Back to All Games
-        </Link>
+        <Breadcrumbs
+          items={[
+            { name: "Games", href: "/#games" },
+            { name: game.name, href: `/games/${slug}` },
+          ]}
+        />
 
         {/* Top Game Card Box */}
         <div className={`rounded-3xl p-6 sm:p-8 ${
@@ -464,7 +468,7 @@ export default async function GameDetailPage({
           <article className="bg-slate-900/80 border border-slate-800 rounded-3xl p-6 sm:p-10 shadow-2xl space-y-8 text-gray-300 leading-relaxed text-sm sm:text-base">
             <header className="space-y-3 border-b border-slate-800 pb-6">
               <h1 className="text-2xl sm:text-4xl font-extrabold text-amber-400 leading-tight">
-                Teen Patti Master APK: How to Download, Rules, Winning Strategies, and Stay Safe With Real Cash (2027 Edition)
+                Teen Patti Master Review: Features, Rules, Hand Rankings &amp; Safe Real-Cash Play
               </h1>
               <p className="text-gray-400 text-xs sm:text-sm">
                 Verified Official Guide • 12 min read • Hand Rankings, Cash Safety &amp; Legal Facts
@@ -1062,6 +1066,9 @@ export default async function GameDetailPage({
         {/* 4. JUNGLEE RUMMY ARTICLE */}
         {isJunglee && (
           <article className="space-y-8 text-slate-300 leading-relaxed text-sm sm:text-base">
+            <h1 className="text-2xl sm:text-4xl font-black text-cyan-300 leading-tight font-serif tracking-tight">
+              Junglee Rummy APK: 13-Card Cash Rummy Rules, Tournaments &amp; Payouts
+            </h1>
             <div className="bg-gradient-to-r from-cyan-950/70 to-slate-900 border border-cyan-500/30 p-5 rounded-2xl">
               <p className="text-cyan-200 text-xs sm:text-sm font-medium">
                 ⚡ <strong>Quick Take:</strong> Junglee Rummy combines pure 13-card mathematical sequence building with certified RNG algorithms, offering instant cash rooms, daily tournaments, and seamless transitions for Teen Patti Master enthusiasts.

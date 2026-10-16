@@ -4,9 +4,9 @@ import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.techtonis.com"),
-  title: "Teen Patti Master - Official APK Download & Card Games Hub",
+  title: "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
   description:
-    "Download verified card games, explore 3 Patti rules, sequence rankings, and expert cash strategies.",
+    "Teen Patti Master APK download for Android: latest version, ₹51 sign-up bonus, rules, hand rankings, UPI withdrawal steps and safe-play tips. 18+ only.",
   alternates: {
     canonical: "/",
   },
@@ -15,16 +15,16 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "Teen Patti Master Hub",
     locale: "en_IN",
-    title: "Teen Patti Master - Official APK Download & Card Games Hub",
+    title: "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
     description:
-      "Download verified card games, explore 3 Patti rules, sequence rankings, and expert cash strategies.",
+      "Teen Patti Master APK download for Android: latest version, ₹51 sign-up bonus, rules, hand rankings, UPI withdrawal steps and safe-play tips. 18+ only.",
     images: ["/teen-patti-master.webp"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Teen Patti Master - Official APK Download & Card Games Hub",
+    title: "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
     description:
-      "Download verified card games, explore 3 Patti rules, sequence rankings, and expert cash strategies.",
+      "Teen Patti Master APK download for Android: latest version, ₹51 sign-up bonus, rules, hand rankings, UPI withdrawal steps and safe-play tips. 18+ only.",
     images: ["/teen-patti-master.webp"],
   },
   icons: {
