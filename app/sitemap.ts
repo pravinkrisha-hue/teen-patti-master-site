@@ -31,6 +31,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  const trustUrls: MetadataRoute.Sitemap = ['about', 'contact', 'responsible-gaming', 'privacy-policy'].map((path) => ({
+    url: `${baseUrl}/${path}`,
+    lastModified: new Date('2026-10-16T00:00:00.000Z'),
+    changeFrequency: 'monthly',
+    priority: 0.5,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -40,5 +47,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...gameUrls,
     ...blogUrls,
+    ...trustUrls,
   ];
 }

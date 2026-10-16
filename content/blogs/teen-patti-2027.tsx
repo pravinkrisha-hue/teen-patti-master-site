@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Master 2027: Next-Gen Real Cash 3-Card Game & Bonus Guide",
   },
   alternates: {
-    canonical: "/blog/teen-patti-master-2027-roadmap",
+    canonical: "/blog/teen-patti-master-2027",
   },
   openGraph: {
     title: "Teen Patti Master 2027: Real Cash Game & Free Bonus",
     description:
       "Play Teen Patti Master 2027 edition! Get instant ₹51 bonus on signup, 60s lightning UPI cashout, and 100% anti-cheat 3-card tables. Download the official APK!",
-    url: "/blog/teen-patti-master-2027-roadmap",
+    url: "/blog/teen-patti-master-2027",
     siteName: "Teen Patti Master Gaming App",
     images: [
       {
@@ -140,7 +140,7 @@ export default function TeenPatti2027() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-purple-500 to-amber-400 hover:from-purple-400 hover:to-amber-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -420,7 +420,7 @@ export default function TeenPatti2027() {
           </div>
           <p className="text-xs sm:text-sm text-slate-300 pt-2">
             यदि आप हाई-लिमिट टेबल्स और प्राइवेट क्लब एक्सेस में रुचि रखते हैं, तो हमारा विशेष गाइड{" "}
-            <Link href="/blog/teen-patti-master-real-cash" className="text-purple-400 font-semibold hover:underline">
+            <Link href="/blog/teen-patti-master-real-cash-game" className="text-purple-400 font-semibold hover:underline">
               Teen Patti Master Real Cash
             </Link>{" "}
             अवश्य पढ़ें।
@@ -690,7 +690,7 @@ export default function TeenPatti2027() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-block bg-gradient-to-r from-purple-500 via-amber-400 to-purple-500 hover:from-purple-400 hover:to-amber-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
           >
             Download Official 2027 APK Now 🚀

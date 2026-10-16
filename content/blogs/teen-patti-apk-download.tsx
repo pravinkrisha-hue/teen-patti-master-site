@@ -179,7 +179,7 @@ export default function ApkDownloadArticle() {
                 <tr>
                   <td className="p-3.5 font-bold text-white">Latest Build Version</td>
                   <td className="p-3.5 text-emerald-400 font-bold">
-                    <Link href="/blog/teen-patti-master-2026-edition" className="hover:underline">
+                    <Link href="/blog/teen-patti-master-2026" className="hover:underline">
                       v4.9 (Official 2026 Architecture)
                     </Link>
                   </td>
@@ -236,7 +236,7 @@ export default function ApkDownloadArticle() {
             </Link>
 
             <Link
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
@@ -260,7 +260,7 @@ export default function ApkDownloadArticle() {
             </Link>
 
             <Link
-              href="/blog/teen-patti-master-2026-edition"
+              href="/blog/teen-patti-master-2026"
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
@@ -320,7 +320,7 @@ export default function ApkDownloadArticle() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
           >
             Download Official APK Now 🚀

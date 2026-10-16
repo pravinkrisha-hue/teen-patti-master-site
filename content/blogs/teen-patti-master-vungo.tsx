@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     "teen patti master latest version 2026",
   ],
   alternates: {
-    canonical: "/blog/teen-patti-vungo-download-safe-bonus",
+    canonical: "/blog/teen-patti-master-vungo",
   },
   openGraph: {
     title: "Teen Patti Master Vungo Download Safe Bonus: Complete 2026 Guide",
     description:
       "Detailed architectural and safety guide for Teen Patti Master Vungo. Setup steps, turnover calculations, and instant UPI bank payouts.",
-    url: "/blog/teen-patti-vungo-download-safe-bonus",
+    url: "/blog/teen-patti-master-vungo",
     siteName: "Teen Patti Fan",
     images: [
       {
@@ -101,7 +101,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="w-48 sm:w-56 text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm uppercase py-3 rounded-xl shadow-lg transition transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
               >
                 <span>🚀</span> DOWNLOAD
@@ -392,7 +392,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
               </div>
 
               <p className="text-xs text-slate-500">
-                Facing a delayed transfer? Review our <Link href="/blog/teen-patti-customer-care" className="text-sky-600 underline font-semibold hover:text-sky-800">Customer Care Guide</Link> for direct ticketing instructions.
+                Facing a delayed transfer? Review our <Link href="/blog/teen-patti-master-customer-care" className="text-sky-600 underline font-semibold hover:text-sky-800">Customer Care Guide</Link> for direct ticketing instructions.
               </p>
             </section>
 
@@ -402,7 +402,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
                 9. Strategic Bankroll Management: Protecting Your Capital
               </h2>
               <p>
-                Digital card gaming should remain responsible entertainment. Maintaining capital longevity on <Link href="/blog/teen-patti-master-real-cash" className="text-sky-600 underline font-semibold hover:text-sky-800">teen patti master real cash</Link> tables relies on core bankroll rules:
+                Digital card gaming should remain responsible entertainment. Maintaining capital longevity on <Link href="/blog/teen-patti-master-real-cash-game" className="text-sky-600 underline font-semibold hover:text-sky-800">teen patti master real cash</Link> tables relies on core bankroll rules:
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs sm:text-sm">
@@ -514,7 +514,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block w-full bg-[#0284c7] hover:bg-[#0369a1] text-white font-black text-xs uppercase py-3.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
                 Download Official APK →
@@ -530,7 +530,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
                 Learn hand rankings and practice card strategies without an active internet connection.
               </p>
               <Link
-                href="/blog/teen-patti-offline"
+                href="/blog/teen-patti-master-offline"
                 className="inline-block text-xs font-bold text-[#0284c7] underline hover:text-[#0369a1]"
               >
                 Read Teen Patti Offline Guide →
@@ -570,7 +570,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-master-pro-secret"
+              href="/blog/teen-patti-master-secrets"
               className="p-5 rounded-2xl bg-white border border-[#cbd5e1] hover:border-sky-500 shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">ADVANCED STRATEGY</span>
@@ -590,7 +590,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-5 rounded-2xl bg-white border border-[#cbd5e1] hover:border-sky-500 shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">CASH MECHANICS</span>
@@ -600,7 +600,7 @@ export default function TeenPattiMasterVungoSafeBonus() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-customer-care"
+              href="/blog/teen-patti-master-customer-care"
               className="p-5 rounded-2xl bg-white border border-[#cbd5e1] hover:border-sky-500 shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">PAYMENT SUPPORT</span>

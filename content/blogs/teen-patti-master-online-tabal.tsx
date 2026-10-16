@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Master Online Table: Live 3-Card Pro Guide",
   },
   alternates: {
-    canonical: "/blog/teen-patti-master-online-tabal",
+    canonical: "/blog/teen-patti-master-online",
   },
   openGraph: {
     title: "Online 3-Card Pro Guide to Teen Patti Master tabal",
     description:
       "Master Teen Patti Master online tabal! Explore pure 3-card probabilities, bluffing techniques, bankroll management, and instant UPI payouts in this all-inclusive 2026 guide.",
-    url: "/blog/teen-patti-master-online-tabal",
+    url: "/blog/teen-patti-master-online",
     siteName: "Teen Patti Master gaming app",
     images: [
       {
@@ -118,7 +118,7 @@ export default function TeenPattiMasterOnlinetabal() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -421,7 +421,7 @@ export default function TeenPattiMasterOnlinetabal() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
             <Link
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-3.5 rounded-xl bg-[#0e131a] border border-slate-700 hover:border-amber-400 transition group block"
             >
               <h4 className="font-bold text-amber-300 text-xs sm:text-sm group-hover:text-amber-200">

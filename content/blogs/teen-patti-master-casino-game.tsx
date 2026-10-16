@@ -26,13 +26,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Master Casino Game: Live Tables, Winning Probabilities & Seamless Cashouts",
   },
   alternates: {
-    canonical: "/blog/teen-patti-master-casino-game",
+    canonical: "/blog/teen-patti-master-casino",
   },
   openGraph: {
     title: "Teen Patti Master Casino Game: Win Real Cash & ₹51 Bonus",
     description:
       "Play Teen Patti Master Casino Game! Claim your free ₹51 signup bonus, enjoy 2-min fast UPI cashouts, and win real cash on slots, Dragon vs Tiger & 3-card tables.",
-    url: "/blog/teen-patti-master-casino-game",
+    url: "/blog/teen-patti-master-casino",
     siteName: "Teen Patti Master Gaming App",
     images: [
       {
@@ -127,7 +127,7 @@ export default function TeenPattimastercasinogame() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -174,7 +174,7 @@ export default function TeenPattimastercasinogame() {
                 <a
                   href={DOWNLOAD_LINK}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wider py-3.5 px-8 rounded-2xl shadow-[0_0_25px_rgba(245,158,11,0.5)] transition transform hover:scale-105"
                 >
                   Download APK
@@ -209,7 +209,7 @@ export default function TeenPattimastercasinogame() {
                   <a
                     href={DOWNLOAD_LINK}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow sponsored noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-slate-950 font-black text-xs uppercase tracking-widest py-2.5 rounded-xl shadow-lg hover:brightness-110 transition"
                   >
                     ⚡ DOWNLOAD NOW
@@ -267,7 +267,7 @@ export default function TeenPattimastercasinogame() {
                 Teen Patti Master
               </Link>{" "}
               casino platform combines traditional Indian card flush rules with modern live tables, sub-15KB round bandwidth, and direct-to-bank settlements for an authentic competitive experience. Looking to explore more variants? Check our{" "}
-              <Link href="/blog/teen-patti-master-real-cash" className="text-amber-400 font-semibold underline hover:text-amber-300">
+              <Link href="/blog/teen-patti-master-real-cash-game" className="text-amber-400 font-semibold underline hover:text-amber-300">
                 Teen Patti Master Real Cash Guide
               </Link>{" "}
               for advanced table tricks.
@@ -334,7 +334,7 @@ export default function TeenPattimastercasinogame() {
             </div>
             <p className="text-xs text-slate-400 pt-1">
               For high-stakes tables and dedicated private salons, explore our in-depth review on{" "}
-              <Link href="/blog/teen-patti-pro" className="text-amber-400 font-semibold hover:underline">
+              <Link href="/blog/teen-patti-master-secrets" className="text-amber-400 font-semibold hover:underline">
                 Teen Patti Pro
               </Link>.
             </p>
@@ -500,7 +500,7 @@ export default function TeenPattimastercasinogame() {
                 </p>
               </Link>
               <Link
-                href="/blog/teen-patti-master-real-cash"
+                href="/blog/teen-patti-master-real-cash-game"
                 className="p-3.5 rounded-xl bg-[#180511] border border-rose-500/20 hover:border-amber-400 transition group block"
               >
                 <h4 className="font-bold text-amber-300 text-xs sm:text-sm group-hover:text-amber-200">

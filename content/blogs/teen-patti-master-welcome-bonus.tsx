@@ -103,7 +103,7 @@ export default function TeenPattiMasterWelcomeBonus() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="w-full sm:w-auto text-center bg-[#c99738] hover:bg-[#dfaa42] text-slate-950 font-extrabold text-xs uppercase px-6 py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
                 Download APK ↓
@@ -146,7 +146,7 @@ export default function TeenPattiMasterWelcomeBonus() {
                 The Teen Patti Master welcome bonus is a formal promotional benefit that newly registered users receive upon downloading the genuine app package and linking an Indian mobile number.
               </p>
               <p>
-                Instead of social gaming apps that offer useless virtual tokens, <Link href="/blog/teen-patti-master-real-cash" className="text-[#0b2416] font-bold underline decoration-[#c99738] hover:text-[#c99738]">Teen Patti Master real cash tables</Link> connect you directly to verified multiplayer lobbies. To maintain balance, the welcome bonus is split into three practical levels:
+                Instead of social gaming apps that offer useless virtual tokens, <Link href="/blog/teen-patti-master-real-cash-game" className="text-[#0b2416] font-bold underline decoration-[#c99738] hover:text-[#c99738]">Teen Patti Master real cash tables</Link> connect you directly to verified multiplayer lobbies. To maintain balance, the welcome bonus is split into three practical levels:
               </p>
               <ul className="list-disc pl-5 space-y-2 text-sm sm:text-base">
                 <li><strong>Instant No Deposit Welcome Cash (₹51 Bonus):</strong> Instant bankroll credit when you link your active 10-digit mobile number with SMS OTP verification. No advance deposit required.</li>
@@ -299,7 +299,7 @@ export default function TeenPattiMasterWelcomeBonus() {
                 5. Best Games to Meet Wagering Requirements Safely
               </h2>
               <p>
-                High-volatility arcade games can burn through a small starting bonus in minutes, while balanced card lobbies let you build up betting volume steadily. Learn more strategic tips in our <Link href="/blog/teen-patti-master-pro-secret" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Master Pro Secret Guide</Link>.
+                High-volatility arcade games can burn through a small starting bonus in minutes, while balanced card lobbies let you build up betting volume steadily. Learn more strategic tips in our <Link href="/blog/teen-patti-master-secrets" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Master Pro Secret Guide</Link>.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -364,7 +364,7 @@ export default function TeenPattiMasterWelcomeBonus() {
                 <p><strong>Method 2: Bank Transfer via IMPS:</strong> Click the Bank Card tab, enter your bank account number, 11-digit IFSC code, branch name, and registered name. IMPS works 24/7, processing reliably even on weekends.</p>
               </div>
               <p className="text-xs text-slate-500">
-                Experiencing a delayed withdrawal? Consult our dedicated <Link href="/blog/teen-patti-customer-care" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Customer Care Guide</Link> for rapid ticketing steps.
+                Experiencing a delayed withdrawal? Consult our dedicated <Link href="/blog/teen-patti-master-customer-care" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Customer Care Guide</Link> for rapid ticketing steps.
               </p>
             </section>
 
@@ -518,7 +518,7 @@ export default function TeenPattiMasterWelcomeBonus() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block w-full bg-[#c99738] hover:bg-[#dfaa42] text-slate-950 font-black text-xs uppercase py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
                 Download Official APK →
@@ -534,7 +534,7 @@ export default function TeenPattiMasterWelcomeBonus() {
                 Practice without internet connection using the offline single-player mode.
               </p>
               <Link
-                href="/blog/teen-patti-offline"
+                href="/blog/teen-patti-master-offline"
                 className="inline-block text-xs font-bold text-[#0b2416] underline decoration-[#c99738] hover:text-[#c99738]"
               >
                 Read Teen Patti Offline Guide →
@@ -564,7 +564,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-master-pro-secret"
+              href="/blog/teen-patti-master-secrets"
               className="p-5 rounded-2xl bg-white border border-[#dfd5bf] hover:border-[#c99738] shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">STRATEGY</span>
@@ -584,7 +584,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-offline"
+              href="/blog/teen-patti-master-offline"
               className="p-5 rounded-2xl bg-white border border-[#dfd5bf] hover:border-[#c99738] shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">OFFLINE</span>
@@ -594,7 +594,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-5 rounded-2xl bg-white border border-[#dfd5bf] hover:border-[#c99738] shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">EARNINGS</span>
@@ -604,7 +604,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-customer-care"
+              href="/blog/teen-patti-master-customer-care"
               className="p-5 rounded-2xl bg-white border border-[#dfd5bf] hover:border-[#c99738] shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">SUPPORT</span>

@@ -288,7 +288,7 @@ export default function TeenPattiMasterFaqRealGamePage() {
             <a
               href={DOWNLOAD_LINK}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="w-full max-w-[280px] md:max-w-none mt-3.5 bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-sm sm:text-base uppercase tracking-wider py-3 px-6 rounded-full flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/30 transition transform hover:-translate-y-0.5"
             >
               <span>🚀</span> DOWNLOAD
@@ -502,7 +502,7 @@ Step 5: Test Withdrawal   ──> Micro ₹100 cashout to test bank payout speed
 
           <h3 className="text-base sm:text-xl font-bold text-slate-100 pt-1">Step 5: Complete a Micro-Withdrawal Test</h3>
           <p>
-            Never deposit large sums right away. Deposit the minimum amount (₹100), play through the basic turnover requirements and request a ₹100 withdrawal to your verified bank or UPI ID. If the funds hit within standard processing windows (5 to 30 minutes), the payment integration is live and verified for <Link href="/blog/teen-patti-master-withdraw" className="text-sky-400 underline hover:text-sky-300">teen patti master withdrawal safety</Link>.
+            Never deposit large sums right away. Deposit the minimum amount (₹100), play through the basic turnover requirements and request a ₹100 withdrawal to your verified bank or UPI ID. If the funds hit within standard processing windows (5 to 30 minutes), the payment integration is live and verified for <Link href="/blog/teen-patti-master-real-cash-game" className="text-sky-400 underline hover:text-sky-300">teen patti master withdrawal safety</Link>.
           </p>
         </section>
 
@@ -512,7 +512,7 @@ Step 5: Test Withdrawal   ──> Micro ₹100 cashout to test bank payout speed
             4. 3-Card Hands: The Math Behind Probability Foundations
           </h2>
           <p>
-            To be successful in <Link href="/blog/teen-patti-master-real-cash" className="text-sky-400 underline hover:text-sky-300">teen patti master real cash game play</Link> in the long run, intuition has to be replaced with mathematical reality. A typical 52-card deck contains precisely 22,100 possible combinations of 3-card hands:
+            To be successful in <Link href="/blog/teen-patti-master-real-cash-game" className="text-sky-400 underline hover:text-sky-300">teen patti master real cash game play</Link> in the long run, intuition has to be replaced with mathematical reality. A typical 52-card deck contains precisely 22,100 possible combinations of 3-card hands:
           </p>
 
           {/* Desktop Table View */}
@@ -763,7 +763,7 @@ Step 5: Test Withdrawal   ──> Micro ₹100 cashout to test bank payout speed
               </summary>
               <div className="p-3.5 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800/60 mt-1">
                 Each table has a predetermined pot ceiling based on the size of its boot according to official{" "}
-                <Link href="/blog/teen-patti-master-rules" className="text-sky-400 underline hover:text-sky-300">
+                <Link href="/blog/teen-patti-master-game" className="text-sky-400 underline hover:text-sky-300">
                   teen patti master table rules 2026
                 </Link>
                 . Once the total bets reach this limit, betting stops and a mandatory showdown occurs between all active players left in the game, with the entire pot going to the highest-ranking hand.

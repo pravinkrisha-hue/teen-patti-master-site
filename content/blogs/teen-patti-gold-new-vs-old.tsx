@@ -30,13 +30,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Gold Old Version vs New Version 2026 Comparison",
   },
   alternates: {
-    canonical: "/blog/teen-patti-gold-old-vs-new",
+    canonical: "/blog/teen-patti-gold-new-vs-old",
   },
   openGraph: {
     title: "Teen Patti Gold Old Version vs New Version: Full Comparison, Features & APK Truth 2026",
     description:
       "Compare teen patti gold old version vs new version deeply. Discover game-play differences, UI changes, speed tests, safety and a comparison with Teen Patti Master.",
-    url: "/blog/teen-patti-gold-old-vs-new",
+    url: "/blog/teen-patti-gold-new-vs-old",
     siteName: "Teen Patti Gaming Hub",
     images: [
       {
@@ -94,7 +94,7 @@ const articleSchema = {
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.earntp.com/blog/teen-patti-gold-old-vs-new",
+        "@id": "https://www.earntp.com/blog/teen-patti-gold-new-vs-old",
       },
     },
     {
@@ -234,7 +234,7 @@ export default function TeenPattiGoldOldVsNewPage() {
             <a
               href={DOWNLOAD_LINK}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="w-full max-w-[220px] md:max-w-none mt-3.5 bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-sm sm:text-base uppercase tracking-wider py-3 px-6 rounded-full flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/30 transition transform hover:-translate-y-0.5"
             >
               <span>🚀</span> DOWNLOAD
@@ -670,7 +670,7 @@ export default function TeenPattiGoldOldVsNewPage() {
             </li>
             <li>
               <strong>The Teen Patti Master Edge:</strong> In transactional speed tests, real cash games of Teen Patti Master set the standard for cashout efficiency. Verified players using the{" "}
-              <Link href="/blog/teen-patti-master-withdraw" className="text-sky-400 underline hover:text-sky-300 font-semibold">
+              <Link href="/blog/teen-patti-master-real-cash-game" className="text-sky-400 underline hover:text-sky-300 font-semibold">
                 Teen Patti Master instant withdrawal
               </Link>{" "}
               portals usually have their balances cleared to linked bank accounts or UPI handles within 5 to 15 minutes.
@@ -977,7 +977,7 @@ export default function TeenPattiGoldOldVsNewPage() {
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Yono Game</span>
-              <Link href="/blog/yono-game-guide" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/games/yono-games" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>
@@ -994,7 +994,7 @@ export default function TeenPattiGoldOldVsNewPage() {
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Rummy Circle</span>
-              <Link href="/blog/rummy-circle-guide" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/games/rummy-circle" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>

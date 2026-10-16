@@ -102,7 +102,7 @@ export default function TeenPattiMasterYonoGameApk() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="w-48 sm:w-56 text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm uppercase py-3 rounded-xl shadow-lg transition transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
               >
                 <span>🚀</span> DOWNLOAD
@@ -142,7 +142,7 @@ export default function TeenPattiMasterYonoGameApk() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="w-full sm:w-auto text-center bg-[#c27803] hover:bg-[#d98704] text-white font-extrabold text-xs uppercase px-6 py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
                 Download APK ↓
@@ -392,7 +392,7 @@ export default function TeenPattiMasterYonoGameApk() {
                 <div className="p-4 bg-white rounded-xl border border-[#cfe5e4] shadow-sm text-black">
                   <h4 className="font-bold text-black text-sm">3. Classic 3 Patti Micro Tables (₹0.10 to ₹0.50 Boot)</h4>
                   <p className="text-xs sm:text-sm text-black mt-1">
-                    Players choose between Blind (half stake) and Seen (full stake) play in regular three-card poker. Micro-stakes tables shorten downswings. Playing blind for a round or two builds cheap volume, and folding marginal holdings early preserves chips for premium hands. Read our <Link href="/blog/teen-patti-master-pro-secret" className="text-black font-bold underline hover:text-[#c27803]">Pro Secret Strategy Guide</Link>.
+                    Players choose between Blind (half stake) and Seen (full stake) play in regular three-card poker. Micro-stakes tables shorten downswings. Playing blind for a round or two builds cheap volume, and folding marginal holdings early preserves chips for premium hands. Read our <Link href="/blog/teen-patti-master-secrets" className="text-black font-bold underline hover:text-[#c27803]">Pro Secret Strategy Guide</Link>.
                   </p>
                 </div>
 
@@ -453,7 +453,7 @@ export default function TeenPattiMasterYonoGameApk() {
               </div>
 
               <p className="text-xs text-slate-500">
-                Experiencing a delayed transfer? Review our dedicated <Link href="/blog/teen-patti-customer-care" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Customer Care Support Guide</Link> for rapid ticketing steps.
+                Experiencing a delayed transfer? Review our dedicated <Link href="/blog/teen-patti-master-customer-care" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Customer Care Support Guide</Link> for rapid ticketing steps.
               </p>
             </section>
 
@@ -493,7 +493,7 @@ export default function TeenPattiMasterYonoGameApk() {
               </div>
 
               <p className="text-xs text-slate-500">
-                To examine differences between social poker and real-stakes games, read our <Link href="/blog/teen-patti-master-vs-gold" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Teen Patti Master vs Gold Review</Link> as well as the <Link href="/blog/teen-patti-vungo-download-safe-bonus" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Teen Patti Master Vungo Edition Guide</Link>.
+                To examine differences between social poker and real-stakes games, read our <Link href="/blog/teen-patti-master-vs-gold" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Teen Patti Master vs Gold Review</Link> as well as the <Link href="/blog/teen-patti-master-vungo" className="text-[#04292e] font-bold underline hover:text-[#c27803]">Teen Patti Master Vungo Edition Guide</Link>.
               </p>
             </section>
 
@@ -623,7 +623,7 @@ export default function TeenPattiMasterYonoGameApk() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block w-full bg-[#c27803] hover:bg-[#d98704] text-white font-black text-xs uppercase py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
                 Download Official APK →
@@ -639,7 +639,7 @@ export default function TeenPattiMasterYonoGameApk() {
                 Winning starts with knowing card hierarchies without risking funds in offline mode.
               </p>
               <Link
-                href="/blog/teen-patti-offline"
+                href="/blog/teen-patti-master-offline"
                 className="inline-block text-xs font-bold text-black underline decoration-[#c27803] hover:text-[#c27803]"
               >
                 Sequence List &amp; Offline Guide →
@@ -689,7 +689,7 @@ export default function TeenPattiMasterYonoGameApk() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-offline"
+              href="/blog/teen-patti-master-offline"
               className="p-5 rounded-2xl bg-white border border-[#cfe5e4] hover:border-[#c27803] shadow-sm hover:shadow-md transition group block text-black"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-black block mb-1">OFFLINE</span>
@@ -699,7 +699,7 @@ export default function TeenPattiMasterYonoGameApk() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-5 rounded-2xl bg-white border border-[#cfe5e4] hover:border-[#c27803] shadow-sm hover:shadow-md transition group block text-black"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-black block mb-1">EARNINGS</span>
@@ -709,7 +709,7 @@ export default function TeenPattiMasterYonoGameApk() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-customer-care"
+              href="/blog/teen-patti-master-customer-care"
               className="p-5 rounded-2xl bg-white border border-[#cfe5e4] hover:border-[#c27803] shadow-sm hover:shadow-md transition group block text-black"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-black block mb-1">SUPPORT</span>

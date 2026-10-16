@@ -28,13 +28,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Master Real Cash Game: 100% Genuine Earning Guide & UPI Cashout",
   },
   alternates: {
-    canonical: "/blog/teen-patti-master-real-cash",
+    canonical: "/blog/teen-patti-master-real-cash-game",
   },
   openGraph: {
     title: "Teen Patti Master Real Cash: Win Real Money & Claim ₹51",
     description:
       "Play Teen Patti Master Real Cash game! Claim ₹51 free bonus on signup, experience lightning 2-minute UPI withdrawals, and play safe 3-card tables.",
-    url: "/blog/teen-patti-master-real-cash",
+    url: "/blog/teen-patti-master-real-cash-game",
     siteName: "Teen Patti Master Gaming app",
     images: [
       {
@@ -129,7 +129,7 @@ export default function TeenPattiRealCash() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-emerald-400 hover:from-cyan-400 hover:to-emerald-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -257,7 +257,7 @@ export default function TeenPattiRealCash() {
             </div>
             <p className="text-xs text-slate-400 pt-1">
               High-roller tables ane VIP club access mate amaro special guide{" "}
-              <Link href="/blog/teen-patti-pro" className="text-cyan-400 font-semibold hover:underline">
+              <Link href="/blog/teen-patti-master-secrets" className="text-cyan-400 font-semibold hover:underline">
                 Teen Patti Pro
               </Link>{" "}
               explore karo.
@@ -440,7 +440,7 @@ export default function TeenPattiRealCash() {
                 </p>
               </Link>
               <Link
-                href="/blog/teen-patti-master-2026-edition"
+                href="/blog/teen-patti-master-2026"
                 className="p-3.5 rounded-xl bg-[#0b1d33] border border-cyan-500/20 hover:border-cyan-400 transition group block"
               >
                 <h4 className="font-bold text-cyan-300 text-xs sm:text-sm group-hover:text-cyan-200">

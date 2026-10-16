@@ -191,7 +191,7 @@ export default function TeenPattiMasterVsYonoGame() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 style={styles.downloadButton}
               >
                 ⚡ Download Teen Patti Master APK
@@ -408,7 +408,7 @@ export default function TeenPattiMasterVsYonoGame() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 style={styles.downloadButton}
               >
                 ⚡ Get Teen Patti Master APK Now
@@ -576,7 +576,7 @@ export default function TeenPattiMasterVsYonoGame() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 style={styles.downloadButton}
               >
                 ⚡ Download Official Teen Patti Master APK

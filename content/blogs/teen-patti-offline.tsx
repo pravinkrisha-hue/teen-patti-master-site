@@ -121,7 +121,7 @@ export default function OfflineModeArticle() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -342,7 +342,7 @@ export default function OfflineModeArticle() {
             </Link>
 
             <Link
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
@@ -416,7 +416,7 @@ export default function OfflineModeArticle() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
           >
             Download Official APK Now 🚀

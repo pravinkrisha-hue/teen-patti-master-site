@@ -74,7 +74,7 @@ const schemaMarkup = {
       "headline": "Teen Patti Master Loss Recovery How to Stop Losing and Win Back",
       "description":
         "Are you tired of losing in Teen Patti Master? Discover the proven psychology, bankroll rules, card probabilities and exit strategies to recover losses safely.",
-      "image": "https://techtonis.com/teen-patti-master-loss-recover.webp",
+      "image": "https://www.techtonis.com/teen-patti-master-loss-recover.webp",
       "author": {
         "@type": "Organization",
         "name": "Techtonis"
@@ -84,12 +84,12 @@ const schemaMarkup = {
         "name": "Techtonis",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://techtonis.com/icon.png"
+          "url": "https://www.techtonis.com/icon.png"
         }
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://techtonis.com/blog/teen-patti-master-loss-recover"
+        "@id": "https://www.techtonis.com/blog/teen-patti-master-loss-recover"
       }
     },
     {
@@ -146,7 +146,7 @@ export default function TeenPattiMasterLossRecovery() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download Official APK
@@ -204,7 +204,7 @@ export default function TeenPattiMasterLossRecovery() {
 
           <div className="bg-[#0b0e14]/90 border border-slate-700/60 p-4 sm:p-5 rounded-2xl">
             <p className="text-slate-200 text-xs sm:text-sm leading-relaxed">
-              ✨ <strong>Quick Take:</strong> Losing chips on an online table hurts, but statistical variance is an inescapable component of 52-card games. In this tactical manual, discover how to use strict <Link href="/blog/teen-patti-master-online-tabal" className="text-amber-400 underline font-semibold hover:text-amber-300">table position</Link>, stop <strong className="text-amber-300">teen patti master revenge game</strong> tilt, and protect your capital using mathematical edge rather than pure luck.
+              ✨ <strong>Quick Take:</strong> Losing chips on an online table hurts, but statistical variance is an inescapable component of 52-card games. In this tactical manual, discover how to use strict <Link href="/blog/teen-patti-master-online" className="text-amber-400 underline font-semibold hover:text-amber-300">table position</Link>, stop <strong className="text-amber-300">teen patti master revenge game</strong> tilt, and protect your capital using mathematical edge rather than pure luck.
             </p>
           </div>
         </header>
@@ -294,7 +294,7 @@ export default function TeenPattiMasterLossRecovery() {
           </div>
           <p className="text-xs text-slate-400">
             For specific dynamic rules on alternative tables, check our{" "}
-            <Link href="/blog/teen-patti-master-pro-secret" className="text-amber-400 underline hover:text-amber-300">
+            <Link href="/blog/teen-patti-master-secrets" className="text-amber-400 underline hover:text-amber-300">
               Teen Patti Master Pro Secret Guide
             </Link>.
           </p>
@@ -520,7 +520,7 @@ Applications            Optimization            Game Mode
           </div>
           <p className="text-xs text-slate-400">
             Encountering payment or account lockouts? Contact verified agents via our{" "}
-            <Link href="/blog/teen-patti-customer-care" className="text-amber-400 underline hover:text-amber-300">
+            <Link href="/blog/teen-patti-master-customer-care" className="text-amber-400 underline hover:text-amber-300">
               Customer Care Helpline Portal
             </Link>.
           </p>

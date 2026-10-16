@@ -29,13 +29,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Master 2026 Edition: Real Cash App & Instant UPI Cashout",
   },
   alternates: {
-    canonical: "/blog/teen-patti-master-2026-edition",
+    canonical: "/blog/teen-patti-master-2026",
   },
   openGraph: {
     title: "Teen Patti Master 2026: Real Cash App Download & Free Bonus",
     description:
       "Play Teen Patti Master 2026 edition! Get instant ₹51 free bonus on signup, ultra-fast 60s UPI cashout, and 100% anti-cheat real cash card gaming tables.",
-    url: "/blog/teen-patti-master-2026-edition",
+    url: "/blog/teen-patti-master-2026",
     siteName: "Teen Patti Master Gaming App",
     images: [
       {
@@ -138,7 +138,7 @@ export default function TeenPatti2026() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-emerald-500 to-teal-400 hover:from-emerald-400 hover:to-teal-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -391,7 +391,7 @@ export default function TeenPatti2026() {
           </div>
           <p className="text-xs sm:text-sm text-slate-300 pt-2">
             Looking for higher table stakes, private salon access, and exclusive VIP tables? Read our specialized breakdown on{" "}
-            <Link href="/blog/teen-patti-master-real-cash" className="text-emerald-400 font-semibold hover:underline">
+            <Link href="/blog/teen-patti-master-real-cash-game" className="text-emerald-400 font-semibold hover:underline">
               Teen Patti Master Real Cash Strategies
             </Link>.
           </p>
@@ -650,7 +650,7 @@ export default function TeenPatti2026() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-block bg-gradient-to-r from-emerald-500 via-teal-400 to-emerald-500 hover:from-emerald-400 hover:to-teal-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
           >
             Download Official 2026 APK Now 🚀

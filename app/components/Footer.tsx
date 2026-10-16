@@ -87,8 +87,10 @@ export default function Footer() {
               SITE
             </h3>
             <ul className="space-y-2.5 text-xs text-stone-400 font-medium">
-              <li><Link href="/#guide" className="hover:text-amber-400 transition">About Us</Link></li>
-              <li><Link href="/#guide" className="hover:text-amber-400 transition">Responsible Gaming</Link></li>
+              <li><Link href="/about" className="hover:text-amber-400 transition">About Us</Link></li>
+              <li><Link href="/contact" className="hover:text-amber-400 transition">Contact Us</Link></li>
+              <li><Link href="/responsible-gaming" className="hover:text-amber-400 transition">Responsible Gaming</Link></li>
+              <li><Link href="/privacy-policy" className="hover:text-amber-400 transition">Privacy Policy</Link></li>
               <li><Link href="/blog/teen-patti-master-customer-care" className="hover:text-amber-400 transition">Customer Care</Link></li>
               <li><Link href="/blog/teen-patti-master-faq" className="hover:text-amber-400 transition">Help &amp; Support</Link></li>
               <li><span className="text-emerald-400 font-semibold cursor-default">🇮🇳 हिंदी (Hindi) / English</span></li>
@@ -125,7 +127,7 @@ export default function Footer() {
         <a 
           href={DOWNLOAD_URL}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow sponsored noopener noreferrer"
           className="relative hover:scale-105 transition-transform duration-300 cursor-pointer hidden sm:block"
         >
           <Image 
@@ -140,7 +142,7 @@ export default function Footer() {
         <a 
           href={DOWNLOAD_URL}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="nofollow sponsored noopener noreferrer"
           className="px-5 py-2 text-sm md:text-base font-bold text-white bg-gradient-to-r from-green-500 to-green-700 rounded-full shadow-[0_0_15px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 animate-pulse border-2 border-green-300 flex items-center gap-2 max-w-[180px] justify-center mx-auto"
         >
           <span className="text-lg">🚀</span>

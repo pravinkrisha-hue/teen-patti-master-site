@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Master Pro Secret: Real Winning Tips & Tricks",
   },
   alternates: {
-    canonical: "/blog/teen-patti-master-pro-secret",
+    canonical: "/blog/teen-patti-master-secrets",
   },
   openGraph: {
     title: "Teen Patti Master Pro Secret: Real Winning Tips & Tricks",
     description:
       "Discover Teen Patti Master Pro secret tips, strategies, and bankroll tricks to boost your gameplay. Learn how to play smart and maximize your daily wins safely.",
-    url: "/blog/teen-patti-master-pro-secret",
+    url: "/blog/teen-patti-master-secrets",
     siteName: "Teen Patti Master gaming app",
     images: [
       {
@@ -73,7 +73,7 @@ const schemaMarkup = {
       "headline": "Teen Patti Master Pro Secret: Real Winning Tips & Tricks",
       "description":
         "Discover Teen Patti Master Pro secret tips, strategies, and bankroll tricks to boost your gameplay. Learn how to play smart and maximize your daily wins safely.",
-      "image": "https://techtonis.com/teen-patti-master-anroid.webp",
+      "image": "https://www.techtonis.com/teen-patti-master-anroid.webp",
       "author": {
         "@type": "Organization",
         "name": "Techtonis"
@@ -83,12 +83,12 @@ const schemaMarkup = {
         "name": "Techtonis",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://techtonis.com/icon.png"
+          "url": "https://www.techtonis.com/icon.png"
         }
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://techtonis.com/blog/teen-patti-master-pro-secret"
+        "@id": "https://www.techtonis.com/blog/teen-patti-master-secrets"
       }
     },
     {
@@ -145,7 +145,7 @@ export default function TeenPattiMasterProSecret() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -356,7 +356,7 @@ export default function TeenPattiMasterProSecret() {
               <ul className="list-disc pl-4 space-y-1.5 text-xs text-slate-300">
                 <li>કાર્ડ ગેમ્સ મનોરંજન માટે છે, તેને ક્યારેય આવકનો મુખ્ય સ્ત્રોત ન ગણવો જોઈએ.</li>
                 <li>તમારા માટે દૈનિક રમવાનો સમય અને બજેટ મર્યાદા (Daily Limit) નક્કી કરો.</li>
-                <li>ડિજિટલ સિક્યોરિટીનું ધ્યાન રાખો; ક્યારેય પાસવર્ડ કે OTP શેર ન કરો. સહાય માટે ફક્ત ઓફિશિયલ <Link href="/blog/teen-patti-customer-care" className="text-amber-400 underline">Customer Support</Link> નો સંપર્ક કરો.</li>
+                <li>ડિજિટલ સિક્યોરિટીનું ધ્યાન રાખો; ક્યારેય પાસવર્ડ કે OTP શેર ન કરો. સહાય માટે ફક્ત ઓફિશિયલ <Link href="/blog/teen-patti-master-customer-care" className="text-amber-400 underline">Customer Support</Link> નો સંપર્ક કરો.</li>
               </ul>
             </div>
           </div>
@@ -369,7 +369,7 @@ export default function TeenPattiMasterProSecret() {
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
             <Link
-              href="/blog/teen-patti-master-online-tabal"
+              href="/blog/teen-patti-master-online"
               className="p-3.5 rounded-xl bg-[#0e131a] border border-slate-700 hover:border-amber-400 transition group block"
             >
               <h4 className="font-bold text-amber-300 text-xs sm:text-sm group-hover:text-amber-200">

@@ -23,13 +23,13 @@ export const metadata: Metadata = {
     name: "Teen Patti Master App Download: Latest Official APK Setup & Free ₹51 Bonus",
   },
   alternates: {
-    canonical: "/blog/teen-patti-master-app-download",
+    canonical: "/blog/teen-patti-master-app-download-free",
   },
   openGraph: {
     title: "Teen Patti Master App Download: Free APK & ₹51 Cash Bonus",
     description:
       "Download Teen Patti Master app APK safely! Claim instant ₹51 bonus on signup, play real cash 3-card tables, and get ultra-fast 2-minute UPI bank withdrawals.",
-    url: "/blog/teen-patti-master-app-download",
+    url: "/blog/teen-patti-master-app-download-free",
     siteName: "Teen Patti Master Gaming App",
     images: [
       {
@@ -132,7 +132,7 @@ export default function TeenPattiAppDownload() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -192,7 +192,7 @@ export default function TeenPattiAppDownload() {
                 <a
                   href={DOWNLOAD_LINK}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wider py-3 px-7 rounded-2xl shadow-[0_0_20px_rgba(245,158,11,0.4)] transition transform hover:scale-105"
                 >
                   <span>⚡</span> Download APK Now (~45 MB)
@@ -420,7 +420,7 @@ export default function TeenPattiAppDownload() {
           </div>
           <p className="text-xs text-slate-400">
             Real money earnings ane winning strategies mate tame amari{" "}
-            <Link href="/blog/teen-patti-master-real-cash" className="text-indigo-400 font-semibold hover:underline">
+            <Link href="/blog/teen-patti-master-real-cash-game" className="text-indigo-400 font-semibold hover:underline">
               Teen Patti Master Real Cash Guide
             </Link>{" "}
             pan explore kari shako chho.
@@ -563,7 +563,7 @@ export default function TeenPattiAppDownload() {
             </Link>
 
             <Link
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-4 rounded-2xl bg-[#0c0924] border border-indigo-900/40 hover:border-indigo-500/60 transition group block"
             >
               <h3 className="font-bold text-indigo-300 text-sm group-hover:text-indigo-200 flex items-center gap-1.5">

@@ -68,7 +68,7 @@ export default function TeenPattiMasterPage() {
         {/* Navigation Links */}
         <nav style={{ display: "flex", alignItems: "center", gap: "22px", flexWrap: "wrap", fontSize: "0.85rem", fontWeight: 700, letterSpacing: "0.5px" }}>
           <Link href="/" style={{ color: "#ec4899", textDecoration: "none" }}>HOMEPAGE</Link>
-          <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" style={{ color: "#e2e8f0", textDecoration: "none" }}>DOWNLOAD</a>
+          <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" style={{ color: "#e2e8f0", textDecoration: "none" }}>DOWNLOAD</a>
           <Link href="#architectural-overview" style={{ color: "#e2e8f0", textDecoration: "none" }}>TEEN PATTI</Link>
           <Link href="#safe-gaming-tips" style={{ color: "#e2e8f0", textDecoration: "none" }}>BRAND</Link>
           <Link href="#permissions-audit" style={{ color: "#e2e8f0", textDecoration: "none" }}>PRIVACY</Link>
@@ -81,7 +81,7 @@ export default function TeenPattiMasterPage() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             style={{
               background: "linear-gradient(90deg, #6366f1, #8b5cf6)",
               color: "#ffffff",
@@ -156,7 +156,7 @@ export default function TeenPattiMasterPage() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 style={{
                   background: "linear-gradient(180deg, #fde047 0%, #eab308 100%)",
                   color: "#000000",

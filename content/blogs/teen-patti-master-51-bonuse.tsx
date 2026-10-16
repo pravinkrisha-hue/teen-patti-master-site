@@ -273,7 +273,7 @@ export default function BonusClaimArticle() {
               <h3 className="font-bold text-amber-300 mb-1">Practice and Withdrawal Balance</h3>
               <p>
                 Sign-up bonus chips are divided into gameplay and practice credits. These help with table entry and strategy testing before moving to high-stake{" "}
-                <Link href="/blog/teen-patti-master-real-cash" className="text-amber-400 font-semibold underline hover:text-amber-300">
+                <Link href="/blog/teen-patti-master-real-cash-game" className="text-amber-400 font-semibold underline hover:text-amber-300">
                   Teen Patti Master real cash games
                 </Link>
                 .
@@ -315,7 +315,7 @@ export default function BonusClaimArticle() {
                 <tr>
                   <td className="p-3.5 font-bold text-white">Build Release</td>
                   <td className="p-3.5 text-emerald-400 font-semibold">
-                    <Link href="/blog/teen-patti-master-2026-edition" className="hover:underline">
+                    <Link href="/blog/teen-patti-master-2026" className="hover:underline">
                       v4.9 (2026 Latest Edition)
                     </Link>
                   </td>
@@ -359,7 +359,7 @@ export default function BonusClaimArticle() {
               <span className="text-amber-400 font-bold">3.</span>
               <span>
                 <strong className="text-white">Fold Vulnerable Holdings Early:</strong> Don’t chase losses with weak pairs or disconnected high cards. Read our{" "}
-                <Link href="/blog/teen-patti-master-real-cash" className="text-amber-400 underline font-bold hover:text-amber-300">
+                <Link href="/blog/teen-patti-master-real-cash-game" className="text-amber-400 underline font-bold hover:text-amber-300">
                   Teen Patti Master winning strategy guide
                 </Link>{" "}
                 to master calculated folds and chip management.
@@ -385,7 +385,7 @@ export default function BonusClaimArticle() {
             </Link>
 
             <Link
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
@@ -479,7 +479,7 @@ export default function BonusClaimArticle() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
           >
             Download &amp; Claim ₹51 Now 🚀

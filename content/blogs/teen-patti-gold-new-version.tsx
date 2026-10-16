@@ -234,7 +234,7 @@ export default function TeenPattiGoldNewVersionPage() {
             <a
               href={DOWNLOAD_LINK}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="w-full max-w-[220px] md:max-w-none mt-3.5 bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-sm sm:text-base uppercase tracking-wider py-3 px-6 rounded-full flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/30 transition transform hover:-translate-y-0.5"
             >
               <span>🚀</span> DOWNLOAD APK
@@ -456,7 +456,7 @@ Account security: multi-factor binding and hardware anomaly detection`}</pre>
           </div>
 
           <p>
-            <strong>Sequence Status A-2-3:</strong> The A-2-3 sequence is the second-highest sequence on the board, just after A-K-Q, as per the standard <Link href="/blog/teen-patti-gold-rules" className="text-sky-400 underline font-semibold hover:text-sky-300">Teen Patti Gold rules guide</Link>. The lowest sequence is 2-3-4.
+            <strong>Sequence Status A-2-3:</strong> The A-2-3 sequence is the second-highest sequence on the board, just after A-K-Q, as per the standard <Link href="/games/teen-patti-gold" className="text-sky-400 underline font-semibold hover:text-sky-300">Teen Patti Gold rules guide</Link>. The lowest sequence is 2-3-4.
           </p>
           <p>
             <strong>Tie-Breaker Protocols:</strong> When two players have the same hand categories (such as two flushes), the highest card in the hand wins. Top cards tie? Second card wins tiebreaker; third card wins tiebreaker. The card suits (Spades, Hearts, Clubs, Diamonds) do not matter for being superior; if the cards are identical, the pot will be split evenly.
@@ -655,7 +655,7 @@ Account security: multi-factor binding and hardware anomaly detection`}</pre>
           <ul className="list-disc list-inside space-y-2 text-slate-200 pl-1">
             <li>
               <strong>Direct IMPS &amp; UPI Channels:</strong> The updated release integrates direct payment rails, processing verified cashouts via{" "}
-              <Link href="/blog/teen-patti-gold-withdraw" className="text-sky-400 underline font-semibold hover:text-sky-300">
+              <Link href="/games/teen-patti-gold" className="text-sky-400 underline font-semibold hover:text-sky-300">
                 Teen Patti Gold instant withdrawal
               </Link>{" "}
               to linked bank accounts and UPI IDs within 5 to 15 minutes.
@@ -720,7 +720,7 @@ Account security: multi-factor binding and hardware anomaly detection`}</pre>
               <strong className="text-white block mb-1 text-sm sm:text-base">Issue 2: Withdrawal not processing</strong>
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
                 <strong>Fix:</strong> Make sure you have linked the correct bank details and UPI ID. Transactions can take a few hours to settle during bank server maintenance windows. Contact{" "}
-                <Link href="/blog/teen-patti-gold-customer-care" className="text-sky-400 underline font-semibold hover:text-sky-300">
+                <Link href="/blog/teen-patti-master-customer-care" className="text-sky-400 underline font-semibold hover:text-sky-300">
                   Teen Patti Gold customer care
                 </Link>{" "}
                 if delays persist.
@@ -894,7 +894,7 @@ Account security: multi-factor binding and hardware anomaly detection`}</pre>
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Yono Game</span>
-              <Link href="/blog/yono-game-guide" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/games/yono-games" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>
@@ -911,7 +911,7 @@ Account security: multi-factor binding and hardware anomaly detection`}</pre>
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Rummy Circle</span>
-              <Link href="/blog/rummy-circle-guide" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/games/rummy-circle" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>

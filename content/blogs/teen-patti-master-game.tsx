@@ -61,7 +61,7 @@ export default function TeenPattiMasterGameArticle() {
           <a
             href={DOWNLOAD_URL}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="w-full sm:w-auto text-center bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-600 hover:to-yellow-500 text-slate-950 font-extrabold px-8 py-3.5 rounded-xl shadow-lg transition-all duration-200 hover:scale-105"
           >
             Download APK
@@ -165,7 +165,7 @@ export default function TeenPattiMasterGameArticle() {
             <a
               href={DOWNLOAD_URL}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="inline-block bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-600 hover:to-yellow-500 text-slate-950 font-bold px-8 py-3.5 rounded-xl shadow-lg transition-all duration-200 hover:scale-105"
             >
               Direct Download Teen Patti Master APK

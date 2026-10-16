@@ -18,8 +18,8 @@ export async function generateMetadata({
 
   const seoMeta: Record<string, { title: string; description: string }> = {
     "teen-patti-master": {
-      title: "Teen Patti Master Title: Teen Patti Master APK Download: Official Real Cash App & ₹51 Bonus",
-      description: "Download Teen Patti Master APK for Android Official APK Securely download the app, get your instant ₹51 signup bonus and play live tables with instant UPI withdrawals.",
+      title: "Teen Patti Master APK Download: Real Cash App & ₹51 Bonus",
+      description: "Download the Teen Patti Master APK for Android securely, get your instant ₹51 signup bonus and play live tables with instant UPI withdrawals.",
     },
     "teen-patti-gold": {
       title: "Teen Patti Gold Review: Classic 3-Card Poker Tables & Free Chips",
@@ -51,18 +51,47 @@ export async function generateMetadata({
     },
     "teen-patti-old-version": {
       title: "Teen Patti Master Old Version: Download 48MB Smooth Classic APK",
-      description: "Tired of app lags? Download the lightweight Teen Patti Master old version (48MB). Enjoy zero-freeze gaming, low battery usage, and stable tables on any budget phone..",
+      description: "Tired of app lags? Download the lightweight Teen Patti Master old version (48MB). Enjoy zero-freeze gaming, low battery usage, and stable tables on any budget phone.",
     },
   };
 
-  const currentMeta = seoMeta[slug] || {
+  const knownMeta = seoMeta[slug];
+  const currentMeta = knownMeta || {
     title: "Teen Patti Master & Online Card Games Hub",
     description: "Explore top rated online card games, APK download guides, rules, and winning strategies.",
   };
 
+  if (!knownMeta) {
+    return {
+      title: currentMeta.title,
+      description: currentMeta.description,
+      robots: { index: false, follow: true },
+    };
+  }
+
+  const canonicalPath = `/games/${slug}`;
+  const ogImage = gamesData[slug]?.icon || "/teen-patti-master.webp";
+
   return {
     title: currentMeta.title,
     description: currentMeta.description,
+    alternates: {
+      canonical: canonicalPath,
+    },
+    openGraph: {
+      type: "website",
+      url: canonicalPath,
+      siteName: "Teen Patti Master Hub",
+      title: currentMeta.title,
+      description: currentMeta.description,
+      images: [ogImage],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: currentMeta.title,
+      description: currentMeta.description,
+      images: [ogImage],
+    },
   };
 }
 
@@ -405,7 +434,7 @@ export default async function GameDetailPage({
           <a
             href={game.downloadUrl}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className={`block text-center w-full py-4 font-black text-base sm:text-lg rounded-2xl transition transform hover:scale-[1.01] ${
               isGold 
                 ? "bg-gradient-to-r from-yellow-500 via-amber-400 to-yellow-600 hover:from-yellow-400 hover:to-amber-500 text-slate-950 shadow-[0_0_25px_rgba(234,179,8,0.5)] border border-yellow-200" 
@@ -710,7 +739,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-lg transition transform hover:scale-105"
               >
                 Download App Now 🚀
@@ -901,7 +930,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 hover:from-yellow-300 hover:to-amber-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(234,179,8,0.5)] transition transform hover:scale-105"
               >
                 Download Teen Patti Gold 🚀
@@ -1021,7 +1050,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-500 hover:from-emerald-300 hover:to-teal-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(16,185,129,0.5)] transition transform hover:scale-105"
               >
                 Download Rummy Circle 🚀
@@ -1141,7 +1170,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(245,158,11,0.5)] transition transform hover:scale-105"
               >
                 Download Junglee Rummy 🚀
@@ -1407,7 +1436,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-indigo-500 via-violet-500 to-indigo-600 hover:from-indigo-400 hover:to-violet-400 text-white font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(99,102,241,0.5)] transition transform hover:scale-105"
               >
                 Download PokerStars India 🚀
@@ -1647,7 +1676,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-orange-500 via-amber-500 to-red-500 hover:from-orange-400 hover:to-red-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(249,115,22,0.5)] transition transform hover:scale-105"
               >
                 Download WinZO Games APK 🚀
@@ -1934,7 +1963,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-fuchsia-500 via-purple-500 to-pink-500 hover:from-fuchsia-400 hover:to-pink-400 text-white font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(217,70,239,0.5)] transition transform hover:scale-105"
               >
                 Download Teen Patti Star APK 🚀
@@ -2147,7 +2176,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-emerald-400 via-green-500 to-teal-500 hover:from-emerald-300 hover:to-teal-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(16,185,129,0.6)] transition transform hover:scale-105"
               >
                 Download Yono Games APK 🚀
@@ -2461,7 +2490,7 @@ export default async function GameDetailPage({
               <a
                 href={MAIN_DOWNLOAD_URL}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 hover:from-amber-400 hover:to-yellow-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(245,158,11,0.6)] transition transform hover:scale-105"
               >
                 Download Old Version APK 🚀

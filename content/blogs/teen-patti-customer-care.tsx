@@ -121,7 +121,7 @@ export default function TeenPattiCustomerCare() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -158,7 +158,7 @@ export default function TeenPattiCustomerCare() {
             <a
               href={DOWNLOAD_LINK}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-2.5 px-8 rounded-2xl shadow-[0_0_20px_rgba(245,158,11,0.4)] transition transform hover:scale-105"
             >
               [Download]
@@ -379,7 +379,7 @@ export default function TeenPattiCustomerCare() {
                   <td className="p-4 font-bold text-white">Real Cash Strategies</td>
                   <td className="p-4 text-slate-300 leading-relaxed">
                     Cash tables par potana bankroll ne safely manage karva mate amari{" "}
-                    <Link href="/blog/teen-patti-master-real-cash" className="text-fuchsia-400 font-semibold hover:underline">
+                    <Link href="/blog/teen-patti-master-real-cash-game" className="text-fuchsia-400 font-semibold hover:underline">
                       Teen Patti Master Real Cash Guide
                     </Link>{" "}
                     explore karo.
@@ -456,7 +456,7 @@ export default function TeenPattiCustomerCare() {
             </Link>
 
             <Link
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-4 rounded-2xl bg-[#0f071c] border border-fuchsia-900/40 hover:border-fuchsia-500/60 transition group block"
             >
               <h3 className="font-bold text-fuchsia-300 text-sm group-hover:text-fuchsia-200 flex items-center gap-1.5">

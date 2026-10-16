@@ -112,7 +112,7 @@ export default function TeenPattiMasterExplained() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="w-full sm:w-auto text-center bg-[#0284c7] hover:bg-[#0369a1] text-white font-black text-xs uppercase px-7 py-3.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
                 Download APK ↓
@@ -400,7 +400,7 @@ export default function TeenPattiMasterExplained() {
                 <div className="p-5 bg-white rounded-xl border border-[#cbd5e1] shadow-sm">
                   <h4 className="font-bold text-[#0f172a] text-sm">Withdrawal Speed and Compliance</h4>
                   <p className="text-xs sm:text-sm text-[#475569] mt-1">
-                    Standard IMPS and UPI payouts are processed through automated payment APIs within 5 to 25 minutes. Payouts require an account threshold of at least ₹100. If tickets stall, contact our <Link href="/blog/teen-patti-customer-care" className="text-sky-600 underline font-semibold hover:text-sky-800">Customer Care Team</Link> directly.
+                    Standard IMPS and UPI payouts are processed through automated payment APIs within 5 to 25 minutes. Payouts require an account threshold of at least ₹100. If tickets stall, contact our <Link href="/blog/teen-patti-master-customer-care" className="text-sky-600 underline font-semibold hover:text-sky-800">Customer Care Team</Link> directly.
                   </p>
                 </div>
               </div>
@@ -420,7 +420,7 @@ export default function TeenPattiMasterExplained() {
                   <strong>Enforce the 2% to 5% Stake Ceiling:</strong> Never risk more than 5% of your total wallet on a single hand. If your wallet holds ₹2,000, your total commitment in any round should not exceed ₹100.
                 </li>
                 <li className="p-4 bg-white rounded-xl border-l-4 border-emerald-600 border border-[#cbd5e1]">
-                  <strong>Fold Weak Cards Early:</strong> With high-card hands accounting for 74.39% of all deals, calling bets hoping for a miraculous showdown is unprofitable over time. Check out our <Link href="/blog/teen-patti-master-pro-secret" className="text-sky-600 underline font-semibold hover:text-sky-800">Pro Secrets Strategy Guide</Link> for betting patterns.
+                  <strong>Fold Weak Cards Early:</strong> With high-card hands accounting for 74.39% of all deals, calling bets hoping for a miraculous showdown is unprofitable over time. Check out our <Link href="/blog/teen-patti-master-secrets" className="text-sky-600 underline font-semibold hover:text-sky-800">Pro Secrets Strategy Guide</Link> for betting patterns.
                 </li>
                 <li className="p-4 bg-white rounded-xl border-l-4 border-rose-600 border border-[#cbd5e1]">
                   <strong>Follow the Three-Loss Rule:</strong> Experiencing three significant beats in a row can trigger emotional betting (&quot;tilt&quot;). Close the app for at least 45 minutes to reset your focus before resuming play.
@@ -573,7 +573,7 @@ export default function TeenPattiMasterExplained() {
               <a
                 href={DOWNLOAD_LINK}
                 target="_blank"
-                rel="noopener noreferrer"
+                rel="nofollow sponsored noopener noreferrer"
                 className="inline-block w-full bg-[#0284c7] hover:bg-[#0369a1] text-white font-black text-xs uppercase py-3.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
                 Download Official APK →
@@ -589,7 +589,7 @@ export default function TeenPattiMasterExplained() {
                 Learn card rankings and betting pacing without risking funds using the offline single-player mode.
               </p>
               <Link
-                href="/blog/teen-patti-offline"
+                href="/blog/teen-patti-master-offline"
                 className="inline-block text-xs font-bold text-[#0284c7] underline hover:text-[#0369a1]"
               >
                 Read Teen Patti Offline Guide →
@@ -629,7 +629,7 @@ export default function TeenPattiMasterExplained() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-master-pro-secret"
+              href="/blog/teen-patti-master-secrets"
               className="p-5 rounded-2xl bg-white border border-[#cbd5e1] hover:border-sky-500 shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">ADVANCED STRATEGY</span>
@@ -649,7 +649,7 @@ export default function TeenPattiMasterExplained() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-master-real-cash"
+              href="/blog/teen-patti-master-real-cash-game"
               className="p-5 rounded-2xl bg-white border border-[#cbd5e1] hover:border-sky-500 shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">CASH MECHANICS</span>
@@ -659,7 +659,7 @@ export default function TeenPattiMasterExplained() {
             </Link>
 
             <Link 
-              href="/blog/teen-patti-customer-care"
+              href="/blog/teen-patti-master-customer-care"
               className="p-5 rounded-2xl bg-white border border-[#cbd5e1] hover:border-sky-500 shadow-sm hover:shadow-md transition group block"
             >
               <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block mb-1">PAYMENT SUPPORT</span>

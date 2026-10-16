@@ -74,7 +74,7 @@ const faqSchema = {
       "headline": "Teen Patti Master FAQ: 35+ Real Answers, Setup & Safety",
       "description":
         "The ultimate troubleshooting and reference handbook for Teen Patti Master players across India.",
-      "image": "https://techtonis.com/teen-patti-master-faq.webp",
+      "image": "https://www.techtonis.com/teen-patti-master-faq.webp",
       "author": {
         "@type": "Organization",
         "name": "Techtonis"
@@ -84,12 +84,12 @@ const faqSchema = {
         "name": "Techtonis",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://techtonis.com/icon.png"
+          "url": "https://www.techtonis.com/icon.png"
         }
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://techtonis.com/blog/teen-patti-master-faq"
+        "@id": "https://www.techtonis.com/blog/teen-patti-master-faq"
       }
     },
     {
@@ -154,7 +154,7 @@ export default function TeenPattiFaq() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Get Official APK
@@ -462,7 +462,7 @@ export default function TeenPattiFaq() {
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
                 The minimum cashout threshold is ₹100. Standard IMPS extractions settle directly into your bank or UPI account in 5 to 25 minutes. During peak banking holidays, processing can take up to 24 hours. For urgent payment tickets, contact our{" "}
-                <Link href="/blog/teen-patti-customer-care" className="text-amber-400 underline hover:text-amber-300">
+                <Link href="/blog/teen-patti-master-customer-care" className="text-amber-400 underline hover:text-amber-300">
                   Customer Care Helpdesk
                 </Link>.
               </div>
@@ -575,7 +575,7 @@ export default function TeenPattiFaq() {
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
                 Beyond Classic 3 Patti, players can join Muflis (where the lowest hand wins), AK47 (where Aces, Kings, 4s, and 7s act as wild Jokers), Dragon vs Tiger, Andar Bahar, and Point Rummy. Explore full mechanics in our{" "}
-                <Link href="/blog/teen-patti-master-online-tabal" className="text-amber-400 underline hover:text-amber-300">
+                <Link href="/blog/teen-patti-master-online" className="text-amber-400 underline hover:text-amber-300">
                   Live Online Table Guide
                 </Link>.
               </div>
@@ -596,7 +596,7 @@ export default function TeenPattiFaq() {
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
                 No player can win every individual round because card dealing follows statistical probability. Long-term profitability comes from disciplined hand selection, folding poor cards early, and maximizing value on premium hands. Read our strategic tips in the{" "}
-                <Link href="/blog/teen-patti-master-pro-secret" className="text-amber-400 underline hover:text-amber-300">
+                <Link href="/blog/teen-patti-master-secrets" className="text-amber-400 underline hover:text-amber-300">
                   Teen Patti Master Pro Secret Guide
                 </Link>.
               </div>
@@ -801,7 +801,7 @@ export default function TeenPattiFaq() {
             <a
               href={DOWNLOAD_LINK}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="inline-block bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs uppercase px-8 py-3 rounded-xl shadow-lg transition transform hover:scale-105"
             >
               Download Official APK 🚀

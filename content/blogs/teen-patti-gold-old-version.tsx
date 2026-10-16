@@ -208,7 +208,7 @@ export default function TeenPattiGoldOldVersionPage() {
             <a
               href={DOWNLOAD_LINK}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="w-full max-w-[220px] md:max-w-none mt-3.5 bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-sm sm:text-base uppercase tracking-wider py-3 px-6 rounded-full flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/30 transition transform hover:-translate-y-0.5"
             >
               <span>🚀</span> DOWNLOAD
@@ -484,11 +484,11 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
           <h3 className="text-base sm:text-xl font-bold text-slate-100 pt-1">1. Instant Auto Cashout Ecosystem</h3>
           <p>
             &quot;You can have billions of virtual chips in legacy social apps, but they are worthless in the real world. Playing{" "}
-            <Link href="/blog/teen-patti-master-real-cash" className="text-sky-400 font-bold underline hover:text-sky-300">
+            <Link href="/blog/teen-patti-master-real-cash-game" className="text-sky-400 font-bold underline hover:text-sky-300">
               teen patti master real cash
             </Link>{" "}
             means your card skills are converted directly into cold hard cash. Indian Unified Payments Interface (UPI) infrastructure and instant IMPS banking rails enable verified winnings to be directly withdrawn via{" "}
-            <Link href="/blog/teen-patti-master-withdraw" className="text-sky-400 font-bold underline hover:text-sky-300">
+            <Link href="/blog/teen-patti-master-real-cash-game" className="text-sky-400 font-bold underline hover:text-sky-300">
               teen patti master withdraw money
             </Link>{" "}
             to personal bank accounts in 5 to 25 minutes with entry thresholds starting at just ₹100.
@@ -643,7 +643,7 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
             <a
               href={DOWNLOAD_LINK}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="nofollow sponsored noopener noreferrer"
               className="text-amber-400 font-bold underline hover:text-amber-300"
             >
               Download the official
@@ -704,7 +704,7 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Yono Game</span>
-              <Link href="/blog/yono-game-guide" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/games/yono-games" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>
@@ -721,7 +721,7 @@ Complete First Deposit & Enjoy Fair-Play Tables`}</pre>
                 />
               </div>
               <span className="font-bold text-white text-xs sm:text-base">Rummy Circle</span>
-              <Link href="/blog/rummy-circle-guide" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
+              <Link href="/games/rummy-circle" className="text-amber-400 hover:text-amber-300 text-xs font-semibold">
                 Read guide &rarr;
               </Link>
             </div>

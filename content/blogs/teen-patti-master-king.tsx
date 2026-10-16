@@ -109,11 +109,11 @@ export default function TeenPattiMasterKingPage() {
   };
 
   const relatedGuides = [
-    { tag: "RULES", title: "Teen Patti Sequence List", href: "/blog/teen-patti-sequence-list" },
-    { tag: "FULL GUIDE", title: "How to Play Teen Patti", href: "/blog/how-to-play-teen-patti" },
+    { tag: "RULES", title: "Teen Patti Sequence List", href: "/blog/teen-patti-master-game" },
+    { tag: "FULL GUIDE", title: "How to Play Teen Patti", href: "/blog/teen-patti-master-game" },
     { tag: "SAFETY", title: "Responsible Gaming", href: "/responsible-gaming" },
-    { tag: "OFFLINE", title: "Teen Patti Offline", href: "/blog/teen-patti-offline" },
-    { tag: "EARNINGS", title: "Teen Patti Se Paise Kaise Kamaye", href: "/blog/teen-patti-se-paise-kaise-kamaye" },
+    { tag: "OFFLINE", title: "Teen Patti Offline", href: "/blog/teen-patti-master-offline" },
+    { tag: "EARNINGS", title: "Teen Patti Se Paise Kaise Kamaye", href: "/blog/teen-patti-master-real-cash-game" },
   ];
 
   return (
@@ -142,7 +142,7 @@ export default function TeenPattiMasterKingPage() {
               <Link href="https://www.techtonis.com/games/yono-games" style={styles.navLink}>Yono</Link>
               <Link href="/blog" style={styles.navLink}>Blog</Link>
               <Link href="/responsible-gaming" style={styles.navLink}>Responsible Gaming</Link>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" style={styles.navCta}>
+              <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" style={styles.navCta}>
                 How to Play
               </a>
             </nav>
@@ -223,7 +223,7 @@ export default function TeenPattiMasterKingPage() {
                   </div>
                 </div>
               </div>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" className="tpm-btn-full" style={styles.sponsoredBtn}>
+              <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" className="tpm-btn-full" style={styles.sponsoredBtn}>
                 Download APK ↓
               </a>
             </div>
@@ -367,7 +367,7 @@ export default function TeenPattiMasterKingPage() {
               <p style={{ color: "#94a3b8", fontSize: "14px", marginBottom: "16px" }}>
                 Join India&apos;s favourite card rooms on your smartphone — claim welcome bonuses, compete on King tables, and cash out safely via UPI.
               </p>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" className="tpm-btn-full" style={styles.goldButton}>
+              <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" className="tpm-btn-full" style={styles.goldButton}>
                 Download Teen Patti Master →
               </a>
             </div>
@@ -572,7 +572,7 @@ Step 4: Register & Bind Credentials
                 <p style={{ color: "#94a3b8", fontSize: "13px", margin: "0 0 14px 0" }}>
                   Winning starts with knowing exactly what beats what at a glance.
                 </p>
-                <a href={DOWNLOAD_LINK} target="_blank" rel="noopener noreferrer" className="tpm-btn-full" style={styles.sidebarCtaBtn}>
+                <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" className="tpm-btn-full" style={styles.sidebarCtaBtn}>
                   Sequence list →
                 </a>
               </div>

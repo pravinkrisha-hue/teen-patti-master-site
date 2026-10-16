@@ -135,7 +135,7 @@ export default function TeenPattiMasterNewVersion() {
           <a
             href={DOWNLOAD_LINK}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-yellow-400 hover:from-amber-300 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
             <span>📥</span> Download APK
@@ -189,7 +189,7 @@ export default function TeenPattiMasterNewVersion() {
                 <a
                   href={DOWNLOAD_LINK}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="nofollow sponsored noopener noreferrer"
                   className="bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 hover:from-yellow-300 hover:to-amber-400 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wider py-3.5 px-8 rounded-2xl shadow-[0_0_30px_rgba(245,158,11,0.6)] transition transform hover:scale-105 active:scale-95"
                 >
                   Download APK
@@ -226,7 +226,7 @@ export default function TeenPattiMasterNewVersion() {
                   <a
                     href={DOWNLOAD_LINK}
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="nofollow sponsored noopener noreferrer"
                     className="block w-full bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-widest py-3 rounded-xl shadow-lg hover:brightness-110 transition active:scale-95"
                   >
                     ⚡ DOWNLOAD
@@ -390,7 +390,7 @@ export default function TeenPattiMasterNewVersion() {
 
             <p className="text-xs text-slate-400 pt-2">
               हाई-स्टेक टेबल्स और वीआईपी सैलून की विस्तृत समीक्षा के लिए खिलाड़ी हमारी समर्पित{" "}
-              <Link href="/blog/teen-patti-pro" className="text-amber-400 font-semibold hover:underline">
+              <Link href="/blog/teen-patti-master-secrets" className="text-amber-400 font-semibold hover:underline">
                 तीन पत्ती प्रो गाइड
               </Link>{" "}
               देख सकते हैं।
@@ -512,7 +512,7 @@ export default function TeenPattiMasterNewVersion() {
                 <h4 className="text-amber-300 font-bold text-xs uppercase mb-1">50% मुनाफ़ा सुरक्षित करना</h4>
                 <p className="text-[11px] text-slate-300">
                   जैसे ही आपका बैलेंस शुरुआती डिपॉजिट से 40% से 50% अधिक हो जाए, अपनी मूल जमा राशि तुरंत बैंक खाते में निकाल लें और केवल जीती हुई राशि से ही आगे खेलें। अधिक जानकारी के लिए{" "}
-                  <Link href="/blog/teen-patti-master-real-cash" className="text-amber-400 font-semibold underline hover:text-amber-300">
+                  <Link href="/blog/teen-patti-master-real-cash-game" className="text-amber-400 font-semibold underline hover:text-amber-300">
                     Teen Patti Master Real Cash Strategy
                   </Link>{" "}
                   पढ़ें।
@@ -631,7 +631,7 @@ export default function TeenPattiMasterNewVersion() {
               </Link>
 
               <Link
-                href="/blog/teen-patti-master-real-cash"
+                href="/blog/teen-patti-master-real-cash-game"
                 className="p-3.5 rounded-xl bg-[#180512] border border-rose-500/20 hover:border-amber-400 transition group block"
               >
                 <h4 className="font-bold text-amber-300 text-xs sm:text-sm group-hover:text-amber-200">
