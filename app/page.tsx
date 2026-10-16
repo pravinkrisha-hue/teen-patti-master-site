@@ -107,6 +107,18 @@ export default function Home() {
 
   const seoBlogPosts = [
     {
+      id: 100,
+      slug: 'teen-patti-master-kaise-khele',
+      title: 'Teen Patti Master Kaise Khele? (हिंदी गाइड)',
+      category: 'हिंदी गाइड',
+      symbol: '🃏',
+      readTime: '6 min read',
+      excerpt: 'आसान हिंदी में सीखें: boot, Blind और Chaal, Side Show, Show और पत्तों की पूरी रैंकिंग।',
+      cardBg: 'bg-orange-50 hover:bg-orange-100/90 border-orange-300',
+      badgeBg: 'bg-orange-600 text-white',
+      titleColor: 'text-orange-950'
+    },
+    {
       id: 1,
       slug: 'teen-patti-master-apk-download',
       title: 'Teen Patti Master APK Download',
@@ -1064,82 +1076,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 7. High-Authority Clean Footer (Replaced duplicate link section for Better SEO) */}
-      <footer className="bg-slate-950 border-t border-slate-800/80 text-gray-400 py-12 px-6">
-        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-          
-          <div className="space-y-3">
-            <h4 className="text-white font-bold text-lg">Teen Patti Master</h4>
-            <p className="text-xs leading-relaxed text-gray-400">
-              India&apos;s leading platform for genuine 3-card poker games, strategy tutorials, and certified APK download packages with instant cashout channels.
-            </p>
-          </div>
-
-          <div>
-            <h4 className="text-white font-semibold text-sm mb-3">Popular Categories</h4>
-            <ul className="space-y-2 text-xs">
-              <li><a href="#games" className="hover:text-amber-400 transition">3 Patti Card Games</a></li>
-              <li><a href="#games" className="hover:text-amber-400 transition">Online Rummy Apps</a></li>
-              <li><a href="#games" className="hover:text-amber-400 transition">Casino Arcade Mini-Games</a></li>
-              <li><a href="#posts" className="hover:text-amber-400 transition">VIP Room Bonus Guides</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white font-semibold text-sm mb-3">Help &amp; Verification</h4>
-            <ul className="space-y-2 text-xs">
-              <li><a href="#faq" className="hover:text-amber-400 transition">₹51 Bonus Claim Guide</a></li>
-              <li><a href="#guide" className="hover:text-amber-400 transition">Safe APK Installation Steps</a></li>
-              <li><a href="#faq" className="hover:text-amber-400 transition">UPI Instant Withdrawal Help</a></li>
-              <li><a href="#guide" className="hover:text-amber-400 transition">3 Patti Hand Rankings</a></li>
-            </ul>
-          </div>
-
-          <div>
-            <h4 className="text-white font-semibold text-sm mb-3">Legal &amp; Fair Play</h4>
-            <ul className="space-y-2 text-xs">
-              <li className="hover:text-gray-300">18+ Players Only</li>
-              <li className="hover:text-gray-300">RNG Fair Play Certified</li>
-              <li className="hover:text-gray-300">Responsible Gaming Policy</li>
-              <li className="hover:text-gray-300">State Legal Compliance</li>
-            </ul>
-          </div>
-
-        </div>
-
-        <div className="max-w-6xl mx-auto border-t border-slate-900 mt-10 pt-6 text-center text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} Teen Patti Master. All Rights Reserved. Card gaming involves financial risk. Please play responsibly.</p>
-        </div>
-      </footer>
-
-      {/* 8. Floating Bottom-Right Download Widget */}
-      <div className="fixed bottom-5 right-5 flex flex-col items-center gap-3 z-50">
-        <a 
-          href={DOWNLOAD_URL}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="relative hover:scale-105 transition-transform duration-300 cursor-pointer hidden sm:block"
-        >
-          <Image 
-            src="/teen-patti-master-features.webp" 
-            alt="Teen Patti Master Features" 
-            width={180} 
-            height={280} 
-            className="rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] border-2 border-yellow-500"
-          />
-        </a>
-
-        {/* Floating Green Download Link Button */}
-        <a 
-          href={DOWNLOAD_URL}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="px-5 py-2 text-sm md:text-base font-bold text-white bg-gradient-to-r from-green-500 to-green-700 rounded-full shadow-[0_0_15px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 animate-pulse border-2 border-green-300 flex items-center gap-2 max-w-[180px] justify-center mx-auto"
-        >
-          <span className="text-lg">🚀</span>
-          DOWNLOAD
-        </a>
-      </div>
 
     </div>
   );

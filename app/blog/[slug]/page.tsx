@@ -48,10 +48,12 @@ const customTitles: Record<string, string> = {
   "teen-patti-gold-new-version": "Teen Patti Gold New Version Updates",
   "teen-patti-gold-new-vs-old": "Teen Patti Gold: New vs Old Version Verdict",
   "teen-patti-master-faq-vs-real-game": "Teen Patti Master FAQ: Top Questions Answered",
+  "teen-patti-master-kaise-khele": "Teen Patti Master Kaise Khele? नियम और टिप्स (हिंदी)",
 };
 
 // Custom Unique Meta Descriptions mapping (har ek page mate alag description)
 const customDescriptions: Record<string, string> = {
+  "teen-patti-master-kaise-khele": "Teen Patti Master kaise khele? आसान हिंदी में boot, Blind-Chaal, Side Show, Show, पत्तों की रैंकिंग और नए खिलाड़ियों के लिए टिप्स।",
   "teen-patti-master-apk-download": "Download the latest official Teen Patti Master APK version. Get 100% clean direct link, 45MB lightweight package, and install on Android.",
   "teen-patti-master-51-bonus": "Claim ₹51 instant welcome sign-up bonus on Teen Patti Master. Follow simple steps to bind mobile number with OTP and get free chips.",
   "teen-patti-master-offline": "Learn how to play Teen Patti Master offline with AI practice bots without mobile internet connection. Complete offline mode tutorial.",

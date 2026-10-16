@@ -27,30 +27,15 @@ export default function Footer() {
             </div>
 
             <p className="text-xs sm:text-sm text-stone-400 leading-relaxed pr-2">
-              An authoritative, community-led research directory dedicated to Indian card games, probability analysis, APK security audits, and responsible mobile entertainment.
+              An independent guide to Indian card games: Teen Patti Master rules, hand rankings, safe APK installation, bonuses and responsible play. We are not the app publisher.
             </p>
 
-            {/* Social Channels with Authentic Badges */}
-            <div className="flex items-center gap-3 pt-2">
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-stone-900/90 border border-stone-800 hover:border-amber-400/50 hover:text-white transition"
-              >
-                <span>𝕏</span>
-                <span>@teenpattimaster</span>
-              </a>
-              <a 
-                href="https://youtube.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-stone-900/90 border border-stone-800 hover:border-red-400/50 hover:text-white transition"
-              >
-                <span className="text-red-400">▶</span>
-                <span>Guides Channel</span>
-              </a>
-            </div>
+            <Link
+              href="/"
+              className="inline-flex items-center gap-2 text-xs font-semibold px-4 py-2 rounded-xl bg-stone-900/90 border border-stone-800 hover:border-amber-400/50 hover:text-white transition"
+            >
+              📥 Teen Patti Master APK Download Guide
+            </Link>
           </div>
 
           {/* Column 3: Game Directories */}
@@ -74,7 +59,8 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2.5 text-xs text-stone-400 font-medium">
               <li><Link href="/#posts" className="hover:text-amber-400 transition">Blog &amp; Guides</Link></li>
-              <li><Link href="/games/teen-patti-master" className="hover:text-amber-400 transition">Hand Rankings</Link></li>
+              <li><Link href="/blog/teen-patti-master-kaise-khele" className="hover:text-amber-400 transition">Teen Patti Kaise Khele (हिंदी)</Link></li>
+              <li><Link href="/blog/teen-patti-master-game" className="hover:text-amber-400 transition">Hand Rankings &amp; Rules</Link></li>
               <li><Link href="/blog/teen-patti-master-vs-rummy" className="hover:text-amber-400 transition">Rummy Sequences</Link></li>
               <li><Link href="/blog/teen-patti-master-offline" className="hover:text-amber-400 transition">Offline Practice</Link></li>
               <li><Link href="/blog/teen-patti-master-loss-recover" className="hover:text-amber-400 transition">Bankroll Rules</Link></li>
@@ -93,7 +79,6 @@ export default function Footer() {
               <li><Link href="/privacy-policy" className="hover:text-amber-400 transition">Privacy Policy</Link></li>
               <li><Link href="/blog/teen-patti-master-customer-care" className="hover:text-amber-400 transition">Customer Care</Link></li>
               <li><Link href="/blog/teen-patti-master-faq" className="hover:text-amber-400 transition">Help &amp; Support</Link></li>
-              <li><span className="text-emerald-400 font-semibold cursor-default">🇮🇳 हिंदी (Hindi) / English</span></li>
             </ul>
           </div>
 
@@ -116,7 +101,7 @@ export default function Footer() {
 
             <div className="flex flex-col sm:flex-row justify-between items-center pt-2 border-t border-stone-900 text-[11px] text-stone-500 gap-2">
               <p>© {new Date().getFullYear()} Teen Patti Master Hub. All rights reserved.</p>
-              <p className="text-stone-600">Built with Next.js • 100% Verified RNG &amp; Education Directory</p>
+              <p className="text-stone-600">Independent guide • Not affiliated with any game publisher</p>
             </div>
           </div>
         </div>

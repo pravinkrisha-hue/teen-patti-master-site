@@ -598,11 +598,6 @@ Step 4: Register & Bind Credentials
         </div>
 
         {/* Footer */}
-        <footer style={styles.footer}>
-          <div style={styles.container}>
-            <p>© 2026 Techtonis. All rights reserved. Play responsibly. Strictly 18+ only.</p>
-          </div>
-        </footer>
       </div>
     </>
   );
