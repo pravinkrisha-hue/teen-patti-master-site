@@ -37,11 +37,21 @@ const nextConfig: NextConfig = {
     ];
   },
   async redirects() {
-    return Object.entries(legacyBlogRedirects).map(([slug, destination]) => ({
-      source: `/blog/${slug}`,
-      destination,
-      permanent: true,
-    }));
+    return [
+      // Consolidate the bare domain onto www so search engines index one host.
+      // BingSiteAuth.xml stays reachable on the bare domain for Bing verification.
+      {
+        source: "/:path((?!BingSiteAuth\\.xml$).*)",
+        has: [{ type: "host", value: "techtonis.com" }],
+        destination: "https://www.techtonis.com/:path",
+        permanent: true,
+      },
+      ...Object.entries(legacyBlogRedirects).map(([slug, destination]) => ({
+        source: `/blog/${slug}`,
+        destination,
+        permanent: true,
+      })),
+    ];
   },
   async headers() {
     return [
