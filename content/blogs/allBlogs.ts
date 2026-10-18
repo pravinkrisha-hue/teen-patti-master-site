@@ -1,6 +1,5 @@
-// 1. All Blog Imports (31 Unique Articles)
+// 1. All Blog Imports (28 Unique Articles)
 import TeenPattiAndroid from "./teen-patti-anroid";
-import TeenPattiAppDownloadFree from "./teen-patti-app-download";
 import TeenPattiMasterExplained from "./teen-patti-master-explained";
 import TeenPattiMasterFaq from "./teen-patti-master-faq";
 import TeenPattiGoldNewVersion from "./teen-patti-gold-new-version";
@@ -16,7 +15,6 @@ import TeenPattiMasterVsRummy from "./teen-patti-maste-vs-rummy";
 import TeenPattiMasterVsYonoGame from "./teen-patti-master-vs-yono-game";
 import TeenPattiMasterWelcomeBonus from "./teen-patti-master-welcome-bonus";
 import TeenPattiMasterYonoGameApk from "./teen-patti-master-yono-game-apk";
-import TeenPatti2026 from "./teen-patti-2026";
 import TeenPatti2027 from "./teen-patti-2027";
 import TeenPattiApkDownload from "./teen-patti-apk-download";
 import TeenPattiMaster51Bonus from "./teen-patti-master-51-bonuse";
@@ -28,13 +26,11 @@ import TeenPattiMasterOnlineTabal from "./teen-patti-master-online-tabal";
 import TeenPattiMasterGame from "./teen-patti-master-game";
 import TeenPattiMasterDownload from "./teen-patti-master-download";
 import TeenPattiMasterProSecret from "./teen-patti-master-pro-secret";
-import TeenPattiMasterFaqVsRealGame from "./teen-patti-master-faq-vs-real-game";
 import TeenPattiMasterKaiseKhele from "./teen-patti-master-kaise-khele";
 
-// 2. Clean 1-to-1 Slug Mapping (Exactly 31 Articles)
+// 2. Clean 1-to-1 Slug Mapping (Exactly 28 Articles)
 export const myArticles: Record<string, any> = {
   "teen-patti-android-game": TeenPattiAndroid,
-  "teen-patti-master-app-download-free": TeenPattiAppDownloadFree,
   "teen-patti-master-explained": TeenPattiMasterExplained,
   "teen-patti-master-faq": TeenPattiMasterFaq,
   "teen-patti-gold-new-version": TeenPattiGoldNewVersion,
@@ -50,7 +46,6 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-vs-yono-game": TeenPattiMasterVsYonoGame,
   "teen-patti-master-welcome-bonus": TeenPattiMasterWelcomeBonus,
   "teen-patti-master-yono-game-apk": TeenPattiMasterYonoGameApk,
-  "teen-patti-master-2026": TeenPatti2026,
   "teen-patti-master-2027": TeenPatti2027,
   "teen-patti-master-apk-download": TeenPattiApkDownload,
   "teen-patti-master-51-bonus": TeenPattiMaster51Bonus,
@@ -62,6 +57,5 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-game": TeenPattiMasterGame,
   "teen-patti-master-download-guide": TeenPattiMasterDownload,
   "teen-patti-master-secrets": TeenPattiMasterProSecret,
-  "teen-patti-master-faq-vs-real-game": TeenPattiMasterFaqVsRealGame,
   "teen-patti-master-kaise-khele": TeenPattiMasterKaiseKhele,
 };

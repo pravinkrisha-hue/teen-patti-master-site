@@ -440,7 +440,7 @@ export default function TeenPattiRealCash() {
                 </p>
               </Link>
               <Link
-                href="/blog/teen-patti-master-2026"
+                href="/blog/teen-patti-master-new-version"
                 className="p-3.5 rounded-xl bg-[#0b1d33] border border-cyan-500/20 hover:border-cyan-400 transition group block"
               >
                 <h4 className="font-bold text-cyan-300 text-xs sm:text-sm group-hover:text-cyan-200">

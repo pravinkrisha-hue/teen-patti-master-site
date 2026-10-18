@@ -315,7 +315,7 @@ export default function BonusClaimArticle() {
                 <tr>
                   <td className="p-3.5 font-bold text-white">Build Release</td>
                   <td className="p-3.5 text-emerald-400 font-semibold">
-                    <Link href="/blog/teen-patti-master-2026" className="hover:underline">
+                    <Link href="/blog/teen-patti-master-new-version" className="hover:underline">
                       v4.9 (2026 Latest Edition)
                     </Link>
                   </td>

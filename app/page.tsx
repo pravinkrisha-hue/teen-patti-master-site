@@ -155,18 +155,6 @@ export default function Home() {
       titleColor: 'text-teal-950'
     },
     {
-      id: 4,
-      slug: 'teen-patti-master-2026',
-      title: 'Teen Patti Master 2026 Edition',
-      category: '2026 RELEASE',
-      symbol: '🚀',
-      readTime: '5 min read',
-      excerpt: 'Discover what is new in 2026: upgraded graphics, lightning-fast game loading, and instant bank cashout systems.',
-      cardBg: 'bg-blue-50 hover:bg-blue-100/90 border-blue-300',
-      badgeBg: 'bg-blue-600 text-white',
-      titleColor: 'text-blue-950'
-    },
-    {
       id: 5,
       slug: 'teen-patti-master-2027',
       title: 'Teen Patti Master Update Kaise Kare? (हिंदी)',
@@ -189,18 +177,6 @@ export default function Home() {
       cardBg: 'bg-amber-50 hover:bg-amber-100/90 border-amber-300',
       badgeBg: 'bg-amber-600 text-white',
       titleColor: 'text-amber-950'
-    },
-    {
-      id: 7,
-      slug: 'teen-patti-master-app-download-free',
-      title: 'Teen Patti Master App Download Free',
-      category: 'FREE INSTALL',
-      symbol: '🎁',
-      readTime: '5 min read',
-      excerpt: 'How to safely install Teen Patti Master for free and claim exclusive welcome free chips on your first login.',
-      cardBg: 'bg-rose-50 hover:bg-rose-100/90 border-rose-300',
-      badgeBg: 'bg-rose-600 text-white',
-      titleColor: 'text-rose-950'
     },
     {
       id: 8,
@@ -466,18 +442,6 @@ export default function Home() {
       badgeBg: 'bg-red-700 text-white',
       titleColor: 'text-red-950'
     },
-    {
-      id: 30,
-      slug: 'teen-patti-master-faq-vs-real-game',
-      title: 'Teen Patti Master FAQ: Top Questions Answered',
-      category: 'HELP & FAQ',
-      symbol: '❓',
-      readTime: '5 min read',
-      excerpt: 'Everything you need to know about withdrawal limits, account verification, daily bonus rules, and device compatibility in one complete guide.',
-      cardBg: 'bg-indigo-50 hover:bg-indigo-100/90 border-indigo-300',
-      badgeBg: 'bg-indigo-700 text-white',
-      titleColor: 'text-indigo-950'
-    }
   ];
 
   const faqList = [
