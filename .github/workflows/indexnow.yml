@@ -1,0 +1,48 @@
+name: IndexNow
+
+# Runs after Vercel reports a successful production deployment, and tells
+# IndexNow (Bing, Yandex, ...) which pages changed since the previous deployment.
+on:
+  deployment_status:
+
+jobs:
+  submit:
+    if: >-
+      github.event.deployment_status.state == 'success' &&
+      (github.event.deployment.environment == 'Production' || github.event.deployment.environment == 'production')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.deployment.sha }}
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Find previous production deployment
+        id: prev
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.event.deployment.sha }}
+          ENVIRONMENT: ${{ github.event.deployment.environment }}
+        run: |
+          prev=$(gh api "repos/${{ github.repository }}/deployments?environment=${ENVIRONMENT}&per_page=30" \
+            --jq '.[].sha' | grep -v "^${SHA}$" | head -n1 || true)
+          echo "sha=${prev}" >> "$GITHUB_OUTPUT"
+          echo "Previous production deployment: ${prev:-none (will submit all URLs)}"
+
+      - name: Submit changed URLs to IndexNow
+        env:
+          FROM: ${{ steps.prev.outputs.sha }}
+          TO: ${{ github.event.deployment.sha }}
+        run: |
+          if [ -n "$FROM" ] && git cat-file -e "$FROM^{commit}" 2>/dev/null; then
+            node scripts/indexnow.mjs --from "$FROM" --to "$TO"
+          else
+            node scripts/indexnow.mjs --all
+          fi
