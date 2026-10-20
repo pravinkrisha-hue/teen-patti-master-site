@@ -31,24 +31,24 @@ export async function generateMetadata({
       description: "Master patti 13-card Indian Rummy on Rummy Circle. Discover fair-play tables, pool variants, and proven strategies to win daily cash tournaments.",
     },
     "junglee-rummy": {
-      title: "Junglee Rummy APK: 13-Card Cash Games & Instant Payouts",
-      description: "Play secure 13-card cash rummy on Junglee Rummy. Enjoy points rummy, zero fraud protection, and lightning-fast bank transfers.",
+      title: "Junglee Rummy Guide: 13-Card Rules, Game Modes & Tips",
+      description: "Junglee Rummy guide: 13-card rules, points, pool and deals rummy, pro tips, and how Junglee Rummy compares with Teen Patti Master.",
     },
     "poker-stars-india": {
       title: "PokerStars India: Texas Hold'em & PLO Tournament Guide",
       description: "Experience real-money poker on PokerStars India. Transition from a Teen Patti master to a poker pro with our Hold'em strategies, tournaments, and secure tables.",
     },
     "winzo-games": {
-      title: "WinZO Games APK: Teen Patti, Ludo & 100+ Cash Games",
-      description: "Download WinZO Games APK to play Ludo, Carrom & become a Teen Patti master on secure tables. Join verified players for UPI withdrawals and cash rewards.",
+      title: "WinZO Games Guide: Teen Patti, Ludo & 100+ Games",
+      description: "WinZO Games guide: Ludo, Carrom, Teen Patti and 100+ game formats explained, how contests work, and tips for new players.",
     },
     "teen-patti-star": {
-      title: "Teen Patti Star APK: VIP Tables, Free Chips & Rewards",
-      description: "Download Teen Patti Star APK for a premium 3 Patti experience. Play on exclusive VIP lounges, grab hourly free chips, and enjoy non-stop card action.",
+      title: "Teen Patti Star Review: VIP Tables, Free Chips & Rewards",
+      description: "Teen Patti Star review: VIP lounges, hourly free chips, table types and gameplay, plus how it compares with Teen Patti Master.",
     },
     "yono-games": {
-      title: "Yono Games APK: Teen Patti, Casino Slots & Jackpots",
-      description: "Download Yono Games APK to play slots, roulette & challenge real Teen Patti master tables. Claim exclusive signup bonuses with sub-minute instant cashouts.",
+      title: "Yono Games Review: Teen Patti, Casino Slots & Jackpots",
+      description: "Yono Games review: slots, roulette and Teen Patti tables explained, sign-up bonus terms, risks, and how it compares with Teen Patti Master.",
     },
     "teen-patti-old-version": {
       title: "Teen Patti Master Old Version: 48MB Classic APK Download",
@@ -225,6 +225,8 @@ export default async function GameDetailPage({
   const isStar = slug === "teen-patti-star";
   const isYono = slug === "yono-games";
   const isOldVersion = slug === "teen-patti-old-version";
+  // Only these pages are about the app our download link actually installs
+  const sellsOwnApp = isMaster || isOldVersion;
 
   let pageBg = "bg-slate-950 text-white";
   let linkColor = "text-amber-400 hover:underline";
@@ -459,8 +461,14 @@ export default async function GameDetailPage({
                 : "bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 shadow-lg"
             }`}
           >
-            Download {game.name} Now 🚀
+            {sellsOwnApp ? `Download ${game.name} Now 🚀` : "Try Teen Patti Master 🚀"}
           </a>
+          {!sellsOwnApp && (
+            <p className="text-xs text-center text-slate-400 mt-3">
+              This button installs <strong>Teen Patti Master</strong>, a different 3-card game. We don&apos;t distribute {game.name};
+              download it only from its developer&apos;s own website or app store.
+            </p>
+          )}
         </div>
 
         {/* 1. TEEN PATTI MASTER ARTICLE */}
@@ -917,9 +925,9 @@ export default async function GameDetailPage({
             </section>
 
             <div className="bg-gradient-to-r from-yellow-950 via-amber-900 to-yellow-950 border-2 border-yellow-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-yellow-300 font-serif">Experience the Classic Royal Tables!</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-yellow-300 font-serif">Looking for a Quick 3-Card Game?</h3>
               <p className="text-xs sm:text-sm text-yellow-100/80 max-w-xl mx-auto">
-                Join live card enthusiasts across India on authentic private and multiplayer tables. Download the verified package safely now.
+                Enjoyed this Teen Patti Gold guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Teen Patti Gold &mdash; get it only from its developer&apos;s own website or app store.
               </p>
               <a
                 href={MAIN_DOWNLOAD_URL}
@@ -927,7 +935,7 @@ export default async function GameDetailPage({
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 hover:from-yellow-300 hover:to-amber-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(234,179,8,0.5)] transition transform hover:scale-105"
               >
-                Download Teen Patti Gold 🚀
+                Try Teen Patti Master 🚀
               </a>
             </div>
           </article>
@@ -1037,9 +1045,9 @@ export default async function GameDetailPage({
             </section>
 
             <div className="bg-gradient-to-r from-emerald-950 via-teal-900 to-emerald-950 border-2 border-emerald-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-emerald-300 font-serif">Play 13-Card Skill Rummy Online!</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-emerald-300 font-serif">Looking for a Quick 3-Card Game?</h3>
               <p className="text-xs sm:text-sm text-emerald-100/80 max-w-xl mx-auto">
-                Join verified rummy tournaments across India. Test your combinations and pure sequence skills today.
+                Enjoyed this Rummy Circle guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Rummy Circle &mdash; get it only from its developer&apos;s own website or app store.
               </p>
               <a
                 href={MAIN_DOWNLOAD_URL}
@@ -1047,7 +1055,7 @@ export default async function GameDetailPage({
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-500 hover:from-emerald-300 hover:to-teal-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(16,185,129,0.5)] transition transform hover:scale-105"
               >
-                Download Rummy Circle 🚀
+                Try Teen Patti Master 🚀
               </a>
             </div>
           </article>
@@ -1057,7 +1065,7 @@ export default async function GameDetailPage({
         {isJunglee && (
           <article className="space-y-8 text-slate-300 leading-relaxed text-sm sm:text-base">
             <h1 className="text-2xl sm:text-4xl font-black text-cyan-300 leading-tight font-serif tracking-tight">
-              Junglee Rummy APK: 13-Card Cash Rummy Rules, Tournaments &amp; Payouts
+              Junglee Rummy Guide: 13-Card Rules, Game Modes &amp; Pro Tips
             </h1>
             <div className="bg-gradient-to-r from-cyan-950/70 to-slate-900 border border-cyan-500/30 p-5 rounded-2xl">
               <p className="text-cyan-200 text-xs sm:text-sm font-medium">
@@ -1160,9 +1168,9 @@ export default async function GameDetailPage({
             </section>
 
             <div className="bg-gradient-to-r from-amber-950 via-slate-900 to-amber-950 border-2 border-amber-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-amber-300">Ready to Play Cash Games?</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-amber-300">Looking for a Quick 3-Card Game?</h3>
               <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-                Join thousands of active players on India&apos;s leading secure card platform today.
+                Enjoyed this Junglee Rummy guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Junglee Rummy &mdash; get it only from its developer&apos;s own website or app store.
               </p>
               <a
                 href={MAIN_DOWNLOAD_URL}
@@ -1170,7 +1178,7 @@ export default async function GameDetailPage({
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(245,158,11,0.5)] transition transform hover:scale-105"
               >
-                Download Junglee Rummy 🚀
+                Try Teen Patti Master 🚀
               </a>
             </div>
           </article>
@@ -1426,9 +1434,9 @@ export default async function GameDetailPage({
             </section>
 
             <div className="bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 border-2 border-indigo-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-indigo-300 font-serif">Play World-Class Poker Online!</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-indigo-300 font-serif">Looking for a Quick 3-Card Game?</h3>
               <p className="text-xs sm:text-sm text-indigo-100/80 max-w-xl mx-auto">
-                Join verified poker tables and tournaments across India. Test your Texas Hold&apos;em skills and claim exclusive welcome bonuses today.
+                Enjoyed this PokerStars India guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute PokerStars India &mdash; get it only from its developer&apos;s own website or app store.
               </p>
               <a
                 href={MAIN_DOWNLOAD_URL}
@@ -1436,7 +1444,7 @@ export default async function GameDetailPage({
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-indigo-500 via-violet-500 to-indigo-600 hover:from-indigo-400 hover:to-violet-400 text-white font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(99,102,241,0.5)] transition transform hover:scale-105"
               >
-                Download PokerStars India 🚀
+                Try Teen Patti Master 🚀
               </a>
             </div>
           </article>
@@ -1450,7 +1458,7 @@ export default async function GameDetailPage({
                 Exclusive Multi-Gaming Review &amp; Master Strategy (2027)
               </span>
               <h1 className="text-2xl sm:text-4xl font-extrabold text-white leading-tight font-serif">
-                WinZO Games APK Download: The Ultimate Guide to Real Cash Teen Patti Master & Multi Gaming (2027)
+                WinZO Games Guide: Teen Patti, Ludo &amp; 100+ Game Formats Explained
               </h1>
               <p className="text-orange-200/80 text-xs sm:text-sm">
                 Independent Analysis • 14 min read • Ludo, Carrom, Cricket &amp; 100+ Skill Battles
@@ -1666,9 +1674,9 @@ export default async function GameDetailPage({
             </section>
 
             <div className="bg-gradient-to-r from-orange-950 via-[#1c0805] to-orange-950 border-2 border-orange-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-orange-300 font-serif">Play 100+ Real Cash Skill Games Today!</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-orange-300 font-serif">Looking for a Quick 3-Card Game?</h3>
               <p className="text-xs sm:text-sm text-orange-200/80 max-w-xl mx-auto">
-                Join over 10 crore+ registered players across India. Compete in Ludo, Carrom, Cricket, and card games to win instant cash prizes!
+                Enjoyed this WinZO Games guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute WinZO Games &mdash; get it only from its developer&apos;s own website or app store.
               </p>
               <a
                 href={MAIN_DOWNLOAD_URL}
@@ -1676,7 +1684,7 @@ export default async function GameDetailPage({
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-orange-500 via-amber-500 to-red-500 hover:from-orange-400 hover:to-red-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(249,115,22,0.5)] transition transform hover:scale-105"
               >
-                Download WinZO Games APK 🚀
+                Try Teen Patti Master 🚀
               </a>
             </div>
           </article>
@@ -1690,7 +1698,7 @@ export default async function GameDetailPage({
                 Exclusive VIP Lounge &amp; Card Mastery Guide (2026 Edition)
               </span>
               <h1 className="text-2xl sm:text-4xl font-extrabold text-white leading-tight font-serif">
-                Teen Patti Star APK Download: The Definitive Guide to VIP Tables, High-Roller Action, and Real Cash Card Strategy
+                Teen Patti Star Review: VIP Tables, Free Chips and Card Strategy
               </h1>
               <p className="text-fuchsia-200/80 text-xs sm:text-sm">
                 Independent Analysis • 15 min read • Hand Rankings, Muflis, AK47 &amp; Instant Cash Payouts
@@ -1953,9 +1961,9 @@ export default async function GameDetailPage({
             </section>
 
             <div className="bg-gradient-to-r from-purple-950 via-[#180629] to-purple-950 border-2 border-fuchsia-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-fuchsia-300 font-serif">Join India&apos;s Premier VIP Card Tables Today!</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-fuchsia-300 font-serif">Looking for a Quick 3-Card Game?</h3>
               <p className="text-xs sm:text-sm text-purple-200/80 max-w-xl mx-auto">
-                Download Teen Patti Star safely, claim your complimentary welcome chips, and test your skills in live high-roller 3 Patti action!
+                Enjoyed this Teen Patti Star guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Teen Patti Star &mdash; get it only from its developer&apos;s own website or app store.
               </p>
               <a
                 href={MAIN_DOWNLOAD_URL}
@@ -1963,7 +1971,7 @@ export default async function GameDetailPage({
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-fuchsia-500 via-purple-500 to-pink-500 hover:from-fuchsia-400 hover:to-pink-400 text-white font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(217,70,239,0.5)] transition transform hover:scale-105"
               >
-                Download Teen Patti Star APK 🚀
+                Try Teen Patti Master 🚀
               </a>
             </div>
           </article>
@@ -1977,7 +1985,7 @@ export default async function GameDetailPage({
                 Verified Casino, Slots &amp; Card Hub (2026 Edition)
               </span>
               <h1 className="text-2xl sm:text-4xl font-extrabold text-white leading-tight font-serif">
-                Yono Games APK Download: The Definitive Guide to Real Cash Casino Slots, Jackpots,teen patti master &amp; Card Battles
+                Yono Games Review: Casino Slots, Jackpots &amp; Teen Patti Tables Explained
               </h1>
               <p className="text-emerald-300/80 text-xs sm:text-sm">
                 Independent Analysis • 12 min read • Jackpot Slots, Roulette, Fast Cashout &amp; Fair Play
@@ -2166,9 +2174,9 @@ export default async function GameDetailPage({
             </section>
 
             <div className="bg-gradient-to-r from-[#063318] via-[#042411] to-[#063318] border-2 border-emerald-400/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-emerald-300 font-serif">Spin &amp; Win Jackpot Cash Rewards Today!</h3>
+              <h3 className="text-xl sm:text-2xl font-black text-emerald-300 font-serif">Looking for a Quick 3-Card Game?</h3>
               <p className="text-xs sm:text-sm text-emerald-200/80 max-w-xl mx-auto">
-                Download Yono Games securely, claim your welcome bonus chips, and dive into premier jackpot slots and lucky casino tables!
+                Enjoyed this Yono Games guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Yono Games &mdash; get it only from its developer&apos;s own website or app store.
               </p>
               <a
                 href={MAIN_DOWNLOAD_URL}
@@ -2176,7 +2184,7 @@ export default async function GameDetailPage({
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block bg-gradient-to-r from-emerald-400 via-green-500 to-teal-500 hover:from-emerald-300 hover:to-teal-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(16,185,129,0.6)] transition transform hover:scale-105"
               >
-                Download Yono Games APK 🚀
+                Try Teen Patti Master 🚀
               </a>
             </div>
           </article>
