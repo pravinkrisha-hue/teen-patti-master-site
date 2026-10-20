@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
-// 1. 100% SEO-Friendly Metadata for Google Fast Indexing
+// 1. SEO-Friendly Metadata for Google Fast Indexing
 export const metadata: Metadata = {
   title: "Teen Patti Master Pro Secret: Real Winning Tips & Tricks",
   description:
@@ -208,39 +208,6 @@ export default function TeenPattiMasterProSecret() {
           </div>
         </header>
 
-        {/* 2. Section 1: Overview */}
-        <section className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>⚙️</span> 1. Teen Patti Master શું છે અને શા માટે આટલું લોકપ્રિય છે?
-          </h2>
-          <p>
-            ટીન પટ્ટી (જેને &apos;ફ્લેશ&apos; કે &apos;ઇન્ડિયન પોકર&apos; પણ કહેવામાં આવે છે) સદીઓથી ભારતની સાંસ્કૃતિક રમતોનો ભાગ રહી છે. દિવાળી હોય કે પારિવારિક મેળાવડા, ત્રણ પત્તાની આ રમત હંમેશા ઉત્સાહ વધારે છે.{" "}
-            <Link href="/blog/teen-patti-master-explained" className="text-amber-400 underline hover:text-amber-300">
-              Teen Patti Master
-            </Link>{" "}
-            એ આ જ પરંપરાગત રમતનું આધુનિક, ડિજિટલ અને અત્યંત ઝડપી વર્ઝન છે.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
-            <div className="bg-[#0e131a] p-5 rounded-2xl border border-slate-700/50 space-y-2">
-              <h3 className="font-bold text-white text-base flex items-center gap-2">
-                <span>📱</span> યુઝર ફ્રેન્ડલી ઇન્ટરફેસ &amp; લેગ-ફ્રી
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-300">
-                કોઈપણ નવો ખેલાડી ૨ મિનિટમાં રમત સમજી શકે છે. સ્માર્ટફોન પર કોઈપણ પ્રકારના લેગ (lag) વગર અત્યંત સ્મૂધ ચાલતી સિસ્ટમ ઉપલબ્ધ છે.
-              </p>
-            </div>
-
-            <div className="bg-[#0e131a] p-5 rounded-2xl border border-slate-700/50 space-y-2">
-              <h3 className="font-bold text-white text-base flex items-center gap-2">
-                <span>⚡</span> ઝડપી ટેબલ એક્શન &amp; વિવિધ વેરિએન્ટ્સ
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-300">
-                લાંબી રાહ જોયા વગર તુરંત જ રાઉન્ડ શરૂ થઈ જાય છે. માત્ર ક્લાસિક ટીન પટ્ટી જ નહીં, પરંતુ અંદર બહાર, રમી, જોકર અને પોઈન્ટ્સ જેવી અનેક ગેમ્સ ઉપલબ્ધ હોય છે.
-              </p>
-            </div>
-          </div>
-        </section>
 
         {/* 3. Section 2: Pro Secrets */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">

@@ -249,7 +249,7 @@ export default function OfflineModeArticle() {
           </div>
           <ol className="list-decimal list-inside space-y-3 text-slate-300">
             <li>
-              <strong className="text-white">Launch the Official App:</strong> Ensure you have the authentic build from our{" "}
+              <strong className="text-white">Launch the Genuine App:</strong> Ensure you have the authentic build from our{" "}
               <Link href="/" className="text-amber-400 font-bold underline hover:text-amber-300">
                 Teen Patti Master APK download page
               </Link>{" "}
@@ -328,7 +328,7 @@ export default function OfflineModeArticle() {
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
                 <span>📥</span> Teen Patti Master APK Download &rarr;
               </h3>
-              <p className="text-xs text-slate-400 mt-1">Get the latest 45 MB official package with anti-cheat protection.</p>
+              <p className="text-xs text-slate-400 mt-1">Get the latest 45 MB genuine package with anti-cheat protection.</p>
             </Link>
 
             <Link
@@ -356,7 +356,7 @@ export default function OfflineModeArticle() {
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
-                <span>🏠</span> Teen Patti Master Official Home &rarr;
+                <span>🏠</span> Teen Patti Master Home &rarr;
               </h3>
               <p className="text-xs text-slate-400 mt-1">Visit our homepage for game features, bonus codes, and tournament details.</p>
             </Link>
@@ -411,7 +411,7 @@ export default function OfflineModeArticle() {
             Ready to Play Teen Patti Master Anywhere?
           </h3>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-            Download the official Android application today. Practice offline with AI bots or switch to live tables and claim your ₹51 welcome bonus!
+            Download the Android application today. Practice offline with AI bots or switch to live tables and claim your ₹51 welcome bonus!
           </p>
           <a
             href={DOWNLOAD_LINK}
@@ -419,7 +419,7 @@ export default function OfflineModeArticle() {
             rel="nofollow sponsored noopener noreferrer"
             className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
           >
-            Download Official APK Now 🚀
+            Download APK Now 🚀
           </a>
         </div>
       </article>

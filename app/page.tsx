@@ -51,7 +51,7 @@ export default function Home() {
       rating: '4.6',
       size: '41 MB',
       icon: '/junglee-rummy.webp',
-      description: 'The most trusted and secure platform for 100% legal cash rummy gameplay.'
+      description: 'The most trusted and secure platform for cash rummy gameplay.'
     },
     {
       id: 5,
@@ -209,7 +209,7 @@ export default function Home() {
       category: 'UPDATE',
       symbol: '⚡',
       readTime: '4 min read',
-      excerpt: 'Upgrade to the lightning-fast new version featuring upgraded anti-cheat protocols, fluid card animations, and 60-second UPI withdrawals.',
+      excerpt: 'Upgrade to the lightning-fast new version featuring upgraded anti-cheat protocols, fluid card animations, and UPI withdrawals.',
       cardBg: 'bg-emerald-50 hover:bg-emerald-100/90 border-emerald-300',
       badgeBg: 'bg-emerald-700 text-white',
       titleColor: 'text-emerald-950'
@@ -317,7 +317,7 @@ export default function Home() {
       category: 'FACT CHECK',
       symbol: '🔍',
       readTime: '4 min read',
-      excerpt: 'Busting common internet myths about win predictors, bot rooms, withdrawal verification, and genuine RNG certified mechanics.',
+      excerpt: 'Busting common internet myths about win predictors, bot rooms, withdrawal verification, and genuine RNG mechanics.',
       cardBg: 'bg-cyan-50 hover:bg-cyan-100/90 border-cyan-300',
       badgeBg: 'bg-cyan-700 text-white',
       titleColor: 'text-cyan-950'
@@ -338,7 +338,7 @@ export default function Home() {
       id: 21,
       slug: 'teen-patti-master-explained',
       title: 'Teen Patti Master Explained Completely',
-      category: 'DEEP DIVE',
+      category: 'DETAILED LOOK',
       symbol: '📖',
       readTime: '6 min read',
       excerpt: 'From card sequence hierarchies to VIP loyalty levels, understand every single feature available inside the lobby.',
@@ -365,7 +365,7 @@ export default function Home() {
       category: 'YONO SLOTS',
       symbol: '🎰',
       readTime: '5 min read',
-      excerpt: 'Explore the slot machines, arcade mini-games, and 3-card poker tables hosted inside the trending Yono Game ecosystem.',
+      excerpt: 'Explore the slot machines, arcade mini-games, and 3-card poker tables hosted inside the trending Yono Game app.',
       cardBg: 'bg-fuchsia-50 hover:bg-fuchsia-100/90 border-fuchsia-300',
       badgeBg: 'bg-fuchsia-700 text-white',
       titleColor: 'text-fuchsia-950'
@@ -425,7 +425,7 @@ export default function Home() {
       category: 'GOLD UPGRADE',
       symbol: '✨',
       readTime: '4 min read',
-      excerpt: 'Discover the latest private table tools, voice emojis, and daily festival contests added in the newest official Teen Patti Gold release.',
+      excerpt: 'Discover the latest private table tools, voice emojis, and daily festival contests added in the newest Teen Patti Gold release.',
       cardBg: 'bg-yellow-100 hover:bg-yellow-200 border-yellow-400',
       badgeBg: 'bg-yellow-800 text-white',
       titleColor: 'text-yellow-950'
@@ -449,7 +449,7 @@ export default function Home() {
       id: 1,
       badge: "DOWNLOAD",
       q: "What is Teen Patti Master App? How to download the app?",
-      a: "Teen Patti Master is India's leading 3-card poker mobile platform offering real-cash table action, seamless UPI cashouts, and multi-mode gameplay. Since cash gaming apps are restricted on Google Play Store, you can safely download the authentic, malware-free APK package using the verified download link on this page."
+      a: "Teen Patti Master is India's leading 3-card poker mobile platform offering real-cash table action, smooth UPI cashouts, and multi-mode gameplay. Since cash gaming apps are restricted on Google Play Store, you can safely download the authentic, malware-free APK package using the verified download link on this page."
     },
     {
       id: 2,
@@ -461,19 +461,19 @@ export default function Home() {
       id: 3,
       badge: "SECURITY",
       q: "Download an APK file, Android says 'File may be harmful' Why?",
-      a: "This is a standard default security alert triggered by the Android OS whenever an application is downloaded directly via an internet browser instead of Google Play. If you obtain the APK from our verified portal, it is 100% clean and secure. Simply select 'Download Anyway' to proceed."
+      a: "This is a standard default security alert triggered by the Android OS whenever an application is downloaded directly via an internet browser instead of Google Play. If you obtain the APK from our verified portal, it is clean and secure. Simply select 'Download Anyway' to proceed."
     },
     {
       id: 4,
       badge: "FAIR PLAY",
       q: "Is the card dealing in Teen Patti Master app fair and safe?",
-      a: "Yes. Teen Patti Master operates on a certified Random Number Generator (RNG) engine. This ensures completely unpredictable, cryptographically random card distributions for both blind and seen hands, eliminating any systemic house bias or backend tampering."
+      a: "Yes. Teen Patti Master operates on a Random Number Generator (RNG) engine. This ensures completely unpredictable, cryptographically random card distributions for both blind and seen hands, eliminating any systemic house bias or backend tampering."
     },
     {
       id: 5,
       badge: "PAYMENTS",
       q: "How can you take out your earnings through UPI or Direct Bank Transfer?",
-      a: "Navigate to the 'Withdraw' tab in the main game lobby. Enter your registered UPI ID or Bank Account particulars (Account Number, IFSC Code, and Name). Specify your cashout amount and press Confirm. Validated requests are processed through automated payment gateways within 60 seconds to 15 minutes."
+      a: "Navigate to the 'Withdraw' tab in the main game lobby. Enter your registered UPI ID or Bank Account particulars (Account Number, IFSC Code, and Name). Specify your cashout amount and press Confirm. Validated requests are processed through automated payment gateways — timing varies."
     },
     {
       id: 6,
@@ -527,7 +527,7 @@ export default function Home() {
       id: 14,
       badge: "ACCOUNTS",
       q: "Is it possible to create more than one Teen Patti Master account on a single mobile phone?",
-      a: "No. The security architecture enforces a strict 1-account-per-device policy. Cloned apps or multi-accounting attempts trigger automated anti-fraud security protocols and lead to wallet freezing."
+      a: "No. The security design enforces a strict 1-account-per-device policy. Cloned apps or multi-accounting attempts trigger automated anti-fraud security protocols and lead to wallet freezing."
     },
     {
       id: 15,
@@ -630,7 +630,7 @@ export default function Home() {
           Teen Patti Master APK Download – Latest Version 2026
         </h1>
         <p className="text-gray-100 text-base md:text-lg max-w-2xl mx-auto mb-8">
-          Download the latest Teen Patti Master APK version. Get ₹51 instant welcome bonus chips, certified RNG card tables, and 60-second UPI cashouts.
+          Download the latest Teen Patti Master APK version. Get ₹51 instant welcome bonus chips, RNG card tables, and UPI cashouts.
         </p>
 
         {/* Search Bar */}
@@ -731,7 +731,7 @@ export default function Home() {
             📚 Teen Patti Master Guides, Tips &amp; Updates ({visiblePosts.length} of {seoBlogPosts.length})
           </h2>
           <p className="text-gray-400 text-sm mt-1">
-            Explore dedicated guides below. Click on any topic box to open its comprehensive post.
+            Explore dedicated guides below. Click on any topic box to open its complete post.
           </p>
         </div>
 
@@ -795,7 +795,7 @@ export default function Home() {
             Teen Patti Master APK Download: <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-200">The Complete Guide &amp; Latest Version</span>
           </h2>
           <p className="text-base sm:text-lg leading-relaxed text-gray-300">
-            Card games in India have evolved from family gathering traditions to interactive, secure mobile entertainment. Leading this digital transformation is <strong>Teen Patti Master</strong>—a premier 3-card poker and casino game application engineered for seamless real-time multiplayer action, certified RNG fairness, and fast UPI cashouts across India.
+            Card games in India have evolved from family gathering traditions to interactive, secure mobile entertainment. Leading this digital transformation is <strong>Teen Patti Master</strong>—a premier 3-card poker and casino game application engineered for smooth real-time multiplayer action, RNG fairness, and fast UPI cashouts across India.
           </p>
           <p className="text-sm sm:text-base leading-relaxed text-gray-400">
             Whether you are downloading the APK for the first time to claim your free ₹51 welcome chips or seeking tactical poker strategies, this complete guide breaks down system specifications, security checks, and hand hierarchy rankings.
@@ -828,7 +828,7 @@ export default function Home() {
                 </tr>
                 <tr className="hover:bg-slate-800/40">
                   <td className="py-3 font-semibold text-gray-400">Minimum Withdrawal</td>
-                  <td className="py-3">₹100 (Instant UPI &amp; IMPS Bank Transfer)</td>
+                  <td className="py-3">₹100 (UPI &amp; IMPS Bank Transfer)</td>
                 </tr>
                 <tr className="hover:bg-slate-800/40">
                   <td className="py-3 font-semibold text-gray-400">Compatibility</td>
@@ -852,13 +852,13 @@ export default function Home() {
               </p>
             </div>
             <div className="bg-slate-900/80 border border-slate-800 p-6 rounded-2xl hover:border-amber-400/40 transition">
-              <h4 className="text-lg font-bold text-amber-300 mb-2">🛡️ Certified RNG Architecture</h4>
+              <h4 className="text-lg font-bold text-amber-300 mb-2">🛡️ RNG Design</h4>
               <p className="text-sm text-gray-400 leading-relaxed">
-                All shuffles and card deals are dictated by certified Random Number Generator (RNG) logic, preventing any algorithmic manipulation or table bias.
+                All shuffles and card deals are dictated by Random Number Generator (RNG) logic, preventing any algorithmic manipulation or table bias.
               </p>
             </div>
             <div className="bg-slate-900/80 border border-slate-800 p-6 rounded-2xl hover:border-amber-400/40 transition">
-              <h4 className="text-lg font-bold text-amber-300 mb-2">💳 60-Second UPI Cashouts</h4>
+              <h4 className="text-lg font-bold text-amber-300 mb-2">💳 UPI Cashouts</h4>
               <p className="text-sm text-gray-400 leading-relaxed">
                 Withdraw your winnings directly to Google Pay, PhonePe, Paytm, or bank accounts with 256-bit encryption and no platform deduction charges.
               </p>
@@ -915,10 +915,10 @@ export default function Home() {
         {/* Hand Rankings Hierarchy Table */}
         <div className="space-y-5">
           <h3 className="text-2xl sm:text-3xl font-bold text-white">
-            Official 3 Patti Hand Rankings Hierarchy
+            3 Patti Hand Rankings Hierarchy
           </h3>
           <p className="text-sm text-gray-400">
-            Understanding hand strengths is essential for strategic betting and blind play. Here is the official ranking from highest to lowest:
+            Understanding hand strengths is essential for strategic betting and blind play. Here is the ranking from highest to lowest:
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-left text-sm border border-slate-800 rounded-xl overflow-hidden">

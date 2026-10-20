@@ -3,7 +3,7 @@ import { myArticles } from '@/content/blogs/allBlogs';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.techtonis.com';
-  const currentDate = new Date('2026-10-16T00:00:00.000Z');
+  const currentDate = new Date('2026-10-20T00:00:00.000Z');
 
   const gameSlugs = [
     'teen-patti-master',
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const trustUrls: MetadataRoute.Sitemap = ['about', 'contact', 'responsible-gaming', 'privacy-policy'].map((path) => ({
     url: `${baseUrl}/${path}`,
-    lastModified: new Date('2026-10-16T00:00:00.000Z'),
+    lastModified: new Date('2026-10-20T00:00:00.000Z'),
     changeFrequency: 'monthly',
     priority: 0.5,
   }));

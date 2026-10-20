@@ -285,7 +285,7 @@ export default function TeenPattiMasterVsRummyPage() {
                   </tr>
                   <tr>
                     <td style={styles.td}><strong>Withdrawal Channels</strong></td>
-                    <td style={styles.td}>Direct IMPS/UPI fast cashout architecture</td>
+                    <td style={styles.td}>Direct IMPS/UPI fast cashout design</td>
                     <td style={styles.td}>Multi-layer bank transfer and NEFT channels</td>
                   </tr>
                   <tr>
@@ -303,7 +303,7 @@ export default function TeenPattiMasterVsRummyPage() {
             </div>
 
             {/* Section 1 */}
-            <h2 id="teen-patti-master" style={styles.h2}>1. Teen Patti Master: Fast-Paced Card Combat</h2>
+            <h2 id="teen-patti-master" style={styles.h2}>Teen Patti Master: Fast-Paced Card Combat</h2>
             <p style={styles.paragraph}>
               <strong>Teen Patti Master</strong> brings the classic South Asian three-card experience directly to touchscreens with zero lag. It focuses on speed, tactile feedback, and competitive card tables rather than cluttered third-party arcade titles.
             </p>
@@ -318,7 +318,7 @@ export default function TeenPattiMasterVsRummyPage() {
             </ul>
 
             {/* Section 2 */}
-            <h2 id="indian-rummy" style={styles.h2}>2. Indian Rummy – The 13 Card Mathematical Discipline</h2>
+            <h2 id="indian-rummy" style={styles.h2}>Indian Rummy – The 13 Card Mathematical Discipline</h2>
             <p style={styles.paragraph}>
               Indian Rummy highlights the analytical aspects of skill-based gaming. Instead of betting on three cards, players arrange thirteen cards into valid sets and runs:
             </p>
@@ -329,7 +329,7 @@ export default function TeenPattiMasterVsRummyPage() {
             </ul>
 
             {/* Section 3: Terminal Box 1 */}
-            <h2 id="hand-rankings" style={styles.h2}>3. Hand Rankings and Winning Conditions Comparison</h2>
+            <h2 id="hand-rankings" style={styles.h2}>Hand Rankings and Winning Conditions Comparison</h2>
             <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`TEEN PATTI MASTER HAND RANKINGS (Absolute Value Showdown)
@@ -350,7 +350,7 @@ FINAL ACTION:     Card 14 into Finish Slot, 0 points lost.`}
             </div>
 
             {/* Section 4: Terminal Box 2 */}
-            <h2 id="tactical-play" style={styles.h2}>4. Tactical Play: Psy Ops vs Card Counting</h2>
+            <h2 id="tactical-play" style={styles.h2}>Tactical Play: Psy Ops vs Card Counting</h2>
             <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`+-------------------------------------------------------------+
@@ -389,7 +389,7 @@ FINAL ACTION:     Card 14 into Finish Slot, 0 points lost.`}
             </div>
 
             {/* Section 5: Variants */}
-            <h2 id="variants" style={styles.h2}>5. Game Variants Overview</h2>
+            <h2 id="variants" style={styles.h2}>Game Variants Overview</h2>
             <p style={styles.paragraph}>
               Beyond classic formats, check out these popular variations available in <strong><Link href="https://www.techtonis.com/games/teen-patti-master" style={styles.goldInlineLink}>Teen Patti Master</Link></strong> and <strong><Link href="https://www.techtonis.com/games/teen-patti-gold" style={styles.goldInlineLink}>Teen Patti Gold</Link></strong>:
             </p>
@@ -400,46 +400,7 @@ FINAL ACTION:     Card 14 into Finish Slot, 0 points lost.`}
               <li style={styles.li}><strong>Royal:</strong> Only high picture cards (10, J, Q, K, A) are active.</li>
             </ul>
 
-            {/* Section 6: Network Terminal Box */}
-            <h2 id="network-performance" style={styles.h2}>6. Software Architecture, Low Data Efficiency & Performance</h2>
-            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
-              <pre style={styles.pre}>
-{`NETWORK PROTOCOL COMPARISON
-
-[TEEN PATTI MASTER ENGINE]
-   └── Compact Data Packets ────► 2G / 3G / 4G Compatible ────► Auto-Reconnection Shield
-       (Syncs numeric coordinates only; negligible data draw)
-
-[HEAVY RUMMY PLATFORMS]
-   └── Rich Asset Engine ──────► Demands Stable 4G / Wi-Fi ──► Vulnerable to High Jitter
-       (Syncs complex table states, discard history, card animations)`}
-              </pre>
-            </div>
-
-            {/* Section 7 */}
-            <h2 id="financial-security" style={styles.h2}>7. Financial Security: Real Cash Operations & Withdrawals</h2>
-            <p style={styles.paragraph}>
-              Security remains central to real-money card games. Verified portals implement:
-            </p>
-            <ul style={styles.ul}>
-              <li style={styles.li}><strong>Instant Cashout Rails:</strong> Direct IMPS and UPI payouts clearing verified balances in minutes.</li>
-              <li style={styles.li}><strong>256-Bit SSL Gateways:</strong> Bank-grade encryption guarding transactional data.</li>
-              <li style={styles.li}><strong>Automated KYC:</strong> Protecting player accounts against unauthorized withdrawals and identity theft.</li>
-            </ul>
-
-            {/* Section 8 */}
-            <h2 id="rng-fair-play" style={styles.h2}>8. Random Number Generation (RNG) & Bot Prevention</h2>
-            <p style={styles.paragraph}>
-              Legitimate gaming systems adhere to audited RNG standards:
-            </p>
-            <ul style={styles.ul}>
-              <li style={styles.li}><strong>Unpredictable Shuffling:</strong> Certified algorithms mirroring true physical deck distribution.</li>
-              <li style={styles.li}><strong>Anti-Collusion Seat Randomization:</strong> Preventing colluding players from occupying the same low-stakes tables.</li>
-              <li style={styles.li}><strong>Hardware Verification:</strong> Screening out modified APK packages and malicious memory injection tools.</li>
-            </ul>
-
-            {/* Section 9 */}
-            <h2 id="pros-cons" style={styles.h2}>9. Comprehensive Pros and Cons Breakdown</h2>
+            <h2 id="pros-cons" style={styles.h2}>Complete Pros and Cons Breakdown</h2>
             <div className="tpm-scroll-wrapper" style={styles.tableWrapper}>
               <table style={styles.table}>
                 <thead>
@@ -479,48 +440,7 @@ FINAL ACTION:     Card 14 into Finish Slot, 0 points lost.`}
               </table>
             </div>
 
-            {/* Section 10 */}
-            <h2 id="responsible-play" style={styles.h2}>10. Responsible Gambling: Healthy Play Habits</h2>
-            <div style={styles.alertBox}>
-              <h3 style={{ color: "#e0e7ff", margin: "0 0 10px 0", fontSize: "16px" }}>
-                Responsible Play Code of Conduct
-              </h3>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: "0 0 8px 0" }}>
-                1. <strong>Take Control of Your Budget:</strong> Decide your limit before playing. Never chase losses by depositing extra funds.
-              </p>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: "0 0 8px 0" }}>
-                2. <strong>Set Time Limits:</strong> Keep sessions to 30–45 minutes to prevent tilt and fatigue.
-              </p>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: "0 0 8px 0" }}>
-                3. <strong>Accept Cold Decks:</strong> Folding bad hands preserves capital for future sessions.
-              </p>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: 0 }}>
-                4. <strong>Strictly 18+:</strong> Real cash card gaming is strictly restricted to adults.
-              </p>
-            </div>
-
-            {/* Section 11: Installation Terminal Box */}
-            <h2 id="installation" style={styles.h2}>11. Teen Patti Master APK Installation Guide</h2>
-            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
-              <pre style={styles.pre}>
-{`INSTALLATION WORKFLOW
-
-Step 1: Download from Verified Source
-        └── Obtain the package exclusively from official developer portals (e.g., Techtonis).
-
-Step 2: Permit Unknown App Installation
-        └── Navigate to Settings > Security > Enable installation for your active browser.
-
-Step 3: Confirm Package Hash & Permissions
-        └── Ensure the app requests only network access—never SMS, contacts, or camera access.
-
-Step 4: Register & Bind Credentials
-        └── Complete OTP verification using your permanent mobile number for account recovery.`}
-              </pre>
-            </div>
-
-            {/* Section 12: FAQs */}
-            <h2 id="faqs" style={styles.h2}>12. Frequently Asked Questions (FAQs)</h2>
+            <h2 id="faqs" style={styles.h2}>Frequently Asked Questions (FAQs)</h2>
             <div style={styles.faqCard}>
               <h4 style={styles.faqQ}>Q1. Teen Patti Master vs Rummy: Which requires more strategy?</h4>
               <p style={styles.faqA}>Both require high skill. Rummy focuses on discard tracking and sequence probabilities, while Teen Patti Master tests psychological reads, table position, and timely bluffs.</p>
@@ -539,7 +459,7 @@ Step 4: Register & Bind Credentials
             </div>
 
             {/* Section 13 */}
-            <h2 id="verdict" style={styles.h2}>13. Final Verdict: Which Game Fits Your Style?</h2>
+            <h2 id="verdict" style={styles.h2}>Final Verdict: Which Game Fits Your Style?</h2>
             <p style={styles.paragraph}>
               Choose <strong>Teen Patti Master</strong> if you enjoy rapid showdowns, bluffing, and diverse twists like Muflis and AK47. Choose <strong>Indian Rummy</strong> if you favor slower, methodical meld-building and defensive discard strategies. For more game alternatives, explore <strong><Link href="https://www.techtonis.com/games/yono-games" style={styles.goldInlineLink}>Yono Games</Link></strong> as well.
             </p>
@@ -571,11 +491,6 @@ Step 4: Register & Bind Credentials
                   <li><a href="#hand-rankings" style={styles.sidebarLink}>Hand Rankings</a></li>
                   <li><a href="#tactical-play" style={styles.sidebarLink}>Tactical Play</a></li>
                   <li><a href="#variants" style={styles.sidebarLink}>Variants Overview</a></li>
-                  <li><a href="#network-performance" style={styles.sidebarLink}>Network Architecture</a></li>
-                  <li><a href="#financial-security" style={styles.sidebarLink}>Financial Security</a></li>
-                  <li><a href="#rng-fair-play" style={styles.sidebarLink}>RNG & Fair Play</a></li>
-                  <li><a href="#responsible-play" style={styles.sidebarLink}>Responsible Gaming</a></li>
-                  <li><a href="#installation" style={styles.sidebarLink}>APK Setup Guide</a></li>
                   <li><a href="#faqs" style={styles.sidebarLink}>FAQs</a></li>
                   <li><a href="#verdict" style={styles.sidebarLink}>Final Verdict</a></li>
                 </ul>
@@ -603,7 +518,7 @@ Step 4: Register & Bind Credentials
   );
 }
 
-// 2. Comprehensive CSS Overrides for Seamless Mobile View
+// 2. Complete CSS Overrides for Smooth Mobile View
 const mobileResponsiveStyles = `
   html, body {
     overflow-x: hidden !important;

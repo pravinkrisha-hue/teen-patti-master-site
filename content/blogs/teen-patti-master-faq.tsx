@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
-// 1. 100% SEO-Friendly Metadata for Google Search Console & Fast Indexing
+// 1. SEO-Friendly Metadata for Google Search Console & Fast Indexing
 export const metadata: Metadata = {
   title: "Teen Patti Master FAQ: 35+ Real Answers, Setup & Safety",
   description:
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description:
       "All-inclusive Teen Patti Master FAQ guide. Step-by-step solutions for app setup, instant withdrawals, bankroll rules, and technical error troubleshooting.",
     url: "/blog/teen-patti-master-faq",
-    siteName: "Teen Patti Master Official Guide",
+    siteName: "Teen Patti Master Guide",
     images: [
       {
         url: "/teen-patti-master-faq.webp",
@@ -124,7 +124,7 @@ const faqSchema = {
           "name": "Are there mod APKs or prediction software available for Teen Patti Master?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No. All card generation is processed on secure cloud servers using certified RNG. Any claim of predictor hacks on Telegram or YouTube is a malicious fraud attempt."
+            "text": "No. All card generation is processed on secure cloud servers using RNG. Any claim of predictor hacks on Telegram or YouTube is a malicious fraud attempt."
           }
         }
       ]
@@ -148,7 +148,7 @@ export default function TeenPattiFaq() {
           <div className="flex items-center gap-2">
             <span className="inline-block w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
             <span className="font-bold text-xs sm:text-sm text-amber-300 tracking-wide uppercase">
-              Official Knowledge Base &amp; FAQ
+              Knowledge Base &amp; FAQ
             </span>
           </div>
           <a
@@ -157,7 +157,7 @@ export default function TeenPattiFaq() {
             rel="nofollow sponsored noopener noreferrer"
             className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
           >
-            <span>📥</span> Get Official APK
+            <span>📥</span> Get Genuine APK
           </a>
         </div>
 
@@ -206,7 +206,7 @@ export default function TeenPattiFaq() {
           </h1>
 
           <p className="text-slate-400 text-xs sm:text-sm text-center sm:text-left">
-            Updated: October 2026 • 20 min read • Comprehensive Player Handbook
+            Updated: October 2026 • 20 min read • Complete Player Handbook
           </p>
 
           <div className="bg-[#0b0e14]/90 border border-slate-700/60 p-4 sm:p-5 rounded-2xl">
@@ -243,7 +243,7 @@ export default function TeenPattiFaq() {
                 <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
-                Teen Patti Master is an authentic mobile card platform developed for Android devices. It delivers classic 3-card Indian poker (Flash) alongside skill-based arcade formats like Dragon vs Tiger, Point Rummy, and Andar Bahar. Certified server-side Random Number Generators (RNG) guarantee fair, tamper-proof dealing for all players.
+                Teen Patti Master is an authentic mobile card platform developed for Android devices. It delivers classic 3-card Indian poker (Flash) alongside skill-based arcade formats like Dragon vs Tiger, Point Rummy, and Andar Bahar. Random Number Generators (RNG) are used for card dealing for all players.
               </div>
             </details>
 
@@ -253,7 +253,7 @@ export default function TeenPattiFaq() {
                 <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
-                Yes, provided you download the application package directly from its authentic official web portal. The system uses high-grade SSL encryption and certified payment gateways. Never download modified builds or tools from unverified third-party websites or Telegram channels.
+                Yes, provided you download the application package directly from its authentic web portal. The system uses high-grade SSL encryption and payment gateways. Never download modified builds or tools from unverified third-party websites or Telegram channels.
               </div>
             </details>
 
@@ -322,7 +322,7 @@ export default function TeenPattiFaq() {
                 <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
-                Google Play Store restricts real-money skill and wagering apps in India. Developers distribute official packages directly through secure external portals. Learn more in our{" "}
+                Google Play Store restricts real-money skill and wagering apps in India. Developers distribute genuine packages directly through secure external portals. Learn more in our{" "}
                 <Link href="/" className="text-amber-400 underline hover:text-amber-300">
                   Teen Patti Master APK Download Guide
                 </Link>.
@@ -686,7 +686,7 @@ export default function TeenPattiFaq() {
                 <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
-                Contact official support from a secondary phone immediately. Provide your registered number and recent banking UTR deposit slips to confirm ownership and request an emergency lock while you recover your SIM card.
+                Contact in-app support from a secondary phone immediately. Provide your registered number and recent banking UTR deposit slips to confirm ownership and request an emergency lock while you recover your SIM card.
               </div>
             </details>
 
@@ -738,9 +738,9 @@ export default function TeenPattiFaq() {
                   <td className="p-3.5 text-slate-400">24 to 72 Hours</td>
                 </tr>
                 <tr>
-                  <td className="p-3.5 font-bold text-white">RNG Certification</td>
-                  <td className="p-3.5 text-emerald-400 font-semibold">Certified Server-Side Hardware</td>
-                  <td className="p-3.5 text-slate-400">Certified Social Engine</td>
+                  <td className="p-3.5 font-bold text-white">RNG Fairness</td>
+                  <td className="p-3.5 text-emerald-400 font-semibold">Server-Side Hardware</td>
+                  <td className="p-3.5 text-slate-400">Social Engine</td>
                   <td className="p-3.5 text-rose-400">Unverified / Proprietary</td>
                 </tr>
                 <tr>
@@ -796,7 +796,7 @@ export default function TeenPattiFaq() {
           <div className="bg-[#0e131a] p-6 rounded-2xl border border-amber-500/30 text-center space-y-3">
             <h3 className="text-lg font-extrabold text-white">Have More Questions About Teen Patti Master?</h3>
             <p className="max-w-xl mx-auto text-slate-300">
-              Get the official verified APK directly from our authenticated portal and claim your welcome credits today!
+              Get the verified APK directly from our authenticated portal and claim your welcome credits today!
             </p>
             <a
               href={DOWNLOAD_LINK}
@@ -804,7 +804,7 @@ export default function TeenPattiFaq() {
               rel="nofollow sponsored noopener noreferrer"
               className="inline-block bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs uppercase px-8 py-3 rounded-xl shadow-lg transition transform hover:scale-105"
             >
-              Download Official APK 🚀
+              Download APK 🚀
             </a>
           </div>
           <p className="text-[11px] text-slate-500 text-center pt-2">

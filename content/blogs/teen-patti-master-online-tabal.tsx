@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
-// 1. 100% SEO-Friendly Metadata for Google Ranking
+// 1. SEO-Friendly Metadata for Google Ranking
 export const metadata: Metadata = {
   title: "Online 3-Card Pro Guide to Teen Patti Master Table",
   description:
@@ -74,7 +74,7 @@ const faqSchema = {
       name: "Can I get cards first in online tabal of Shu Teen Patti Master?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No. Cards are not handed out remotely on client devices. A certified hardware Random Number Generator (RNG) generates cards on remote servers. Cards are not downloaded until the player taps 'Seen'. Card predictor mods of any type are completely impossible.",
+        text: "No. Cards are not handed out remotely on client devices. A Random Number Generator (RNG) generates cards on remote servers. Cards are not downloaded until the player taps 'Seen'. Card predictor mods of any type are completely impossible.",
       },
     },
     {
@@ -158,7 +158,7 @@ export default function TeenPattiMasterOnlinetabal() {
               <span>♠️</span> Live Multiplayer Arena
             </span>
             <span className="text-[11px] font-bold text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-3 py-1 rounded-full inline-flex items-center gap-1">
-              <span>🛡️</span> Certified RNG tabal
+              <span>🛡️</span> RNG tabal
             </span>
           </div>
 
@@ -179,41 +179,6 @@ export default function TeenPattiMasterOnlinetabal() {
           </div>
         </header>
 
-        {/* 2. Technical Architecture */}
-        <section className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>⚙️</span> 1. Teen Patti Master Online Table Technical Architecture
-          </h2>
-          <p>
-            The players have to face server drops, high data usage, and lag in the local apps of Ghani. Teen Patti Master e micro-packet architecture ni madad thi aa badhi samasyaonu technical nivaran karyu chhe.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">
-            <div className="bg-[#0e131a] p-5 rounded-2xl border border-slate-700/50 space-y-2">
-              <h3 className="font-bold text-white text-base flex items-center gap-2">
-                <span>📶</span> Low-Latency Data Transmission
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-300">
-                Online table par darek round darmiyan darek player ni chaal (blind, chaal vadharvi, show ke pack) keval 12 thi 15 Kilobytes (KB) na binary packets ma transmit thaay chhe. Jab player nabla 3G ke 4G network par jata hai to connection toot jata hai lekin real-time ma live cards open thaay chhe.
-              </p>
-            </div>
-
-            <div className="bg-[#0e131a] p-5 rounded-2xl border border-slate-700/50 space-y-2">
-              <h3 className="font-bold text-white text-base flex items-center gap-2">
-                <span>🔐</span> Secure Client-Server Handshake
-              </h3>
-              <p className="text-xs sm:text-sm text-slate-300">
-                Table jya sudhi player screen parna &apos;Seen&apos; button par click nathi karto, tya sudhi cards no data user na local phone storage ma decrypt nathi. The architecture makes sure that no third-party mod or tool can hack the cards before the player plays them.
-              </p>
-            </div>
-          </div>
-          <p className="text-xs text-slate-400">
-            For practicing without using internet data, check out our{" "}
-            <Link href="/blog/teen-patti-master-offline" className="text-amber-400 font-semibold underline hover:text-amber-300">
-              Teen Patti Master Offline Guide
-            </Link>.
-          </p>
-        </section>
 
         {/* 3. Live Variants Table */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
@@ -274,53 +239,6 @@ export default function TeenPattiMasterOnlinetabal() {
           </div>
         </section>
 
-        {/* 4. Probability Mathematics */}
-        <section className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>📊</span> 3. Merely Probabilistic: 22,100 Hands Nu Analysis Mathematics
-          </h2>
-          <p>
-            Koi pan professional player matra naseeb ke andaaj par paisa lagavto nahi. 52 patta na standard deck mathi tran patta na total <strong>22,100 possible combinations</strong> bane chhe:
-          </p>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 font-mono text-xs pt-1">
-            <div className="bg-[#0e131a] p-3.5 rounded-xl border border-slate-700">
-              <div className="text-amber-300 font-bold">1. Trail / Trio (Set)</div>
-              <div className="text-emerald-400">52 Combos (~0.24% chance)</div>
-              <p className="text-[11px] text-slate-400 font-sans mt-1">Darek 425 rounds average matra 1 vaar trail aave chhe. Pot ne dheeme thi build karo.</p>
-            </div>
-
-            <div className="bg-[#0e131a] p-3.5 rounded-xl border border-slate-700">
-              <div className="text-amber-300 font-bold">2. Pure Sequence (Straight Flush)</div>
-              <div className="text-emerald-400">48 Combos (~0.22% chance)</div>
-              <p className="text-[11px] text-slate-400 font-sans mt-1">Ek colour aane kram na patta (jema ke 8♥-9♥-10♥). Ultra-rare hand ranking.</p>
-            </div>
-
-            <div className="bg-[#0e131a] p-3.5 rounded-xl border border-slate-700">
-              <div className="text-amber-300 font-bold">3. Normal Sequence (Run)</div>
-              <div className="text-slate-200">720 Combos (~3.26% chance)</div>
-              <p className="text-[11px] text-slate-400 font-sans mt-1">Consecutive patta of different colour. Darek 31 hands ma 1 vaar banta hoy chhe.</p>
-            </div>
-
-            <div className="bg-[#0e131a] p-3.5 rounded-xl border border-slate-700">
-              <div className="text-amber-300 font-bold">4. Colour / Flush</div>
-              <div className="text-slate-200">1,096 Combos (~4.96% chance)</div>
-              <p className="text-[11px] text-slate-400 font-sans mt-1">Ek j suit na non-consecutive 3 patta. 5+ players hoy to aggressive bet risky chhe.</p>
-            </div>
-
-            <div className="bg-[#0e131a] p-3.5 rounded-xl border border-slate-700">
-              <div className="text-amber-300 font-bold">5. Pair / Jodi</div>
-              <div className="text-amber-400">3,744 Combos (~16.94% chance)</div>
-              <p className="text-[11px] text-slate-400 font-sans mt-1">Be same ank ek biju patu. Weak 6-6 ke 7-7 par re-raise ave tyare fold karvu best chhe.</p>
-            </div>
-
-            <div className="bg-[#0e131a] p-3.5 rounded-xl border border-slate-700">
-              <div className="text-amber-300 font-bold">6. High Card</div>
-              <div className="text-rose-400">16,440 Combos (~74.39% chance)</div>
-              <p className="text-[11px] text-slate-400 font-sans mt-1">Koi pan match without normal patta. Jota j tarat &apos;Pack&apos; (fold) kari chips save karo.</p>
-            </div>
-          </div>
-        </section>
 
         {/* 5. Table Positioning & Mind Games */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
@@ -352,67 +270,7 @@ export default function TeenPattiMasterOnlinetabal() {
           </ul>
         </section>
 
-        {/* 6. Bankroll Management */}
-        <section className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>🛡️</span> 5. Bankroll Management Golden Rules for Capital Safety
-          </h2>
-          <p>
-            Motabhag na players game na rules janta nathi, parantu potanu balance gumave chhe. Temni pase bankroll control nathi. Teen Patti Master ne real-money tabal par tiki raheva mate nichi aapele tran rules nu kadak palan karvu jaruri chhe:
-          </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
-            <div className="bg-[#0e131a] p-4 rounded-xl border border-slate-700 space-y-1">
-              <h4 className="text-amber-300 font-bold text-xs uppercase">1. 3% to 5% Table Cap</h4>
-              <p className="text-[11px] text-slate-300">
-                If you have a balance of ₹2,000 in your wallet, then you will never place a bet on the table for an amount greater than ₹10. Ek j table par 3% vadhare nu risk levathi cards kharab aavva na case ma balance khali thai shake chhe.
-              </p>
-            </div>
-
-            <div className="bg-[#0e131a] p-4 rounded-xl border border-slate-700 space-y-1">
-              <h4 className="text-amber-300 font-bold text-xs uppercase">2. Daily Stop Loss (Fixed)</h4>
-              <p className="text-[11px] text-slate-300">
-                Ramvanu pehla sharu karo j ek limit set karo. If you are losing more than a certain amount (say ₹500), stop playing. Gumavela paisa tarat pacha melavvani laalach (Revenge Playing) sauthi moto khado chhe.
-              </p>
-            </div>
-
-            <div className="bg-[#0e131a] p-4 rounded-xl border border-slate-700 space-y-1">
-              <h4 className="text-amber-300 font-bold text-xs uppercase">3. Profit Locking Technique</h4>
-              <p className="text-[11px] text-slate-300">
-                If your wallet balance goes from 40% to more than 50% profit, then immediately withdraw the principal amount to your bank account. Only play with profit.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* 7. Setup & Withdrawal */}
-        <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
-          <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>📲</span> 6. Solid Account Setup Ane Withdrawal Regulations
-          </h2>
-          <p>
-            Online tabal par ramta pehla authentication puru hovu jaruri chhe:
-          </p>
-
-          <ol className="list-decimal list-inside space-y-2.5 text-xs sm:text-sm text-slate-300">
-            <li>
-              <strong className="text-white">Official App Download:</strong> Download the lightweight APK package via verified platforms directly from our{" "}
-              <Link href="/" className="text-amber-400 font-semibold underline hover:text-amber-300">
-                Teen Patti Master APK Download Page
-              </Link>.
-            </li>
-            <li>
-              <strong className="text-white">Mobile OTP Binding:</strong> Guest mode ma login thai gaya pachi profile menu ma jaine tamaro active 10-digit mobile number ne link karo. Tena thi tamaru balance cloud server par safe rahe chhe ane tamne{" "}
-              <Link href="/blog/teen-patti-master-51-bonus" className="text-amber-400 font-semibold underline hover:text-amber-300">
-                ₹51 bonus
-              </Link>{" "}
-              sudhi na practice chips male chhe.
-            </li>
-            <li>
-              <strong className="text-white">Bank Withdrawal Process:</strong> The minimum withdrawal limit is ₹100. After you submit the bank account number, IFSC code, or UPI VPA, the amount will be credited to your account within 2 to 15 minutes.
-            </li>
-          </ol>
-        </section>
 
         {/* 8. Internal Linking Hub */}
         <section className="bg-gradient-to-br from-[#161d26] to-[#0a0d12] p-6 sm:p-8 rounded-3xl border border-slate-700 shadow-lg space-y-4">
@@ -458,7 +316,7 @@ export default function TeenPattiMasterOnlinetabal() {
                 <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-slate-800 mt-1">
-                No. Cards are not handed out remotely on client devices. A certified hardware Random Number Generator (RNG) generates cards on remote servers. Cards are not downloaded until the player taps &apos;Seen&apos;. Card predictor mods of any type are completely impossible.
+                No. Cards are not handed out remotely on client devices. A Random Number Generator (RNG) generates cards on remote servers. Cards are not downloaded until the player taps &apos;Seen&apos;. Card predictor mods of any type are completely impossible.
               </div>
             </details>
 

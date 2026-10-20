@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
-// 1. 100% SEO-Optimized Metadata for Google Ranking (Target: Teen Patti Master [teen patti master Customer Care])
+// 1. SEO-Optimized Metadata for Google Ranking (Target: Teen Patti Master [teen patti master Customer Care])
 export const metadata: Metadata = {
   title: "Teen Patti Master Customer Care: 24/7 Helpline & Support",
   description:
@@ -148,7 +148,7 @@ export default function TeenPattiCustomerCare() {
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4 border-b border-fuchsia-900/60 pb-5">
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-[11px] font-black uppercase tracking-widest text-fuchsia-300 bg-fuchsia-950/80 border border-fuchsia-500/40 px-3.5 py-1 rounded-full">
-                🎧 24/7 Official Support
+                🎧 24/7 In-App Support
               </span>
               <span className="text-[11px] font-bold text-amber-400 bg-amber-950/60 border border-amber-500/30 px-3 py-1 rounded-full">
                 ⚡ Instant Dispute Resolution
@@ -184,7 +184,7 @@ export default function TeenPattiCustomerCare() {
                 Teen Patti Master Customer Care: 24/7 Helpline, WhatsApp Support &amp; Payment Resolution Guide
               </h1>
               <p className="text-fuchsia-200/70 text-xs sm:text-sm">
-                Updated: September 22, 2026 • 14 min read • Official Support Directory
+                Updated: September 22, 2026 • 14 min read • Support Directory
               </p>
               <div className="bg-[#0b0517]/90 border border-fuchsia-500/30 p-4 rounded-2xl">
                 <p className="text-fuchsia-100 text-xs sm:text-sm">
@@ -192,7 +192,7 @@ export default function TeenPattiCustomerCare() {
                   <Link href="/" className="text-fuchsia-400 font-bold hover:underline">
                     Teen Patti Master Home Portal
                   </Link>{" "}
-                  na official in-app ticket system mathi j melavvo. Genuine client update mate tame amari{" "}
+                  na in-app ticket system mathi j melavvo. Genuine client update mate tame amari{" "}
                   <Link href="/" className="text-fuchsia-400 underline font-semibold hover:text-fuchsia-200">
                     Teen Patti Master APK Download
                   </Link>{" "}
@@ -217,7 +217,7 @@ export default function TeenPattiCustomerCare() {
             </thead>
             <tbody className="divide-y divide-fuchsia-950 bg-[#0f071c]">
               <tr>
-                <td className="p-3.5"><a href="#system" className="text-slate-200 hover:text-fuchsia-400">▶ 1. Support Architecture &amp; System</a></td>
+                <td className="p-3.5"><a href="#system" className="text-slate-200 hover:text-fuchsia-400">▶ 1. Support Design &amp; System</a></td>
                 <td className="p-3.5"><a href="#livechat" className="text-slate-200 hover:text-fuchsia-400">▶ 2. 24/7 In-App Live Chat Guide</a></td>
               </tr>
               <tr>
@@ -232,7 +232,7 @@ export default function TeenPattiCustomerCare() {
           </table>
         </section>
 
-        {/* 3. Section 1: Support Architecture */}
+        {/* 3. Section 1: Support Design */}
         <section id="system" className="space-y-4">
           <div className="overflow-x-auto">
             <table className="w-full text-left border border-fuchsia-900/60 rounded-2xl overflow-hidden text-xs sm:text-sm">
@@ -405,7 +405,7 @@ export default function TeenPattiCustomerCare() {
                 <tr>
                   <td className="p-4 font-bold text-rose-400 w-1/4">No Direct Call Numbers</td>
                   <td className="p-4 text-slate-300 leading-relaxed">
-                    Teen Patti Master official team direct mobile phone call par support aapti nathi; badhu support in-app verified chat mathi j operate thay chhe.
+                    Teen Patti Master support team direct mobile phone call par support aapti nathi; badhu support in-app verified chat mathi j operate thay chhe.
                   </td>
                 </tr>
                 <tr>
@@ -442,7 +442,7 @@ export default function TeenPattiCustomerCare() {
               <h3 className="font-bold text-fuchsia-300 text-sm group-hover:text-fuchsia-200 flex items-center gap-1.5">
                 <span>📥</span> Teen Patti Master APK Download &rarr;
               </h3>
-              <p className="text-xs text-slate-400 mt-1">Get the verified 45 MB official package with zero malware risk.</p>
+              <p className="text-xs text-slate-400 mt-1">Get the verified 45 MB genuine package with zero malware risk.</p>
             </Link>
 
             <Link

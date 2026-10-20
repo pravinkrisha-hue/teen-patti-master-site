@@ -242,7 +242,7 @@ export default function TeenPattiMasterKingPage() {
             </div>
 
             <p style={styles.paragraphLead}>
-              Digital card gaming across the Indian subcontinent has witnessed a permanent transformation. What once remained confined to festive Diwali living rooms and family gatherings has now migrated directly onto mobile screens. In this rapidly expanding ecosystem, <strong><Link href="https://www.techtonis.com/games/teen-patti-master" style={styles.goldInlineLink}>Teen Patti Master</Link></strong> has emerged as one of the most visible names among card lovers. Within this application&apos;s competitive tiers, the King tables and high-roller lobbies attract players looking for deep tactical strategy, swift hand resolution, and psychological gameplay.
+              Digital card gaming across the Indian subcontinent has witnessed a permanent transformation. What once remained confined to festive Diwali living rooms and family gatherings has now migrated directly onto mobile screens. In this rapidly expanding app, <strong><Link href="https://www.techtonis.com/games/teen-patti-master" style={styles.goldInlineLink}>Teen Patti Master</Link></strong> has emerged as one of the most visible names among card lovers. Within this application&apos;s competitive tiers, the King tables and high-roller lobbies attract players looking for deep tactical strategy, swift hand resolution, and psychological gameplay.
             </p>
 
             {/* Quick Reference Table */}
@@ -289,7 +289,7 @@ export default function TeenPattiMasterKingPage() {
                   </tr>
                   <tr>
                     <td style={styles.td}><strong>Fair Play Assurance</strong></td>
-                    <td style={styles.td}>Certified RNG distribution & automated anti-bot shields</td>
+                    <td style={styles.td}>RNG distribution & automated anti-bot shields</td>
                     <td style={styles.td}>Server-side validation logic</td>
                   </tr>
                   <tr>
@@ -302,7 +302,7 @@ export default function TeenPattiMasterKingPage() {
             </div>
 
             {/* Section 1 */}
-            <h2 id="what-is-king" style={styles.h2}>1. What is Teen Patti Master King? The Evolution of Modern 3-Card Poker</h2>
+            <h2 id="what-is-king" style={styles.h2}>What is Teen Patti Master King? The Evolution of Modern 3-Card Poker</h2>
             <p style={styles.paragraph}>
               <strong><Link href="https://www.techtonis.com/games/teen-patti-master" style={styles.goldInlineLink}>Teen Patti Master</Link></strong> is engineered specifically around authentic Indian three-card poker dynamics. Rather than overwhelming users with unrelated arcade mini-games or complicated puzzle launchers, it focuses on delivering low-latency, tactile card rooms.
             </p>
@@ -317,7 +317,7 @@ export default function TeenPattiMasterKingPage() {
             </ul>
 
             {/* Section 2: Terminal Box 1 */}
-            <h2 id="hand-rankings" style={styles.h2}>2. Standard Hand Hierarchy: Memorizing Hand Strengths</h2>
+            <h2 id="hand-rankings" style={styles.h2}>Standard Hand Hierarchy: Memorizing Hand Strengths</h2>
             <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`TEEN PATTI MASTER HAND RANKINGS (Highest to Lowest)
@@ -332,11 +332,11 @@ export default function TeenPattiMasterKingPage() {
             </div>
 
             {/* Section 3: Terminal Box 2 */}
-            <h2 id="table-dynamics" style={styles.h2}>3. Table Dynamics: Blind Play vs. Seen Strategy</h2>
+            <h2 id="table-dynamics" style={styles.h2}>Table Dynamics: Blind Play vs. Seen Strategy</h2>
             <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
               <pre style={styles.pre}>
 {`+-------------------------------------------------------------+
-|             BETTING MECHANICS ARCHITECTURE                  |
+|             BETTING MECHANICS DESIGN                  |
 +------------------------------+------------------------------+
 |         BLIND WAGERING       |         SEEN (CHAAL)         |
 +------------------------------+------------------------------+
@@ -349,7 +349,7 @@ export default function TeenPattiMasterKingPage() {
             </div>
 
             {/* Section 4 */}
-            <h2 id="tactical-gameplay" style={styles.h2}>4. Tactical Gameplay: Psychological Warfare & Table Positioning</h2>
+            <h2 id="tactical-gameplay" style={styles.h2}>Tactical Gameplay: Psychological Warfare & Table Positioning</h2>
             <p style={styles.paragraph}>
               Success on <strong>Teen Patti Master</strong> requires more than waiting for premium hands like trios or pure sequences. Real profitability comes from exploiting table position, betting size, and opponent habits:
             </p>
@@ -373,7 +373,7 @@ export default function TeenPattiMasterKingPage() {
             </div>
 
             {/* Section 5 */}
-            <h2 id="variants" style={styles.h2}>5. Popular Variants on Teen Patti Master King</h2>
+            <h2 id="variants" style={styles.h2}>Popular Variants on Teen Patti Master King</h2>
             <p style={styles.paragraph}>
               Explore dynamic variations available in <strong><Link href="https://www.techtonis.com/games/teen-patti-master" style={styles.goldInlineLink}>Teen Patti Master</Link></strong> and <strong><Link href="https://www.techtonis.com/games/teen-patti-gold" style={styles.goldInlineLink}>Teen Patti Gold</Link></strong>:
             </p>
@@ -384,52 +384,7 @@ export default function TeenPattiMasterKingPage() {
               <li style={styles.li}><strong>Royal Tables:</strong> Only high face cards (10, J, Q, K, A) remain active in the deck.</li>
             </ul>
 
-            {/* Section 6 */}
-            <h2 id="bankroll" style={styles.h2}>6. Bankroll Management: The Golden Rules for Long-Term Play</h2>
-            <p style={styles.paragraph}>
-              Disciplined bankroll management separates successful card strategists from reckless chasers:
-            </p>
-            <ul style={styles.ul}>
-              <li style={styles.li}><strong>The 50x Rule:</strong> Never enter a table without a minimum bankroll equivalent to at least 40x to 50x the boot value.</li>
-              <li style={styles.li}><strong>Stop-Loss Thresholds:</strong> Exit the session immediately if your initial session balance decreases by 25%.</li>
-              <li style={styles.li}><strong>Never Chase Bad Runs:</strong> Folding poor opening cards protects your capital for profitable opportunities.</li>
-            </ul>
-
-            {/* Section 7: Network Terminal Box */}
-            <h2 id="network-performance" style={styles.h2}>7. Software Architecture: Low Data Usage & Lag-Free Engine</h2>
-            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
-              <pre style={styles.pre}>
-{`NETWORK PROTOCOL COMPARISON
-
-[TEEN PATTI MASTER LIGHT ENGINE]
-   └── Compact JSON/Binary Stream ──► 2G / 3G / 4G Compatible ──► Low Battery & Ram Use
-       (Sends only coordinate & numeric values; zero heavy streaming)
-
-[COMPETING HEAVY CASINO APPS]
-   └── High Graphical Streaming ────► Demands Fiber/Wi-Fi ─────► Prone to Lag Disconnects
-       (Loads large animations, sound bundles, and heavy slot physics)`}
-              </pre>
-            </div>
-
-            {/* Section 8 */}
-            <h2 id="financial-security" style={styles.h2}>8. Financial Security, Direct Cashouts & Bonus Verification</h2>
-            <p style={styles.paragraph}>
-              Player safety and financial security are backed by robust operational protocols:
-            </p>
-            <ul style={styles.ul}>
-              <li style={styles.li}><strong>Direct IMPS & UPI Cashouts:</strong> Payouts route directly into verified bank accounts within minutes.</li>
-              <li style={styles.li}><strong>256-Bit SSL Protection:</strong> Securing financial transactions and user account credentials.</li>
-              <li style={styles.li}><strong>Mandatory KYC:</strong> Preventing identity spoofing and unauthorized withdrawals.</li>
-            </ul>
-
-            {/* Section 9 */}
-            <h2 id="rng-fair-play" style={styles.h2}>9. Algorithmic Fairness: Certified RNG & Anti-Bot Shields</h2>
-            <p style={styles.paragraph}>
-              Every card deal is powered by certified Random Number Generator (RNG) software ensuring complete statistical unpredictability. Dynamic seat assignments prevent coordinated collusion, while anti-bot detection software screens tables 24/7.
-            </p>
-
-            {/* Section 10 */}
-            <h2 id="pros-cons" style={styles.h2}>10. Pros and Cons: A Balanced Assessment</h2>
+            <h2 id="pros-cons" style={styles.h2}>Pros and Cons: A Balanced Assessment</h2>
             <div className="tpm-scroll-wrapper" style={styles.tableWrapper}>
               <table style={styles.table}>
                 <thead>
@@ -449,55 +404,14 @@ export default function TeenPattiMasterKingPage() {
                     <td style={styles.td}>
                       • High short-term variance requires strict discipline.<br/>
                       • Focused purely on card rooms with fewer arcade options.<br/>
-                      • Requires manual APK installation from official portals.
+                      • Requires manual APK installation from portals.
                     </td>
                   </tr>
                 </tbody>
               </table>
             </div>
 
-            {/* Section 11: Installation Terminal Box */}
-            <h2 id="installation" style={styles.h2}>11. Safe Installation Guide: Teen Patti Master APK Setup</h2>
-            <div className="tpm-scroll-wrapper" style={styles.terminalBox}>
-              <pre style={styles.pre}>
-{`INSTALLATION WORKFLOW
-
-Step 1: Download from Verified Source
-        └── Obtain the package exclusively from official developer portals (e.g., Techtonis).
-
-Step 2: Permit Unknown App Installation
-        └── Navigate to Settings > Security > Enable installation for your active browser.
-
-Step 3: Confirm Package Hash & Permissions
-        └── Ensure the app requests only network access—never SMS, contacts, or camera access.
-
-Step 4: Register & Bind Credentials
-        └── Complete OTP verification using your permanent mobile number for account recovery.`}
-              </pre>
-            </div>
-
-            {/* Section 12 */}
-            <h2 id="responsible-play" style={styles.h2}>12. Responsible Gaming: Protecting Your Health</h2>
-            <div style={styles.alertBox}>
-              <h3 style={{ color: "#e0e7ff", margin: "0 0 10px 0", fontSize: "16px" }}>
-                Responsible Play Code of Conduct
-              </h3>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: "0 0 8px 0" }}>
-                1. <strong>Set Firm Budgets:</strong> Determine your loss limits before launching the app. Never wager essential living expenses.
-              </p>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: "0 0 8px 0" }}>
-                2. <strong>Time Management:</strong> Keep gaming sessions under 45 minutes to avoid cognitive fatigue.
-              </p>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: "0 0 8px 0" }}>
-                3. <strong>Avoid Emotional Play:</strong> Stepping away after bad beats prevents costly tilt mistakes.
-              </p>
-              <p style={{ color: "#cbd5e1", fontSize: "14px", margin: 0 }}>
-                4. <strong>Strictly 18+:</strong> Digital cash gaming is strictly limited to legal adults.
-              </p>
-            </div>
-
-            {/* Section 13: FAQs */}
-            <h2 id="faqs" style={styles.h2}>13. Frequently Asked Questions (FAQs)</h2>
+            <h2 id="faqs" style={styles.h2}>Frequently Asked Questions (FAQs)</h2>
             <div style={styles.faqCard}>
               <h4 style={styles.faqQ}>Q1. What is Teen Patti Master King?</h4>
               <p style={styles.faqA}>Teen Patti Master King refers to the premium, high-stakes tables and VIP lobbies within the Teen Patti Master platform, where seasoned players compete using deeper strategies and higher pot limits.</p>
@@ -508,11 +422,11 @@ Step 4: Register & Bind Credentials
             </div>
             <div style={styles.faqCard}>
               <h4 style={styles.faqQ}>Q3. Can I run Teen Patti Master smoothly on a 2G or 3G network?</h4>
-              <p style={styles.faqA}>Yes. The app utilizes an optimized data packet architecture that transmits raw numeric coordinates rather than heavy graphical streams, allowing smooth gameplay without lag on slow or unstable mobile connections.</p>
+              <p style={styles.faqA}>Yes. The app utilizes an optimized data packet design that transmits raw numeric coordinates rather than heavy graphical streams, allowing smooth gameplay without lag on slow or unstable mobile connections.</p>
             </div>
             <div style={styles.faqCard}>
               <h4 style={styles.faqQ}>Q4. Are card distributions on Teen Patti Master fair and random?</h4>
-              <p style={styles.faqA}>Official versions utilize certified Random Number Generators (RNG) to ensure that every card shuffle is mathematically random and unmanipulated. Automated anti-bot and anti-collusion algorithms continuously screen tables to prevent unfair play.</p>
+              <p style={styles.faqA}>versions utilize Random Number Generators (RNG) to ensure that every card shuffle is mathematically random and unmanipulated. Automated anti-bot and anti-collusion algorithms continuously screen tables to prevent unfair play.</p>
             </div>
             <div style={styles.faqCard}>
               <h4 style={styles.faqQ}>Q5. How fast are cashout withdrawals processed?</h4>
@@ -552,13 +466,7 @@ Step 4: Register & Bind Credentials
                   <li><a href="#table-dynamics" style={styles.sidebarLink}>Blind vs Seen</a></li>
                   <li><a href="#tactical-gameplay" style={styles.sidebarLink}>Tactical Play</a></li>
                   <li><a href="#variants" style={styles.sidebarLink}>Game Variants</a></li>
-                  <li><a href="#bankroll" style={styles.sidebarLink}>Bankroll Strategy</a></li>
-                  <li><a href="#network-performance" style={styles.sidebarLink}>Network Architecture</a></li>
-                  <li><a href="#financial-security" style={styles.sidebarLink}>Financial Security</a></li>
-                  <li><a href="#rng-fair-play" style={styles.sidebarLink}>RNG & Fairness</a></li>
                   <li><a href="#pros-cons" style={styles.sidebarLink}>Pros & Cons</a></li>
-                  <li><a href="#installation" style={styles.sidebarLink}>APK Setup Guide</a></li>
-                  <li><a href="#responsible-play" style={styles.sidebarLink}>Responsible Play</a></li>
                   <li><a href="#faqs" style={styles.sidebarLink}>FAQs</a></li>
                   <li><a href="#verdict" style={styles.sidebarLink}>Final Verdict</a></li>
                 </ul>
@@ -586,7 +494,7 @@ Step 4: Register & Bind Credentials
   );
 }
 
-// 2. Comprehensive CSS Overrides for Seamless Mobile View
+// 2. Complete CSS Overrides for Smooth Mobile View
 const mobileOptimizedStyles = `
   html, body {
     overflow-x: hidden !important;

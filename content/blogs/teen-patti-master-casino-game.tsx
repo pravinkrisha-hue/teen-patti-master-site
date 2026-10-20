@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
-// 1. 100% SEO-Optimized Metadata for Google Ranking (Target: Teen Patti Master [Teen Patti Master Casino Game])
+// 1. SEO-Optimized Metadata for Google Ranking (Target: Teen Patti Master [Teen Patti Master Casino Game])
 export const metadata: Metadata = {
   title: "Teen Patti Master Casino Game: Win Real Cash & ₹51 Bonus",
   description:
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     "Teen Patti Master UPI Cashout",
   ],
   other: {
-    name: "Teen Patti Master Casino Game: Live Tables, Winning Probabilities & Seamless Cashouts",
+    name: "Teen Patti Master Casino Game: Live Tables, Winning Probabilities & Smooth Cashouts",
   },
   alternates: {
     canonical: "/blog/teen-patti-master-casino",
@@ -75,7 +75,7 @@ const casinoGameFaqSchema = {
       name: "Is the Teen Patti Master casino game free to download?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, the official APK package is completely free to download. Every registered user receives practice chips to explore tables without an upfront deposit.",
+        text: "Yes, the genuine APK package is completely free to download. Every registered user receives practice chips to explore tables without an upfront deposit.",
       },
     },
     {
@@ -83,7 +83,7 @@ const casinoGameFaqSchema = {
       name: "Why does Android show an installation warning?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Android displays a default notification for any APK acquired outside Google Play. Verified builds downloaded via official links are clean, signed, and safe.",
+        text: "Android displays a default notification for any APK acquired outside Google Play. Verified builds downloaded via trusted links are clean, signed, and safe.",
       },
     },
     {
@@ -158,15 +158,15 @@ export default function TeenPattimastercasinogame() {
             {/* Left Column (Main Typography & CTAs) */}
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <span className="inline-block text-[11px] font-black uppercase tracking-widest text-amber-300 bg-amber-950/80 border border-amber-500/40 px-4 py-1.5 rounded-full">
-                Official Teen Patti Master App
+                Teen Patti Master App
               </span>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight font-serif tracking-tight">
-                Teen Patti Master Casino Game: The Ultimate Guide to Live Tables, Winning Probabilities &amp; Seamless Cashouts
+                Teen Patti Master Casino Game: The Ultimate Guide to Live Tables, Winning Probabilities &amp; Smooth Cashouts
               </h1>
 
               <p className="text-slate-300 text-xs sm:text-sm leading-relaxed">
-                Mobile gaming in India has seen a massive digital revolution. Download the latest Teen Patti Master Android version (APK) to access certified server-side dealing, real-time multiplayer lobbies, and rapid UPI settlements. Eligible new users can unlock up to ₹51 in promotional practice rewards.
+                Mobile gaming in India has seen a massive digital revolution. Download the latest Teen Patti Master Android version (APK) to access dealing, real-time multiplayer lobbies, and rapid UPI settlements. Eligible new users can unlock up to ₹51 in promotional practice rewards.
               </p>
 
               {/* Action Buttons */}
@@ -215,7 +215,7 @@ export default function TeenPattimastercasinogame() {
                     ⚡ DOWNLOAD NOW
                   </a>
                   <div className="flex justify-between text-[10px] text-amber-200/80 font-semibold px-2">
-                    <span>Official Source</span>
+                    <span>Trusted Source</span>
                     <span>Android App</span>
                     <span>18+ Users</span>
                   </div>
@@ -242,7 +242,7 @@ export default function TeenPattimastercasinogame() {
               </div>
               <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/20">
                 <span className="text-amber-300 font-bold block">Dealing Engine</span>
-                <span className="text-slate-300">Certified Server Hardware RNG</span>
+                <span className="text-slate-300">Server Hardware RNG</span>
               </div>
               <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/20">
                 <span className="text-amber-300 font-bold block">Welcome Incentive</span>
@@ -282,12 +282,6 @@ export default function TeenPattimastercasinogame() {
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm">
               <li><a href="#overview" className="text-slate-300 hover:text-amber-400 transition">▶ 1. What is Casino Game Teen Patti Master?</a></li>
               <li><a href="#lobbies" className="text-slate-300 hover:text-amber-400 transition">▶ 2. Lobby Walkthrough: Traditional &amp; Arcade</a></li>
-              <li><a href="#probability" className="text-slate-300 hover:text-amber-400 transition">▶ 3. Mathematical Probability &amp; Hand Rankings</a></li>
-              <li><a href="#tactics" className="text-slate-300 hover:text-amber-400 transition">▶ 4. Strategic Blueprint: Conquering the Tables</a></li>
-              <li><a href="#bankroll" className="text-slate-300 hover:text-amber-400 transition">▶ 5. Bankroll Management: Defending Capital</a></li>
-              <li><a href="#banking" className="text-slate-300 hover:text-amber-400 transition">▶ 6. Financial Infrastructure: UPI Deposits &amp; Cashouts</a></li>
-              <li><a href="#setup" className="text-slate-300 hover:text-amber-400 transition">▶ 7. Installation, Setup &amp; ₹51 Bonus Activation</a></li>
-              <li><a href="#fairplay" className="text-slate-300 hover:text-amber-400 transition">▶ 8. Fair-Play Certification &amp; Legal Status</a></li>
               <li><a href="#faqs" className="text-slate-300 hover:text-amber-400 transition">▶ 9. Frequently Asked Questions (FAQ)</a></li>
             </ul>
           </div>
@@ -340,136 +334,11 @@ export default function TeenPattimastercasinogame() {
             </p>
           </div>
 
-          {/* SECTION 3: MATHEMATICAL PROBABILITY */}
-          <div id="probability" className="space-y-3 pt-2 border-t border-rose-900/40">
-            <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>📊</span> 3. Mathematical Probability &amp; 3-Card Hand Rankings
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-300">
-              Relying on luck alone at cash tables burns through your chips fast. A standard 52-card deck produces exactly 22,100 unique three-card combinations:
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 font-mono text-xs pt-1">
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/30">
-                <div className="text-amber-300 font-bold">1. Trail / Trio (Set)</div>
-                <div className="text-emerald-400">52 Combos (~0.24% Odds)</div>
-              </div>
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/30">
-                <div className="text-amber-300 font-bold">2. Pure Sequence (Straight)</div>
-                <div className="text-emerald-400">48 Combos (~0.22% Odds)</div>
-              </div>
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/30">
-                <div className="text-amber-300 font-bold">3. Normal Sequence (Run)</div>
-                <div className="text-slate-200">720 Combos (~3.26% Odds)</div>
-              </div>
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/30">
-                <div className="text-amber-300 font-bold">4. Color / Flush</div>
-                <div className="text-slate-200">1,096 Combos (~4.96% Odds)</div>
-              </div>
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/30">
-                <div className="text-amber-300 font-bold">5. Pair (Two of a Kind)</div>
-                <div className="text-amber-400">3,744 Combos (~16.94% Odds)</div>
-              </div>
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/30">
-                <div className="text-amber-300 font-bold">6. High Card</div>
-                <div className="text-rose-400">16,440 Combos (~74.39% Odds)</div>
-              </div>
-            </div>
-            <p className="text-xs text-rose-200/80 pt-1">
-              *High Card occurs over 74% of the time. Disciplined players discard weak high cards immediately rather than bleeding chips on speculative calls.
-            </p>
-          </div>
 
-          {/* SECTION 4: STRATEGIC BLUEPRINT */}
-          <div id="tactics" className="space-y-3 pt-2 border-t border-rose-900/40">
-            <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>🧠</span> 4. Strategic Blueprint: Conquering the Tables
-            </h2>
-            <ul className="space-y-2 text-slate-300 text-xs sm:text-sm">
-              <li>• <strong>Exploit Late-Position Blind Play:</strong> Blind players bet at half the stake of Seen players. When sitting in late position, an aggressive blind sequence puts massive financial pressure on earlier seen callers.</li>
-              <li>• <strong>Avoid the Medium Pair Trap:</strong> Pairs like 7-7 or 8-8 drop rapidly in equity on tables with 4+ active seats. Fold early against aggressive re-raises.</li>
-              <li>• <strong>Tactical Sideshow Execution:</strong> When holding a competitive Seen hand, request a sideshow with the player directly to your right to eliminate threats at lower cost.</li>
-              <li>• <strong>Reading Digital Timing Tells:</strong> Instant bets often indicate emotional bluffing, whereas deliberate 3-4 second pauses suggest value calculation.</li>
-            </ul>
-          </div>
 
-          {/* SECTION 5: BANKROLL MANAGEMENT */}
-          <div id="bankroll" className="space-y-3 pt-2 border-t border-rose-900/40">
-            <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>🛡️</span> 5. Bankroll Management: Defending Capital
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-3 pt-1">
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/20">
-                <h4 className="text-amber-300 font-bold text-xs uppercase">Table 3% to 5% Cap</h4>
-                <p className="text-[11px] text-slate-300 mt-1">Never sit at a table where the mandatory boot exceeds 3% to 5% of your total balance.</p>
-              </div>
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/20">
-                <h4 className="text-amber-300 font-bold text-xs uppercase">Strict Daily Stop-Loss</h4>
-                <p className="text-[11px] text-slate-300 mt-1">Set a predetermined loss threshold. If hit, shut down the app immediately to avoid revenge tilt.</p>
-              </div>
-              <div className="bg-[#180511] p-3.5 rounded-xl border border-rose-500/20">
-                <h4 className="text-amber-300 font-bold text-xs uppercase">Systematic Profit-Taking</h4>
-                <p className="text-[11px] text-slate-300 mt-1">When your balance expands by 40-50%, withdraw your starting principal and wager only with winnings.</p>
-              </div>
-            </div>
-          </div>
 
-          {/* SECTION 6: FINANCIAL INFRASTRUCTURE */}
-          <div id="banking" className="space-y-3 pt-2 border-t border-rose-900/40">
-            <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>💳</span> 6. Financial Infrastructure: UPI Deposits &amp; Fast Withdrawals
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-[#180511] p-4 rounded-xl border border-rose-500/20 space-y-1">
-                <h4 className="text-amber-300 font-bold text-sm">Adding Funds</h4>
-                <p className="text-xs text-slate-300">Tap Add Cash in the lobby, select amounts starting from ₹100, and approve via PhonePe, GPay, Paytm, or UPI. Balances update within 10 to 30 seconds.</p>
-              </div>
-              <div className="bg-[#180511] p-4 rounded-xl border border-rose-500/20 space-y-1">
-                <h4 className="text-amber-300 font-bold text-sm">Withdrawing Winnings</h4>
-                <p className="text-xs text-slate-300">Tap Withdraw, enter your bank account/IFSC or UPI VPA (minimum ₹100). Verified transactions settle directly into your bank within 2 to 15 minutes. Encountering any delay? Contact{" "}
-                <Link href="/blog/teen-patti-master-customer-care" className="text-amber-400 font-semibold underline hover:text-amber-300">
-                  Teen Patti Master Customer Care
-                </Link>{" "}
-                for 24/7 assistance.</p>
-              </div>
-            </div>
-          </div>
 
-          {/* SECTION 7: SETUP & BONUS */}
-          <div id="setup" className="space-y-3 pt-2 border-t border-rose-900/40">
-            <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>📲</span> 7. Installation, Setup &amp; Claiming Your ₹51 Bonus
-            </h2>
-            <ol className="list-decimal list-inside space-y-2 text-slate-300 text-xs sm:text-sm">
-              <li>
-                <strong>Download Verified APK:</strong> Get the genuine installer from our{" "}
-                <Link href="/" className="text-amber-400 hover:underline font-bold">
-                  Teen Patti Master APK Download Page
-                </Link>.
-              </li>
-              <li><strong>Manage System Alert:</strong> Click <em>Download Anyway</em> on the standard Android external package alert.</li>
-              <li><strong>Allow Unknown Apps:</strong> Enable browser permissions in <em>Settings &gt; Security &gt; Install Unknown Apps</em>.</li>
-              <li><strong>Execute Installer:</strong> Tap <code>TeenPattiMaster.apk</code> to complete setup in under 30 seconds.</li>
-              <li>
-                <strong>Link Mobile via OTP:</strong> Launch as Guest, tap your profile avatar, enter your 10-digit number, and verify OTP to unlock practice credits, as explained in our{" "}
-                <Link href="/blog/teen-patti-master-51-bonus" className="text-amber-400 underline font-semibold">
-                  ₹51 Bonus Setup Guide
-                </Link>.
-              </li>
-            </ol>
-          </div>
 
-          {/* SECTION 8: FAIR PLAY & LEGAL */}
-          <div id="fairplay" className="space-y-3 pt-2 border-t border-rose-900/40">
-            <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>⚖️</span> 8. Fair-Play Certification &amp; Legal Status in India
-            </h2>
-            <p className="text-xs sm:text-sm text-slate-300">
-              Card generation, cuts, and seat distributions are managed by a certified server-side Random Number Generator (RNG). No card details exist on client phones prior to the reveal, preventing prediction mods.
-            </p>
-            <p className="text-xs text-slate-400">
-              Per the Supreme Court of India, skill-centric card games are constitutionally protected under Article 19(1)(g). However, regional legislation restricts cash tables in Andhra Pradesh, Telangana, Assam, and Odisha, where users can still enjoy free practice lobbies.
-            </p>
-          </div>
 
           {/* RECOMMENDED GUIDES & INTERNAL LINKING GRID */}
           <div className="space-y-3 pt-2 border-t border-rose-900/40">
@@ -485,7 +354,7 @@ export default function TeenPattimastercasinogame() {
                   📥 Teen Patti Master APK Download &rarr;
                 </h4>
                 <p className="text-[11px] text-slate-400 mt-1">
-                  Download official lightweight APK package with verified malware-free certification.
+                  Download lightweight APK package with verified malware scan.
                 </p>
               </Link>
               <Link
@@ -518,7 +387,7 @@ export default function TeenPattimastercasinogame() {
                   🎧 24/7 Helpline &amp; WhatsApp Support &rarr;
                 </h4>
                 <p className="text-[11px] text-slate-400 mt-1">
-                  Access official verified support channels for instant payment and account assistance.
+                  Access in-app support channels for instant payment and account assistance.
                 </p>
               </Link>
             </div>
@@ -536,7 +405,7 @@ export default function TeenPattimastercasinogame() {
                   <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
                 </summary>
                 <div className="p-4 pt-0 text-xs text-slate-300 leading-relaxed border-t border-rose-900/40 mt-1">
-                  Yes, the official APK package is completely free to download. Every registered user receives practice chips to explore tables without an upfront deposit.
+                  Yes, the genuine APK package is completely free to download. Every registered user receives practice chips to explore tables without an upfront deposit.
                 </div>
               </details>
 
@@ -546,7 +415,7 @@ export default function TeenPattimastercasinogame() {
                   <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
                 </summary>
                 <div className="p-4 pt-0 text-xs text-slate-300 leading-relaxed border-t border-rose-900/40 mt-1">
-                  Android displays a default notification for any APK acquired outside Google Play. Verified builds downloaded via official links are clean, signed, and safe.
+                  Android displays a default notification for any APK acquired outside Google Play. Verified builds downloaded via trusted links are clean, signed, and safe.
                 </div>
               </details>
 

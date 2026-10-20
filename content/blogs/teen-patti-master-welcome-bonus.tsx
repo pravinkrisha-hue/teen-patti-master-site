@@ -60,7 +60,7 @@ export default function TeenPattiMasterWelcomeBonus() {
           </h1>
 
           <p className="text-sm sm:text-lg text-[#b8d4c2] max-w-3xl leading-relaxed font-light">
-            Claim ₹51 to ₹1,500 signup cash, master the turnover wagering math, bind your mobile securely, and discover guaranteed UPI withdrawal rules without account locks.
+            Claim ₹51 to ₹1,500 signup cash, master the turnover wagering math, bind your mobile securely, and learn the UPI withdrawal rules without account locks.
           </p>
 
           {/* Meta Badges Row */}
@@ -97,7 +97,7 @@ export default function TeenPattiMasterWelcomeBonus() {
                     SPONSORED
                   </span>
                   <h3 className="text-lg font-bold text-white mt-1">Teen Patti Master</h3>
-                  <p className="text-xs text-[#90b69e]">Play India&apos;s favourite 3-card game • 18+ • Official APK</p>
+                  <p className="text-xs text-[#90b69e]">Play India&apos;s favourite 3-card game • 18+ • Genuine APK</p>
                 </div>
               </div>
               <a
@@ -140,7 +140,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             {/* Section 1 */}
             <section id="section-1" className="space-y-4 pt-4">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                1. What is the Welcome Bonus at Teen Patti Master?
+                What is the Welcome Bonus at Teen Patti Master?
               </h2>
               <p>
                 The Teen Patti Master welcome bonus is a formal promotional benefit that newly registered users receive upon downloading the genuine app package and linking an Indian mobile number.
@@ -161,7 +161,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             {/* Section 2 */}
             <section id="section-2" className="space-y-4 pt-4">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                2. Technical Breakdown: Claiming the ₹51 Registration Bonus
+                Technical Breakdown: Claiming the ₹51 Registration Bonus
               </h2>
               <p>
                 Many players download the application but do not receive their free signup reward because they stay logged in as anonymous guest users. Follow these verified technical steps to ensure your balance updates immediately:
@@ -204,10 +204,10 @@ export default function TeenPattiMasterWelcomeBonus() {
             {/* Section 3 */}
             <section id="section-3" className="space-y-4 pt-4">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                3. Turnover Math and Wagering Rollover Explained
+                Turnover Math and Wagering Rollover Explained
               </h2>
               <p>
-                All licensed real-money gaming platforms apply turnover wagering requirements to safeguard the ecosystem against automated bot abuse and money laundering. You cannot simply claim the ₹51 reward and cash it out to your bank account immediately.
+                All licensed real-money gaming platforms apply turnover wagering requirements to safeguard the app against automated bot abuse and money laundering. You cannot simply claim the ₹51 reward and cash it out to your bank account immediately.
               </p>
               <p>
                 Turnover is the total volume of bets placed on tables, regardless of whether you win or lose each hand. The Teen Patti Master welcome bonus comes with a straightforward 1x to 3x rollover requirement:
@@ -235,7 +235,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             {/* Section 4 */}
             <section id="section-4" className="space-y-4 pt-4">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                4. The First Deposit Match Pack
+                The First Deposit Match Pack
               </h2>
               <p>
                 For players looking to step up from micro-stakes tables, the First Recharge Pack provides substantial value:
@@ -296,7 +296,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             {/* Section 5 */}
             <section id="section-5" className="space-y-4 pt-4">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                5. Best Games to Meet Wagering Requirements Safely
+                Best Games to Meet Wagering Requirements Safely
               </h2>
               <p>
                 High-volatility arcade games can burn through a small starting bonus in minutes, while balanced card lobbies let you build up betting volume steadily. Learn more strategic tips in our <Link href="/blog/teen-patti-master-secrets" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Master Pro Secret Guide</Link>.
@@ -333,7 +333,7 @@ export default function TeenPattiMasterWelcomeBonus() {
             {/* Section 6 */}
             <section id="section-6" className="space-y-4 pt-4">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                6. Critical Mistakes That Result in Disqualified Bonuses &amp; Bans
+                Critical Mistakes That Result in Disqualified Bonuses &amp; Bans
               </h2>
               <p>
                 Teen Patti Master employs automated security algorithms to maintain fair play. Avoid these common mistakes:
@@ -351,81 +351,12 @@ export default function TeenPattiMasterWelcomeBonus() {
               </ul>
             </section>
 
-            {/* Section 7 */}
-            <section id="section-7" className="space-y-4 pt-4">
-              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                7. How to Withdraw: Transferring Winnings to Bank via UPI
-              </h2>
-              <p>
-                After meeting your turnover requirements and reaching the minimum cashout threshold of ₹100, you can withdraw your winnings straight to your bank account:
-              </p>
-              <div className="space-y-3 text-sm">
-                <p><strong>Method 1: Instant UPI Transfer:</strong> Tap &quot;Withdraw&quot; at the bottom of the screen, choose the UPI tab, enter your valid UPI ID (e.g. yourname@okhdfcbank), enter your legal name, type the amount, and submit. Funds typically reflect within 5 to 25 minutes.</p>
-                <p><strong>Method 2: Bank Transfer via IMPS:</strong> Click the Bank Card tab, enter your bank account number, 11-digit IFSC code, branch name, and registered name. IMPS works 24/7, processing reliably even on weekends.</p>
-              </div>
-              <p className="text-xs text-slate-500">
-                Experiencing a delayed withdrawal? Consult our dedicated <Link href="/blog/teen-patti-master-customer-care" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Customer Care Guide</Link> for rapid ticketing steps.
-              </p>
-            </section>
 
-            {/* Section 8: Comparison Matrix */}
-            <section id="section-8" className="space-y-4 pt-4">
-              <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                8. Platform Comparison: Teen Patti Master vs Others
-              </h2>
-              <div className="overflow-x-auto">
-                <table className="w-full text-left border border-[#dfd5bf] rounded-xl overflow-hidden text-xs sm:text-sm">
-                  <thead className="bg-[#0b2416] text-[#e4a834] uppercase font-bold text-[11px] tracking-wider">
-                    <tr>
-                      <th className="p-3">Evaluation Parameter</th>
-                      <th className="p-3">Teen Patti Master</th>
-                      <th className="p-3">Teen Patti Gold</th>
-                      <th className="p-3">Generic Clones</th>
-                    </tr>
-                  </thead>
-                  <tbody className="divide-y divide-[#dfd5bf] bg-white text-[#2c332d]">
-                    <tr>
-                      <td className="p-3 font-bold">Signup Reward</td>
-                      <td className="p-3 text-emerald-700 font-bold">Instant ₹51 Real Cash</td>
-                      <td className="p-3 text-slate-400">Virtual Non-Cashable Coins</td>
-                      <td className="p-3 text-rose-600">₹10 to ₹20 (High 20x Turnover)</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 font-bold">First Recharge Match</td>
-                      <td className="p-3 text-amber-700 font-semibold">100% to 150% Cash Match</td>
-                      <td className="p-3 text-slate-400">Coin Multipliers Only</td>
-                      <td className="p-3 text-slate-500">20% to 30% Match</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 font-bold">Wagering Turnover</td>
-                      <td className="p-3 text-emerald-700 font-semibold">1x to 3x (Fair &amp; Clear)</td>
-                      <td className="p-3 text-slate-400">N/A (Social Economy)</td>
-                      <td className="p-3 text-rose-600">15x to 30x (Difficult)</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 font-bold">Minimum Cashout</td>
-                      <td className="p-3 font-semibold">₹100 Low Entry Threshold</td>
-                      <td className="p-3 text-slate-400">No Cashouts Supported</td>
-                      <td className="p-3 text-slate-500">₹500 to ₹1,000</td>
-                    </tr>
-                    <tr>
-                      <td className="p-3 font-bold">Payment Methods</td>
-                      <td className="p-3 font-semibold">UPI, IMPS, GPay, PhonePe</td>
-                      <td className="p-3 text-slate-400">Google Play Billing Only</td>
-                      <td className="p-3 text-slate-500">Manual Third-Party Wallets</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <p className="text-xs text-slate-500">
-                For a deep dive into differences between real money and casual platforms, read our <Link href="/blog/teen-patti-master-vs-gold" className="text-[#0b2416] font-bold underline hover:text-[#c99738]">Teen Patti Master vs Gold Analysis</Link>.
-              </p>
-            </section>
 
             {/* Section 9: FAQ */}
             <section id="section-9" className="space-y-4 pt-4">
               <h2 className="text-2xl sm:text-3xl font-serif font-bold text-[#0b2416] border-b border-[#e5decb] pb-2">
-                9. Frequently Asked Questions (FAQ)
+                Frequently Asked Questions (FAQ)
               </h2>
               <div className="space-y-3">
                 <div className="bg-white p-5 rounded-2xl border border-[#dfd5bf]">
@@ -494,16 +425,14 @@ export default function TeenPattiMasterWelcomeBonus() {
                 On this page
               </h3>
               <nav className="space-y-2.5 text-xs sm:text-sm">
-                <a href="#section-1" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">1. Welcome Bonus Overview</a>
-                <a href="#section-2" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">2. Claiming ₹51 Step-by-Step</a>
-                <a href="#section-3" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">3. Turnover Math Explained</a>
-                <a href="#section-4" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">4. First Deposit Booster Pack</a>
-                <a href="#section-5" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">5. Best Games for Rollover</a>
-                <a href="#section-6" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">6. Critical Account Mistakes</a>
-                <a href="#section-7" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">7. UPI &amp; Bank Withdrawal</a>
-                <a href="#section-8" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">8. Platform Comparison</a>
-                <a href="#section-9" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">9. Frequently Asked Questions</a>
-                <a href="#section-10" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1">10. Responsible Gaming</a>
+                <a href="#section-1" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">Welcome Bonus Overview</a>
+                <a href="#section-2" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">Claiming ₹51 Step-by-Step</a>
+                <a href="#section-3" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">Turnover Math Explained</a>
+                <a href="#section-4" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">First Deposit Booster Pack</a>
+                <a href="#section-5" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">Best Games for Rollover</a>
+                <a href="#section-6" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">Critical Account Mistakes</a>
+                <a href="#section-9" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1 border-b border-[#143d25]">Frequently Asked Questions</a>
+                <a href="#section-10" className="block text-[#b8d4c2] hover:text-[#e4a834] transition py-1">Responsible Gaming</a>
               </nav>
             </div>
 
@@ -521,7 +450,7 @@ export default function TeenPattiMasterWelcomeBonus() {
                 rel="nofollow sponsored noopener noreferrer"
                 className="inline-block w-full bg-[#c99738] hover:bg-[#dfaa42] text-slate-950 font-black text-xs uppercase py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
               >
-                Download Official APK →
+                Download APK →
               </a>
             </div>
 

@@ -70,7 +70,7 @@ const faqSchema = {
       name: "Do I need to deposit cash to get the ₹51 bonus on Teen Patti Master?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "No! Get a sign-up bonus of ₹51 which is 100% FREE, with no need to recharge in advance. Just link your mobile number with SMS OTP to get instant credit in your Teen Patti Master balance.",
+        text: "No! Get a sign-up bonus of ₹51 which is FREE, with no need to recharge in advance. Just link your mobile number with SMS OTP to get instant credit in your Teen Patti Master balance.",
       },
     },
     {
@@ -94,7 +94,7 @@ const faqSchema = {
       name: "Is playing Teen Patti Master safe and legal in India?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, most Indian states have legalized skill-based card games that are certified Random Number Generator (RNG) compliant and operate following Supreme Court guidelines.",
+        text: "Yes, most Indian states have legalized skill-based card games that are Random Number Generator (RNG) compliant and operate following Supreme Court guidelines.",
       },
     },
   ],
@@ -151,7 +151,7 @@ export default function BonusClaimArticle() {
           </h1>
 
           <p className="text-amber-200/70 text-xs sm:text-sm text-center sm:text-left">
-            Updated on September 22, 2026 • 15 min read • Comprehensive Sign-up Rewards Walkthrough
+            Updated on September 22, 2026 • 15 min read • Complete Sign-up Rewards Walkthrough
           </p>
 
           <div className="bg-[#0b0602]/90 border border-amber-500/30 p-4 sm:p-5 rounded-2xl mt-4">
@@ -160,7 +160,7 @@ export default function BonusClaimArticle() {
               <Link href="/" className="text-amber-400 font-bold underline hover:text-amber-300">
                 Teen Patti Master APK download
               </Link>
-              , new players receive a guaranteed welcome bonus of ₹51 upon mobile binding to play real 3-card multiplayer tables instantly without any advance deposit.
+              , new players receive a welcome bonus of ₹51 upon mobile binding to play real 3-card multiplayer tables instantly without any advance deposit.
             </p>
           </div>
         </header>
@@ -238,7 +238,7 @@ export default function BonusClaimArticle() {
           </div>
           <ol className="list-decimal list-inside space-y-3 text-slate-300">
             <li>
-              <strong className="text-white">Get the Official App:</strong> Ensure you install the official package via our direct{" "}
+              <strong className="text-white">Get the App:</strong> Ensure you install the genuine package via our direct{" "}
               <Link href="/" className="text-amber-400 font-bold underline hover:text-amber-300">
                 Teen Patti Master APK download guide
               </Link>{" "}
@@ -310,7 +310,7 @@ export default function BonusClaimArticle() {
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-white">Installer Size</td>
-                  <td className="p-3.5 text-slate-200">~45 MB (Light architecture)</td>
+                  <td className="p-3.5 text-slate-200">~45 MB (Light design)</td>
                 </tr>
                 <tr>
                   <td className="p-3.5 font-bold text-white">Build Release</td>
@@ -379,7 +379,7 @@ export default function BonusClaimArticle() {
               className="p-4 rounded-2xl bg-[#120a04] border border-amber-900/40 hover:border-amber-500/60 transition group block"
             >
               <h3 className="font-bold text-amber-300 text-sm group-hover:text-amber-200 flex items-center gap-1.5">
-                <span>📥</span> Official APK Download (2026 Release) &rarr;
+                <span>📥</span> APK Download (2026 Release) &rarr;
               </h3>
               <p className="text-xs text-slate-400 mt-1">Download the verified 45MB package directly with zero malware risks.</p>
             </Link>
@@ -428,7 +428,7 @@ export default function BonusClaimArticle() {
                 <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-amber-900/40 mt-1">
-                No! Get a sign-up bonus of ₹51 which is 100% FREE, with no need to recharge in advance. Just link your mobile number with SMS OTP to get instant credit in your balance.
+                No! Get a sign-up bonus of ₹51 which is FREE, with no need to recharge in advance. Just link your mobile number with SMS OTP to get instant credit in your balance.
               </div>
             </details>
 
@@ -462,7 +462,7 @@ export default function BonusClaimArticle() {
                 <span className="text-xl text-amber-400 font-mono ml-2 group-open:rotate-45 transition-transform duration-200">+</span>
               </summary>
               <div className="p-4 pt-0 text-xs sm:text-sm text-slate-300 leading-relaxed border-t border-amber-900/40 mt-1">
-                Yes, most Indian states have legalized skill-based card games that are certified Random Number Generator (RNG) compliant and operate following Supreme Court guidelines.
+                Yes, most Indian states have legalized skill-based card games that are Random Number Generator (RNG) compliant and operate following Supreme Court guidelines.
               </div>
             </details>
           </div>
@@ -474,7 +474,7 @@ export default function BonusClaimArticle() {
             Ready to Claim Your ₹51 Bonus on Teen Patti Master?
           </h3>
           <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-            Download the official application, bind your mobile number via OTP, and start playing on live tables with free chips today!
+            Download the genuine application, bind your mobile number via OTP, and start playing on live tables with free chips today!
           </p>
           <a
             href={DOWNLOAD_LINK}

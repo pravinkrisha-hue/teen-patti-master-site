@@ -46,7 +46,7 @@ export default function TeenPattiMasterGameArticle() {
             </Link>
             <div className="space-y-1 text-center sm:text-left">
               <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
-                Official Release • 2026
+                Release • 2026
               </span>
               <p className="text-white font-bold text-lg">
                 <Link href="/" className="hover:text-amber-400 transition-colors">
@@ -76,7 +76,7 @@ export default function TeenPattiMasterGameArticle() {
         <p className="text-base sm:text-lg text-slate-400">
           An authoritative analysis covering installation setups, hand hierarchies, algorithmic security, and healthy bankroll principles for online card gaming enthusiasts. Visit the{" "}
           <Link href="/" className="text-amber-400 underline hover:text-amber-300">
-            official Teen Patti Master homepage
+            Teen Patti Master homepage
           </Link>{" "}
           for more details.
         </p>
@@ -104,7 +104,7 @@ export default function TeenPattiMasterGameArticle() {
         {/* Section 1 */}
         <section className="space-y-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            1. What Is the Teen Patti Master Game?
+            What Is the Teen Patti Master Game?
           </h2>
           <p>
             Teen Patti Master is a mobile card game app built to bring the thrill, rules, and fast-paced atmosphere of the traditional 3-card poker game to your mobile device. The application is optimised mainly for modern Android and iOS environments and seeks to bridge the gap between offline social gaming and scalable online multiplayer technology.
@@ -113,7 +113,7 @@ export default function TeenPattiMasterGameArticle() {
             <h3 className="text-lg font-bold text-white">Main Pillars of the Platform:</h3>
             <ul className="list-disc pl-5 space-y-2 text-slate-300 text-base">
               <li><strong>Low Latency Matchmaking:</strong> Private socket connections mean low lag during hand distributions and betting rounds, even on average 4G network speeds.</li>
-              <li><strong>Accessible System Architecture:</strong> Runs smoothly across low-end and flagship devices without thermal throttling or heavy battery drain.</li>
+              <li><strong>Accessible System Design:</strong> Runs smoothly across low-end and flagship devices without thermal throttling or heavy battery drain.</li>
               <li>
                 <strong>Multi-Variant Diversity:</strong> Explore variations like Muflis (Lowball), AK47, Joker, and Pot Blind tables in the{" "}
                 <a href="#variations" className="text-amber-400 underline hover:text-amber-300">
@@ -128,7 +128,7 @@ export default function TeenPattiMasterGameArticle() {
         {/* Section 2 */}
         <section className="space-y-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            2. Breakdown of Key Features and User Interface
+            Breakdown of Key Features and User Interface
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
             <div className="bg-slate-900/80 p-5 rounded-xl border border-slate-800">
@@ -152,43 +152,11 @@ export default function TeenPattiMasterGameArticle() {
           </div>
         </section>
 
-        {/* Section 3 - Download Section */}
-        <section id="download" className="space-y-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            3. Installation &amp; Setup Guide – Step by Step
-          </h2>
-          <p>
-            To ensure safe usage and reliable performance, follow safe installation hygiene. You can get the official APK directly by clicking the link below:
-          </p>
-
-          <div className="my-4">
-            <a
-              href={DOWNLOAD_URL}
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-600 hover:to-yellow-500 text-slate-950 font-bold px-8 py-3.5 rounded-xl shadow-lg transition-all duration-200 hover:scale-105"
-            >
-              Direct Download Teen Patti Master APK
-            </a>
-          </div>
-
-          <ol className="list-decimal pl-5 space-y-3 text-slate-300">
-            <li>
-              <strong>Official Source Acquisition:</strong> Download installation packages directly from the{" "}
-              <Link href="/" className="text-amber-400 underline hover:text-amber-300">
-                Teen Patti Master homepage
-              </Link>.
-            </li>
-            <li><strong>Allow Package Installation:</strong> Go to <em>Settings &gt; Security &gt; Install unknown apps</em> and toggle permission on for your browser.</li>
-            <li><strong>Install Package:</strong> Tap the downloaded file and confirm by selecting <em>Install</em>.</li>
-            <li><strong>Launch &amp; Setup:</strong> Open the game, allow required network permissions, and choose Guest or OTP login.</li>
-          </ol>
-        </section>
 
         {/* Section 4 - Hand Rankings Table with Added Image */}
         <section id="rules" className="space-y-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            4. The Basic Rules and Rankings for Card Hands
+            The Basic Rules and Rankings for Card Hands
           </h2>
 
           <div className="bg-[#0b1329] border border-slate-800 rounded-2xl p-6 shadow-2xl space-y-4">
@@ -260,7 +228,7 @@ export default function TeenPattiMasterGameArticle() {
         {/* Section 5 */}
         <section id="variations" className="space-y-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            5. Popular Variations in the Teen Patti Master Ecosystem
+            Popular Variations in the Teen Patti Master App
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="p-5 bg-slate-900/60 rounded-xl border border-slate-800">
@@ -293,7 +261,7 @@ export default function TeenPattiMasterGameArticle() {
         {/* Section 6 */}
         <section className="space-y-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            6. Strategic Advice: How To Play The Game Responsibly
+            Strategic Advice: How To Play The Game Responsibly
           </h2>
           <ul className="space-y-3 pl-2">
             <li><strong>Leverage Blind Play:</strong> Playing without viewing cards halves your chaal requirement.</li>
@@ -302,52 +270,12 @@ export default function TeenPattiMasterGameArticle() {
           </ul>
         </section>
 
-        {/* Section 7 */}
-        <section className="space-y-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            7. Architecture of the Platform, Security and Fair Play
-          </h2>
-          <div className="space-y-4">
-            <div className="p-4 bg-slate-900/50 rounded-xl border border-slate-800">
-              <h3 className="font-bold text-white">Certified Random Number Generation (RNG)</h3>
-              <p className="text-sm text-slate-400 mt-1">
-                Cards are shuffled using non-deterministic algorithms to ensure unpredictable distribution.
-              </p>
-            </div>
-            <div className="p-4 bg-slate-900/50 rounded-xl border border-slate-800">
-              <h3 className="font-bold text-white">Transport Layer Security (TLS 1.2/1.3)</h3>
-              <p className="text-sm text-slate-400 mt-1">
-                Data exchange between your handheld client and the server remains encrypted.
-              </p>
-            </div>
-          </div>
-        </section>
 
-        {/* Section 8 */}
-        <section className="space-y-4">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            8. Digital Wellness, Bankroll Management and Responsible Gaming
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <div className="p-4 bg-amber-500/5 border border-amber-500/20 rounded-xl">
-              <h4 className="font-bold text-amber-400 mb-1">5% Allocation Rule</h4>
-              <p className="text-xs text-slate-300">Never allocate more than 5% of your chips to a single hand.</p>
-            </div>
-            <div className="p-4 bg-amber-500/5 border border-amber-500/20 rounded-xl">
-              <h4 className="font-bold text-amber-400 mb-1">Time Limits</h4>
-              <p className="text-xs text-slate-300">Limit sessions to 30–45 minutes to prevent fatigue.</p>
-            </div>
-            <div className="p-4 bg-amber-500/5 border border-amber-500/20 rounded-xl">
-              <h4 className="font-bold text-amber-400 mb-1">No Chasing</h4>
-              <p className="text-xs text-slate-300">Accept variance as natural and take breaks when experiencing downswings.</p>
-            </div>
-          </div>
-        </section>
 
         {/* Section 9 - FAQs */}
         <section className="space-y-6">
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
-            9. Frequently Asked Questions (FAQs)
+            Frequently Asked Questions (FAQs)
           </h2>
           <div className="space-y-3">
             <div className="bg-slate-900/60 p-5 rounded-xl border border-slate-800">
@@ -359,7 +287,7 @@ export default function TeenPattiMasterGameArticle() {
             <div className="bg-slate-900/60 p-5 rounded-xl border border-slate-800">
               <h3 className="font-semibold text-white mb-1">Q2: How do I download the latest version?</h3>
               <p className="text-sm text-slate-400">
-                Click the Download button at the top of this guide to visit the official download portal directly.
+                Click the Download button at the top of this guide to visit the download portal directly.
               </p>
             </div>
           </div>
