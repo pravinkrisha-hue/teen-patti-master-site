@@ -155,6 +155,42 @@ export default function Home() {
       titleColor: 'text-rose-950'
     },
     {
+      id: 104,
+      slug: 'teen-patti-kaise-jeete',
+      title: 'Teen Patti Kaise Jeete? 7 असली टिप्स',
+      category: 'हिंदी गाइड',
+      symbol: '🏆',
+      readTime: '6 min read',
+      excerpt: 'कब Pack करें, Blind का सही इस्तेमाल, Side Show और पैसे पर काबू — बिना झूठे वादों के।',
+      cardBg: 'bg-amber-50 hover:bg-amber-100/90 border-amber-300',
+      badgeBg: 'bg-amber-600 text-white',
+      titleColor: 'text-amber-950'
+    },
+    {
+      id: 105,
+      slug: 'teen-patti-variations',
+      title: 'Teen Patti Variations: Muflis, AK47, Joker',
+      category: 'RULES',
+      symbol: '🎴',
+      readTime: '6 min read',
+      excerpt: 'How Muflis, AK47, Joker and 4 Card tables change which hands win.',
+      cardBg: 'bg-violet-50 hover:bg-violet-100/90 border-violet-300',
+      badgeBg: 'bg-violet-600 text-white',
+      titleColor: 'text-violet-950'
+    },
+    {
+      id: 106,
+      slug: 'teen-patti-master-vs-teen-patti-star',
+      title: 'Teen Patti Master vs Teen Patti Star',
+      category: 'COMPARISON',
+      symbol: '⚖️',
+      readTime: '6 min read',
+      excerpt: 'Game modes, free chips vs real money, bonus conditions and safety compared honestly.',
+      cardBg: 'bg-lime-50 hover:bg-lime-100/90 border-lime-300',
+      badgeBg: 'bg-lime-600 text-white',
+      titleColor: 'text-lime-950'
+    },
+    {
       id: 1,
       slug: 'teen-patti-master-apk-download',
       title: 'Teen Patti Master APK: Safe or Fake?',

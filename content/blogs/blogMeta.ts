@@ -1,6 +1,9 @@
 // SEO titles, descriptions and topic clusters for every blog article
 
 export const BLOG_TITLES: Record<string, string> = {
+  "teen-patti-variations": "Teen Patti Master Variations: Muflis, AK47, Joker",
+  "teen-patti-kaise-jeete": "Teen Patti Kaise Jeete? 7 असली टिप्स",
+  "teen-patti-master-vs-teen-patti-star": "Teen Patti Master vs Teen Patti Star: Which to Play?",
   "teen-patti-sequence-list": "Teen Patti Master Sequence List: पूरी रैंकिंग (हिंदी)",
   "teen-patti-master-login": "Teen Patti Master Login Problem? OTP & Account Fixes",
   "teen-patti-master-withdrawal": "Teen Patti Master Withdrawal: How to Withdraw & Fix Problems",
@@ -35,6 +38,9 @@ export const BLOG_TITLES: Record<string, string> = {
 };
 
 export const BLOG_DESCRIPTIONS: Record<string, string> = {
+  "teen-patti-variations": "Teen Patti variations explained: Muflis (lowest hand wins), AK47 wild cards, Joker, Lowest and Highest Joker, and 4 Card, with tips for each.",
+  "teen-patti-kaise-jeete": "Teen Patti kaise jeete? 7 असली टिप्स: कब Pack करें, Blind का सही इस्तेमाल, Side Show, हाथ के हिसाब से फैसले और पैसे पर काबू।",
+  "teen-patti-master-vs-teen-patti-star": "Teen Patti Master vs Teen Patti Star: game modes, free chips vs real money, bonus conditions, withdrawals and safety checks compared honestly.",
   "teen-patti-sequence-list": "Teen Patti sequence list हिंदी में: ट्रेल, प्योर सीक्वेंस, सीक्वेंस, कलर, पेयर की पूरी रैंकिंग, A-2-3 का नियम, संभावना और बराबरी के नियम।",
   "teen-patti-master-login": "Teen Patti Master login problem? Fix OTP not coming, stuck loading screen, blocked account, lost guest ID and changed mobile number, step by step.",
   "teen-patti-master-withdrawal": "How Teen Patti Master withdrawal works: UPI and bank steps, KYC, bonus vs withdrawable balance, and fixes for pending, failed or rejected payouts.",
@@ -102,6 +108,8 @@ export const BLOG_CLUSTERS: { id: string; name: string; intro: string; slugs: st
     name: "Rules, Strategy & Game Modes",
     intro: "Learn the rules in English or Hindi, sharpen your strategy and understand every table type.",
     slugs: [
+      "teen-patti-variations",
+      "teen-patti-kaise-jeete",
       "teen-patti-sequence-list",
       "teen-patti-master-kaise-khele",
       "teen-patti-master-game",
@@ -118,7 +126,8 @@ export const BLOG_CLUSTERS: { id: string; name: string; intro: string; slugs: st
     id: "comparisons",
     name: "Comparisons",
     intro: "Teen Patti Master side by side with Teen Patti Gold, Rummy and Yono Games.",
-    slugs: ["teen-patti-master-vs-gold", "teen-patti-master-vs-rummy", "teen-patti-master-vs-yono-game"],
+    slugs: [
+      "teen-patti-master-vs-teen-patti-star","teen-patti-master-vs-gold", "teen-patti-master-vs-rummy", "teen-patti-master-vs-yono-game"],
   },
   {
     id: "other-apps",
