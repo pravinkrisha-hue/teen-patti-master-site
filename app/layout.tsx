@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     "Teen Patti Master APK download for Android: latest version, ₹51 sign-up bonus, rules, hand rankings, UPI withdrawal steps and safe-play tips. 18+ only.",
   alternates: {
     canonical: "/",
+    languages: { "en-IN": "/", "hi-IN": "/hi", "x-default": "/" },
   },
   openGraph: {
     type: "website",

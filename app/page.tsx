@@ -119,6 +119,42 @@ export default function Home() {
       titleColor: 'text-orange-950'
     },
     {
+      id: 101,
+      slug: 'teen-patti-master-withdrawal',
+      title: 'Teen Patti Master Withdrawal Guide',
+      category: 'MONEY',
+      symbol: '💸',
+      readTime: '7 min read',
+      excerpt: 'UPI and bank withdrawal steps, KYC, bonus vs withdrawable balance, and fixes for pending or failed payouts.',
+      cardBg: 'bg-teal-50 hover:bg-teal-100/90 border-teal-300',
+      badgeBg: 'bg-teal-600 text-white',
+      titleColor: 'text-teal-950'
+    },
+    {
+      id: 102,
+      slug: 'teen-patti-master-login',
+      title: 'Teen Patti Master Login Problem? Fixes',
+      category: 'LOGIN HELP',
+      symbol: '🔐',
+      readTime: '7 min read',
+      excerpt: 'OTP not coming, stuck loading screen, blocked account or lost guest ID — find your fix in minutes.',
+      cardBg: 'bg-sky-50 hover:bg-sky-100/90 border-sky-300',
+      badgeBg: 'bg-sky-600 text-white',
+      titleColor: 'text-sky-950'
+    },
+    {
+      id: 103,
+      slug: 'teen-patti-sequence-list',
+      title: 'Teen Patti Sequence List (हिंदी)',
+      category: 'हिंदी गाइड',
+      symbol: '🃏',
+      readTime: '7 min read',
+      excerpt: 'ट्रेल से हाई कार्ड तक हर हाथ की रैंकिंग, पूरी सीक्वेंस लिस्ट और बराबरी के नियम।',
+      cardBg: 'bg-rose-50 hover:bg-rose-100/90 border-rose-300',
+      badgeBg: 'bg-rose-600 text-white',
+      titleColor: 'text-rose-950'
+    },
+    {
       id: 1,
       slug: 'teen-patti-master-apk-download',
       title: 'Teen Patti Master APK: Safe or Fake?',
@@ -632,6 +668,9 @@ export default function Home() {
         <p className="text-gray-100 text-base md:text-lg max-w-2xl mx-auto mb-8">
           Download the latest Teen Patti Master APK version. Get ₹51 instant welcome bonus chips, RNG card tables, and UPI cashouts.
         </p>
+        <p className="-mt-5 mb-6 text-sm">
+          <Link href="/hi" hrefLang="hi-IN" className="text-amber-300 hover:underline">टीन पट्टी मास्टर — हिंदी में पढ़ें →</Link>
+        </p>
 
         {/* Search Bar */}
         <div className="max-w-md mx-auto">
@@ -708,15 +747,17 @@ export default function Home() {
                     Details
                   </Link>
                   
-                  {/* Game Card Download Button */}
-                  <a
-                    href={DOWNLOAD_URL}
-                    target="_blank"
-                    rel="nofollow sponsored noopener noreferrer"
-                    className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-extrabold px-4 py-2 rounded-xl text-sm transition shadow-md"
-                  >
-                    Download
-                  </a>
+                  {/* Download only where our link installs that app (Teen Patti Master); other cards link to their guide */}
+                  {(game.slug === 'teen-patti-master' || game.slug === 'teen-patti-old-version') && (
+                    <a
+                      href={DOWNLOAD_URL}
+                      target="_blank"
+                      rel="nofollow sponsored noopener noreferrer"
+                      className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-extrabold px-4 py-2 rounded-xl text-sm transition shadow-md"
+                    >
+                      Download
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
@@ -780,6 +821,11 @@ export default function Home() {
               {showAllPosts ? '←' : '→'}
             </span>
           </button>
+          <p className="mt-4 text-sm">
+            <Link href="/blog" className="text-amber-400 font-semibold hover:underline">
+              Browse all Teen Patti Master guides by topic →
+            </Link>
+          </p>
         </div>
       </section>
 

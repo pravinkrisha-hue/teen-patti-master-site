@@ -499,7 +499,7 @@ export default function TeenPattiMasterNewVersion() {
           {/* ========================================================================= */}
           <div className="space-y-4 border-t border-rose-900/50 pt-8">
             <h2 className="text-2xl sm:text-3xl font-black text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-rose-300 to-cyan-300 flex items-center gap-2">
-              <span>❓</span> 9. अक्सर पूछे जाने वाले सवाल (FAQ Section)
+              <span>❓</span> अक्सर पूछे जाने वाले सवाल (FAQ Section)
             </h2>
             <p className="text-xs text-slate-400">
               सवालों पर क्लिक करके तुरंत विस्तृत उत्तर देखें:

@@ -212,7 +212,7 @@ export default function TeenPattiMasterProSecret() {
         {/* 3. Section 2: Pro Secrets */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>🧠</span> 2. Teen Patti Master Pro Secret: પ્રો પ્લેયર્સ કઈ રીતે રમે છે?
+            <span>🧠</span> Teen Patti Master Pro Secret: પ્રો પ્લેયર્સ કઈ રીતે રમે છે?
           </h2>
           <p>
             સામાન્ય ખેલાડીઓ માત્ર પોતાના હાથમાં કયા કાર્ડ આવ્યા છે તેના પર જ ધ્યાન આપે છે, જ્યારે એક પ્રો પ્લેયર આખી ટેબલની સ્થિતિ, વિરોધી ખેલાડીઓનું વલણ અને રિસ્ક-ટુ-રિવોર્ડ રેશિયો જુએ છે. ચાલો જાણીએ તે ટોચના સિક્રેટ્સ:
@@ -237,7 +237,7 @@ export default function TeenPattiMasterProSecret() {
         {/* 4. Section 3: Card Rankings Table */}
         <section className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>📊</span> 3. કાર્ડ રેન્કિંગની સાચી ગણતરી અને સંભાવનાઓ
+            <span>📊</span> કાર્ડ રેન્કિંગની સાચી ગણતરી અને સંભાવનાઓ
           </h2>
           <p>
             ગેમમાં પ્રવેશતા પહેલા પત્તાની શક્તિ (Card Ranking) સ્પષ્ટ હોવી જરૂરી છે. ઘણા ખેલાડીઓ કલર અને સિક્વન્સ વચ્ચે ગૂંચવાઈને મોટી ભૂલ કરી બેસે છે.
@@ -305,7 +305,7 @@ export default function TeenPattiMasterProSecret() {
         {/* 5. Section 4 & 5: Common Mistakes & Responsible Gaming */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>🛡️</span> 4. સામાન્ય ભૂલો અને સલામત ગેમિંગ (Responsible Gaming)
+            <span>🛡️</span> સામાન્ય ભૂલો અને સલામત ગેમિંગ (Responsible Gaming)
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1">
@@ -364,7 +364,7 @@ export default function TeenPattiMasterProSecret() {
         {/* 7. Collapsible FAQs for Google Search Snippets */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-4">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>❓</span> 5. વારંવાર પૂછાતા પ્રશ્નો (FAQs)
+            <span>❓</span> વારંવાર પૂછાતા પ્રશ્નો (FAQs)
           </h2>
           <div className="space-y-3">
             <details className="group bg-[#0e131a] border border-slate-700 rounded-2xl overflow-hidden transition-all duration-200">

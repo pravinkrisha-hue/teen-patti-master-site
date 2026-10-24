@@ -3,90 +3,12 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { myArticles } from "@/content/blogs/allBlogs";
+import { BLOG_DESCRIPTIONS, BLOG_CLUSTERS, blogTitle, relatedSlugs } from "@/content/blogs/blogMeta";
 import AuthorBox from "../../components/AuthorBox";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import { AUTHOR, REVIEWER, LAST_REVIEWED, SITE_URL } from "../../siteTeam";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
-
-// Title format karva mate helper function
-function formatTitleFromSlug(slug: string): string {
-  return slug
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-}
-
-// Next 4 articles in the list (wrapping around), so every article gets incoming links
-function relatedSlugs(slug: string): string[] {
-  const all = Object.keys(myArticles);
-  const i = all.indexOf(slug);
-  return [1, 2, 3, 4].map((n) => all[(i + n) % all.length]);
-}
-
-// Human-readable SEO titles (same headings as the home page guide cards)
-const customTitles: Record<string, string> = {
-  "teen-patti-master-apk-download": "Teen Patti Master APK Safe or Fake? How to Check",
-  "teen-patti-master-51-bonus": "Teen Patti Master ₹51 Bonus Claim Guide",
-  "teen-patti-master-offline": "Teen Patti Master Offline: Play Without Internet",
-  "teen-patti-master-2027": "Teen Patti Master Update Kaise Kare? (2027 हिंदी गाइड)",
-  "teen-patti-master-real-cash-game": "Teen Patti Master Real Cash Game",
-  "teen-patti-master-customer-care": "Teen Patti Master Customer Care",
-  "teen-patti-master-casino": "Teen Patti Master Casino Games",
-  "teen-patti-master-new-version": "Teen Patti Master New Version: Latest Update",
-  "teen-patti-master-online": "Teen Patti Master Online Table Play",
-  "teen-patti-master-game": "How to Play Teen Patti Master: Rules, Blind & Chaal",
-  "teen-patti-master-download-guide": "Teen Patti Master App Not Installed? Install Fixes",
-  "teen-patti-master-old-vs-new": "Teen Patti Master Old vs New Version",
-  "teen-patti-master-vs-gold": "Teen Patti Master vs Teen Patti Gold",
-  "teen-patti-android-game": "Teen Patti Android Game Setup",
-  "teen-patti-master-secrets": "Teen Patti Master Pro Secrets & Winning Tips",
-  "teen-patti-master-loss-recover": "Teen Patti Master Loss Recovery Strategy",
-  "teen-patti-master-faq": "Teen Patti Master FAQ: Payouts, Safety & Bonus",
-  "teen-patti-master-welcome-bonus": "Teen Patti Master Welcome Bonus Guide",
-  "teen-patti-master-explained": "Teen Patti Master Features: VIP, Referral & Withdrawal",
-  "teen-patti-master-vungo": "Teen Patti Vungo Download & Safe Bonus",
-  "teen-patti-master-yono-game-apk": "Teen Patti Master Yono Game APK Features",
-  "teen-patti-master-vs-yono-game": "Teen Patti Master vs Yono Games",
-  "teen-patti-master-vs-rummy": "Teen Patti Master vs Rummy: Which Is Better?",
-  "teen-patti-master-king": "Teen Patti Master King: Pro Table Strategy",
-  "teen-patti-gold-old-version": "Teen Patti Gold Old Version Legacy Guide",
-  "teen-patti-gold-new-version": "Teen Patti Gold New Version Updates",
-  "teen-patti-gold-new-vs-old": "Teen Patti Gold New vs Old Version",
-  "teen-patti-master-kaise-khele": "Teen Patti Master Kaise Khele? नियम और टिप्स (हिंदी)",
-};
-
-// Custom Unique Meta Descriptions mapping (har ek page mate alag description)
-const customDescriptions: Record<string, string> = {
-  "teen-patti-master-kaise-khele": "Teen Patti Master kaise khele? आसान हिंदी में boot, Blind-Chaal, Side Show, Show, पत्तों की रैंकिंग और नए खिलाड़ियों के लिए टिप्स।",
-  "teen-patti-master-apk-download": "Is Teen Patti Master APK safe or fake? 6 checks before you install, red flags of fake apps, and how to protect your UPI money.",
-  "teen-patti-master-51-bonus": "Claim ₹51 instant welcome sign-up bonus on Teen Patti Master. Follow simple steps to bind mobile number with OTP and get free chips.",
-  "teen-patti-master-offline": "Learn how to play Teen Patti Master offline with AI practice bots without mobile internet connection. Complete offline mode tutorial.",
-  "teen-patti-master-2027": "Teen Patti Master update kaise kare? पुराना वर्ज़न बिना बैलेंस खोए अपडेट करने के 3 तरीके, 2027 फेक APK से बचाव और अपडेट समस्याओं का हल।",
-  "teen-patti-master-real-cash-game": "Essential rules, bankroll safety, and smart strategies for playing Teen Patti Master real cash games responsibly.",
-  "teen-patti-master-customer-care": "Get Teen Patti Master customer care contacts, 24/7 in-app support chat, WhatsApp helpline, and payment ticket resolution.",
-  "teen-patti-master-casino": "Explore online casino games in Teen Patti Master: Dragon vs Tiger, Roulette, Car Roulette, 7 Up Down, and 3-card poker tables.",
-  "teen-patti-master-new-version": "Download the newest Teen Patti Master version with improved table latency, zero lag, updated security, and UPI payouts.",
-  "teen-patti-master-online": "Complete guide to entering live multiplayer tables on Teen Patti Master, picking the right boot value, and playing against real opponents.",
-  "teen-patti-master-game": "Comprehensive overview of Teen Patti Master card rules, boot wagering rounds, blind moves, chaal limits, and show showdowns.",
-  "teen-patti-master-download-guide": "Teen Patti Master app not installed? Fix every install problem: package invalid, parse error, unknown apps blocked, Play Protect and storage.",
-  "teen-patti-master-old-vs-new": "Detailed comparison between old and new versions of Teen Patti Master: battery usage, APK file size, graphics, and table stability.",
-  "teen-patti-master-vs-gold": "Teen Patti Master vs Teen Patti Gold: comparison of bonus structures, VIP table perks, cashout reliability, and user interfaces.",
-  "teen-patti-android-game": "Best Android settings to optimize Teen Patti Master for zero lag, low battery consumption, and crash-free card sessions.",
-  "teen-patti-master-secrets": "Master winning strategies in Teen Patti Master: blind betting tactics, early hand folding rules, bankroll management, and bluffing timing.",
-  "teen-patti-master-loss-recover": "Practical, disciplined loss recovery guide for Teen Patti Master: control tilt playing, set daily bankroll limits, and protect chips.",
-  "teen-patti-master-faq": "Frequently asked questions about Teen Patti Master: cashout limits, fair play, security alerts, and device compatibility.",
-  "teen-patti-master-welcome-bonus": "Guide to claiming your Teen Patti Master welcome bonus, daily login spin wheel chips, and promotional cashback codes.",
-  "teen-patti-master-explained": "In-depth breakdown of Teen Patti Master features, card rankings, VIP tiers, referral rewards, and withdrawal procedures.",
-  "teen-patti-master-vungo": "Objective review of Teen Patti Vungo: download safety, APK authenticity check, bonus terms, and payout validation.",
-  "teen-patti-master-yono-game-apk": "Explore mini-games, slot features, arcade jackpots, and card lobbies inside the Teen Patti Master Yono ecosystem.",
-  "teen-patti-master-vs-yono-game": "Head-to-head showdown between Teen Patti Master and Yono Games: cashout speeds, user rewards, table varieties, and platform safety.",
-  "teen-patti-master-vs-rummy": "Detailed analytical comparison between Indian Rummy and Teen Patti Master: card rules, skill requirements, and cashout systems.",
-  "teen-patti-master-king": "Tactical advice for pro tables: how tournament players read opponents, adjust boot sizing, and dominate Teen Patti Master King games.",
-  "teen-patti-gold-old-version": "Download and guide for Teen Patti Gold old version: lightweight setup for legacy Android smartphones with minimal storage.",
-  "teen-patti-gold-new-version": "Discover the latest features in Teen Patti Gold new release: private room options, festive contests, and updated animations.",
-  "teen-patti-gold-new-vs-old": "Technical test and benchmarks: Teen Patti Gold old vs new build performance, frame rates, and memory footprints.",
-};
 
 // 1. Dynamic SEO Metadata Function
 export async function generateMetadata({
@@ -106,13 +28,13 @@ export async function generateMetadata({
     };
   }
 
-  const pageTitle = customTitles[slug] || formatTitleFromSlug(slug);
+  const pageTitle = blogTitle(slug);
   const fullTitle = pageTitle.includes("Teen Patti Master") ? pageTitle : `${pageTitle} - Teen Patti Master`;
   const canonicalPath = `/blog/${slug}`;
 
   // 1. Check custom unique description, 2. check property inside article, 3. clean fallback
   const uniqueDescription =
-    customDescriptions[slug] ||
+    BLOG_DESCRIPTIONS[slug] ||
     (typeof ArticleEntry === "object" && ArticleEntry !== null && "description" in ArticleEntry
       ? (ArticleEntry as { description?: string }).description
       : undefined) ||
@@ -175,6 +97,8 @@ export default async function BlogPostPage({
     notFound();
   }
 
+  const cluster = BLOG_CLUSTERS.find((c) => c.slugs.includes(slug));
+
   return (
     <div className="min-h-screen bg-slate-950 text-white py-10 px-4 sm:px-6 md:px-8 font-sans">
       <div className="max-w-4xl mx-auto space-y-8">
@@ -182,8 +106,8 @@ export default async function BlogPostPage({
         {/* Breadcrumb: Teen Patti Master (home) › Guides › article */}
         <Breadcrumbs
           items={[
-            { name: "Guides", href: "/#posts" },
-            { name: customTitles[slug] || formatTitleFromSlug(slug), href: `/blog/${slug}` },
+            { name: "Guides", href: "/blog" },
+            { name: blogTitle(slug), href: `/blog/${slug}` },
           ]}
         />
 
@@ -216,9 +140,9 @@ export default async function BlogPostPage({
         />
         <AuthorBox />
 
-        {/* Hub links: back to the main Teen Patti Master page + 4 sibling guides */}
+        {/* Hub links: back to the main Teen Patti Master page + guides from the same topic cluster */}
         <nav aria-label="Related guides" className="bg-slate-900/60 border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-3">
-          <h2 className="text-lg font-bold text-white">More Teen Patti Master Guides</h2>
+          <h2 className="text-lg font-bold text-white">More Teen Patti Master Guides: {cluster?.name}</h2>
           <p className="text-sm text-slate-400">
             Start with the main{" "}
             <Link href="/" className="text-amber-400 font-semibold hover:underline">Teen Patti Master APK download guide</Link>
@@ -228,11 +152,14 @@ export default async function BlogPostPage({
             {relatedSlugs(slug).map((s) => (
               <li key={s}>
                 <Link href={`/blog/${s}`} className="text-amber-300 hover:text-amber-200 hover:underline">
-                  {customTitles[s] || formatTitleFromSlug(s)}
+                  {blogTitle(s)}
                 </Link>
               </li>
             ))}
           </ul>
+          <Link href={`/blog#${cluster?.id ?? ""}`} className="inline-block text-sm text-amber-400 font-semibold hover:underline">
+            See all {cluster?.name} guides →
+          </Link>
         </nav>
 
         {/* Niche download button valo box */}

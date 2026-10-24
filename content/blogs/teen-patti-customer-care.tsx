@@ -217,16 +217,16 @@ export default function TeenPattiCustomerCare() {
             </thead>
             <tbody className="divide-y divide-fuchsia-950 bg-[#0f071c]">
               <tr>
-                <td className="p-3.5"><a href="#system" className="text-slate-200 hover:text-fuchsia-400">▶ 1. Support Design &amp; System</a></td>
-                <td className="p-3.5"><a href="#livechat" className="text-slate-200 hover:text-fuchsia-400">▶ 2. 24/7 In-App Live Chat Guide</a></td>
+                <td className="p-3.5"><a href="#system" className="text-slate-200 hover:text-fuchsia-400">▶ Support Design &amp; System</a></td>
+                <td className="p-3.5"><a href="#livechat" className="text-slate-200 hover:text-fuchsia-400">▶ 24/7 In-App Live Chat Guide</a></td>
               </tr>
               <tr>
-                <td className="p-3.5"><a href="#deposit" className="text-slate-200 hover:text-fuchsia-400">▶ 3. Deposit &amp; Add Cash Issues</a></td>
-                <td className="p-3.5"><a href="#withdrawal" className="text-slate-200 hover:text-fuchsia-400">▶ 4. Withdrawal Settlement Delays</a></td>
+                <td className="p-3.5"><a href="#deposit" className="text-slate-200 hover:text-fuchsia-400">▶ Deposit &amp; Add Cash Issues</a></td>
+                <td className="p-3.5"><a href="#withdrawal" className="text-slate-200 hover:text-fuchsia-400">▶ Withdrawal Settlement Delays</a></td>
               </tr>
               <tr>
-                <td className="p-3.5"><a href="#security" className="text-slate-200 hover:text-fuchsia-400">▶ 5. Fraud Alert &amp; Fake Helplines</a></td>
-                <td className="p-3.5"><a href="#faqs" className="text-slate-200 hover:text-fuchsia-400">▶ 6. Frequently Asked Questions</a></td>
+                <td className="p-3.5"><a href="#security" className="text-slate-200 hover:text-fuchsia-400">▶ Fraud Alert &amp; Fake Helplines</a></td>
+                <td className="p-3.5"><a href="#faqs" className="text-slate-200 hover:text-fuchsia-400">▶ Frequently Asked Questions</a></td>
               </tr>
             </tbody>
           </table>

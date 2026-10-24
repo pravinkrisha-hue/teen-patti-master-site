@@ -183,7 +183,7 @@ export default function TeenPattiMasterOnlinetabal() {
         {/* 3. Live Variants Table */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>👑</span> 2. Live tabal Na Mukhya Variants
+            <span>👑</span> Live tabal Na Mukhya Variants
           </h2>
           <p>
             Teen Patti Master ma lobby ma vividh prakar na niyam dharavta tabal available chhe, jetha darek alag prakar ni mental preparation ane capital allocation ni maang kare chhe:
@@ -243,7 +243,7 @@ export default function TeenPattiMasterOnlinetabal() {
         {/* 5. Table Positioning & Mind Games */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>🧠</span> 4. Table Positioning &amp; Mind Games
+            <span>🧠</span> Table Positioning &amp; Mind Games
           </h2>
           <p>
             In online card rooms, success does not only depend on your cards, but also on where you are sitting at the table:
@@ -307,7 +307,7 @@ export default function TeenPattiMasterOnlinetabal() {
         {/* 9. FAQs Accordion */}
         <section className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-4">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>❓</span> 7. Frequently Asked Questions (FAQ)
+            <span>❓</span> Frequently Asked Questions (FAQ)
           </h2>
           <div className="space-y-3">
             <details className="group bg-[#0e131a] border border-slate-700 rounded-2xl overflow-hidden transition-all duration-200">

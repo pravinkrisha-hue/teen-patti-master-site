@@ -1,4 +1,4 @@
-// 1. All Blog Imports (28 Unique Articles)
+// 1. All Blog Imports (31 Unique Articles)
 import TeenPattiAndroid from "./teen-patti-anroid";
 import TeenPattiMasterExplained from "./teen-patti-master-explained";
 import TeenPattiMasterFaq from "./teen-patti-master-faq";
@@ -27,8 +27,11 @@ import TeenPattiMasterGame from "./teen-patti-master-game";
 import TeenPattiMasterDownload from "./teen-patti-master-download";
 import TeenPattiMasterProSecret from "./teen-patti-master-pro-secret";
 import TeenPattiMasterKaiseKhele from "./teen-patti-master-kaise-khele";
+import TeenPattiSequenceList from "./teen-patti-sequence-list";
+import TeenPattiMasterLogin from "./teen-patti-master-login";
+import TeenPattiMasterWithdrawal from "./teen-patti-master-withdrawal";
 
-// 2. Clean 1-to-1 Slug Mapping (Exactly 28 Articles)
+// 2. Clean 1-to-1 Slug Mapping (Exactly 31 Articles)
 export const myArticles: Record<string, any> = {
   "teen-patti-android-game": TeenPattiAndroid,
   "teen-patti-master-explained": TeenPattiMasterExplained,
@@ -58,4 +61,7 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-download-guide": TeenPattiMasterDownload,
   "teen-patti-master-secrets": TeenPattiMasterProSecret,
   "teen-patti-master-kaise-khele": TeenPattiMasterKaiseKhele,
+  "teen-patti-sequence-list": TeenPattiSequenceList,
+  "teen-patti-master-login": TeenPattiMasterLogin,
+  "teen-patti-master-withdrawal": TeenPattiMasterWithdrawal,
 };

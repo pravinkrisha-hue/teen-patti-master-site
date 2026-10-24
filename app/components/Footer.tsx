@@ -58,7 +58,8 @@ export default function Footer() {
               LEARN
             </h3>
             <ul className="space-y-2.5 text-xs text-stone-400 font-medium">
-              <li><Link href="/#posts" className="hover:text-amber-400 transition">Blog &amp; Guides</Link></li>
+              <li><Link href="/blog" className="hover:text-amber-400 transition">All Guides</Link></li>
+              <li><Link href="/hi" hrefLang="hi-IN" className="hover:text-amber-400 transition">टीन पट्टी मास्टर (हिंदी)</Link></li>
               <li><Link href="/blog/teen-patti-master-kaise-khele" className="hover:text-amber-400 transition">Teen Patti Kaise Khele (हिंदी)</Link></li>
               <li><Link href="/blog/teen-patti-master-game" className="hover:text-amber-400 transition">Hand Rankings &amp; Rules</Link></li>
               <li><Link href="/blog/teen-patti-master-vs-rummy" className="hover:text-amber-400 transition">Rummy Sequences</Link></li>

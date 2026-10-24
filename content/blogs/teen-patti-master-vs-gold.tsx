@@ -268,7 +268,7 @@ export default function TeenPattiMasterVsGoldPage() {
         {/* Section 2: Core Philosophy Box Cards */}
         <section id="philosophy" className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-6 scroll-mt-20">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>⚖️</span> 2. Fundamental Difference: Social Fun vs High-Stakes Skill
+            <span>⚖️</span> Fundamental Difference: Social Fun vs High-Stakes Skill
           </h2>
           <p>
             The fundamental difference between these two apps is in their reward designs and player psychological incentives:
@@ -361,7 +361,7 @@ export default function TeenPattiMasterVsGoldPage() {
         {/* Section 3: Head-to-Head Specification Table */}
         <section id="comparison-table" className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-4 scroll-mt-20">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>📊</span> 3. Complete Head-to-Head Specification Comparison
+            <span>📊</span> Complete Head-to-Head Specification Comparison
           </h2>
           <p className="text-xs sm:text-sm text-slate-400">
             To review the practical hardware, software, and operational differences between both platforms, review the detailed technical breakdown below:
@@ -435,7 +435,7 @@ export default function TeenPattiMasterVsGoldPage() {
         {/* Section 4: In-Depth Gameplay Experience */}
         <section id="experience" className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5 scroll-mt-20">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>🎮</span> 4. In-Depth Gameplay Experience and Performance Analysis
+            <span>🎮</span> In-Depth Gameplay Experience and Performance Analysis
           </h2>
           <p>
             Apart from the high-level feature lists, daily user satisfaction is driven by table responsiveness, user interface ergonomics, and network stability.
@@ -468,7 +468,7 @@ export default function TeenPattiMasterVsGoldPage() {
         {/* Section 5: Game Variations & Catalog Diversity */}
         <section id="variants" className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5 scroll-mt-20">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>🃏</span> 5. Game Variations &amp; Catalogue Diversity
+            <span>🃏</span> Game Variations &amp; Catalogue Diversity
           </h2>
           <p>
             The two platforms offer traditional Indian Teen Patti, but their extended entertainment catalogues vary significantly:
@@ -615,7 +615,7 @@ export default function TeenPattiMasterVsGoldPage() {
         {/* Section 10: Frequently Asked Questions (FAQ) */}
         <section id="faq" className="bg-[#111720] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-4 scroll-mt-20">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>❓</span> 9. Frequently Asked Questions (FAQs)
+            <span>❓</span> Frequently Asked Questions (FAQs)
           </h2>
           <div className="space-y-3">
             <details className="group bg-[#0e131a] border border-slate-700 rounded-2xl overflow-hidden transition-all duration-200">
@@ -683,7 +683,7 @@ export default function TeenPattiMasterVsGoldPage() {
         {/* Section 11: Final Selection Matrix & Conclusion */}
         <section id="verdict" className="bg-gradient-to-br from-[#141a23] to-[#0c1017] p-6 sm:p-8 rounded-3xl border border-slate-700/70 shadow-lg space-y-5 scroll-mt-20">
           <h2 className="text-xl sm:text-2xl font-black text-amber-300 border-b border-slate-700/60 pb-3 flex items-center gap-2">
-            <span>🏆</span> 10. Conclusion: What Platform to Choose?
+            <span>🏆</span> Conclusion: What Platform to Choose?
           </h2>
           <p>
             Whether it’s <strong>Teen Patti Master</strong> or Teen Patti Gold, it’s your gaming intentions, risk appetite, and entertainment preferences that matter:

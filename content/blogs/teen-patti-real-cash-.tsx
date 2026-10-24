@@ -206,17 +206,17 @@ export default function TeenPattiRealCash() {
               <span>📑</span> Contents Index
             </h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm">
-              <li><a href="#overview" className="text-slate-300 hover:text-cyan-400">▶ 1. Real Cash Platform Overview</a></li>
-              <li><a href="#lobbies" className="text-slate-300 hover:text-cyan-400">▶ 2. Top Cash Game Formats</a></li>
-              <li><a href="#tactics" className="text-slate-300 hover:text-cyan-400">▶ 5. Table Strategy &amp; Tells</a></li>
-              <li><a href="#banking" className="text-slate-300 hover:text-cyan-400">▶ 6. Banking, Safety &amp; FAQs</a></li>
+              <li><a href="#overview" className="text-slate-300 hover:text-cyan-400">▶ Real Cash Platform Overview</a></li>
+              <li><a href="#lobbies" className="text-slate-300 hover:text-cyan-400">▶ Top Cash Game Formats</a></li>
+              <li><a href="#tactics" className="text-slate-300 hover:text-cyan-400">▶ Table Strategy &amp; Tells</a></li>
+              <li><a href="#banking" className="text-slate-300 hover:text-cyan-400">▶ Banking, Safety &amp; FAQs</a></li>
             </ul>
           </div>
 
           {/* Overview */}
           <div id="overview" className="space-y-3 pt-2">
             <h2 className="text-xl sm:text-2xl font-black text-cyan-300 flex items-center gap-2">
-              <span>🏛️</span> 1. What is Teen Patti Master Real Cash Game?
+              <span>🏛️</span> What is Teen Patti Master Real Cash Game?
             </h2>
             <p>
               Teen Patti Master Real Cash Game ek dedicated mobile gaming app chhe jya verified real players actual Indian currency (INR) thi card contests khele chhe. Har match ma predetermined boot amount central pot ma submit thay chhe ane round end thavathi winning amount winner na wallet ma direct credit thai jaay chhe.
@@ -233,7 +233,7 @@ export default function TeenPattiRealCash() {
           {/* Game Formats */}
           <div id="lobbies" className="space-y-3 pt-2 border-t border-cyan-900/40">
             <h2 className="text-xl sm:text-2xl font-black text-cyan-300 flex items-center gap-2">
-              <span>🎮</span> 2. Real Money Lobbies Ma Ramva Layak Formats
+              <span>🎮</span> Real Money Lobbies Ma Ramva Layak Formats
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
               <div className="bg-[#0b1d33] p-4 rounded-xl border border-cyan-500/20">
@@ -267,7 +267,7 @@ export default function TeenPattiRealCash() {
           {/* Tactical Playbook */}
           <div id="tactics" className="space-y-3 pt-2 border-t border-cyan-900/40">
             <h2 className="text-xl sm:text-2xl font-black text-cyan-300 flex items-center gap-2">
-              <span>🧠</span> 5. Table Strategy &amp; Psychological Tells
+              <span>🧠</span> Table Strategy &amp; Psychological Tells
             </h2>
             <ul className="space-y-2 text-slate-300 text-xs sm:text-sm">
               <li>• <strong>Late Position Blind Pressure:</strong> Chhella turns ma continuous blind bet ramvathi agal na Seen players par double stake no pressure aave chhe.</li>
@@ -286,7 +286,7 @@ export default function TeenPattiRealCash() {
           {/* Banking Section */}
           <div className="space-y-4">
             <h2 className="text-xl sm:text-2xl font-black text-cyan-300 flex items-center gap-2">
-              <span>💳</span> 6. UPI &amp; Bank Cashout Mechanics
+              <span>💳</span> UPI &amp; Bank Cashout Mechanics
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-[#0b1d33] p-4 rounded-xl border border-cyan-500/20 space-y-1">
@@ -311,7 +311,7 @@ export default function TeenPattiRealCash() {
           {/* Bankroll Management */}
           <div className="space-y-3 pt-2 border-t border-cyan-900/40">
             <h2 className="text-xl sm:text-2xl font-black text-cyan-300 flex items-center gap-2">
-              <span>🛡️</span> 7. Capital Preservation &amp; Bankroll Rules
+              <span>🛡️</span> Capital Preservation &amp; Bankroll Rules
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
               <div className="bg-[#0b1d33] p-3.5 rounded-xl border border-cyan-500/20">
@@ -386,7 +386,7 @@ export default function TeenPattiRealCash() {
           {/* Interactive FAQs Accordion */}
           <div className="space-y-3 pt-2 border-t border-cyan-900/40">
             <h2 className="text-xl sm:text-2xl font-black text-cyan-300 flex items-center gap-2">
-              <span>❓</span> 9. Frequently Asked Questions (FAQ)
+              <span>❓</span> Frequently Asked Questions (FAQ)
             </h2>
             <div className="space-y-2.5">
               <details className="group bg-[#0b1d33] border border-cyan-500/30 rounded-2xl overflow-hidden transition-all duration-200">

@@ -280,16 +280,16 @@ export default function TeenPattimastercasinogame() {
               <span>📑</span> Strategic Index &amp; Direct Jumps
             </h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm">
-              <li><a href="#overview" className="text-slate-300 hover:text-amber-400 transition">▶ 1. What is Casino Game Teen Patti Master?</a></li>
-              <li><a href="#lobbies" className="text-slate-300 hover:text-amber-400 transition">▶ 2. Lobby Walkthrough: Traditional &amp; Arcade</a></li>
-              <li><a href="#faqs" className="text-slate-300 hover:text-amber-400 transition">▶ 9. Frequently Asked Questions (FAQ)</a></li>
+              <li><a href="#overview" className="text-slate-300 hover:text-amber-400 transition">▶ What is Casino Game Teen Patti Master?</a></li>
+              <li><a href="#lobbies" className="text-slate-300 hover:text-amber-400 transition">▶ Lobby Walkthrough: Traditional &amp; Arcade</a></li>
+              <li><a href="#faqs" className="text-slate-300 hover:text-amber-400 transition">▶ Frequently Asked Questions (FAQ)</a></li>
             </ul>
           </div>
 
           {/* SECTION 1: WHAT IS CASINO GAME */}
           <div id="overview" className="space-y-3 pt-2">
             <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>🏛️</span> 1. What is Casino Game Teen Patti Master?
+              <span>🏛️</span> What is Casino Game Teen Patti Master?
             </h2>
             <p>
               The Teen Patti Master casino game is an elite digital card gaming app suited for Indian players who want a balanced mix of traditional card formats and casino table games. The site uses an authentic Indian Flush model: players are dealt three cards, boot amounts are pooled into a common pot, and bets are placed clockwise.
@@ -306,7 +306,7 @@ export default function TeenPattimastercasinogame() {
           {/* SECTION 2: LOBBY WALKTHROUGH */}
           <div id="lobbies" className="space-y-3 pt-2 border-t border-rose-900/40">
             <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>🎮</span> 2. Lobby Walkthrough: Traditional Cards &amp; Casino Arcade
+              <span>🎮</span> Lobby Walkthrough: Traditional Cards &amp; Casino Arcade
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
               <div className="bg-[#180511] p-4 rounded-xl border border-rose-500/20 space-y-1">
@@ -396,7 +396,7 @@ export default function TeenPattimastercasinogame() {
           {/* SECTION 9: FAQS */}
           <div id="faqs" className="space-y-3 pt-2 border-t border-rose-900/40">
             <h2 className="text-xl sm:text-2xl font-black text-rose-300 flex items-center gap-2">
-              <span>❓</span> 9. Frequently Asked Questions (FAQ)
+              <span>❓</span> Frequently Asked Questions (FAQ)
             </h2>
             <div className="space-y-2.5">
               <details className="group bg-[#180511] border border-rose-500/30 rounded-2xl overflow-hidden transition-all duration-200">
