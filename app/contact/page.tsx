@@ -4,18 +4,18 @@ import InfoPage from "../components/InfoPage";
 import { CONTACT_EMAIL, SITE_NAME, SITE_URL } from "../siteTeam";
 
 export const metadata: Metadata = {
-  title: "Contact Us - Teen Patti Master Hub",
+  title: "Contact Us - Teen Patti Master APK",
   description:
-    "Contact the Teen Patti Master Hub editorial team to report an error in a guide, ask a question or send a business enquiry.",
+    "Contact the Teen Patti Master APK editorial team to report an error in a guide, ask a question or send a business enquiry.",
   alternates: { canonical: "/contact" },
-  openGraph: { type: "website", url: "/contact", title: "Contact Us - Teen Patti Master Hub" },
+  openGraph: { type: "website", url: "/contact", title: "Contact Us - Teen Patti Master APK" },
 };
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   url: `${SITE_URL}/contact`,
-  name: "Contact Teen Patti Master Hub",
+  name: "Contact Teen Patti Master APK",
   mainEntity: {
     "@type": "Organization",
     name: SITE_NAME,

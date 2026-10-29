@@ -5,18 +5,18 @@ import InfoPage from "../components/InfoPage";
 import { AUTHOR, REVIEWER, SITE_NAME, SITE_URL, CONTACT_EMAIL } from "../siteTeam";
 
 export const metadata: Metadata = {
-  title: "About Us - Teen Patti Master Hub",
+  title: "About Us - Teen Patti Master APK",
   description:
-    "Who runs Teen Patti Master Hub, how our guides are written and tested, and how we earn money. Meet our editor Rohan Mehta and tester Sunil Sharma.",
+    "Who runs Teen Patti Master APK, how our guides are written and tested, and how we earn money. Meet our editor Rohan Mehta and tester Sunil Sharma.",
   alternates: { canonical: "/about" },
-  openGraph: { type: "website", url: "/about", title: "About Us - Teen Patti Master Hub" },
+  openGraph: { type: "website", url: "/about", title: "About Us - Teen Patti Master APK" },
 };
 
 const schema = {
   "@context": "https://schema.org",
   "@type": "AboutPage",
   url: `${SITE_URL}/about`,
-  name: "About Teen Patti Master Hub",
+  name: "About Teen Patti Master APK",
   publisher: {
     "@type": "Organization",
     name: SITE_NAME,
@@ -33,8 +33,8 @@ const schema = {
 export default function AboutPage() {
   return (
     <InfoPage
-      title="About Teen Patti Master Hub"
-      intro="Teen Patti Master Hub (techtonis.com) is an independent guide to Indian card games and gaming apps. We explain rules, hand rankings, app installation, bonuses and safe-play habits in plain language."
+      title="About Teen Patti Master APK"
+      intro="Teen Patti Master APK (techtonis.com) is an independent guide to Indian card games and gaming apps. We explain rules, hand rankings, app installation, bonuses and safe-play habits in plain language."
     >
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
 

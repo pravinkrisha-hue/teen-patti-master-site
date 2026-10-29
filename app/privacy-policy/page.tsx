@@ -4,18 +4,18 @@ import InfoPage from "../components/InfoPage";
 import { CONTACT_EMAIL } from "../siteTeam";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Teen Patti Master Hub",
+  title: "Privacy Policy - Teen Patti Master APK",
   description:
-    "How Teen Patti Master Hub (techtonis.com) handles visitor data, cookies, affiliate links and third-party services.",
+    "How Teen Patti Master APK (techtonis.com) handles visitor data, cookies, affiliate links and third-party services.",
   alternates: { canonical: "/privacy-policy" },
-  openGraph: { type: "website", url: "/privacy-policy", title: "Privacy Policy - Teen Patti Master Hub" },
+  openGraph: { type: "website", url: "/privacy-policy", title: "Privacy Policy - Teen Patti Master APK" },
 };
 
 export default function PrivacyPolicyPage() {
   return (
     <InfoPage
       title="Privacy Policy"
-      intro="This policy explains what information is collected when you visit techtonis.com (Teen Patti Master Hub) and how it is used."
+      intro="This policy explains what information is collected when you visit techtonis.com (Teen Patti Master APK) and how it is used."
       updated="16 October 2026"
     >
       <section>

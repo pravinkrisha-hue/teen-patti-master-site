@@ -84,7 +84,7 @@ const articleSchema = {
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Teen Patti Master Reviews",
+        "name": "Teen Patti Master APK",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.earntp.com/favicon.ico"

@@ -64,7 +64,7 @@ export default function TeenPattiMasterKaiseKhele() {
               datePublished: "2026-10-16",
               dateModified: "2026-10-16",
               author: { "@type": "Person", name: "Rohan Mehta", url: "https://www.techtonis.com/about#team" },
-              publisher: { "@type": "Organization", name: "Teen Patti Master Hub", logo: { "@type": "ImageObject", url: "https://www.techtonis.com/icon.png" } },
+              publisher: { "@type": "Organization", name: "Teen Patti Master APK", logo: { "@type": "ImageObject", url: "https://www.techtonis.com/icon.png" } },
             },
             {
               "@context": "https://schema.org",

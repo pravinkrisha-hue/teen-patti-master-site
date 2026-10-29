@@ -3,11 +3,11 @@ import Link from "next/link";
 import InfoPage from "../components/InfoPage";
 
 export const metadata: Metadata = {
-  title: "Responsible Gaming - Teen Patti Master Hub",
+  title: "Responsible Gaming - Teen Patti Master APK",
   description:
     "Play card games safely: 18+ only, state restrictions in India, warning signs of problem gaming, practical limits and free helplines.",
   alternates: { canonical: "/responsible-gaming" },
-  openGraph: { type: "website", url: "/responsible-gaming", title: "Responsible Gaming - Teen Patti Master Hub" },
+  openGraph: { type: "website", url: "/responsible-gaming", title: "Responsible Gaming - Teen Patti Master APK" },
 };
 
 export default function ResponsibleGamingPage() {

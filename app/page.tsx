@@ -628,9 +628,9 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "WebSite",
               "@id": "https://www.techtonis.com/#website",
-              "url": "https://www.techtonis.com",
-              "name": "Teen Patti Master Hub",
-              "alternateName": "Teen Patti Master",
+              "url": "https://www.techtonis.com/",
+              "name": "Teen Patti Master APK",
+              "alternateName": ["Teen Patti Master", "techtonis.com"],
               "inLanguage": "en-IN",
               "publisher": { "@id": "https://www.techtonis.com/#organization" }
             },
@@ -638,7 +638,7 @@ export default function Home() {
               "@context": "https://schema.org",
               "@type": "Organization",
               "@id": "https://www.techtonis.com/#organization",
-              "name": "Teen Patti Master Hub",
+              "name": "Teen Patti Master APK",
               "url": "https://www.techtonis.com",
               "logo": "https://www.techtonis.com/icon.png"
             },

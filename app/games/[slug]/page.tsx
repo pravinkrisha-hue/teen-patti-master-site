@@ -82,7 +82,7 @@ export async function generateMetadata({
     openGraph: {
       type: "website",
       url: canonicalPath,
-      siteName: "Teen Patti Master Hub",
+      siteName: "Teen Patti Master APK",
       title: currentMeta.title,
       description: currentMeta.description,
       images: [ogImage],

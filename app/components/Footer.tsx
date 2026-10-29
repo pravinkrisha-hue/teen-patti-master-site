@@ -15,7 +15,7 @@ export default function Footer() {
               <div className="w-9 h-9 relative rounded-lg overflow-hidden border border-amber-400/40">
                 <Image 
                   src="/teen-patti-master.webp" 
-                  alt="Teen Patti Master Hub" 
+                  alt="Teen Patti Master APK" 
                   fill 
                   sizes="36px"
                   className="object-cover" 
@@ -97,11 +97,11 @@ export default function Footer() {
             </div>
 
             <p className="leading-relaxed text-[11px] text-stone-400">
-              <strong className="text-amber-400 font-semibold">18+ only.</strong> Teen Patti Master Hub provides information and guides about card games. Real-cash gaming may be restricted or illegal in your state — please check your local laws. Play for entertainment only and never to make money or recover losses.
+              <strong className="text-amber-400 font-semibold">18+ only.</strong> Teen Patti Master APK provides information and guides about card games. Real-cash gaming may be restricted or illegal in your state — please check your local laws. Play for entertainment only and never to make money or recover losses.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-between items-center pt-2 border-t border-stone-900 text-[11px] text-stone-500 gap-2">
-              <p>© {new Date().getFullYear()} Teen Patti Master Hub. All rights reserved.</p>
+              <p>© {new Date().getFullYear()} Teen Patti Master APK. All rights reserved.</p>
               <p className="text-stone-600">Independent guide • Not affiliated with any game publisher</p>
             </div>
           </div>

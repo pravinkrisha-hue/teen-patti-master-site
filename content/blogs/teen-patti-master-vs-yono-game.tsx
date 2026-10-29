@@ -66,7 +66,7 @@ export default function TeenPattiMasterVsYonoGame() {
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Techtonis",
+          "name": "Teen Patti Master APK",
         },
         "datePublished": "2026-10-02T10:00:00+05:30",
         "dateModified": "2026-10-03T12:00:00+05:30",

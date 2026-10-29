@@ -62,7 +62,7 @@ export default function HindiPillarPage() {
       author: { "@type": "Person", name: AUTHOR.name, url: `${SITE_URL}/about#team` },
       reviewedBy: { "@type": "Person", name: REVIEWER.name, jobTitle: REVIEWER.role },
       lastReviewed: LAST_REVIEWED,
-      publisher: { "@type": "Organization", name: "Teen Patti Master Hub", logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` } },
+      publisher: { "@type": "Organization", name: "Teen Patti Master APK", logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` } },
     },
     {
       "@context": "https://schema.org",

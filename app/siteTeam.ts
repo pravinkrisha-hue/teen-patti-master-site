@@ -1,6 +1,6 @@
 // Single source of truth for the editorial team, contact details and trust pages.
 export const SITE_URL = "https://www.techtonis.com";
-export const SITE_NAME = "Teen Patti Master Hub";
+export const SITE_NAME = "Teen Patti Master APK";
 
 // TODO: confirm this mailbox exists before deploying.
 export const CONTACT_EMAIL = "support@techtonis.com";

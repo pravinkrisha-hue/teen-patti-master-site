@@ -71,7 +71,7 @@ export default function TeenPattiMasterVsRummyPage() {
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Teen Patti Master",
+          "name": "Teen Patti Master APK",
           "url": "https://www.techtonis.com",
         },
         "datePublished": "2026-10-02T10:00:00+05:30",

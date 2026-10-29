@@ -93,7 +93,7 @@ export default function TeenPattiMasterVsGoldPage() {
         },
         "publisher": {
           "@type": "Organization",
-          "name": "TeenPattiMaster",
+          "name": "Teen Patti Master APK",
         },
       },
       {

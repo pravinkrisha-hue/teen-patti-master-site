@@ -95,7 +95,7 @@ export default function TeenPattiMasterPage() {
         },
         "publisher": {
           "@type": "Organization",
-          "name": "TeenPattiMaster",
+          "name": "Teen Patti Master APK",
         },
       },
       {

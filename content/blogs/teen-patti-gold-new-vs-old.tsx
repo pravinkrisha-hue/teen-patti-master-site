@@ -86,7 +86,7 @@ const articleSchema = {
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Teen Patti Gaming Portal",
+        "name": "Teen Patti Master APK",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.earntp.com/favicon.ico",

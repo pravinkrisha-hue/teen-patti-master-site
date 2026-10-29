@@ -49,7 +49,7 @@ export async function generateMetadata({
     openGraph: {
       type: "article",
       url: canonicalPath,
-      siteName: "Teen Patti Master Hub",
+      siteName: "Teen Patti Master APK",
       title: fullTitle,
       description: uniqueDescription,
       images: ["/teen-patti-master.webp"],

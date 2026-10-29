@@ -70,7 +70,7 @@ export default function TeenPattiMasterKingPage() {
         },
         "publisher": {
           "@type": "Organization",
-          "name": "Techtonis",
+          "name": "Teen Patti Master APK",
           "url": "https://www.techtonis.com",
         },
         "datePublished": "2026-10-02T10:00:00+05:30",

@@ -81,7 +81,7 @@ const faqSchema = {
       },
       "publisher": {
         "@type": "Organization",
-        "name": "Techtonis",
+        "name": "Teen Patti Master APK",
         "logo": {
           "@type": "ImageObject",
           "url": "https://www.techtonis.com/icon.png"

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: "/",
-    siteName: "Teen Patti Master Hub",
+    siteName: "Teen Patti Master APK",
     locale: "en_IN",
     title: "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
     description:
