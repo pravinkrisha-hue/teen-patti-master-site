@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Breadcrumbs from "../../components/Breadcrumbs";
+import { AUTHOR, REVIEWER, LAST_REVIEWED, SITE_NAME, SITE_URL } from "../../siteTeam";
 
 // Affiliate Download Link
 const MAIN_DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
@@ -2503,6 +2504,45 @@ export default async function GameDetailPage({
             </div>
           </article>
         )}
+
+        {/* Article schema + links to the other app pages and key guides (game pages used to be link dead-ends) */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              headline: `${game.name} Guide`,
+              description: game.description,
+              url: `${SITE_URL}/games/${slug}`,
+              mainEntityOfPage: `${SITE_URL}/games/${slug}`,
+              image: `${SITE_URL}${game.icon}`,
+              dateModified: LAST_REVIEWED,
+              author: { "@type": "Person", name: AUTHOR.name, url: `${SITE_URL}/about#team` },
+              reviewedBy: { "@type": "Person", name: REVIEWER.name, jobTitle: REVIEWER.role },
+              publisher: { "@type": "Organization", name: SITE_NAME, logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` } },
+            }),
+          }}
+        />
+        <nav aria-label="Other app guides" className="bg-slate-900/70 border border-slate-800 rounded-2xl p-5 sm:p-6 space-y-4 text-white">
+          <h2 className="text-lg font-bold">Other App Guides</h2>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-sm">
+            {Object.entries(gamesData)
+              .filter(([s]) => s !== slug)
+              .map(([s, g]) => (
+                <li key={s}>
+                  <Link href={`/games/${s}`} className="text-amber-300 hover:text-amber-200 hover:underline">{g.name}</Link>
+                </li>
+              ))}
+          </ul>
+          <p className="text-sm text-slate-400">
+            Before installing any app, read{" "}
+            <Link href="/blog/teen-patti-master-apk-download" className="text-amber-400 hover:underline">how to tell a safe APK from a fake</Link>,{" "}
+            <Link href="/blog/teen-patti-master-download-guide" className="text-amber-400 hover:underline">install fixes</Link> and the{" "}
+            <Link href="/blog/teen-patti-master-game" className="text-amber-400 hover:underline">Teen Patti rules</Link>. All guides:{" "}
+            <Link href="/blog" className="text-amber-400 hover:underline">Teen Patti Master Guides</Link>.
+          </p>
+        </nav>
 
       </div>
     </div>

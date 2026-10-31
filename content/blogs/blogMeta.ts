@@ -159,3 +159,29 @@ export function relatedSlugs(slug: string): string[] {
     .slice(0, 4)
     .map((x) => x.s);
 }
+
+// Articles whose own file has no Article/BlogPosting schema; the blog template adds one for them.
+export const NEEDS_ARTICLE_SCHEMA = new Set([
+  "teen-patti-android-game",
+  "teen-patti-master-explained",
+  "teen-patti-master-real-cash-game",
+  "teen-patti-master-vungo",
+  "teen-patti-master-welcome-bonus",
+  "teen-patti-master-yono-game-apk",
+  "teen-patti-master-51-bonus",
+  "teen-patti-master-offline",
+  "teen-patti-master-customer-care",
+  "teen-patti-master-casino",
+  "teen-patti-master-new-version",
+  "teen-patti-master-online",
+  "teen-patti-master-game",
+]);
+
+// Hindi-language articles: they link to the Hindi pillar page (/hi)
+export const HINDI_SLUGS = new Set([
+  "teen-patti-master-kaise-khele",
+  "teen-patti-master-2027",
+  "teen-patti-master-new-version",
+  "teen-patti-sequence-list",
+  "teen-patti-kaise-jeete",
+]);

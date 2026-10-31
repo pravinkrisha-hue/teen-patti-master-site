@@ -3,10 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { myArticles } from "@/content/blogs/allBlogs";
-import { BLOG_DESCRIPTIONS, BLOG_CLUSTERS, blogTitle, relatedSlugs } from "@/content/blogs/blogMeta";
+import { BLOG_DESCRIPTIONS, BLOG_CLUSTERS, HINDI_SLUGS, NEEDS_ARTICLE_SCHEMA, blogTitle, relatedSlugs } from "@/content/blogs/blogMeta";
 import AuthorBox from "../../components/AuthorBox";
 import Breadcrumbs from "../../components/Breadcrumbs";
-import { AUTHOR, REVIEWER, LAST_REVIEWED, SITE_URL } from "../../siteTeam";
+import { AUTHOR, REVIEWER, LAST_REVIEWED, SITE_NAME, SITE_URL } from "../../siteTeam";
 
 const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
@@ -138,6 +138,26 @@ export default async function BlogPostPage({
             }),
           }}
         />
+        {NEEDS_ARTICLE_SCHEMA.has(slug) && (
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Article",
+                headline: blogTitle(slug),
+                description: BLOG_DESCRIPTIONS[slug],
+                url: `${SITE_URL}/blog/${slug}`,
+                mainEntityOfPage: `${SITE_URL}/blog/${slug}`,
+                image: `${SITE_URL}/teen-patti-master.webp`,
+                dateModified: LAST_REVIEWED,
+                inLanguage: HINDI_SLUGS.has(slug) ? "hi-IN" : "en-IN",
+                author: { "@type": "Person", name: AUTHOR.name, url: `${SITE_URL}/about#team` },
+                publisher: { "@type": "Organization", name: SITE_NAME, logo: { "@type": "ImageObject", url: `${SITE_URL}/icon.png` } },
+              }),
+            }}
+          />
+        )}
         <AuthorBox />
 
         {/* Hub links: back to the main Teen Patti Master page + guides from the same topic cluster */}
@@ -160,6 +180,13 @@ export default async function BlogPostPage({
           <Link href={`/blog#${cluster?.id ?? ""}`} className="inline-block text-sm text-amber-400 font-semibold hover:underline">
             See all {cluster?.name} guides →
           </Link>
+          {HINDI_SLUGS.has(slug) && (
+            <p className="text-sm">
+              <Link href="/hi" hrefLang="hi-IN" className="text-amber-400 font-semibold hover:underline">
+                टीन पट्टी मास्टर की पूरी हिंदी गाइड →
+              </Link>
+            </p>
+          )}
         </nav>
 
         {/* Niche download button valo box */}

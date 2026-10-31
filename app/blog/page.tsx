@@ -4,6 +4,18 @@ import Breadcrumbs from "../components/Breadcrumbs";
 import { BLOG_CLUSTERS, BLOG_DESCRIPTIONS, blogTitle } from "@/content/blogs/blogMeta";
 import { SITE_URL } from "../siteTeam";
 
+const APP_REVIEWS: [string, string][] = [
+  ["teen-patti-master", "Teen Patti Master"],
+  ["teen-patti-old-version", "Teen Patti Master Old Version"],
+  ["teen-patti-gold", "Teen Patti Gold"],
+  ["teen-patti-star", "Teen Patti Star"],
+  ["rummy-circle", "Rummy Circle"],
+  ["junglee-rummy", "Junglee Rummy"],
+  ["poker-stars-india", "PokerStars India"],
+  ["winzo-games", "WinZO Games"],
+  ["yono-games", "Yono Games"],
+];
+
 const TITLE = "Teen Patti Master Guides: Download, Bonus, Rules & Tips";
 const DESCRIPTION =
   "All Teen Patti Master guides in one place: safe APK download, install fixes, bonus and withdrawals, rules and strategy in English and Hindi, and comparisons.";
@@ -45,7 +57,8 @@ export default function BlogHubPage() {
             Everything we&apos;ve written about Teen Patti Master, grouped by what you&apos;re trying to do. New here? Start
             with our <Link href="/" className="text-amber-400 underline">Teen Patti Master APK download guide</Link>, then
             learn the rules in <Link href="/blog/teen-patti-master-game" className="text-amber-400 underline">English</Link>{" "}
-            or <Link href="/blog/teen-patti-master-kaise-khele" className="text-amber-400 underline">हिंदी</Link>.
+            or <Link href="/blog/teen-patti-master-kaise-khele" className="text-amber-400 underline">हिंदी</Link>. Prefer Hindi?
+            Read the full <Link href="/hi" hrefLang="hi-IN" className="text-amber-400 underline">टीन पट्टी मास्टर हिंदी गाइड</Link>.
           </p>
           <nav aria-label="Topics" className="flex flex-wrap gap-2 pt-2">
             {BLOG_CLUSTERS.map((c) => (
@@ -81,6 +94,25 @@ export default function BlogHubPage() {
             </ul>
           </section>
         ))}
+
+        <section id="app-reviews" className="space-y-4 scroll-mt-24">
+          <div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white">Teen Patti &amp; Card App Reviews</h2>
+            <p className="text-slate-400 text-sm sm:text-base mt-1">Independent overviews of the apps players ask us about most.</p>
+          </div>
+          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {APP_REVIEWS.map(([slug, name]) => (
+              <li key={slug}>
+                <Link
+                  href={`/games/${slug}`}
+                  className="block bg-slate-900/70 border border-slate-800 hover:border-amber-400/60 rounded-xl p-4 font-semibold text-white transition"
+                >
+                  {name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       </div>
     </div>
   );
