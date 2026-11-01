@@ -1,6 +1,10 @@
 // SEO titles, descriptions and topic clusters for every blog article
 
 export const BLOG_TITLES: Record<string, string> = {
+  "teen-patti-ghar-par-kaise-khele": "Ghar Par Teen Patti Kaise Khele (Diwali)",
+  "teen-patti-probability": "Teen Patti Probability & Odds",
+  "teen-patti-history": "Teen Patti History: Origin & Diwali",
+  "teen-patti-vs-poker": "Teen Patti vs Poker: Key Differences",
   "is-teen-patti-master-legal": "Is Teen Patti Master Legal in India? (2025 Law)",
   "teen-patti-variations": "Teen Patti Master Variations: Muflis, AK47, Joker",
   "teen-patti-kaise-jeete": "Teen Patti Kaise Jeete? 7 असली टिप्स",
@@ -39,6 +43,10 @@ export const BLOG_TITLES: Record<string, string> = {
 };
 
 export const BLOG_DESCRIPTIONS: Record<string, string> = {
+  "teen-patti-ghar-par-kaise-khele": "घर पर और दिवाली पर Teen Patti कैसे खेलें: बिना पैसे के पॉइंट या चिप्स से, कदम-दर-कदम नियम, घर के नियम, वैरिएशन और नए खिलाड़ियों के टिप्स।",
+  "teen-patti-probability": "Teen Patti probability and odds: exact chances of a Trail, sequence, colour and pair out of 22,100 hands, how they're counted, and what they mean at the table.",
+  "teen-patti-history": "History of Teen Patti: from Primero and Three Card Brag to India's favourite Diwali card game, its Hindi terms, and the app era up to the 2025 law.",
+  "teen-patti-vs-poker": "Teen Patti vs poker: three cards vs five, why a sequence beats a colour, Blind betting and Side Show, game speed and the skills each game rewards.",
   "is-teen-patti-master-legal": "Is Teen Patti Master legal in India? What the 2025 Online Gaming Act bans, what it means for players, money stuck in apps, and ways to play legally.",
   "teen-patti-variations": "Teen Patti variations explained: Muflis (lowest hand wins), AK47 wild cards, Joker, Lowest and Highest Joker, and 4 Card, with tips for each.",
   "teen-patti-kaise-jeete": "Teen Patti kaise jeete? 7 असली टिप्स: कब Pack करें, Blind का सही इस्तेमाल, Side Show, हाथ के हिसाब से फैसले और पैसे पर काबू।",
@@ -126,10 +134,16 @@ export const BLOG_CLUSTERS: { id: string; name: string; intro: string; slugs: st
     ],
   },
   {
+    id: "learn",
+    name: "Learn Teen Patti: History, Maths & Home Games",
+    intro: "Where Teen Patti comes from, the exact odds of every hand, and how to host a family game without money.",
+    slugs: ["teen-patti-history", "teen-patti-probability", "teen-patti-ghar-par-kaise-khele"],
+  },
+  {
     id: "comparisons",
     name: "Comparisons",
     intro: "Teen Patti Master side by side with Teen Patti Gold, Rummy and Yono Games.",
-    slugs: [
+    slugs: ["teen-patti-vs-poker", 
       "teen-patti-master-vs-teen-patti-star","teen-patti-master-vs-gold", "teen-patti-master-vs-rummy", "teen-patti-master-vs-yono-game"],
   },
   {
@@ -182,6 +196,7 @@ export const NEEDS_ARTICLE_SCHEMA = new Set([
 
 // Hindi-language articles: they link to the Hindi pillar page (/hi)
 export const HINDI_SLUGS = new Set([
+  "teen-patti-ghar-par-kaise-khele",
   "teen-patti-master-kaise-khele",
   "teen-patti-master-2027",
   "teen-patti-master-new-version",

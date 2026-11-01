@@ -1,4 +1,4 @@
-// 1. All Blog Imports (35 Unique Articles)
+// 1. All Blog Imports (39 Unique Articles)
 import TeenPattiAndroid from "./teen-patti-anroid";
 import TeenPattiMasterExplained from "./teen-patti-master-explained";
 import TeenPattiMasterFaq from "./teen-patti-master-faq";
@@ -27,6 +27,10 @@ import TeenPattiMasterGame from "./teen-patti-master-game";
 import TeenPattiMasterDownload from "./teen-patti-master-download";
 import TeenPattiMasterProSecret from "./teen-patti-master-pro-secret";
 import TeenPattiMasterKaiseKhele from "./teen-patti-master-kaise-khele";
+import TeenPattiGharParKaiseKhele from "./teen-patti-ghar-par-kaise-khele";
+import TeenPattiProbability from "./teen-patti-probability";
+import TeenPattiHistory from "./teen-patti-history";
+import TeenPattiVsPoker from "./teen-patti-vs-poker";
 import IsTeenPattiMasterLegal from "./is-teen-patti-master-legal";
 import TeenPattiVariations from "./teen-patti-variations";
 import TeenPattiKaiseJeete from "./teen-patti-kaise-jeete";
@@ -35,7 +39,7 @@ import TeenPattiSequenceList from "./teen-patti-sequence-list";
 import TeenPattiMasterLogin from "./teen-patti-master-login";
 import TeenPattiMasterWithdrawal from "./teen-patti-master-withdrawal";
 
-// 2. Clean 1-to-1 Slug Mapping (Exactly 35 Articles)
+// 2. Clean 1-to-1 Slug Mapping (Exactly 39 Articles)
 export const myArticles: Record<string, any> = {
   "teen-patti-android-game": TeenPattiAndroid,
   "teen-patti-master-explained": TeenPattiMasterExplained,
@@ -65,6 +69,10 @@ export const myArticles: Record<string, any> = {
   "teen-patti-master-download-guide": TeenPattiMasterDownload,
   "teen-patti-master-secrets": TeenPattiMasterProSecret,
   "teen-patti-master-kaise-khele": TeenPattiMasterKaiseKhele,
+  "teen-patti-ghar-par-kaise-khele": TeenPattiGharParKaiseKhele,
+  "teen-patti-probability": TeenPattiProbability,
+  "teen-patti-history": TeenPattiHistory,
+  "teen-patti-vs-poker": TeenPattiVsPoker,
   "is-teen-patti-master-legal": IsTeenPattiMasterLegal,
   "teen-patti-variations": TeenPattiVariations,
   "teen-patti-kaise-jeete": TeenPattiKaiseJeete,

@@ -119,6 +119,54 @@ export default function Home() {
       titleColor: 'text-red-950'
     },
     {
+      id: 108,
+      slug: 'teen-patti-vs-poker',
+      title: 'Teen Patti vs Poker: Key Differences',
+      category: 'COMPARISON',
+      symbol: '♠️',
+      readTime: '6 min read',
+      excerpt: 'Three cards vs five, why a sequence beats a colour, and Blind betting explained.',
+      cardBg: 'bg-slate-50 hover:bg-slate-100/90 border-slate-300',
+      badgeBg: 'bg-slate-600 text-white',
+      titleColor: 'text-slate-950'
+    },
+    {
+      id: 109,
+      slug: 'teen-patti-history',
+      title: 'History of Teen Patti',
+      category: 'CULTURE',
+      symbol: '📜',
+      readTime: '6 min read',
+      excerpt: 'From Three Card Brag to Diwali tables and apps — where Teen Patti really comes from.',
+      cardBg: 'bg-orange-50 hover:bg-orange-100/90 border-orange-300',
+      badgeBg: 'bg-orange-600 text-white',
+      titleColor: 'text-orange-950'
+    },
+    {
+      id: 110,
+      slug: 'teen-patti-probability',
+      title: 'Teen Patti Probability & Odds',
+      category: 'MATHS',
+      symbol: '📊',
+      readTime: '6 min read',
+      excerpt: 'Exact odds of every hand out of 22,100 — and why a sequence beats a colour.',
+      cardBg: 'bg-cyan-50 hover:bg-cyan-100/90 border-cyan-300',
+      badgeBg: 'bg-cyan-600 text-white',
+      titleColor: 'text-cyan-950'
+    },
+    {
+      id: 111,
+      slug: 'teen-patti-ghar-par-kaise-khele',
+      title: 'Ghar Par Teen Patti Kaise Khele? (दिवाली)',
+      category: 'हिंदी गाइड',
+      symbol: '🪔',
+      readTime: '6 min read',
+      excerpt: 'परिवार के साथ बिना पैसे के — पॉइंट, चिप्स या तीलियों से पूरी बाज़ी कैसे सेट करें।',
+      cardBg: 'bg-yellow-50 hover:bg-yellow-100/90 border-yellow-300',
+      badgeBg: 'bg-yellow-600 text-white',
+      titleColor: 'text-yellow-950'
+    },
+    {
       id: 100,
       slug: 'teen-patti-master-kaise-khele',
       title: 'Teen Patti Master Kaise Khele? (हिंदी गाइड)',
