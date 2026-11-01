@@ -1,6 +1,7 @@
 // SEO titles, descriptions and topic clusters for every blog article
 
 export const BLOG_TITLES: Record<string, string> = {
+  "is-teen-patti-master-legal": "Is Teen Patti Master Legal in India? (2025 Law)",
   "teen-patti-variations": "Teen Patti Master Variations: Muflis, AK47, Joker",
   "teen-patti-kaise-jeete": "Teen Patti Kaise Jeete? 7 असली टिप्स",
   "teen-patti-master-vs-teen-patti-star": "Teen Patti Master vs Teen Patti Star: Which to Play?",
@@ -38,6 +39,7 @@ export const BLOG_TITLES: Record<string, string> = {
 };
 
 export const BLOG_DESCRIPTIONS: Record<string, string> = {
+  "is-teen-patti-master-legal": "Is Teen Patti Master legal in India? What the 2025 Online Gaming Act bans, what it means for players, money stuck in apps, and ways to play legally.",
   "teen-patti-variations": "Teen Patti variations explained: Muflis (lowest hand wins), AK47 wild cards, Joker, Lowest and Highest Joker, and 4 Card, with tips for each.",
   "teen-patti-kaise-jeete": "Teen Patti kaise jeete? 7 असली टिप्स: कब Pack करें, Blind का सही इस्तेमाल, Side Show, हाथ के हिसाब से फैसले और पैसे पर काबू।",
   "teen-patti-master-vs-teen-patti-star": "Teen Patti Master vs Teen Patti Star: game modes, free chips vs real money, bonus conditions, withdrawals and safety checks compared honestly.",
@@ -78,9 +80,10 @@ export const BLOG_DESCRIPTIONS: Record<string, string> = {
 export const BLOG_CLUSTERS: { id: string; name: string; intro: string; slugs: string[] }[] = [
   {
     id: "download-safety",
-    name: "Download, Install & Safety",
+    name: "Safety, Legal Status & Install",
     intro: "Check that your APK is genuine, fix install errors and keep the app updated without losing your balance.",
     slugs: [
+      "is-teen-patti-master-legal",
       "teen-patti-master-login",
       "teen-patti-master-apk-download",
       "teen-patti-master-download-guide",

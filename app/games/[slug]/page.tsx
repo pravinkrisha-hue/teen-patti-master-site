@@ -734,20 +734,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-500/40 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8">
-              <h3 className="text-xl sm:text-2xl font-black text-white">Ready to Experience Teen Patti Master?</h3>
-              <p className="text-xs sm:text-sm text-gray-300 max-w-xl mx-auto">
-                Download the genuine APK securely, claim your instant welcome chips, and start playing on live verified tables today!
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-lg transition transform hover:scale-105"
-              >
-                Download App Now 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -925,20 +911,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-yellow-950 via-amber-900 to-yellow-950 border-2 border-yellow-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-yellow-300 font-serif">Looking for a Quick 3-Card Game?</h3>
-              <p className="text-xs sm:text-sm text-yellow-100/80 max-w-xl mx-auto">
-                Enjoyed this Teen Patti Gold guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Teen Patti Gold &mdash; get it only from its developer&apos;s own website or app store.
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-yellow-400 via-amber-300 to-yellow-500 hover:from-yellow-300 hover:to-amber-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(234,179,8,0.5)] transition transform hover:scale-105"
-              >
-                Try Teen Patti Master 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -1045,20 +1017,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-emerald-950 via-teal-900 to-emerald-950 border-2 border-emerald-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-emerald-300 font-serif">Looking for a Quick 3-Card Game?</h3>
-              <p className="text-xs sm:text-sm text-emerald-100/80 max-w-xl mx-auto">
-                Enjoyed this Rummy Circle guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Rummy Circle &mdash; get it only from its developer&apos;s own website or app store.
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-emerald-400 via-teal-300 to-emerald-500 hover:from-emerald-300 hover:to-teal-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(16,185,129,0.5)] transition transform hover:scale-105"
-              >
-                Try Teen Patti Master 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -1168,20 +1126,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-amber-950 via-slate-900 to-amber-950 border-2 border-amber-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-amber-300">Looking for a Quick 3-Card Game?</h3>
-              <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-                Enjoyed this Junglee Rummy guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Junglee Rummy &mdash; get it only from its developer&apos;s own website or app store.
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_20px_rgba(245,158,11,0.5)] transition transform hover:scale-105"
-              >
-                Try Teen Patti Master 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -1434,20 +1378,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-indigo-950 via-slate-900 to-indigo-950 border-2 border-indigo-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-indigo-300 font-serif">Looking for a Quick 3-Card Game?</h3>
-              <p className="text-xs sm:text-sm text-indigo-100/80 max-w-xl mx-auto">
-                Enjoyed this PokerStars India guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute PokerStars India &mdash; get it only from its developer&apos;s own website or app store.
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-indigo-500 via-violet-500 to-indigo-600 hover:from-indigo-400 hover:to-violet-400 text-white font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(99,102,241,0.5)] transition transform hover:scale-105"
-              >
-                Try Teen Patti Master 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -1674,20 +1604,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-orange-950 via-[#1c0805] to-orange-950 border-2 border-orange-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-orange-300 font-serif">Looking for a Quick 3-Card Game?</h3>
-              <p className="text-xs sm:text-sm text-orange-200/80 max-w-xl mx-auto">
-                Enjoyed this WinZO Games guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute WinZO Games &mdash; get it only from its developer&apos;s own website or app store.
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-orange-500 via-amber-500 to-red-500 hover:from-orange-400 hover:to-red-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(249,115,22,0.5)] transition transform hover:scale-105"
-              >
-                Try Teen Patti Master 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -1961,20 +1877,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-purple-950 via-[#180629] to-purple-950 border-2 border-fuchsia-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-fuchsia-300 font-serif">Looking for a Quick 3-Card Game?</h3>
-              <p className="text-xs sm:text-sm text-purple-200/80 max-w-xl mx-auto">
-                Enjoyed this Teen Patti Star guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Teen Patti Star &mdash; get it only from its developer&apos;s own website or app store.
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-fuchsia-500 via-purple-500 to-pink-500 hover:from-fuchsia-400 hover:to-pink-400 text-white font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(217,70,239,0.5)] transition transform hover:scale-105"
-              >
-                Try Teen Patti Master 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -2174,20 +2076,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-[#063318] via-[#042411] to-[#063318] border-2 border-emerald-400/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-emerald-300 font-serif">Looking for a Quick 3-Card Game?</h3>
-              <p className="text-xs sm:text-sm text-emerald-200/80 max-w-xl mx-auto">
-                Enjoyed this Yono Games guide? The button below installs Teen Patti Master, a different 3-card game we cover. We don&apos;t distribute Yono Games &mdash; get it only from its developer&apos;s own website or app store.
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-emerald-400 via-green-500 to-teal-500 hover:from-emerald-300 hover:to-teal-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(16,185,129,0.6)] transition transform hover:scale-105"
-              >
-                Try Teen Patti Master 🚀
-              </a>
-            </div>
           </article>
         )}
 
@@ -2488,20 +2376,6 @@ export default async function GameDetailPage({
               </div>
             </section>
 
-            <div className="bg-gradient-to-r from-[#331706] via-[#241004] to-[#331706] border-2 border-amber-500/50 p-6 sm:p-8 rounded-2xl text-center space-y-4 mt-8 shadow-xl">
-              <h3 className="text-xl sm:text-2xl font-black text-amber-300 font-serif">Play the Classic High-Stability Edition Today!</h3>
-              <p className="text-xs sm:text-sm text-amber-200/80 max-w-xl mx-auto">
-                Download the genuine 48 MB Teen Patti Master Old Version APK, claim your welcome credits, and enjoy authentic lag-free 3-card tables!
-              </p>
-              <a
-                href={MAIN_DOWNLOAD_URL}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block bg-gradient-to-r from-amber-500 via-yellow-500 to-amber-600 hover:from-amber-400 hover:to-yellow-400 text-slate-950 font-black text-sm uppercase tracking-wider py-3.5 px-8 rounded-xl shadow-[0_0_25px_rgba(245,158,11,0.6)] transition transform hover:scale-105"
-              >
-                Download Old Version APK 🚀
-              </a>
-            </div>
           </article>
         )}
 

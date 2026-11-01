@@ -6,9 +6,9 @@ import { myArticles } from "@/content/blogs/allBlogs";
 import { BLOG_DESCRIPTIONS, BLOG_CLUSTERS, HINDI_SLUGS, NEEDS_ARTICLE_SCHEMA, blogTitle, relatedSlugs } from "@/content/blogs/blogMeta";
 import AuthorBox from "../../components/AuthorBox";
 import Breadcrumbs from "../../components/Breadcrumbs";
+import DownloadBar from "../../components/DownloadBar";
 import { AUTHOR, REVIEWER, LAST_REVIEWED, SITE_NAME, SITE_URL } from "../../siteTeam";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. Dynamic SEO Metadata Function
 export async function generateMetadata({
@@ -111,6 +111,9 @@ export default async function BlogPostPage({
           ]}
         />
 
+        {/* The one download link on this page */}
+        <DownloadBar />
+
         {/* Tame banaveli alag-alag file no content ahi render thashe */}
         <ArticleComponent />
 
@@ -188,24 +191,6 @@ export default async function BlogPostPage({
             </p>
           )}
         </nav>
-
-        {/* Niche download button valo box */}
-        <div className="bg-gradient-to-r from-amber-600/25 via-yellow-600/20 to-amber-600/25 border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl text-center space-y-4 shadow-[0_0_35px_rgba(245,158,11,0.2)]">
-          <h3 className="text-2xl sm:text-3xl font-black text-white font-serif">
-            Ready to Experience Teen Patti Master?
-          </h3>
-          <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-            Download the authentic 45 MB Android APK, bind your mobile number for ₹51 free practice credits, and challenge verified card players across India!
-          </p>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
-          >
-            Download APK Now 🚀
-          </a>
-        </div>
 
       </div>
     </div>

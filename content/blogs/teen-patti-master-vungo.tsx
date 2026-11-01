@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. Google SEO & Fast Indexing Metadata
 export const metadata: Metadata = {
@@ -88,25 +87,6 @@ export default function TeenPattiMasterVungoSafeBonus() {
             </div>
 
             {/* Right Header Image & Download Box (Screenshot મુજબ) */}
-            <div className="lg:col-span-4 flex flex-col items-center justify-center space-y-3">
-              <div className="relative w-48 sm:w-56 aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-400/50 bg-black">
-                <Image
-                  src="/teen-patti-master-vungo.webp"
-                  alt="Teen Patti Master Vungo Features"
-                  fill
-                  priority
-                  className="object-cover"
-                />
-              </div>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="w-48 sm:w-56 text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm uppercase py-3 rounded-xl shadow-lg transition transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
-              >
-                <span>🚀</span> DOWNLOAD
-              </a>
-            </div>
 
           </div>
 
@@ -337,22 +317,6 @@ export default function TeenPattiMasterVungoSafeBonus() {
             </div>
 
             {/* Direct Play CTA Box */}
-            <div className="bg-[#0f172a] text-[#f8fafc] p-6 rounded-2xl border border-[#1e293b] space-y-4 shadow-md text-center">
-              <h4 className="text-lg font-serif font-bold text-[#38bdf8]">
-                Get Teen Patti Master Vungo
-              </h4>
-              <p className="text-xs text-[#94a3b8] leading-relaxed">
-                Connect to verified multiplayer card lobbies, claim ₹51 starting capital, and withdraw directly via UPI.
-              </p>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block w-full bg-[#0284c7] hover:bg-[#0369a1] text-white font-black text-xs uppercase py-3.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-              >
-                Download APK →
-              </a>
-            </div>
 
             {/* Offline Card Guide Box */}
             <div className="bg-white p-5 rounded-2xl border border-[#cbd5e1] shadow-sm space-y-3">

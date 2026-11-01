@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. SEO-Friendly Metadata for Google Search Console & Fast Indexing
 export const metadata: Metadata = {
@@ -91,12 +90,12 @@ const articleSchema = {
         "name": "Teen Patti Master APK",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.earntp.com/favicon.ico",
+          "url": "https://www.techtonis.com/icon.png",
         },
       },
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "https://www.earntp.com/blog/teen-patti-gold-new-version",
+        "@id": "https://www.techtonis.com/blog/teen-patti-gold-new-version",
       },
     },
     {
@@ -218,28 +217,6 @@ export default function TeenPattiGoldNewVersionPage() {
           </div>
 
           {/* Right Download CTA Widget */}
-          <aside className="w-full md:w-64 flex flex-col items-center shrink-0">
-            <div className="w-full max-w-[220px] md:max-w-none bg-[#111d33] border-2 border-amber-500/80 rounded-2xl p-2 shadow-[0_0_25px_rgba(245,158,11,0.25)] flex items-center justify-center">
-              <div className="relative w-full aspect-square rounded-xl overflow-hidden bg-black/40 flex items-center justify-center">
-                <Image
-                  src="/teen-patti-master-gold.webp"
-                  alt="Teen Patti Gold New Version 2026"
-                  fill
-                  sizes="(max-width: 768px) 220px, 256px"
-                  className="object-contain p-1.5"
-                  priority
-                />
-              </div>
-            </div>
-            <a
-              href={DOWNLOAD_LINK}
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="w-full max-w-[220px] md:max-w-none mt-3.5 bg-emerald-500 hover:bg-emerald-600 active:scale-95 text-white font-extrabold text-sm sm:text-base uppercase tracking-wider py-3 px-6 rounded-full flex items-center justify-center gap-2 shadow-lg shadow-emerald-500/30 transition transform hover:-translate-y-0.5"
-            >
-              <span>🚀</span> DOWNLOAD APK
-            </a>
-          </aside>
         </header>
 
         {/* Introduction Section */}
@@ -484,7 +461,7 @@ Account security: multi-factor binding and hardware anomaly detection`}</pre>
             Safe Installation Guide: Teen Patti Gold APK Setup
           </h2>
           <p>
-            There are no real money card applications available for download from the Google Play Store, but they are available directly from the trusted websites in India, so safe downloading is a priority for <Link href="/download" className="text-sky-400 underline font-semibold hover:text-sky-300">Teen Patti Gold APK download</Link>.
+            There are no real money card applications available for download from the Google Play Store, but they are available directly from the trusted websites in India, so safe downloading is a priority for <Link href="/blog/teen-patti-master-download-guide" className="text-sky-400 underline font-semibold hover:text-sky-300">Teen Patti Gold APK download</Link>.
           </p>
 
           <div className="bg-[#050a12] border border-slate-800 rounded-xl p-3 sm:p-5 overflow-x-auto text-slate-200 font-mono text-[11px] sm:text-sm leading-relaxed shadow-inner">

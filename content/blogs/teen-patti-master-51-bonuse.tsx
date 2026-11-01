@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 export const metadata: Metadata = {
   title: "Teen Patti Master ₹51 Bonus Claim Guide: Free Sign-Up Cash",
@@ -469,22 +468,6 @@ export default function BonusClaimArticle() {
         </section>
 
         {/* Bottom Call to Action Box */}
-        <div className="bg-gradient-to-r from-amber-600/25 via-yellow-600/20 to-amber-600/25 border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl text-center space-y-4 shadow-[0_0_35px_rgba(245,158,11,0.2)]">
-          <h3 className="text-2xl sm:text-3xl font-black text-white font-serif">
-            Ready to Claim Your ₹51 Bonus on Teen Patti Master?
-          </h3>
-          <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-            Download the genuine application, bind your mobile number via OTP, and start playing on live tables with free chips today!
-          </p>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
-          >
-            Download &amp; Claim ₹51 Now 🚀
-          </a>
-        </div>
       </article>
     </>
   );

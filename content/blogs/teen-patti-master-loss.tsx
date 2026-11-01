@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. SEO-Friendly Metadata for Google Fast Indexing
 export const metadata: Metadata = {
@@ -136,22 +135,6 @@ export default function TeenPattiMasterLossRecovery() {
       <article className="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans selection:bg-amber-400 selection:text-black">
         
         {/* Floating Quick Action Strip */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#12161f] via-[#0d1117] to-[#12161f] border border-slate-700/60 px-4 py-2.5 rounded-2xl shadow-md">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-rose-500 animate-ping"></span>
-            <span className="font-bold text-xs sm:text-sm text-amber-300 tracking-wide uppercase">
-              Loss Prevention &amp; Bankroll Armor
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Download APK
-          </a>
-        </div>
 
         {/* Hero Header Box */}
         <header className="bg-gradient-to-br from-[#161d26] via-[#0f141c] to-[#0a0d12] border border-slate-700/80 p-6 sm:p-10 rounded-3xl shadow-xl space-y-6">

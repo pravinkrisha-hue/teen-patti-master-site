@@ -26,47 +26,11 @@ export const metadata: Metadata = {
 };
 
 export default function TeenPattiMasterGameArticle() {
-  const DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
   return (
     <article className="max-w-4xl mx-auto px-4 sm:px-6 py-10 text-slate-300 font-sans leading-relaxed">
       {/* Header Section */}
       <header className="space-y-6 mb-10 border-b border-slate-800 pb-8">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-6 bg-slate-900/60 p-6 rounded-2xl border border-slate-800">
-          <div className="flex items-center gap-5">
-            {/* 150x150 Logo Image with Homepage Link */}
-            <Link href="/" title="Go to Teen Patti Master Home" className="shrink-0 hover:opacity-90 transition-opacity">
-              <img
-                src="/teen-patti-master-game.webp"
-                alt="Teen Patti Master Logo"
-                width={150}
-                height={150}
-                className="w-[150px] h-[150px] rounded-2xl object-cover border-2 border-amber-500/40 shadow-lg"
-              />
-            </Link>
-            <div className="space-y-1 text-center sm:text-left">
-              <span className="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20">
-                Release • 2026
-              </span>
-              <p className="text-white font-bold text-lg">
-                <Link href="/" className="hover:text-amber-400 transition-colors">
-                  Teen Patti Master APK
-                </Link>
-              </p>
-              <p className="text-xs text-slate-400">Fast Matchmaking &amp; Fair Play</p>
-            </div>
-          </div>
-
-          {/* Header Download Button */}
-          <a
-            href={DOWNLOAD_URL}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="w-full sm:w-auto text-center bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-600 hover:to-yellow-500 text-slate-950 font-extrabold px-8 py-3.5 rounded-xl shadow-lg transition-all duration-200 hover:scale-105"
-          >
-            Download APK
-          </a>
-        </div>
 
         {/* H1 Title */}
         <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">

@@ -4,7 +4,6 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 // Download Link from your setup
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. SEO-Optimized Metadata for Google Ranking
 export const metadata: Metadata = {
@@ -68,32 +67,12 @@ export default function TeenPattiMasterPage() {
         {/* Navigation Links */}
         <nav style={{ display: "flex", alignItems: "center", gap: "22px", flexWrap: "wrap", fontSize: "0.85rem", fontWeight: 700, letterSpacing: "0.5px" }}>
           <Link href="/" style={{ color: "#ec4899", textDecoration: "none" }}>HOMEPAGE</Link>
-          <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" style={{ color: "#e2e8f0", textDecoration: "none" }}>DOWNLOAD</a>
           <Link href="#safe-gaming-tips" style={{ color: "#e2e8f0", textDecoration: "none" }}>BRAND</Link>
           <Link href="#permissions-audit" style={{ color: "#e2e8f0", textDecoration: "none" }}>PRIVACY</Link>
           <Link href="#faq-section" style={{ color: "#e2e8f0", textDecoration: "none" }}>BLOG</Link>
         </nav>
 
         {/* Play Online Button */}
-        <div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            style={{
-              background: "linear-gradient(90deg, #6366f1, #8b5cf6)",
-              color: "#ffffff",
-              padding: "8px 18px",
-              borderRadius: "20px",
-              fontSize: "0.85rem",
-              fontWeight: "700",
-              textDecoration: "none",
-              boxShadow: "0 0 10px rgba(139, 92, 246, 0.5)"
-            }}
-          >
-            PLAY ONLINE
-          </a>
-        </div>
       </header>
 
       {/* 2. COLORFUL HERO SECTION (Screenshot Inspired Banner) */}
@@ -150,42 +129,6 @@ export default function TeenPattiMasterPage() {
             </p>
 
             {/* Buttons */}
-            <div style={{ display: "flex", gap: "15px", flexWrap: "wrap", alignItems: "center" }}>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                style={{
-                  background: "linear-gradient(180deg, #fde047 0%, #eab308 100%)",
-                  color: "#000000",
-                  fontWeight: 800,
-                  fontSize: "1rem",
-                  padding: "13px 28px",
-                  borderRadius: "10px",
-                  textDecoration: "none",
-                  boxShadow: "0 4px 15px rgba(234, 179, 8, 0.4)",
-                  display: "inline-block"
-                }}
-              >
-                Download APK
-              </a>
-
-              <Link
-                href="#system-requirements"
-                style={{
-                  backgroundColor: "rgba(255, 255, 255, 0.1)",
-                  border: "1px solid rgba(255, 255, 255, 0.2)",
-                  color: "#ffffff",
-                  fontWeight: 700,
-                  fontSize: "1rem",
-                  padding: "13px 24px",
-                  borderRadius: "10px",
-                  textDecoration: "none"
-                }}
-              >
-                APK Details
-              </Link>
-            </div>
           </div>
 
           {/* Right Banner Card Frame */}

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. SEO-Optimized Metadata for Google Crawl & Top Ranking (Target: Teen Patti Master [Teen Patti Master new version])
 export const metadata: Metadata = {
@@ -125,22 +124,6 @@ export default function TeenPattiMasterNewVersion() {
       <article className="space-y-12 text-slate-200 leading-relaxed text-sm sm:text-base font-sans selection:bg-amber-500 selection:text-black">
         
         {/* Top Header Floating Quick Action Strip */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#2a0818] via-[#1a0512] to-[#2a0818] border border-rose-500/30 px-4 py-2.5 rounded-2xl shadow-lg">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="font-bold text-xs sm:text-sm text-amber-300 tracking-wide uppercase">
-              Teen Patti Master New Version Build
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-400 to-yellow-400 hover:from-amber-300 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Download APK
-          </a>
-        </div>
 
         {/* ========================================================================= */}
         {/* 1. SCREENSHOT 1 INSPIRED EXACT HERO CONTAINER */}
@@ -185,63 +168,9 @@ export default function TeenPattiMasterNewVersion() {
               </p>
 
               {/* Action Buttons */}
-              <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-2">
-                <a
-                  href={DOWNLOAD_LINK}
-                  target="_blank"
-                  rel="nofollow sponsored noopener noreferrer"
-                  className="bg-gradient-to-r from-amber-400 via-yellow-400 to-amber-500 hover:from-yellow-300 hover:to-amber-400 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wider py-3.5 px-8 rounded-2xl shadow-[0_0_30px_rgba(245,158,11,0.6)] transition transform hover:scale-105 active:scale-95"
-                >
-                  Download APK
-                </a>
-                <Link
-                  href="/"
-                  className="bg-black/50 hover:bg-black/80 text-white font-bold text-xs sm:text-sm py-3.5 px-7 rounded-2xl border border-slate-600 hover:border-amber-400/60 transition shadow-md"
-                >
-                  APK Details
-                </Link>
-              </div>
             </div>
 
             {/* Right Column: Screenshot 1 Rounded Showcase Box */}
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="w-full max-w-[340px] bg-gradient-to-b from-[#3d0b28] via-[#240618] to-[#12020c] border-2 border-amber-400/70 p-4 rounded-3xl shadow-[0_0_50px_rgba(251,191,36,0.35)] relative overflow-hidden space-y-4">
-                
-                {/* Internal Image Frame */}
-                <div className="w-full aspect-[4/5] relative rounded-2xl overflow-hidden border border-amber-300/40 bg-black shadow-inner">
-                  <Image
-                    src="/teen-patti-master-new-version.webp"
-                    alt="Teen Patti Master Genuine APK Display"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                  <div className="absolute top-2 left-2 bg-gradient-to-r from-amber-500 to-rose-600 text-white text-[10px] font-black px-2.5 py-1 rounded-md uppercase tracking-wider shadow-md">
-                    HOT LOBBY
-                  </div>
-                </div>
-
-                {/* Action and Triple Tagline */}
-                <div className="text-center space-y-2.5">
-                  <a
-                    href={DOWNLOAD_LINK}
-                    target="_blank"
-                    rel="nofollow sponsored noopener noreferrer"
-                    className="block w-full bg-gradient-to-r from-yellow-400 via-amber-400 to-yellow-500 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-widest py-3 rounded-xl shadow-lg hover:brightness-110 transition active:scale-95"
-                  >
-                    ⚡ DOWNLOAD
-                  </a>
-                  <div className="flex justify-between items-center text-[11px] text-amber-200/90 font-semibold px-2">
-                    <span>Trusted Source</span>
-                    <span>•</span>
-                    <span>Android App</span>
-                    <span>•</span>
-                    <span>18+ Users</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
 
           </div>
 

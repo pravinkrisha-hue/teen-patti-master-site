@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. Google SEO & Fast Indexing Metadata
 export const metadata: Metadata = {
@@ -187,16 +186,6 @@ export default function TeenPattiMasterVsYonoGame() {
             </p>
 
             {/* Direct Download CTA */}
-            <div style={{ marginTop: "24px", marginBottom: "24px" }}>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                style={styles.downloadButton}
-              >
-                ⚡ Download Teen Patti Master APK
-              </a>
-            </div>
 
             <div style={styles.metaRow}>
               <span>🎯 Focus: <strong>Teen Patti Master</strong></span>
@@ -400,20 +389,6 @@ export default function TeenPattiMasterVsYonoGame() {
             </p>
 
             {/* Mid-Content CTA Box */}
-            <div style={styles.ctaBox}>
-              <h3 style={{ color: "#ffffff", marginBottom: "8px" }}>Get Started with Teen Patti Master</h3>
-              <p style={{ color: "#94a3b8", fontSize: "14px", marginBottom: "16px" }}>
-                Experience lightning-fast tables, authenticated RNG fairness, and authentic variants directly on your smartphone.
-              </p>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                style={styles.downloadButton}
-              >
-                ⚡ Get Teen Patti Master APK Now
-              </a>
-            </div>
 
             {/* Section 5 */}
             <h2 style={styles.h2}>Network Performance and Data Usage</h2>
@@ -523,16 +498,6 @@ export default function TeenPattiMasterVsYonoGame() {
               </li>
             </ul>
 
-            <div style={{ textAlign: "center", marginTop: "32px" }}>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                style={styles.downloadButton}
-              >
-                ⚡ Download Teen Patti Master APK
-              </a>
-            </div>
 
           </article>
         </main>

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
-  const DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
   return (
     <>
@@ -97,7 +96,7 @@ export default function Footer() {
             </div>
 
             <p className="leading-relaxed text-[11px] text-stone-400">
-              <strong className="text-amber-400 font-semibold">18+ only.</strong> Teen Patti Master APK provides information and guides about card games. Real-cash gaming may be restricted or illegal in your state — please check your local laws. Play for entertainment only and never to make money or recover losses.
+              <strong className="text-amber-400 font-semibold">18+ only.</strong> Teen Patti Master APK provides information and guides about card games. India&apos;s 2025 Online Gaming Act bans online money games and their advertising — check the current law before playing for money. Play for entertainment only and never to make money or recover losses.
             </p>
 
             <div className="flex flex-col sm:flex-row justify-between items-center pt-2 border-t border-stone-900 text-[11px] text-stone-500 gap-2">
@@ -107,34 +106,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-
-      {/* Floating Widget - જે સ્ક્રીનશોટમાં જમણી બાજુ નીચે દેખાય છે */}
-      <div className="fixed bottom-5 right-5 flex flex-col items-center gap-3 z-50">
-        <a 
-          href={DOWNLOAD_URL}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="relative hover:scale-105 transition-transform duration-300 cursor-pointer hidden sm:block"
-        >
-          <Image 
-            src="/teen-patti-master-features.webp" 
-            alt="Teen Patti Features" 
-            width={180} 
-            height={280} 
-            className="rounded-xl shadow-[0_0_15px_rgba(0,0,0,0.5)] border-2 border-yellow-500"
-          />
-        </a>
-
-        <a 
-          href={DOWNLOAD_URL}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="px-5 py-2 text-sm md:text-base font-bold text-white bg-gradient-to-r from-green-500 to-green-700 rounded-full shadow-[0_0_15px_rgba(34,197,94,0.7)] hover:scale-105 transition-all duration-300 animate-pulse border-2 border-green-300 flex items-center gap-2 max-w-[180px] justify-center mx-auto"
-        >
-          <span className="text-lg">🚀</span>
-          DOWNLOAD
-        </a>
-      </div>
     </>
   );
 }

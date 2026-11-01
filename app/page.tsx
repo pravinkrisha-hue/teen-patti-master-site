@@ -107,6 +107,18 @@ export default function Home() {
 
   const seoBlogPosts = [
     {
+      id: 107,
+      slug: 'is-teen-patti-master-legal',
+      title: 'Is Teen Patti Master Legal in India?',
+      category: 'LEGAL',
+      symbol: '⚖️',
+      readTime: '5 min read',
+      excerpt: 'What the 2025 Online Gaming Act bans, what it means for players, and ways to enjoy Teen Patti legally.',
+      cardBg: 'bg-red-50 hover:bg-red-100/90 border-red-300',
+      badgeBg: 'bg-red-600 text-white',
+      titleColor: 'text-red-950'
+    },
+    {
       id: 100,
       slug: 'teen-patti-master-kaise-khele',
       title: 'Teen Patti Master Kaise Khele? (हिंदी गाइड)',
@@ -580,8 +592,8 @@ export default function Home() {
     {
       id: 11,
       badge: "LEGAL",
-      q: "Which Indian states have restrictions on real money card games?",
-      a: "While skill-oriented card gaming is nationally recognized, certain states including Andhra Pradesh, Telangana, Assam, Odisha, Sikkim, and Nagaland uphold separate state statutes. Players situated within these jurisdictions must play non-cash casual modes."
+      q: "Is Teen Patti Master legal in India?",
+      a: "India's Promotion and Regulation of Online Gaming Act, 2025 bans online money games, their advertising and payments for them, whether based on skill or chance. Free and social card games are not covered by that ban. The rules and their enforcement can change, so check the current position before playing for money."
     },
     {
       id: 12,
@@ -647,7 +659,7 @@ export default function Home() {
               "@type": "WebPage",
               "@id": "https://www.techtonis.com/#webpage",
               "url": "https://www.techtonis.com",
-              "name": "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
+              "name": "Teen Patti Master 2026: APK Safety, Rules & Legal Guide",
               "isPartOf": { "@id": "https://www.techtonis.com/#website" },
               "about": {
                 "@type": "SoftwareApplication",
@@ -699,10 +711,10 @@ export default function Home() {
       {/* 2. Hero Section */}
       <section className="text-center py-12 px-4 bg-gradient-to-b from-slate-900 to-slate-950">
         <h1 className="text-4xl md:text-6xl font-extrabold text-amber-400 mb-4 drop-shadow-md">
-          Teen Patti Master APK Download – Latest Version 2026
+          Teen Patti Master Guide 2026: APK Safety, Rules &amp; Is It Legal?
         </h1>
         <p className="text-gray-100 text-base md:text-lg max-w-2xl mx-auto mb-8">
-          Download the latest Teen Patti Master APK version. Get ₹51 instant welcome bonus chips, RNG card tables, and UPI cashouts.
+          An independent guide to Teen Patti Master: how to spot a fake APK, learn the rules in English or Hindi, read bonus terms honestly, and understand what India&apos;s 2025 online gaming law means for you.
         </p>
         <p className="-mt-5 mb-6 text-sm">
           <Link href="/hi" hrefLang="hi-IN" className="text-amber-300 hover:underline">टीन पट्टी मास्टर — हिंदी में पढ़ें →</Link>
@@ -729,6 +741,10 @@ export default function Home() {
               Download App Now 🚀
             </a>
           </div>
+          <p className="mt-3 text-xs text-gray-400">
+            18+ only · Affiliate link · Online money games are restricted in India under the 2025 Online Gaming Act —{" "}
+            <Link href="/blog/is-teen-patti-master-legal" className="text-amber-300 underline">is it legal?</Link>
+          </p>
         </div>
       </section>
 
@@ -782,18 +798,6 @@ export default function Home() {
                   >
                     Details
                   </Link>
-                  
-                  {/* Download only where our link installs that app (Teen Patti Master); other cards link to their guide */}
-                  {(game.slug === 'teen-patti-master' || game.slug === 'teen-patti-old-version') && (
-                    <a
-                      href={DOWNLOAD_URL}
-                      target="_blank"
-                      rel="nofollow sponsored noopener noreferrer"
-                      className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-slate-950 font-extrabold px-4 py-2 rounded-xl text-sm transition shadow-md"
-                    >
-                      Download
-                    </a>
-                  )}
                 </div>
               </div>
             </div>

@@ -20,9 +20,9 @@ export default function ResponsibleGamingPage() {
       <section className="bg-red-950/40 border border-red-500/40 rounded-2xl p-5">
         <p className="text-white font-bold">18+ only.</p>
         <p className="text-sm mt-1">
-          Real-money gaming is restricted or banned in some Indian states (for example Andhra Pradesh, Telangana,
-          Assam, Odisha, Sikkim and Nagaland), and laws change. It is your responsibility to check the law where you
-          live before playing for money.
+          India&apos;s Promotion and Regulation of Online Gaming Act, 2025 bans online money games — whether based on skill
+          or chance — along with their advertising and payments for them. Free and social games are not covered by that ban.
+          Laws and their enforcement change, so check the current position before playing for money.
         </p>
       </section>
 

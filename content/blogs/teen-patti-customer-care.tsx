@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. SEO-Optimized Metadata for Google Ranking (Target: Teen Patti Master [teen patti master Customer Care])
 export const metadata: Metadata = {
@@ -111,22 +110,6 @@ export default function TeenPattiCustomerCare() {
       <article className="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans">
         
         {/* Top Header Floating Quick Action Strip */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#1a0f2e] via-[#100820] to-[#1a0f2e] border border-fuchsia-500/30 px-4 py-2.5 rounded-2xl shadow-lg">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="font-bold text-xs sm:text-sm text-fuchsia-300 tracking-wide uppercase">
-              24/7 Verified Customer Helpdesk
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Download APK
-          </a>
-        </div>
 
         {/* 1. Header with [Download] Button & 300x300 Image */}
         <header className="bg-gradient-to-br from-[#1a0f2e] via-[#100820] to-[#080312] border-2 border-fuchsia-500/40 p-6 sm:p-8 rounded-3xl shadow-[0_0_40px_rgba(217,70,239,0.25)] space-y-6">
@@ -145,25 +128,6 @@ export default function TeenPattiCustomerCare() {
           </nav>
 
           {/* Top Header Row: Download Button */}
-          <div className="flex flex-col sm:flex-row justify-between items-center gap-4 border-b border-fuchsia-900/60 pb-5">
-            <div className="flex flex-wrap items-center gap-2">
-              <span className="text-[11px] font-black uppercase tracking-widest text-fuchsia-300 bg-fuchsia-950/80 border border-fuchsia-500/40 px-3.5 py-1 rounded-full">
-                🎧 24/7 In-App Support
-              </span>
-              <span className="text-[11px] font-bold text-amber-400 bg-amber-950/60 border border-amber-500/30 px-3 py-1 rounded-full">
-                ⚡ Instant Dispute Resolution
-              </span>
-            </div>
-
-            <a
-              href={DOWNLOAD_LINK}
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-2.5 px-8 rounded-2xl shadow-[0_0_20px_rgba(245,158,11,0.4)] transition transform hover:scale-105"
-            >
-              [Download]
-            </a>
-          </div>
 
           {/* Small 300x300 Image & Title Block */}
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8">

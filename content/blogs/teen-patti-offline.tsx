@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 export const metadata: Metadata = {
   title: "Teen Patti Master Offline: Play 3-Card Game Without Internet",
@@ -111,22 +110,6 @@ export default function OfflineModeArticle() {
       <article className="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans">
         
         {/* Top Corner Action Bar: Offline Practice Mode & Mini Download Button */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#1f1005] via-[#160c04] to-[#1f1005] border border-amber-500/30 px-4 py-2.5 rounded-2xl shadow-lg">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="font-bold text-xs sm:text-sm text-amber-300 tracking-wide uppercase">
-              Offline Practice Mode
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Download APK
-          </a>
-        </div>
 
         {/* Hero Header Box */}
         <header className="bg-gradient-to-br from-[#1e1305] via-[#140b03] to-[#0c0702] border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl shadow-[0_0_40px_rgba(245,158,11,0.25)] space-y-6">
@@ -406,22 +389,6 @@ export default function OfflineModeArticle() {
         </section>
 
         {/* Bottom Call to Action Box */}
-        <div className="bg-gradient-to-r from-amber-600/25 via-yellow-600/20 to-amber-600/25 border-2 border-amber-500/50 p-6 sm:p-10 rounded-3xl text-center space-y-4 shadow-[0_0_35px_rgba(245,158,11,0.2)]">
-          <h3 className="text-2xl sm:text-3xl font-black text-white font-serif">
-            Ready to Play Teen Patti Master Anywhere?
-          </h3>
-          <p className="text-xs sm:text-sm text-slate-300 max-w-xl mx-auto">
-            Download the Android application today. Practice offline with AI bots or switch to live tables and claim your ₹51 welcome bonus!
-          </p>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm uppercase tracking-wider py-4 px-10 rounded-2xl shadow-xl transition transform hover:scale-105"
-          >
-            Download APK Now 🚀
-          </a>
-        </div>
       </article>
     </>
   );

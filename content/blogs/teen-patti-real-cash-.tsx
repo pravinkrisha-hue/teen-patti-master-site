@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 export const metadata: Metadata = {
   title: "Teen Patti Master Real Cash: Win Real Money & Claim ₹51",
@@ -119,22 +118,6 @@ export default function TeenPattiRealCash() {
       <article className="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans">
         
         {/* Top Header Floating Quick Action Strip */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#071326] via-[#040d1a] to-[#071326] border border-cyan-500/30 px-4 py-2.5 rounded-2xl shadow-lg">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-cyan-400 animate-pulse"></span>
-            <span className="font-bold text-xs sm:text-sm text-cyan-300 tracking-wide uppercase">
-              Teen Patti Master Real Cash Lobby
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-emerald-400 hover:from-cyan-400 hover:to-emerald-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Download APK
-          </a>
-        </div>
 
         {/* ========================================================================= */}
         {/* CONTAINER 1: HERO HEADER, BANNER, INDEX & GAMEPLAY MASTERY */}

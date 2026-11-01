@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. Google SEO & Fast Indexing Metadata
 export const metadata: Metadata = {
@@ -142,9 +141,6 @@ export default function TeenPattiMasterKingPage() {
               <Link href="https://www.techtonis.com/games/yono-games" style={styles.navLink}>Yono</Link>
               <Link href="/blog" style={styles.navLink}>Blog</Link>
               <Link href="/responsible-gaming" style={styles.navLink}>Responsible Gaming</Link>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" style={styles.navCta}>
-                How to Play
-              </a>
             </nav>
           </div>
         </header>
@@ -212,21 +208,6 @@ export default function TeenPattiMasterKingPage() {
           <div className="tpm-content-column" style={styles.contentColumn}>
             
             {/* Sponsored Download Banner */}
-            <div className="tpm-sponsored-banner" style={styles.sponsoredCard}>
-              <div style={styles.sponsoredLeft}>
-                <span style={styles.sponsoredTag}>SPONSORED</span>
-                <div style={{ display: "flex", alignItems: "center", gap: "12px", marginTop: "6px" }}>
-                  <img src="/icon.webp" alt="Teen Patti Master Icon" style={styles.sponsoredIcon} />
-                  <div>
-                    <h3 style={styles.sponsoredTitle}>Teen Patti Master</h3>
-                    <p style={styles.sponsoredSub}>Play India’s favourite 3-card game • 18+ • APK download</p>
-                  </div>
-                </div>
-              </div>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" className="tpm-btn-full" style={styles.sponsoredBtn}>
-                Download APK ↓
-              </a>
-            </div>
 
             {/* Author Byline Box */}
             <div style={styles.authorBar}>
@@ -360,17 +341,6 @@ export default function TeenPattiMasterKingPage() {
             </ul>
 
             {/* Mid-Content Download Banner */}
-            <div style={styles.midContentCta}>
-              <h3 style={{ color: "#ffffff", fontSize: "20px", marginBottom: "8px" }}>
-                Play now on Teen Patti Master King
-              </h3>
-              <p style={{ color: "#94a3b8", fontSize: "14px", marginBottom: "16px" }}>
-                Join India&apos;s favourite card rooms on your smartphone — claim welcome bonuses, compete on King tables, and cash out safely via UPI.
-              </p>
-              <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" className="tpm-btn-full" style={styles.goldButton}>
-                Download Teen Patti Master →
-              </a>
-            </div>
 
             {/* Section 5 */}
             <h2 id="variants" style={styles.h2}>Popular Variants on Teen Patti Master King</h2>
@@ -455,37 +425,6 @@ export default function TeenPattiMasterKingPage() {
           </div>
 
           {/* Right Sticky Sidebar Navigation */}
-          <aside className="tpm-sidebar-column" style={styles.sidebarColumn}>
-            <div style={styles.stickySidebar}>
-              <div style={styles.sidebarBox}>
-                <h4 style={styles.sidebarTitle}>On this page</h4>
-                <ul style={styles.sidebarList}>
-                  <li><a href="#overview" style={styles.sidebarLink}>Overview & Table</a></li>
-                  <li><a href="#what-is-king" style={styles.sidebarLink}>What is King Lobby?</a></li>
-                  <li><a href="#hand-rankings" style={styles.sidebarLink}>Hand Rankings</a></li>
-                  <li><a href="#table-dynamics" style={styles.sidebarLink}>Blind vs Seen</a></li>
-                  <li><a href="#tactical-gameplay" style={styles.sidebarLink}>Tactical Play</a></li>
-                  <li><a href="#variants" style={styles.sidebarLink}>Game Variants</a></li>
-                  <li><a href="#pros-cons" style={styles.sidebarLink}>Pros & Cons</a></li>
-                  <li><a href="#faqs" style={styles.sidebarLink}>FAQs</a></li>
-                  <li><a href="#verdict" style={styles.sidebarLink}>Final Verdict</a></li>
-                </ul>
-              </div>
-
-              {/* Sidebar Mini CTA Card */}
-              <div style={styles.sidebarCtaCard}>
-                <h4 style={{ color: "#f59e0b", margin: "0 0 8px 0", fontSize: "16px" }}>
-                  First learn the order
-                </h4>
-                <p style={{ color: "#94a3b8", fontSize: "13px", margin: "0 0 14px 0" }}>
-                  Winning starts with knowing exactly what beats what at a glance.
-                </p>
-                <a href={DOWNLOAD_LINK} target="_blank" rel="nofollow sponsored noopener noreferrer" className="tpm-btn-full" style={styles.sidebarCtaBtn}>
-                  Sequence list →
-                </a>
-              </div>
-            </div>
-          </aside>
         </div>
 
         {/* Footer */}

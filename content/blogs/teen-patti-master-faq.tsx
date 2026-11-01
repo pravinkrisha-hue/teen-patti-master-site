@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. SEO-Friendly Metadata for Google Search Console & Fast Indexing
 export const metadata: Metadata = {
@@ -144,22 +143,6 @@ export default function TeenPattiFaq() {
       <article className="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans selection:bg-amber-400 selection:text-black">
         
         {/* Floating Quick Action Strip */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#12161f] via-[#0d1117] to-[#12161f] border border-slate-700/60 px-4 py-2.5 rounded-2xl shadow-md">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-amber-400 animate-pulse"></span>
-            <span className="font-bold text-xs sm:text-sm text-amber-300 tracking-wide uppercase">
-              Knowledge Base &amp; FAQ
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Get Genuine APK
-          </a>
-        </div>
 
         {/* Hero Header Box */}
         <header className="bg-gradient-to-br from-[#161d26] via-[#0f141c] to-[#0a0d12] border border-slate-700/80 p-6 sm:p-10 rounded-3xl shadow-xl space-y-6">
@@ -793,20 +776,6 @@ export default function TeenPattiFaq() {
 
         {/* Footer CTA & Disclaimer */}
         <footer className="pt-4 border-t border-slate-800 text-xs text-slate-400 space-y-3">
-          <div className="bg-[#0e131a] p-6 rounded-2xl border border-amber-500/30 text-center space-y-3">
-            <h3 className="text-lg font-extrabold text-white">Have More Questions About Teen Patti Master?</h3>
-            <p className="max-w-xl mx-auto text-slate-300">
-              Get the verified APK directly from our authenticated portal and claim your welcome credits today!
-            </p>
-            <a
-              href={DOWNLOAD_LINK}
-              target="_blank"
-              rel="nofollow sponsored noopener noreferrer"
-              className="inline-block bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-black text-xs uppercase px-8 py-3 rounded-xl shadow-lg transition transform hover:scale-105"
-            >
-              Download APK 🚀
-            </a>
-          </div>
           <p className="text-[11px] text-slate-500 text-center pt-2">
             Disclaimer: Online card games involve simulated real-money mechanics and carry inherent financial risk. Play responsibly, enforce your personal limits, and participate only if you are 18 years of age or older and reside in eligible legal jurisdictions.
           </p>

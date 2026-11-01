@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. Google Search Console & Fast Indexing SEO Metadata
 export const metadata: Metadata = {
@@ -91,33 +90,6 @@ export default function TeenPattiMasterExplained() {
           <main className="lg:col-span-8 space-y-12 text-sm sm:text-base leading-relaxed text-[#334155]">
 
             {/* Sponsored Application Box (master-app.webp મુકેલ છે) */}
-            <div className="bg-[#0f172a] text-[#f8fafc] p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-5 shadow-xl border border-[#1e293b]">
-              <div className="flex items-center gap-4 w-full sm:w-auto">
-                <div className="relative w-16 h-16 rounded-2xl overflow-hidden flex-shrink-0 border border-sky-400/40 shadow-md bg-black">
-                  <Image
-                    src="/master-app.webp"
-                    alt="Teen Patti Master Logo"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <span className="text-[10px] font-black uppercase tracking-wider text-[#38bdf8] bg-[#1e293b] px-2.5 py-0.5 rounded border border-[#334155]">
-                    VERIFIED CLIENT
-                  </span>
-                  <h3 className="text-lg font-bold text-white mt-1">Teen Patti Master</h3>
-                  <p className="text-xs text-[#94a3b8]">Live Cash Poker • UPI Settlement • 18+ Only</p>
-                </div>
-              </div>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="w-full sm:w-auto text-center bg-[#0284c7] hover:bg-[#0369a1] text-white font-black text-xs uppercase px-7 py-3.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-              >
-                Download APK ↓
-              </a>
-            </div>
 
             {/* Author Profile Bar */}
             <div className="flex items-center gap-3.5 pt-1 text-xs text-[#64748b] border-b border-[#e2e8f0] pb-6">
@@ -355,22 +327,6 @@ export default function TeenPattiMasterExplained() {
             </div>
 
             {/* Direct Play CTA Box */}
-            <div className="bg-[#0f172a] text-[#f8fafc] p-6 rounded-2xl border border-[#1e293b] space-y-4 shadow-md text-center">
-              <h4 className="text-lg font-serif font-bold text-[#38bdf8]">
-                Get the App
-              </h4>
-              <p className="text-xs text-[#94a3b8] leading-relaxed">
-                Connect directly to verified multiplayer lobbies, test low-stakes rooms, and withdraw profits smoothly via UPI.
-              </p>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block w-full bg-[#0284c7] hover:bg-[#0369a1] text-white font-black text-xs uppercase py-3.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-              >
-                Download APK →
-              </a>
-            </div>
 
             {/* Offline Practice Module Box */}
             <div className="bg-white p-5 rounded-2xl border border-[#cbd5e1] shadow-sm space-y-3">

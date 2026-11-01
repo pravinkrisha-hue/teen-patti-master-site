@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 const PAGE_URL = "https://www.techtonis.com/blog/teen-patti-master-download-guide";
 
 const quickTable = [
@@ -255,19 +254,6 @@ export default function TeenPattiMasterInstallProblems() {
           you change. That block is set by whoever manages the phone. Also remember that real-money games are for adults (18+)
           only.
         </p>
-      </section>
-
-      <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 text-center space-y-3">
-        <h2 className="text-xl sm:text-2xl font-bold text-white">Need a fresh, complete copy of the file?</h2>
-        <p className="text-sm text-slate-400">Download it on Wi-Fi and keep the screen on until it finishes.</p>
-        <a
-          href={DOWNLOAD_URL}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="inline-block bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 font-extrabold px-8 py-3.5 rounded-xl shadow-lg transition hover:scale-105"
-        >
-          Download Teen Patti Master
-        </a>
       </section>
 
       <section className="space-y-4">

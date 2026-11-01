@@ -4,7 +4,6 @@ import Link from "next/link";
 import type { Metadata } from "next";
 
 // 0. Download Link Constant
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // =========================================================================
 // 1. SEO METADATA (TITLE, DESCRIPTION & 13 FOCUS KEYWORDS DIRECTLY BELOW)
@@ -158,22 +157,6 @@ export default function TeenPattiMasterPage() {
       <article className="max-w-4xl mx-auto px-4 py-8 space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans selection:bg-amber-400 selection:text-black scroll-smooth">
         
         {/* Top Floating Quick Action Strip */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#12161f] via-[#0d1117] to-[#12161f] border border-slate-700/60 px-4 py-2.5 rounded-2xl shadow-md sticky top-2 z-30 backdrop-blur-md">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
-            <span className="font-bold text-xs sm:text-sm text-amber-300 tracking-wide uppercase">
-              👑 TeenPattiMaster Live Arena[cite: 1]
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Get APK[cite: 1]
-          </a>
-        </div>
 
         {/* 1. Header Box */}
         <header className="bg-gradient-to-br from-[#161d26] via-[#0f141c] to-[#0a0d12] border border-slate-700/80 p-6 sm:p-10 rounded-3xl shadow-xl space-y-6">
@@ -236,19 +219,6 @@ export default function TeenPattiMasterPage() {
               </span>
               <h2 className="text-lg sm:text-xl font-bold text-white mt-1">Get Teen Patti Master Game</h2>
               <p className="text-xs text-slate-400">Fast downloads, zero bloatware, and optimized for Android 7.0+ handsets.</p>
-            </div>
-            <div className="flex flex-col items-center sm:items-end w-full sm:w-auto">
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="w-full sm:w-auto text-center inline-flex items-center justify-center gap-2 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-sm px-6 py-2.5 rounded-xl shadow-lg transition transform hover:scale-105"
-              >
-                <span>⬇️</span> Download Game APK
-              </a>
-              <span className="text-[11px] text-emerald-400 mt-1 font-semibold flex items-center gap-1">
-                <span>🔒</span> SSL 256-Bit Encrypted Link
-              </span>
             </div>
           </div>
         </header>

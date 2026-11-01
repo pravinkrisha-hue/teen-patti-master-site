@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import Breadcrumbs from "../components/Breadcrumbs";
+import DownloadBar from "../components/DownloadBar";
 import { BLOG_CLUSTERS, BLOG_DESCRIPTIONS, blogTitle } from "@/content/blogs/blogMeta";
 import { SITE_URL } from "../siteTeam";
 
@@ -50,6 +51,7 @@ export default function BlogHubPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
       <div className="max-w-5xl mx-auto space-y-10">
         <Breadcrumbs items={[{ name: "Guides", href: "/blog" }]} />
+        <DownloadBar />
 
         <header className="space-y-4 border-b border-slate-800 pb-8">
           <h1 className="text-3xl sm:text-5xl font-black text-amber-400 leading-tight">Teen Patti Master Guides</h1>

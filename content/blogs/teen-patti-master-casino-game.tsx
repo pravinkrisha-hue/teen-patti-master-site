@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. SEO-Optimized Metadata for Google Ranking (Target: Teen Patti Master [Teen Patti Master Casino Game])
 export const metadata: Metadata = {
@@ -117,22 +116,6 @@ export default function TeenPattimastercasinogame() {
       <article className="space-y-10 text-slate-300 leading-relaxed text-sm sm:text-base font-sans">
         
         {/* Top Header Floating Quick Action Strip */}
-        <div className="flex items-center justify-between bg-gradient-to-r from-[#12040b] via-[#1a0815] to-[#12040b] border border-rose-500/30 px-4 py-2.5 rounded-2xl shadow-lg">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-2.5 h-2.5 rounded-full bg-rose-400 animate-pulse"></span>
-            <span className="font-bold text-xs sm:text-sm text-rose-300 tracking-wide uppercase">
-              Teen Patti Master Casino Lobby
-            </span>
-          </div>
-          <a
-            href={DOWNLOAD_LINK}
-            target="_blank"
-            rel="nofollow sponsored noopener noreferrer"
-            className="inline-flex items-center gap-1.5 bg-gradient-to-r from-amber-500 to-yellow-400 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-extrabold text-xs px-3.5 py-1.5 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-          >
-            <span>📥</span> Download APK
-          </a>
-        </div>
 
         {/* ========================================================================= */}
         {/* SINGLE CONTAINER (SCREENSHOT INSPIRED HERO LAYOUT) */}
@@ -170,59 +153,9 @@ export default function TeenPattimastercasinogame() {
               </p>
 
               {/* Action Buttons */}
-              <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-2">
-                <a
-                  href={DOWNLOAD_LINK}
-                  target="_blank"
-                  rel="nofollow sponsored noopener noreferrer"
-                  className="bg-gradient-to-r from-amber-500 via-yellow-400 to-amber-500 hover:from-amber-400 hover:to-yellow-300 text-slate-950 font-black text-xs sm:text-sm uppercase tracking-wider py-3.5 px-8 rounded-2xl shadow-[0_0_25px_rgba(245,158,11,0.5)] transition transform hover:scale-105"
-                >
-                  Download APK
-                </a>
-                <Link
-                  href="/"
-                  className="bg-slate-900/90 hover:bg-slate-800 text-white font-bold text-xs sm:text-sm py-3.5 px-7 rounded-2xl border border-rose-500/30 transition"
-                >
-                  APK Details
-                </Link>
-              </div>
             </div>
 
             {/* Right Column: Screenshot Inspired Double-Color Showcase Box */}
-            <div className="lg:col-span-5 flex justify-center">
-              <div className="w-full max-w-[320px] bg-gradient-to-b from-[#2d0b2e] via-[#430d2a] to-[#16020c] border-2 border-amber-400/60 p-4 rounded-3xl shadow-[0_0_40px_rgba(251,191,36,0.35)] relative overflow-hidden space-y-4">
-                
-                <div className="w-full aspect-[4/5] relative rounded-2xl overflow-hidden border border-amber-300/40 shadow-inner bg-black">
-                  <Image
-                    src="/teen-patti-master-casino.webp"
-                    alt="Teen Patti Master Casino Game Live Arena"
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                  <div className="absolute top-2 left-2 bg-gradient-to-r from-amber-500 to-rose-600 text-white text-[10px] font-black px-2.5 py-1 rounded-md uppercase tracking-wider shadow-md">
-                    HOT LOBBY
-                  </div>
-                </div>
-
-                <div className="text-center space-y-2">
-                  <a
-                    href={DOWNLOAD_LINK}
-                    target="_blank"
-                    rel="nofollow sponsored noopener noreferrer"
-                    className="block w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-slate-950 font-black text-xs uppercase tracking-widest py-2.5 rounded-xl shadow-lg hover:brightness-110 transition"
-                  >
-                    ⚡ DOWNLOAD NOW
-                  </a>
-                  <div className="flex justify-between text-[10px] text-amber-200/80 font-semibold px-2">
-                    <span>Trusted Source</span>
-                    <span>Android App</span>
-                    <span>18+ Users</span>
-                  </div>
-                </div>
-
-              </div>
-            </div>
 
           </div>
 

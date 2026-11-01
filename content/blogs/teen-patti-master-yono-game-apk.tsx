@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. Google SEO, OpenGraph & Fast Indexing Metadata
 export const metadata: Metadata = {
@@ -89,25 +88,6 @@ export default function TeenPattiMasterYonoGameApk() {
             </div>
 
             {/* Right Header Image & Download Box */}
-            <div className="lg:col-span-4 flex flex-col items-center justify-center space-y-3">
-              <div className="relative w-48 sm:w-56 aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border-2 border-amber-400/50 bg-black">
-                <Image
-                  src="/teen-patti-master-yono-game-apk.webp"
-                  alt="Teen Patti Master Yono App Features"
-                  fill
-                  priority
-                  className="object-cover"
-                />
-              </div>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="w-48 sm:w-56 text-center bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black text-sm uppercase py-3 rounded-xl shadow-lg transition transform hover:scale-105 active:scale-95 flex items-center justify-center gap-2"
-              >
-                <span>🚀</span> DOWNLOAD
-              </a>
-            </div>
 
           </div>
         </div>
@@ -121,33 +101,6 @@ export default function TeenPattiMasterYonoGameApk() {
           <main className="lg:col-span-8 space-y-11 text-sm sm:text-base leading-relaxed text-[#234247]">
 
             {/* In-Content Sponsored App Banner */}
-            <div className="bg-[#04292e] text-[#e0f2f1] p-5 sm:p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-5 shadow-lg border border-[#084048]">
-              <div className="flex items-center gap-4 w-full sm:w-auto">
-                <div className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0 border border-amber-400/40 shadow-inner bg-black">
-                  <Image
-                    src="/teen-patti-yono-game-apk.webp"
-                    alt="Teen Patti Master Yono Icon"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <span className="text-[10px] font-black uppercase tracking-wider text-[#f4a261] bg-[#0b383f] px-2 py-0.5 rounded border border-[#14535d]">
-                    SPONSORED
-                  </span>
-                  <h3 className="text-lg font-bold text-white mt-1">Teen Patti Master</h3>
-                  <p className="text-xs text-[#8cbab4]">Play India&apos;s favourite 3-card game • 18+ • APK download</p>
-                </div>
-              </div>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="w-full sm:w-auto text-center bg-[#c27803] hover:bg-[#d98704] text-white font-extrabold text-xs uppercase px-6 py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-              >
-                Download APK ↓
-              </a>
-            </div>
 
             {/* Author Profile Attribution */}
             <div className="flex items-center gap-3 pt-1 text-xs text-[#52797e] border-b border-[#cfe5e4] pb-6">
@@ -361,22 +314,6 @@ export default function TeenPattiMasterYonoGameApk() {
             </div>
 
             {/* Direct Play Card CTA */}
-            <div className="bg-[#04292e] text-[#e0f2f1] p-6 rounded-2xl border border-[#084048] space-y-4 shadow-md text-center">
-              <h4 className="text-lg font-serif font-bold text-[#f4a261]">
-                Play on Teen Patti Master
-              </h4>
-              <p className="text-xs text-[#cbe3e1] leading-relaxed">
-                India&apos;s favourite card games on your phone — claim your ₹51 welcome bonus, join cash tables, and withdraw directly to UPI.
-              </p>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block w-full bg-[#c27803] hover:bg-[#d98704] text-white font-black text-xs uppercase py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-              >
-                Download APK →
-              </a>
-            </div>
 
             {/* Offline Practice Card (White Box with Pure Black Text) */}
             <div className="bg-white p-5 rounded-2xl border border-[#cfe5e4] shadow-sm space-y-3 text-black">

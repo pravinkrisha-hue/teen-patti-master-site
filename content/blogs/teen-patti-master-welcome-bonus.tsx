@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 
-const DOWNLOAD_LINK = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 
 // 1. Google SEO & Ranking Metadata
 export const metadata: Metadata = {
@@ -82,33 +81,6 @@ export default function TeenPattiMasterWelcomeBonus() {
           <main className="lg:col-span-8 space-y-10 text-sm sm:text-base leading-relaxed text-[#3a443c]">
 
             {/* In-Content Sponsored App Banner with Image */}
-            <div className="bg-[#0b2416] text-[#e8f0eb] p-5 sm:p-6 rounded-2xl flex flex-col sm:flex-row items-center justify-between gap-5 shadow-lg border border-[#1b462c]">
-              <div className="flex items-center gap-4 w-full sm:w-auto">
-                <div className="relative w-16 h-16 rounded-xl overflow-hidden flex-shrink-0 border border-amber-400/40 shadow-md bg-black">
-                  <Image
-                    src="/teen-patti-master-welcome-bonus.webp"
-                    alt="Teen Patti Master Logo"
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <span className="text-[10px] font-black uppercase tracking-wider text-[#e4a834] bg-[#143d25] px-2 py-0.5 rounded border border-[#235837]">
-                    SPONSORED
-                  </span>
-                  <h3 className="text-lg font-bold text-white mt-1">Teen Patti Master</h3>
-                  <p className="text-xs text-[#90b69e]">Play India&apos;s favourite 3-card game • 18+ • Genuine APK</p>
-                </div>
-              </div>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="w-full sm:w-auto text-center bg-[#c99738] hover:bg-[#dfaa42] text-slate-950 font-extrabold text-xs uppercase px-6 py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-              >
-                Download APK ↓
-              </a>
-            </div>
 
             {/* Author Attribution with Photo */}
             <div className="flex items-center gap-3 pt-1 text-xs text-[#637267] border-b border-[#e5decb] pb-6">
@@ -437,22 +409,6 @@ export default function TeenPattiMasterWelcomeBonus() {
             </div>
 
             {/* Quick Action Card CTA */}
-            <div className="bg-[#0b2416] text-[#e8f0eb] p-6 rounded-2xl border border-[#1b462c] space-y-4 shadow-md text-center">
-              <h4 className="text-lg font-serif font-bold text-[#e4a834]">
-                Play on Teen Patti Master
-              </h4>
-              <p className="text-xs text-[#b8d4c2] leading-relaxed">
-                India&apos;s favourite card games on your phone — claim your ₹51 welcome bonus, play cash tables, and withdraw directly to UPI.
-              </p>
-              <a
-                href={DOWNLOAD_LINK}
-                target="_blank"
-                rel="nofollow sponsored noopener noreferrer"
-                className="inline-block w-full bg-[#c99738] hover:bg-[#dfaa42] text-slate-950 font-black text-xs uppercase py-3 rounded-xl shadow transition transform hover:scale-105 active:scale-95"
-              >
-                Download APK →
-              </a>
-            </div>
 
             {/* Offline & Variants Quick Card */}
             <div className="bg-white p-5 rounded-2xl border border-[#dfd5bf] shadow-sm space-y-3">

@@ -4,9 +4,9 @@ import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.techtonis.com"),
-  title: "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
+  title: "Teen Patti Master 2026: APK Safety, Rules & Legal Guide",
   description:
-    "Teen Patti Master APK download for Android: latest version, ₹51 sign-up bonus, rules, hand rankings, UPI withdrawal steps and safe-play tips. 18+ only.",
+    "Independent Teen Patti Master guide: is the APK safe, how to play, hand rankings, bonus terms, and what India's 2025 online gaming law means. 18+.",
   alternates: {
     canonical: "/",
     languages: { "en-IN": "/", "hi-IN": "/hi", "x-default": "/" },
@@ -16,16 +16,16 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "Teen Patti Master APK",
     locale: "en_IN",
-    title: "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
+    title: "Teen Patti Master 2026: APK Safety, Rules & Legal Guide",
     description:
-      "Teen Patti Master APK download for Android: latest version, ₹51 sign-up bonus, rules, hand rankings, UPI withdrawal steps and safe-play tips. 18+ only.",
+      "Independent Teen Patti Master guide: is the APK safe, how to play, hand rankings, bonus terms, and what India's 2025 online gaming law means. 18+.",
     images: ["/teen-patti-master.webp"],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Teen Patti Master APK Download 2026: ₹51 Bonus & Guide",
+    title: "Teen Patti Master 2026: APK Safety, Rules & Legal Guide",
     description:
-      "Teen Patti Master APK download for Android: latest version, ₹51 sign-up bonus, rules, hand rankings, UPI withdrawal steps and safe-play tips. 18+ only.",
+      "Independent Teen Patti Master guide: is the APK safe, how to play, hand rankings, bonus terms, and what India's 2025 online gaming law means. 18+.",
     images: ["/teen-patti-master.webp"],
   },
   icons: {

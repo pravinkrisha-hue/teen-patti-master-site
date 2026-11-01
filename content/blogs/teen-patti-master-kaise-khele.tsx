@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 const PAGE_URL = "https://www.techtonis.com/blog/teen-patti-master-kaise-khele";
 
 const terms = [
@@ -278,14 +277,6 @@ export default function TeenPattiMasterKaiseKhele() {
           <Link href="/blog/teen-patti-master-download-guide" className="text-amber-400 underline">डाउनलोड गाइड</Link> में हर स्टेप
           समझाया गया है।
         </p>
-        <a
-          href={DOWNLOAD_URL}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="inline-block bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 font-extrabold px-8 py-3.5 rounded-xl shadow-lg transition hover:scale-105"
-        >
-          Teen Patti Master डाउनलोड करें
-        </a>
       </section>
 
       {/* FAQ */}

@@ -3,7 +3,7 @@ import { myArticles } from '@/content/blogs/allBlogs';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://www.techtonis.com';
-  const currentDate = new Date('2026-10-20T00:00:00.000Z');
+  const currentDate = new Date('2026-11-01T00:00:00.000Z');
 
   const gameSlugs = [
     'teen-patti-master',
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const trustUrls: MetadataRoute.Sitemap = ['about', 'contact', 'responsible-gaming', 'privacy-policy'].map((path) => ({
     url: `${baseUrl}/${path}`,
-    lastModified: new Date('2026-10-20T00:00:00.000Z'),
+    lastModified: new Date('2026-11-01T00:00:00.000Z'),
     changeFrequency: 'monthly',
     priority: 0.5,
   }));
@@ -47,13 +47,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${baseUrl}/hi`,
-      lastModified: new Date('2026-10-24T00:00:00.000Z'),
+      lastModified: new Date('2026-11-01T00:00:00.000Z'),
       changeFrequency: 'weekly',
       priority: 0.9,
     },
     {
       url: `${baseUrl}/blog`,
-      lastModified: new Date('2026-10-24T00:00:00.000Z'),
+      lastModified: new Date('2026-11-01T00:00:00.000Z'),
       changeFrequency: 'weekly',
       priority: 0.8,
     },

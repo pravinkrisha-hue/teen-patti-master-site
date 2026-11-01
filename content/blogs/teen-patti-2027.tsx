@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const DOWNLOAD_URL = "https://www.earntp.com/m/ya5rcx?scene=&f=w&p=wa&l=en&tp=m173";
 const PAGE_URL = "https://www.techtonis.com/blog/teen-patti-master-2027";
 
 const problems = [
@@ -249,19 +248,6 @@ export default function TeenPattiMasterUpdateKaiseKare() {
           <Link href="/blog/teen-patti-master-customer-care" className="text-amber-400 underline">Teen Patti Master customer care</Link>{" "}
           से बात करें और अपना User ID व स्क्रीनशॉट साथ भेजें।
         </p>
-      </section>
-
-      <section className="bg-slate-900 border border-slate-800 rounded-2xl p-6 text-center space-y-3">
-        <h2 className="text-xl sm:text-2xl font-bold text-white">नया वर्ज़न चाहिए?</h2>
-        <p className="text-sm text-slate-400">अपडेट से पहले मोबाइल नंबर bind करना न भूलें।</p>
-        <a
-          href={DOWNLOAD_URL}
-          target="_blank"
-          rel="nofollow sponsored noopener noreferrer"
-          className="inline-block bg-gradient-to-r from-amber-500 to-yellow-400 text-slate-950 font-extrabold px-8 py-3.5 rounded-xl shadow-lg transition hover:scale-105"
-        >
-          Teen Patti Master नया वर्ज़न डाउनलोड करें
-        </a>
       </section>
 
       <section className="space-y-4">
